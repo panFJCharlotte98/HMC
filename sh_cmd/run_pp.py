@@ -50,7 +50,7 @@ task_scheme_max_new_tokens_map = {
     },
 }
 
-for task in ['harmp', 'harmc', 'mami', '']:
+for task in ['harmp', 'harmc', 'multioff', 'mami', 'pridemm']:
     for split in ['test']:#'dev', 'test'
         for seed in [42]:#, 123, 2025, 27
             for batch_size in [16, 32]:
