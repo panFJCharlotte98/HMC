@@ -307,7 +307,7 @@ for type_name, type_dict in TYPES_META.items():
                 0: {'template': REASONING, "version": type_dict['abbr'], "out_format": 'v0'}, #'max_new_tokens': 512
                 1: {'template': STEP_DECISION, "version": type_dict['abbr'], "out_format": type_dict['abbr']},
                 2: {'template': REASONING, "version": type_dict['abbr']+"*", "out_format": 'v0', 'depend_on_prestep': True, 'new_conversation': True},
-                3: {'template': STEP_DECISION, "version": type_dict['abbr']+"*", "out_format": 'v1', 'batch_size': 16},
+                3: {'template': STEP_DECISION, "version": type_dict['abbr']+"*", "out_format": 'v1'},
             }
         }
         llm_id += 1

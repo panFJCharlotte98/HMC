@@ -431,7 +431,7 @@ p1 = {
         'prompt': {
             0: {'template': REASONING, "version": "individual", "out_format": 'v0', "load_from_prestep": True, "return_prestep_path": True},
             3: {'template': AUX, "version": "individual", "out_format": 'YN'},
-            4: {'template': AUX, "version": "LGBTQindividual", "out_format": 'YN', 'batch_size': 12},
+            4: {'template': AUX, "version": "LGBTQindividual", "out_format": 'YN'},
         }
     },
     'llm_6': {
@@ -445,7 +445,7 @@ p1 = {
         'multi-turn': True,
         'prompt': {
             6: {'template': REASONING, "version": "CoTxTarget", "out_format": 'v0', 'new_conversation': True, 'depend_on_prestep': True, 'max_new_tokens': 1536},
-            7: {'template': DECISION, "version": "tg", "out_format": 'v0', 'batch_size': 16}
+            7: {'template': DECISION, "version": "tg", "out_format": 'v0'}
         }
     },
 }

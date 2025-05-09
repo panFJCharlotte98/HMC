@@ -218,7 +218,7 @@ p1 = {
     'llm_2': {
         'multi-turn': True,
         'prompt': {
-            0: {'template': REASONING, "version": "CoT+", "out_format": 'v0', 'max_new_tokens': 1536, 'batch_size': 1},
+            0: {'template': REASONING, "version": "CoT+", "out_format": 'v0', 'max_new_tokens': 1536},
             1: {'template': DECISION, "version": "v0", "out_format": 'v0'},
         }
     }
