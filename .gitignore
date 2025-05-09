@@ -39,6 +39,7 @@ Thumbs.db
 # MY IGNORE FILE     #
 ######################
 data/
+models/models
 analysis/
 cache/
 old_results/
