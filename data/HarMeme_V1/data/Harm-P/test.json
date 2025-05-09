@@ -1,0 +1,3426 @@
+[
+    {
+        "id": "1551",
+        "text": "IOWA DEMOCRATIC PARTY SAYS IT\nWILL RELEASE 'MAJORITY' OF\nCAUCUS RESULTS BY 5PM EASTERN\nPETE\nBLAMESDELAY ON CODING ISSUE' IN\nREPORTING SYSTEM\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1551.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1551_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1551_enlarged.jpeg"
+    },
+    {
+        "id": "4539",
+        "text": "WHICH PARTY\nARE YOU?\n[ ] Democrat\n***\n***\nRepublican\nX Cocktail\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4539.png"
+    },
+    {
+        "id": "6722",
+        "text": "It's not that\nthe Majority are silent\nIt's that the media are\nsilent about the Majority.\nimgfip.com\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/6722.png"
+    },
+    {
+        "id": "4367",
+        "text": "If your kids ever ask\nwhy education is\nimportant\nshow them an Obama\nspeech and then a\nTrump speech.\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4367.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4367_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4367_enlarged.jpeg"
+    },
+    {
+        "id": "5872",
+        "text": "Biden: \"whispers* I left a bag of\nCheetos in the bathroom.\nObama: Why?\nBiden: in case he needs to powder his\nnose.\nObama: Joe.\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/5872.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/5872_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/5872_enlarged.jpeg"
+    },
+    {
+        "id": "8101",
+        "text": "WANTS TO CONTROL THE COUNTRY\nCAN'T EVEN CONTROL HIS HAIR\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/8101.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/8101_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/8101_enlarged.jpeg"
+    },
+    {
+        "id": "3618",
+        "text": "TAXATIONISTHEIT\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/3618.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/3618_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/3618_enlarged.jpeg"
+    },
+    {
+        "id": "3773",
+        "text": "BREAK FREE FROM BIG BROTHER!\nLIBERTARIAN\nHOSPERS\n* PRESIDENT *\nVOTE\nThe Libertarian Party turns 45\nyears old today, Thank you for\nyour support!\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3773.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3773_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3773_enlarged.jpeg"
+    },
+    {
+        "id": "6662",
+        "text": "JOE BIDEN'S RACIST COMMENTS\nTHE MEDIA\nPEOPLE WHO STILL\nTHINK TRUMP IS A RACIST\n@CONSERVATIVE_MEMES\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/6662.png"
+    },
+    {
+        "id": "8096",
+        "text": "Sugar daddies I like vs Sugar\ndaddies that like me\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/8096.png"
+    },
+    {
+        "id": "3590",
+        "text": "DEMOCRATS\nREPUBLICANS\nSE TRUMPIS DEPLORABLE\nVOTE BLUE!\nGREEN PARTY\nTRUNE IS TRIGGERING THE UBS\nVOTE RED!\nLIBERTARIANS\nSEE BOTH PARTIES SUCK\nVOTE GREEN!\nGOVERNMENT IS THE PHOBLIN\nVOTE LIBERTARIAN!\nME:\nTHE WHOLE DAMN SYSTEM IS RIGGED\nIF YOU THINK VOTING WILL'FIX ITYOU RE A DUMBASS\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3590.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3590_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3590_enlarged.jpeg"
+    },
+    {
+        "id": "6459",
+        "text": "I PICKED PENCE.\nBECAUSE HIS NAME RHYMES WITH FENCE\nmgtlip .com\n",
+        "label": 1,
+        "target": [
+            "community"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/6459.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/6459_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/6459_enlarged.jpeg"
+    },
+    {
+        "id": "1298",
+        "text": "Cw travel\n\u2022 LIVE TV\nWuhan hosts massive water\npark party as coronavirus\nconcerns recede\ny Mectar Ga, CN\nO uosass 10 AM ET, Te a 18, 2te0\nTHEY DON'T HAVE A\nDEMOCRATIC PARTY\nNESPERATE TO WIN AN ELECTION\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1298.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1298_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1298_enlarged.jpeg"
+    },
+    {
+        "id": "3872",
+        "text": "DANK MEMES?\nI HAVE BEEN LOOKING FOR\nSOME OF THESE\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/3872.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/3872_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/3872_enlarged.jpeg"
+    },
+    {
+        "id": "1324",
+        "text": "THANK YOU PRESIDENT\nTRUMP!\nFOR EXPOSING THE TRUE FACE\nOF THE DEMOCRATIC PARTY!\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1324.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1324_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1324_enlarged.jpeg"
+    },
+    {
+        "id": "1082",
+        "text": "\"I want someone to look at me\nthe way Joe Biden looks at\nObama.\"\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/1082.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/1082_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/1082_enlarged.jpeg"
+    },
+    {
+        "id": "8251",
+        "text": "BREAKING NEWS: new third party\ncandidate Oarack Bobama enters the\nrace for the presidency\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/8251.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/8251_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/8251_enlarged.jpeg"
+    },
+    {
+        "id": "5699",
+        "text": "Anti-LGBT politician in Ohio\nresigns after being 'caught\nhaving sex with man in his\noffice'\nUS politics (domestic)\nHENTAI.PLOT.TWIST\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/5699.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/5699_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/5699_enlarged.jpeg"
+    },
+    {
+        "id": "3641",
+        "text": "THIS IS WHAT LIBERTARIANS WANT\nAmericans Agalnst The Liberlarlan Parly\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3641.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3641_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3641_enlarged.jpeg"
+    },
+    {
+        "id": "6054",
+        "text": "Donald J. Trump O\nFollow\nThese THUGS are dishonoring the\nmemory of George Floyd, and I won't let\nthat happen.\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/6054.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/6054_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/6054_enlarged.jpeg"
+    },
+    {
+        "id": "4715",
+        "text": "KKK-ISIS\nSAME TRAILER-DIFFERENT\nPARK R.\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4715.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4715_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4715_enlarged.jpeg"
+    },
+    {
+        "id": "3364",
+        "text": "GOOD IDEAS DON'T REQUIRE FORCE\nTLIBERTARIAN\nThanks to the Libertarian Party\nof Florida for this post! To get\ninvolved locally, go to\nIp.org/states!\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3364.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3364_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3364_enlarged.jpeg"
+    },
+    {
+        "id": "4719",
+        "text": "38\nTHE\nBEPUBLICAN PARTY\nTRUMP\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4719.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4719_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4719_enlarged.jpeg"
+    },
+    {
+        "id": "3605",
+        "text": "\"Russians make up a\npretty disproportionate\ncross-section of a lot of\nour assets. We see a lot\nof money pouring in\nfrom Russia.\"\nDonald Trump Jr., 2008\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3605.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3605_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3605_enlarged.jpeg"
+    },
+    {
+        "id": "2867",
+        "text": "what chansipakon - Nav ta\nTrump: Gan i get past\nOden: What's the panoword\nTrump: I dan't know\nBiden Losers sys what\nTrump: What\nChama JOE\nSOK\n..\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/2867.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/2867_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/2867_enlarged.jpeg"
+    },
+    {
+        "id": "6568",
+        "text": "WHILE YOU WERE VICE PRESIDENT, OBAMA ORDERED\n2,500 TROOPS TO LIGMA\nSHE\nPEOPLE\nWHO IS OBAMA?\nLIGMA BALLS\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/6568.png"
+    },
+    {
+        "id": "3858",
+        "text": "I'M STARTING TO THINK THIS\nENTIRE ADMINISTRATION\nWAS\nHOMESCHOOLED\nBY BETSY DEVOS\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/3858.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/3858_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/3858_enlarged.jpeg"
+    },
+    {
+        "id": "8065",
+        "text": "When you realize the debate\nmoderator is BLACK\n",
+        "label": 1,
+        "target": [
+            "community"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/8065.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/8065_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/8065_enlarged.jpeg"
+    },
+    {
+        "id": "2833",
+        "text": "TE AM\nAAM\nRA PE\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/2833.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/2833_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/2833_enlarged.jpeg"
+    },
+    {
+        "id": "4893",
+        "text": "A STORM IS COMING\nAn entire generation\nis about to reject the\nRepublican party.\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4893.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4893_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4893_enlarged.jpeg"
+    },
+    {
+        "id": "3629",
+        "text": "DAD TOLD ME ABOUT\nKEYNSIAN ECONOMICS\nI THOUGHT I'D HELP\n",
+        "label": 1,
+        "target": [
+            "society"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3629.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3629_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3629_enlarged.jpeg"
+    },
+    {
+        "id": "3314",
+        "text": "ETHE\nLIBERTARIAN PARTY\nLIBERTARIAN\nPARTY HAS SOMETHING\nTO OFFER EVERYONE!\nUnregulated\nchild labor\nPEDOPHILES\nlaws\nLET ME IN\n[adult swim\nPEDOPHILES\nLET ME INNNNNN!!!\nimgflip.com\n(adult awn]\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3314.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3314_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3314_enlarged.jpeg"
+    },
+    {
+        "id": "8229",
+        "text": "LOOK FAMILIAR?\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/8229.png"
+    },
+    {
+        "id": "1305",
+        "text": "DEMOCRATS IN 2018\nWITHOUT SLAVES WHO WILL PICK OUR CROPSP\nDEMOCRATS IN 1863\nWITHOUT ILLEGAL IMMIGRANTS WHO WILL PICK OUR CROPS?\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1305.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1305_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1305_enlarged.jpeg"
+    },
+    {
+        "id": "6193",
+        "text": "I think 2020 is the historical\nequivalent of the tunnel\nboat scene in Willy Wonka\nSriking deoper and doeper into 2020 ka\ncostay\nny abo\nBonkaccount\nThe days blendin\ngether\n1SCREAUNG\nDessal\nsoya\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/6193.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/6193_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/6193_enlarged.jpeg"
+    },
+    {
+        "id": "4526",
+        "text": "REPUBLICAN FAMILY VALUES\nimgflip.com\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/4526.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/4526_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/4526_enlarged.jpeg"
+    },
+    {
+        "id": "2679",
+        "text": "JOE BIDEN'S\nMIND IS LIKE\nYOUR GRANDPA'S\nWEB BROWSER\n19 TABS ARE OPEN,\n17 ARE FROZEN, AND\nHE HAS NO IDEA WHERE\nTHE MUSIC IS COMING FROM.\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/2679.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/2679_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/2679_enlarged.jpeg"
+    },
+    {
+        "id": "1266",
+        "text": "FUTURE STAFFERS FOR\nTHE 2020 DEMOCRATIC PARTY\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1266.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1266_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1266_enlarged.jpeg"
+    },
+    {
+        "id": "3677",
+        "text": "Don't ever let anyone ever get\naway with telling you that a vote\nfor a third party is wasted. What\nwere the votes for these guys?\nAn investment?\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/3677.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/3677_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/3677_enlarged.jpeg"
+    },
+    {
+        "id": "4811",
+        "text": "PROUD TO BE\n***\nREDUICAN\nEPUBLICA\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4811.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4811_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4811_enlarged.jpeg"
+    },
+    {
+        "id": "942",
+        "text": "SARAH, THIS IS BARACK\nOBAMA.\nI HEAR YOU FARTED.\nFumi\n50 Top Barack Obama Memes\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/942.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/942_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/942_enlarged.jpeg"
+    },
+    {
+        "id": "3334",
+        "text": "CATSARE LIKE THE LIBERTARIAN PARTY\nSINCE THEY ARE TOTALLY DEPENDENT ON\nOTHERS,\nWHILE FIERCELY BELIEVING IN\nTHEIR OWN INDEPENDENCE.\nmakeameme.org\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/3334.png"
+    },
+    {
+        "id": "4707",
+        "text": "LONG AFTER TRUMP IS\nGONE, HISTORY WILL\nREMEMBER THE COWARDS\nWHO ENABLED HIM AND\nLET THIS TRAVESTY GO ON.\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4707.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4707_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4707_enlarged.jpeg"
+    },
+    {
+        "id": "6306",
+        "text": "HEY TRUMP VOTERS:\nYOUR 2020 CANDIDATE IS\nCOUNTING ON YOU\nmegenerator.net\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/6306.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/6306_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/6306_enlarged.jpeg"
+    },
+    {
+        "id": "4246",
+        "text": "Marie\nmane.mca.\nThe rest of the world to America rn #Debates2020\n#PresidentialDebate\nRT M\nFHAVE YOU TRIED\nTURNING IT OFF AND ON AGAIN?\n921 am 30 Sep 200- Tuiter for Phone\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4246.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4246_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4246_enlarged.jpeg"
+    },
+    {
+        "id": "3785",
+        "text": "I'M NOT SITH\nI'M ALT-JEDI YOU\nCULTURAL REBEL CUCK\nNo, 'Clovergender' is NOT a\nThing! - Libertarian Party of\nNevada\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3785.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3785_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3785_enlarged.jpeg"
+    },
+    {
+        "id": "3772",
+        "text": "Nobody:\nDrunk Libertarians:\nfuck taxes\nmeirl by LeaveEveryoneAlone\nMORE MEMES\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3772.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3772_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3772_enlarged.jpeg"
+    },
+    {
+        "id": "3866",
+        "text": "AND AS A REMINDER NONE OF US ARE\nACTUALLY MEMBERS OF THE LIBERTARIAN\nPARTY AND THAT KEEPS US FROM HAVING TO\nBE EMBARRASSED BY ASSOCIATION WITH OURSELVES\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3866.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3866_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3866_enlarged.jpeg"
+    },
+    {
+        "id": "5743",
+        "text": "MAKING FLIP FLOPS\nGREAT AGAIN\nmemegenerator.net\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/5743.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/5743_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/5743_enlarged.jpeg"
+    },
+    {
+        "id": "1119",
+        "text": "ra\u00f0ul\nFollow\n@ra0ul_poborski\nTrump: I'm gonna give you the best handshake,\nyou know people say I give the best\nhandshakes.\nObama: Get it right up ye ya c\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1119.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1119_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1119_enlarged.jpeg"
+    },
+    {
+        "id": "4782",
+        "text": "I found the place where\nDonald Trump\ngrows his hair!\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4782.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4782_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4782_enlarged.jpeg"
+    },
+    {
+        "id": "5885",
+        "text": "t Pnpa\nPlease don't try to insulting us bro, it no use, because we\nInsulting our own country everyday\nt's can't get any worse anyway!\nrinewy\nChinese\nWhere is your King now?\nChaingmai is country!\nYour government sucks!\nThai people:\nChinese\nSay it LOUDER!\nAgain please!!\nt fute\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/5885.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/5885_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/5885_enlarged.jpeg"
+    },
+    {
+        "id": "1003",
+        "text": "I GIVE YOU METAL\nFOR SMELLING S0O GOOD\nFunny Obama Memes\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/1003.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/1003_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/1003_enlarged.jpeg"
+    },
+    {
+        "id": "4815",
+        "text": "THIS IS WHAT THE REPUBLICAN PARTY HAS BEEN REDUCED TO:\n\"WHEN THE REPUBLICAN PARTY SENDS THEIR\nPEOPLE, THEY'RE NOT SENDING THEIR BEST.\nTHEY'RE SENDING PEDOPHILES, THEY'RE SENDING\nPUSSY GRABBERS. THEY'RE NAZIS. AND SOME,\nIASSUME, ARE GOOD PEOPLE.\"\nCAROLYN S.\nMReverbPress\nO revertipress\nO reverbpress\nTRUTH.\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/4815.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/4815_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/4815_enlarged.jpeg"
+    },
+    {
+        "id": "4458",
+        "text": "Jacob Drow Vandewer\n\"Raise your hand if you've ever been\npersonally victimized by Regina George.\"\n#DemDebate2\nMSNBC\n1DENOCRATIE DEBATE\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4458.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4458_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4458_enlarged.jpeg"
+    },
+    {
+        "id": "1702",
+        "text": "CURRENTLY TRYING\nTO TRASH THE\nWITH HEALTH OFFICIALS TO VOTES OF THOUSANDS\nSOLVE THE COVID PANDEMIC. OF AMERICAN CITIZENS.\nCURRENTLY MEETING\nimgflip.com\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1702.png"
+    },
+    {
+        "id": "1365",
+        "text": "WHAT DO YOU CALLAMUSLIM\nELVIS IMPERSONATOR?\nAMAL\nSHOOKUP\nBAN THE DEMOCRATIC PARTY\n",
+        "label": 1,
+        "target": [
+            "community"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1365.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1365_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1365_enlarged.jpeg"
+    },
+    {
+        "id": "350",
+        "text": "George_W_Bush\nRANKED #57429\nPOINTS 74836\nIF YOU ARE NOT AMERICAN\nYOU SHOULD STOP\nTALKING ABOUT\nAMERICAN POLITICS\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/350.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/350_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/350_enlarged.jpeg"
+    },
+    {
+        "id": "5028",
+        "text": "WHY WEREN TREPUBLICANS\nWORRIED ABOUT INSURANCE\nCOMPANIES CANCELLING\nHEALTHCARE POLICIES\nBEFORE THE AFFORDABLE\nCARE ACT?\nOriginal content by\nAMERICAN VOICE OF REASON\nResson\nFind us on Facebook.\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/5028.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/5028_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/5028_enlarged.jpeg"
+    },
+    {
+        "id": "2104",
+        "text": "Go Green You Must,\nSafety for Whistle-Blowers\n& Investigative\nJournalism to hold\nGovernmentaccountable\nto the people, we do'need\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/2104.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/2104_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/2104_enlarged.jpeg"
+    },
+    {
+        "id": "831",
+        "text": "AN\nARMANI EXC\nBarrack and Michelle at the club\nifunny.co\n@RONAL\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/831.png"
+    },
+    {
+        "id": "6726",
+        "text": "I'M FINDING IT\nIMPOSSIBLE TO GET ANY\nALONE TIME LATELY.\nHAVE YOU TRIED\nA JOE BIDEN\nRALLY?\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/6726.png"
+    },
+    {
+        "id": "8209",
+        "text": "ELSA.\n90\nDO YOU WANNA BUILD A WALL?\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/8209.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/8209_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/8209_enlarged.jpeg"
+    },
+    {
+        "id": "4451",
+        "text": "DON'T BRING INDEX CARDS\nTO A KNIFE FIGHT\nNEXT TIME UNCLE JOE\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4451.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4451_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4451_enlarged.jpeg"
+    },
+    {
+        "id": "6335",
+        "text": "Your Worst Friend:\nIam once again asking\nto borrow your Juul charger\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/6335.png",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/6335_compressed.jpeg"
+    },
+    {
+        "id": "4410",
+        "text": "Settle Down Bevie\nThat moment when son threatens to takes dad's car\nkeys away. DemocraticDebate\nLIVE -NEWSI THE DEMOCRATIC DEBATE\n7:4 PM Sep01 T r\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4410.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4410_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4410_enlarged.jpeg"
+    },
+    {
+        "id": "6539",
+        "text": "sav\nFollow\n@sameverlark_\nJoe: Hey Barack, why does Trump wanna ban\npreshredded cheese\nBarack: Joe please\nJoe: TO MAKE AMERICA GRATE AGAIN\nBarack: I swear to God\n**\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/6539.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/6539_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/6539_enlarged.jpeg"
+    },
+    {
+        "id": "872",
+        "text": "Biden-Obama\nMemes\n300+ Funny & Hillarious\nMemes of 2016\nJohn Robinson\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/872.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/872_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/872_enlarged.jpeg"
+    },
+    {
+        "id": "2675",
+        "text": "Joe Biden\ndoes joe biden play sports\nwas joe biden vice president\nwas joe biden an actor\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/2675.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/2675_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/2675_enlarged.jpeg"
+    },
+    {
+        "id": "4467",
+        "text": "ONE DOES NOT SIMPLY\nWIN A PRESIDENTIAL DEBATE\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4467.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4467_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4467_enlarged.jpeg"
+    },
+    {
+        "id": "2730",
+        "text": "sav\nFollow\nJue: Hey Barack, why does Trump wanna ban\npreshredded cheese\nBarack: Joe please\nJoe: TO MAKE AMERICA GRATE AGAIN\nBarack: I swear to God\n9.49 PM 13 NOv 2016\n+ 13 158 396\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/2730.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/2730_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/2730_enlarged.jpeg"
+    },
+    {
+        "id": "1126",
+        "text": "Obama called\nthe SEALS\nand THEY got\nbin Laden.\nWhen the SEALS\ncalled Obama,\nTHEY GOT\nDENIED.\nwww.Special0ps2012.com\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1126.png",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1126_compressed.jpeg"
+    },
+    {
+        "id": "8231",
+        "text": "HOW TO MAKE\nAMERICA GREAT AGAIN!\nleminiut Mam\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/8231.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/8231_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/8231_enlarged.jpeg"
+    },
+    {
+        "id": "8217",
+        "text": "*record scratch* *freeze frame* yep.\nthat's me. you're probably wondering how\ni got in this situation-\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/8217.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/8217_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/8217_enlarged.jpeg"
+    },
+    {
+        "id": "8089",
+        "text": "Do you ever look at stuff and\nwonder how it got there?\nWITH\nMP\nSTANDS WTH\nTRUMP\nRU\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/8089.png"
+    },
+    {
+        "id": "5020",
+        "text": "i PONT NEED HEALTH\nINSURANCE\nI HAVE JESUS\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/5020.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/5020_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/5020_enlarged.jpeg"
+    },
+    {
+        "id": "2707",
+        "text": "Listen here jack, now this bad boy\ncan..can.uh.can.\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/2707.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/2707_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/2707_enlarged.jpeg"
+    },
+    {
+        "id": "8129",
+        "text": "20\n440\n71\nAP\n55\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/8129.png"
+    },
+    {
+        "id": "54",
+        "text": "JILL STEIN\nGREEN PARTY\nWhat you see:\nWhat colorblind\npeople see:\nu/Frantater\nSlt's a party in the USAS\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/54.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/54_enlarged.png",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/54_enlarged.png"
+    },
+    {
+        "id": "6349",
+        "text": "Don't worry ma'am, we'll find\nyour missing daughter\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/very_harmful/6349.png"
+    },
+    {
+        "id": "6745",
+        "text": "BLM\n@BlackLivesMatter\nDear dumb ass white people\nif you use a persons skin color as an\ninsult you are racist..\n#Stopbeingsowhite\n519 Retweets 4K Likes\n",
+        "label": 1,
+        "target": [
+            "community"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/very_harmful/6745.png"
+    },
+    {
+        "id": "6563",
+        "text": "Brendan Bergen\n@carpetislava\nBIDEN: How come you've never shown ME\nthe swamp?\nOBAMA: Drain the swamp is a metaphor, Joe.\nBIDEN: Where will Shrek live?\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/6563.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/6563_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/6563_enlarged.jpeg"
+    },
+    {
+        "id": "4769",
+        "text": "THE REPUBLICAN PARTY\nJUST WENT FULL RETARD\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4769.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4769_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4769_enlarged.jpeg"
+    },
+    {
+        "id": "6732",
+        "text": "@BidenThoughts\nNot all of my supporters are pedphiles\nbut they all decided that sniffing little girls\nisn't a deal breaker.\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/6732.png"
+    },
+    {
+        "id": "3484",
+        "text": "CIVIL ASSET\nFORFEITURE\nIS\nTHEFT\nThanks to the East Tennessee\nLibertarian Party for this post!\nTo get involved locally, go to\nIp.org/states!\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/3484.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/3484_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/3484_enlarged.jpeg"
+    },
+    {
+        "id": "875",
+        "text": "ANOTHER THIN MINT MEME\nFUCK IT\nTHEY'RE DELICIOUS\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/875.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/875_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/875_enlarged.jpeg"
+    },
+    {
+        "id": "55",
+        "text": "Just your average\nGreen party voter\n11\n28/02/2010\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/55.png"
+    },
+    {
+        "id": "891",
+        "text": "MR DOD\nBarack & Joe\nV Foltow\n@bicenandobama\nObama \"whispers\" pun the laser pointer away or give it to me\n4:51 PM- 12 Nov 2016\n+ a5,145 54\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/891.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/891_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/891_enlarged.jpeg"
+    },
+    {
+        "id": "6329",
+        "text": "THINGS THAT GO FASTER THAN\nNEVADA VOTE COUNTING\nWATCHING GRASS GROW\nWATCHING\nSNAILS CRAWL\nWATCHING PAINT DRY\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/6329.png"
+    },
+    {
+        "id": "8061",
+        "text": "When you scared to hold his hand so\nhe grabs your wrist instead\nRoyel Miss\nLittl\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/8061.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/8061_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/8061_enlarged.jpeg"
+    },
+    {
+        "id": "3422",
+        "text": "TRICKY DICK\nTOTAL DICK\nKNOW YOUR DICKS\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/3422.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/3422_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/3422_enlarged.jpeg"
+    },
+    {
+        "id": "990",
+        "text": "steen\noliert\nYES, WE CAN!\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/990.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/990_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/990_enlarged.jpeg"
+    },
+    {
+        "id": "1414",
+        "text": "The KKK was created as\nthe militant wing of the\nDemocrat Party in order\nto fight Republican\nreconstruction.\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1414.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1414_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1414_enlarged.jpeg"
+    },
+    {
+        "id": "3595",
+        "text": "Libertarians for\nImmigrants\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3595.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3595_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3595_enlarged.jpeg"
+    },
+    {
+        "id": "2270",
+        "text": "WHEN U THE ONLY ONE\nWITH POT AT THE PARTY\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/2270.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/2270_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/2270_enlarged.jpeg"
+    },
+    {
+        "id": "1232",
+        "text": "Irish were the rirst slaves\nbrought to America\nDoes that mean we get paid.\nslave reparations\" first?\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1232.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1232_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1232_enlarged.jpeg"
+    },
+    {
+        "id": "4233",
+        "text": "Recap Of The Vice-Presidential Debate\n... and tonight we also\nwelcome Mike Pence...\n... current governor of the\ngreat state of Indiana ...\ntharill\ntr\nfer, whe\nth\nYou\nmust be\nmistaken.\nThat's\nLtr\nnot my\nCOname.\nffer, wh\n... he was first elected\nto Congress in 2000 ...\n... and is now Donald\nTrump's running mate.\nFrill\nnot true. tr\nth\nThat's\nth\n11s0\nNever\nheard of\nhim.\nffer, wh\ndfer, wh\nDEMOCRATICUNDERGROUND.COM\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/4233.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/4233_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/4233_enlarged.jpeg"
+    },
+    {
+        "id": "4934",
+        "text": "Hey, look who stopped by the\nMoonlight Bunny Ranch Brothel.\nit's @seanhannity!\n*I'm sure he just stopped by for a\ndrink\nIBUNNU DA\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/4934.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/4934_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/4934_enlarged.jpeg"
+    },
+    {
+        "id": "5752",
+        "text": "MARCH 2ND, 2020\nJoe Biden Declares Beto\nO'Rourke To Lead Biden's Anti-\nGun Agenda\nBy Byan Saavedca\nDailyWire.com\nID N\nTEX\nRon Jenkireketty imes\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/5752.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/5752_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/5752_enlarged.jpeg"
+    },
+    {
+        "id": "4636",
+        "text": "But instead, I\nwas the\nYou dreamed that\nIwould be the\nfuture of the\nRepublican Party.\ntuture of the\nRepublican\nParty.\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4636.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4636_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4636_enlarged.jpeg"
+    },
+    {
+        "id": "6044",
+        "text": "ME,\nTRYING\nTO DO\nANYTHING\nON THE\nINTERNET\nARE\nYOU\nREGISTERED\nTO\nVOTE?\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/6044.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/6044_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/6044_enlarged.jpeg"
+    },
+    {
+        "id": "6299",
+        "text": "HE LOST VERSION OF\nEPLANES, TRAINS & AUTOMOBILES\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/6299.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/6299_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/6299_enlarged.jpeg"
+    },
+    {
+        "id": "5860",
+        "text": "WHO NEEDS A JOB\nJUST PUT IT ON MY TAB BRO I GOT YOU\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/5860.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/5860_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/5860_enlarged.jpeg"
+    },
+    {
+        "id": "3770",
+        "text": "tfw when you're about to hit them with\nthe fair share, muh roads, and somalia\n",
+        "label": 1,
+        "target": [
+            "community"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3770.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3770_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3770_enlarged.jpeg"
+    },
+    {
+        "id": "1715",
+        "text": "323 MILLION PEOPLE IN THE US\nAND THEY BRING IT DOWN TO THIS\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1715.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1715_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1715_enlarged.jpeg"
+    },
+    {
+        "id": "1716",
+        "text": "YOU'VE GOTTA GO BACK TO 1945\nFIND DONALD TRUMP'S FATHER AND\nGIVE HIM A CONDOM!\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1716.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1716_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1716_enlarged.jpeg"
+    },
+    {
+        "id": "6608",
+        "text": "*Freedom Works\n*FreedomWorks\nYour name is JOE\nThe year is 202O\nYou're running for\nPRESIDENT\ntrump BAD Obama GOOD\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/6608.png"
+    },
+    {
+        "id": "4500",
+        "text": "mong Tu weriy\nThat\nhe Ria\nKighte Teop.\nT an\non on\nPay its\nPesk\nie\nn shal mcst h\nAngel Varak-Iglar\n@angelnorelation\nFollow\nHILLARY IS STRAIGHT-UP JIM HALPERT\nRIGHT NOW #debates\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4500.png"
+    },
+    {
+        "id": "6562",
+        "text": "When Michelle start wearing less &\ngoing out more\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/6562.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/6562_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/6562_enlarged.jpeg"
+    },
+    {
+        "id": "4361",
+        "text": "Mr. Vice President,\nI'm speaking.\nin\nnd te\nCN\now VICE PRESIDENTIAL DEBATE\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4361.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4361_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4361_enlarged.jpeg"
+    },
+    {
+        "id": "2838",
+        "text": "Sad Joe Biden | Know Your\nMeme\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/2838.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/2838_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/2838_enlarged.jpeg"
+    },
+    {
+        "id": "6101",
+        "text": "Despite the pandemic, and our efforts at\nvoter supresion, Americans cast their ballots.\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/6101.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/6101_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/6101_enlarged.jpeg"
+    },
+    {
+        "id": "315",
+        "text": "That\nPeethe R\no Pack\ner\nr an\nAparna Nancherla\neuparnapkin\nDEBATE DRINKING GAME: Drink every time all the\ntime\nLIVE\nC-SPA\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/315.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/315_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/315_enlarged.jpeg"
+    },
+    {
+        "id": "6665",
+        "text": "When Joe Biden first got elected to Senate, this is\nwhat Betty White and Caitlyn Jenner looked like\nUSA\n159\nMEXICO 75\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/6665.png"
+    },
+    {
+        "id": "3409",
+        "text": "HBERT\nARIAN\nPerty of Lonisiana\nYOU SAID THE WAR ON THE SECOND AMENDMENT WAS OVER\nAH HELL RICKY I WAS TRYING TO WIN AN ELECTION WHEN I SAID THAT\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/3409.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/3409_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/3409_enlarged.jpeg"
+    },
+    {
+        "id": "8238",
+        "text": "NYLON\n@NylonMag\nBecause of Trump, women are\ndropping their domestic abuse cases in\nfear of being deported nylon.cm/\n2mNHudx\n",
+        "label": 1,
+        "target": [
+            "community"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/8238.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/8238_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/8238_enlarged.jpeg"
+    },
+    {
+        "id": "6890",
+        "text": "Easiest way to screw up BLM graffiti\nBLACK\nOLIVES\nMATTER\n",
+        "label": 1,
+        "target": [
+            "community"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/6890.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/6890_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/6890_enlarged.jpeg"
+    },
+    {
+        "id": "2780",
+        "text": "SimonNAicketts\nFu\nBIDEN: I'mma punch him when he comes\nhere.\nOBAMA: No, Joe. Don't do that.\nBIDEN: Punch him round the back,\nOBAMA: Joe.\nBIDEN: Kick, then.\nehreste 1e L\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/2780.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/2780_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/2780_enlarged.jpeg"
+    },
+    {
+        "id": "4667",
+        "text": "I FEED ON YOUR FEARS\nI HAVE NONE\nSNT\nBASIC ECONOMICS\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4667.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4667_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4667_enlarged.jpeg"
+    },
+    {
+        "id": "960",
+        "text": "IAM\nBARACK OBAMA\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/960.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/960_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/960_enlarged.jpeg"
+    },
+    {
+        "id": "2775",
+        "text": "\"They talk about this\nGreat Recession as if it\nfell out of the sky, like, \"Oh, my\ngoodness, where did it come from?\"\nIt came from this man voting to put two\nwars on a credit card, to at the same time\nput a prescription drug benefit on the credit\ncard, a trillion-dollar tax cut for the very\nwealthy. I was there. I voted against them.\nI said, no, we can't afford that. And now, all\nof a sudden, these guys are so seized with\nthe concern about the debt that they created.\"\n- VP Joe Biden\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/2775.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/2775_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/2775_enlarged.jpeg"
+    },
+    {
+        "id": "1986",
+        "text": "I voted\ntactically\nfor the\nLib Dems to\nkeep the\nTories\nout.\nTACTICAL VOTING HAS GOT US NOWHERE\nVOTE WITH YOUR HEART\nA Green Party\nPomotad by d oe behalThe Gem ety. Depnnt e -a teonnd tonden Kk\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1986.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1986_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1986_enlarged.jpeg"
+    },
+    {
+        "id": "1375",
+        "text": "TBH\nWE COULD USE\nA BETTER NOMINEE\no.com\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/1375.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/1375_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/1375_enlarged.jpeg"
+    },
+    {
+        "id": "952",
+        "text": "THEN\nNOW\nUNDER PRESIDENT OBAMA\nUNDER PRESIDENT TRUMP\nJOBS LOST: A MILLION\nUNEMPLOYMENT: OSE FROM\nJOBS CREATED: 17 MILLION\nUNEMPLOYMENT: FELL FROM\nSEP: 2,673.64\nGDP CHANGE: UP 23%\nSEP: 1,115.10\nGDP CHANGE: DUWN z\nGREPMULLIN\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/952.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/952_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/952_enlarged.jpeg"
+    },
+    {
+        "id": "241",
+        "text": "I'm with the Green Party,\nWanna party?\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/241.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/241_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/241_enlarged.jpeg"
+    },
+    {
+        "id": "3703",
+        "text": "LIBERTARIANS IN COMMENTS SECTION\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/3703.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/3703_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/3703_enlarged.jpeg"
+    },
+    {
+        "id": "900",
+        "text": "#Oradient\nBarack Obama\nmeirl\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/900.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/900_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/900_enlarged.jpeg"
+    },
+    {
+        "id": "4345",
+        "text": "THE MODERATORS 12 MINUTES INTO\nTHE TRUMP-BID\u1ebaN PRESIDENTIALrDEBATE\ncer\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4345.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4345_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4345_enlarged.jpeg"
+    },
+    {
+        "id": "3393",
+        "text": "CH\nIN FUTURE NEWS\nHANNEL\nAM CHAN\nEWS TEAM\n(4)NEWS\nELECTIONS BECAUSE THEY DIDN'T VOTE\nDEMOCRATS LOSE THE MIDTERM\nNEWS TEAM\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3393.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3393_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3393_enlarged.jpeg"
+    },
+    {
+        "id": "3301",
+        "text": "The ONLY Bridges\n*hillary's built\nAre EXIT Ramps\nGreen Party ibertarian\nExit LEFT\nParty\nNext Exit\nRepublican Party\nExit RIGHT\nimgilip com\nAny Republican Can NOW Beat her\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3301.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3301_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3301_enlarged.jpeg"
+    },
+    {
+        "id": "8249",
+        "text": "HOW TO MAKE\nAMERICA GREAT AGAIN\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/8249.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/8249_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/8249_enlarged.jpeg"
+    },
+    {
+        "id": "4973",
+        "text": "\".JF YOU'RE\nGOING TO BE HERE,\nTHEN YOU SHOULD\nLEARN THE\nLANGUAGE OF THE\nCOUNTRY THAT\nYOU JUST ARRIVED\nAT.\" 0ONALO TRUMP\nJUST KIDDING.\nBARACK OBAMA\nSAID THAT. YOU\nPROBABLY DON'T.\nREMEMBER THOUGH\nBECAUSE THE MEDIA\nDION'T SPEND A MONTH\nCALLING HIS COMMENTS\nRACIST.\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/4973.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/4973_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/4973_enlarged.jpeg"
+    },
+    {
+        "id": "4762",
+        "text": "Religious\nwhite people\nGOP tries new outreach campaign\nand announce a new, more\ndiverse\" Republican Party\nRich\nwhite people white people white people white people\nRedneck\nRacist\nRetired\nMne Gor\ngaymanintexas: GOP tries new\noutreach campaign and\nannounces a new, more diverse\nRepublican Party. jhvvivivi\nwhere is the lie tho GOP 2.0\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/4762.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/4762_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/4762_enlarged.jpeg"
+    },
+    {
+        "id": "1743",
+        "text": "TRUMP'S HAIR INSPIRES COPYCATS CN\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1743.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1743_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1743_enlarged.jpeg"
+    },
+    {
+        "id": "8155",
+        "text": "Dillary Dump\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/8155.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/8155_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/8155_enlarged.jpeg"
+    },
+    {
+        "id": "1412",
+        "text": "AMERICAN\n\u0420\u0415\u041ePLE\nElection\nwon with\nillegal ballots\nAMERICAN\n\u0420\u0415OPLE\nElection\nwon with\nlegal ballots\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/1412.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/1412_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/1412_enlarged.jpeg"
+    },
+    {
+        "id": "1545",
+        "text": "It's a Cult\nThe new Atheist/Communist Party\nDEMOCRATS BOOED GOD.\nCrisis doesn't create\ncharacter; it reveals it.\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1545.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1545_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1545_enlarged.jpeg"
+    },
+    {
+        "id": "6638",
+        "text": "DONT SHOOT! IM RETARDED\nPROVE IT\nBIDEN\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/6638.png"
+    },
+    {
+        "id": "1084",
+        "text": "Ask a Republican about\nclimate change and they say\n\"I'm not a scientist!\" But when\nit comes to a women's right to\nchoose, suddenly.they all\nbecome doctors. -President Obama\nBipartinanReport.com\n",
+        "label": 1,
+        "target": [
+            "community"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1084.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1084_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1084_enlarged.jpeg"
+    },
+    {
+        "id": "4846",
+        "text": "WSI reports that Trump Lawyer Michael\nCohen paid porn star Stormy Waters\n$130K to keep quiet about a sexual\nencounter she had with Donald Trump.\nTHE BIGGEST SHOCK IS THAT\nTRUMP ACTUALLY FOLLOWED\nTHROUGH PAYING SOMEONE.\nThe Other 98%\nMupile Uioad ou 90\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/very_harmful/4846.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/very_harmful/4846_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/very_harmful/4846_enlarged.jpeg"
+    },
+    {
+        "id": "3730",
+        "text": "DEMOCRAT VS REPUBLICAN\nYEAH, IT'S KINDA LIKE THIS\nHungry for liberty?\nLIBERTARIAN\nThanks to the The Libertarian\nParty of Colorado for this post!\nTo get involved locally, go to\nIp.org/states!\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/3730.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/3730_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/3730_enlarged.jpeg"
+    },
+    {
+        "id": "8233",
+        "text": "Done\nObama\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/8233.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/8233_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/8233_enlarged.jpeg"
+    },
+    {
+        "id": "4587",
+        "text": "ORANGE HER\nTHE NEW REPUBLICAN PARTY\nTell them you found it at Rude\nand Rotten Republicans\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/very_harmful/4587.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/very_harmful/4587_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/very_harmful/4587_enlarged.jpeg"
+    },
+    {
+        "id": "3823",
+        "text": "LEGALIZE\nRECREATIONAL\nCOCAINE.\nLIBERTARIAN\n",
+        "label": 1,
+        "target": [
+            "society"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3823.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3823_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3823_enlarged.jpeg"
+    },
+    {
+        "id": "816",
+        "text": "Josh\n2 Follow\nejoilinson\n\"I left a Kenyan passport in your desk, just to\nfe with him\"\n\"Joe\"\n\"Oh and a prayer rug in your bedroom. He's\ngonna lose it!\"\n\"Dammit Joe\"\nGeorge Takei GeorgeTakel 11h\nUncle Joe the troil.\n13 1.SK\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/816.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/816_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/816_enlarged.jpeg"
+    },
+    {
+        "id": "841",
+        "text": "Biden: I changed White House wifi\npassword to \"ILoveMexicans\", if\nTrump wins, hes never gonna have\nservice\nObama: you savage af Joe\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/841.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/841_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/841_enlarged.jpeg"
+    },
+    {
+        "id": "1343",
+        "text": "DONALD TRUMP ONCE SAID HE DIDNT WANT\nHIS KIDS GROWING UP IN A RACIAL JUNGLE\"\nIST KIDDING, THAT WAS THIS GUY\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/very_harmful/1343.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/very_harmful/1343_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/very_harmful/1343_enlarged.jpeg"
+    },
+    {
+        "id": "5851",
+        "text": "VIRUSES ARE LIKE US POLITICIANS\nYOU GET RID OF ONE\nAND A WORSE ON\u00c9 REPLACES IT\nmlo com\n",
+        "label": 1,
+        "target": [
+            "community"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/5851.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/5851_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/5851_enlarged.jpeg"
+    },
+    {
+        "id": "6723",
+        "text": "C'mon ma'am\nAVAIA\n30 $20\nCLEARANCE\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/6723.png"
+    },
+    {
+        "id": "2201",
+        "text": "\u201cMY MUM IS\nA GREEN PARTY\nACTIVIST.\nSHE'S DISAPPOINTED\nIN ME\nJOINING UKIP.\nI COULDNT CARE LESS\nRamon Men,\nPlayas gonna play!\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/2201.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/2201_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/2201_enlarged.jpeg"
+    },
+    {
+        "id": "2291",
+        "text": "Hillarywill campalgn\nfor Democrats\nduring 2018 midterms\nAccelerationist\nGreens B like:\nPlease do\nimgfip.com\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/2291.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/2291_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/2291_enlarged.jpeg"
+    },
+    {
+        "id": "3634",
+        "text": "Aiout Phanss\nCoty\nde n\n2 e e t\nIBE\nBerg Lbrtann\nhe A Se\nCommunity\n2,1 w the\nDid you know Being Libertarian\nis about to overtake the actual\nLibertarian Party in Facebook\nfollowers? We work hard to\npromote liberty and provide\nquality content and our\ntremendous growth has been\npaying off. Thank you all for\nyour support. (Even the trolls).\n(MB)\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/3634.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/3634_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/3634_enlarged.jpeg"
+    },
+    {
+        "id": "2665",
+        "text": "WHICH STATEAM I IN?\nWHERE EVER YOU ARE,\nYOU'RE THERE!\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/2665.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/2665_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/2665_enlarged.jpeg"
+    },
+    {
+        "id": "1807",
+        "text": "\"We must fight for a\nfair voting system.\nJoin me and the Voting\nReform Team on the\n25th of July for\na Great Gathering\noutside Parliament.\"\nSI\u00c4N BERRY\nCouncilar for Highgate n Canden\nGreen Party\nfo the conman good\nGREENPARTY.ORG.UK\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1807.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1807_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1807_enlarged.jpeg"
+    },
+    {
+        "id": "3767",
+        "text": "PROMISES TO HAVE MOST TRANSPARENT\nADMINISTRATION IN HISTORY\nWIKILEAKS MAKES THIS\nPROMISE COME TRUE\nThanks to The Libertarian Party\nof Colorado for this post! To get\ninvolved locally, go to\nIp.org/states!\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3767.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3767_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3767_enlarged.jpeg"
+    },
+    {
+        "id": "1070",
+        "text": "RETIREMENT sO CLOSE\nYOU CAN TASTE IT\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1070.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1070_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1070_enlarged.jpeg"
+    },
+    {
+        "id": "3824",
+        "text": "\"I want gay married\ncouples to be able to\nprotect their marijuana\nplants with guns.\"\nvotemoen.ca\nLibertarian\n",
+        "label": 1,
+        "target": [
+            "society"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3824.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3824_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3824_enlarged.jpeg"
+    },
+    {
+        "id": "4747",
+        "text": "SOCIALISM\nTRICKLE-UP POVERTY\nHONK\nFOENNG\nDON'T SPREAD MY WEALT\nBreaking News SPREAN MY NORK ET\nIVE This just in, Republican party, still sore losers. V\nEXCLUSIVE\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4747.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4747_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4747_enlarged.jpeg"
+    },
+    {
+        "id": "253",
+        "text": "Famous Joe Biden\nquotes...\n\"Unless we do something about this, my children are going to grow\nup in a jungle, the jungle being a racial jungle\". 1977\n\u201cYou got the first mainstream African American who is articulate and\nbright and clean\". 2007\n\u201cYou cannot go to a 7-Eleven or a Dunkin' Donuts unless you have a\nslight Indian accent. I'm not joking,\". 2006\nWell, Ltell you what, if you have a problem figuring out whether you're\nfor me or Trump, then you ain't black.\" 2020\n11alive.com\nW keMM thoe traths to bo ilf ovident, thit al men are createl oqual that they aur\nhy ther Groator with cortain undlionile Rihts. th these re\nrights\nm the\nnts ure istitutol ameny Men, doriving theie\nKONent of the gevernul\nThut wonewer ay Torm\nncomes\nInstitute now Governmont, hnyiny\nitN pewns in auch fornman te thom th ikly te offect\nHappinss. udence inteed will diei mo\nheull not he chonged fer lyht und trun t\nhuth shiewn that mankind ure mere diyved tesu\nright thomadlves by abeiking the enstow\nglen on sunciple\ndesign te redue\nthrow eff uel\nWill you shut up, man.\nmade with mematic\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/253.png"
+    },
+    {
+        "id": "3476",
+        "text": "These are anarchists.\nThese are anti-free speech\nfascists. Any questions?\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/3476.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/3476_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/3476_enlarged.jpeg"
+    },
+    {
+        "id": "6902",
+        "text": "SO WHAT\nIF DONALD TRUMP\nCREATED MILLIONS\nOF NEW JOBS?\nMY SUPPORTERS\nDON'T WANT JOBS!\nVISIT PATRIOOTPOST US FOR THE BEST HIIMOR AND MEMES\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/6902.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/6902_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/6902_enlarged.jpeg"
+    },
+    {
+        "id": "1766",
+        "text": "Greta Thunberg does the\nmost for the planet\nThe green party do the\nmost for the plane\nCelebrity's do the\nmost for the planet\n20,000,000 TREES!\nMr beast does the\nmost for the planet\nifunny.co\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/1766.png"
+    },
+    {
+        "id": "8277",
+        "text": "DONALD TRUMP IN\n2016?\nHE'S GOT MY\nVOTE.\nmemegenerator.net\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/8277.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/8277_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/8277_enlarged.jpeg"
+    },
+    {
+        "id": "954",
+        "text": "HE WHITE HO\nWASHING\nBASICALLY I'M HERE TO ANNOUNCE\nTHAT WE'RE BUILDING IRON MAN\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/954.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/954_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/954_enlarged.jpeg"
+    },
+    {
+        "id": "6661",
+        "text": "Bald eagle takes down government\ndrone\nA bald eagle took down a government drone in\nMichigan, state officials said Thursday. The bi.\n@LACKINHUMOR\nGovernment\nGovernment\ndrone\ndrone\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/6661.png"
+    },
+    {
+        "id": "1040",
+        "text": "Obama: You have to apologize to Mr. Trump,\nJoe.\nBiden: \u201cUnF#$% you Trump, or whatever.\"\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1040.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1040_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1040_enlarged.jpeg"
+    },
+    {
+        "id": "6789",
+        "text": "AuthRight when they\nare asked for their\npersonal opinion\nI am putting myself at risk of being sued.\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/6789.png"
+    },
+    {
+        "id": "1158",
+        "text": "OH, YOU MADE A\nPOLITICAL MEME?\nTELL ME HOW ITS GOING TO SINGLE\nHANDEDLY BRING DOWN THE\nDEMOCRATIC PARTY\nuickmeme.com\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/1158.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/1158_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/1158_enlarged.jpeg"
+    },
+    {
+        "id": "6078",
+        "text": "Donald J. Trump\nGrealDonaldTrump\nIf Biden somehow manages to win\nthis election, you won't see me\nagain, I'll simply leave the country!\nJoe Biden o\nEJoeBiden\nBi den\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/6078.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/6078_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/6078_enlarged.jpeg"
+    },
+    {
+        "id": "6234",
+        "text": "READY FOR THE NEXT DISTRICT!\nDAY\nIOWA CAUCUS VOTE COUNT\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/6234.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/6234_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/6234_enlarged.jpeg"
+    },
+    {
+        "id": "1689",
+        "text": "THE REPUBLICAN PARTY PLATFORM\n200,000\nDEATHS\n7 MILLION CASES\nRLD IN CORONAVIRUS DEA\nRATIONS ORDERED IN ALL 50 STATES\nLIES\nHATRED\nDEATH\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1689.png"
+    },
+    {
+        "id": "1997",
+        "text": "Whiner-in-Chief\nDonald called the recounts a \"scam\" by the Green Party.\nAt least he used a\nThat's called\ntransference,\nsmall word he can\ndumbass.\nunderstand. Definition\nof scam: Con, cheat,\nrip-off, swindle.\nKeystone Pruie Doys unnysidn Left\nDonald couldn't resist a Twitter\ntantrum about the recounts on\nSaturday. He called it a \"scam\"\nby the Green Party.\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1997.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1997_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1997_enlarged.jpeg"
+    },
+    {
+        "id": "6754",
+        "text": "HUNTER BIDEN\nWATCHING THE DEBATE\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/6754.png"
+    },
+    {
+        "id": "6302",
+        "text": "SNARK WEE\nIs Nevada Done\nCounting Votes Yet?\nWho knowsi Meantime, here are the best memas\npoking fun at the Silver State's slow pace\nBY Andrew Ktraly\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/6302.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/6302_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/6302_enlarged.jpeg"
+    },
+    {
+        "id": "1581",
+        "text": "Time flies: The Obama family at the beginning\nof Obama's presidency and them now.\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/1581.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/1581_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/1581_enlarged.jpeg"
+    },
+    {
+        "id": "1598",
+        "text": "THE NEW MASCOT FOR THE\nDEMOCRATIC PARTY\nIT ROLLS UP INTO A BALL\nWITH ITS HEAD UP ITS\nASS TO AVOID REALITY\nThe Democratic Party has a\nnew mascot\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1598.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1598_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1598_enlarged.jpeg"
+    },
+    {
+        "id": "4499",
+        "text": "among Mon deriv Men, deriving\nt\norm\nthe Right Pecight of thele to\nThat wh\nany wheneve\nCNN\nCAN FIRST PRESIDENTIAL DEBATE\n6:33 PM PT\n#Debates2020NN\n\"Shut up man. This is so\nunpresidential. Keep\nyapping, man.\"\n99\nJoe Biden\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4499.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4499_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4499_enlarged.jpeg"
+    },
+    {
+        "id": "3759",
+        "text": "Libertarian Party\nIKE PAGE\nOur diversity is our strength, Read more about\nour American values of life, liberty, and\nhappiness for all at Ip.org/plotform.\nA DAY WITHOUT\nIMMIGRANTS\nIS\nA DAY WITHOUT\nAMERICA\nDiversity is our strength\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3759.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3759_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3759_enlarged.jpeg"
+    },
+    {
+        "id": "2031",
+        "text": "READY\nto\nPARTY?\nCHECK.\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/2031.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/2031_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/2031_enlarged.jpeg"
+    },
+    {
+        "id": "857",
+        "text": "OBAMA'S LEGACY\nOF HORRIBLE DECISIONS\nCONTINUES.\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/857.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/857_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/857_enlarged.jpeg"
+    },
+    {
+        "id": "4735",
+        "text": "42 OF THE 45 SENATORS WHO VOTED\nAGAINST BACKGROUND CHECKS.\nRECEIVE MONEY FROM THE GUN LOBBY.\n",
+        "label": 1,
+        "target": [
+            "society"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/4735.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/4735_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/4735_enlarged.jpeg"
+    },
+    {
+        "id": "3513",
+        "text": "78 CATHERNE (CAT) PING\nREPUBLICAN PARTY\n7C DREW THCMPSON\nLIBERTARIAN PARTY\nHarambe\nWile-n\nDead Gorilla Harambe Got Over 15,000 Votes To\nBecome President Of The United States\nwww.viralthread.com\namazing\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/3513.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/3513_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/3513_enlarged.jpeg"
+    },
+    {
+        "id": "215",
+        "text": "WELCOME TO THE\nDEMOCRATIC PARTY\nWHERE THE FACTS ARE MADE UP AND\nYOU'RE RACIST OF YOU DISAGREE\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/215.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/215_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/215_enlarged.jpeg"
+    },
+    {
+        "id": "4970",
+        "text": "ST.CATHERINE\nEPISCOPAL CHURCH\nGOV. PERAY, GOO HERE.\nTHE VOICE IN YOUR HEAD IS\nNOT ME. TAKE YOUR MEDS.\nCHOIA PRACTICE WED. 7 P.M.\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4970.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4970_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4970_enlarged.jpeg"
+    },
+    {
+        "id": "827",
+        "text": "IT DOESN'T MATTER WHO YOU ARE.\nWHEN YOUR WIFE SAYS\n\"SWITCH SEATS\".\nYOU. SWITCH SEATS.\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/827.png"
+    },
+    {
+        "id": "1659",
+        "text": "RIP\nDemocratic Party\n1776-2017\nPROTESTED ITSELF TO DEATH\nMENES\nJwitler\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1659.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1659_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1659_enlarged.jpeg"
+    },
+    {
+        "id": "4469",
+        "text": "This was how a family watched\nthe presidential debate... LOL !!\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4469.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4469_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4469_enlarged.jpeg"
+    },
+    {
+        "id": "5162",
+        "text": "Douglas County Republicans\n2 hrs \u00b7 O\n...\nYOU GET BACK\nIN THAT HOUSE!\nWE'RE TRYING\nTO CONTROL\nANOTHER\nELECTION.\nUVISIT PATRIOTPOST.US FOR THE BEST HUMORAND MEMES\nTHREE BIG REASONS\nDems want to extend\nquarantine:\n1. Mail in ballots so they can\ncheat\n2. Keep Demantia Joe off\nthe campaign trial\n3. Crash the economy and\nblame Trump\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/very_harmful/5162.png"
+    },
+    {
+        "id": "5962",
+        "text": "Me commenting\nMe commenting on the politics of\non US politics\nmy own country\nWait, Stephen Harper is still the\nCanadarian president, right?\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/5962.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/5962_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/5962_enlarged.jpeg"
+    },
+    {
+        "id": "4651",
+        "text": "New Ropublican Party Logo\nREPUBLICAN\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/4651.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/4651_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/4651_enlarged.jpeg"
+    },
+    {
+        "id": "4344",
+        "text": "Me taking about how bad\nBiden - Haris is\nRepublicana thinerg mpro\nTrump\nF*k\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4344.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4344_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4344_enlarged.jpeg"
+    },
+    {
+        "id": "4790",
+        "text": "Thox\nNEWS\ndonald trump\nsaving cadet bone spurs\nwww.NewsCorpie.com\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4790.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4790_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4790_enlarged.jpeg"
+    },
+    {
+        "id": "3761",
+        "text": "TRUMP\nTHATS A NICE\nWALL'YOU GOT THERE\nIT WOULD BE\nASHAME IF SOMEONE.\nCLIMBED IT\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3761.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3761_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3761_enlarged.jpeg"
+    },
+    {
+        "id": "2811",
+        "text": "We stood by\nand did nothing\nas we watched our\ncolleagues let their\nCities burn to the ground\nBut don't worry\nwe are here\nto fix things\nnow\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/2811.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/2811_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/2811_enlarged.jpeg"
+    },
+    {
+        "id": "1103",
+        "text": "Rahul Gandhi O eRahulGandhi - Dec 1, 2017\nHad a fruittul chat with President @aarackObama Great to meet him again.\nO 32K\nO 27.7K\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/1103.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/1103_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/1103_enlarged.jpeg"
+    },
+    {
+        "id": "93",
+        "text": "Libertarian\nLibertarian\nIdeas\nCandidates\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/93.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/93_enlarged.png",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/93_enlarged.png"
+    },
+    {
+        "id": "5039",
+        "text": "Trump could shoot someone\non the Senate floor and still be\nacquitted 53-47. Unless he\nshot a republican. Then it\nwould be 52-47.\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/5039.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/5039_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/5039_enlarged.jpeg"
+    },
+    {
+        "id": "6713",
+        "text": "Obama: Don't discuss Titanic with Joe\nDiCaprio: Why?\nObama: He's still upset. He thinks you\ncould've fit on that door, and I don't\ndisagree\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/6713.png"
+    },
+    {
+        "id": "3462",
+        "text": "REPUBLICANS\nDEMOCRATS\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/3462.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/3462_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/3462_enlarged.jpeg"
+    },
+    {
+        "id": "3793",
+        "text": "Jozo\nLibertarian Party of New York O\n@lpnyofficial\nAll of your rights, all of the time\nRight\nWhat are you doing?? Systevie reciunand LOTa.\nWe're only supposed ression ae the enenies ef\nto care about moneytt berty and i wil fight hem\nwith my last breath\nrtarian\n20:29 - 28 Sep 20 - Twitter for Android\n197 Retweets 496 Quote Tweets 1,578 Likes\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3793.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3793_enlarged.png",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3793_enlarged.png"
+    },
+    {
+        "id": "4261",
+        "text": "Mike Shields WSB gMkeShieldsWSB 18h\nWith the mute button in play for toright's weresidentielDebate2000, the\naudio tech just became the most powerful person in America. S\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4261.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4261_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4261_enlarged.jpeg"
+    },
+    {
+        "id": "2650",
+        "text": "Obama: *whispers* put the laser\npointer away or give it to me\nML DOOD\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/2650.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/2650_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/2650_enlarged.jpeg"
+    },
+    {
+        "id": "6803",
+        "text": "NAME SOMETHING\nTHAT TRIGGERS\nTHE LEFT\nFreedomWork\n100\nTRUMP 35 CONSTITUTION 8\nPATRIOTISM 20\nPERSONAL\nRESPONSIBILITY\n6.\nTAX CUTS 15\nJUSTICE BRETT\nKAVANAUGH\nFREE SPEECH 8 RED HATS 4\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/6803.png"
+    },
+    {
+        "id": "8135",
+        "text": "SCIENTISTS HAVE DISCOVERED A CATERPILLAR\nTHAT LOOKS JUST LIKE DONALD TRUMP'S HAIR.\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/8135.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/8135_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/8135_enlarged.jpeg"
+    },
+    {
+        "id": "2170",
+        "text": "\"DEMOCRACY WORKS BESTWHEN EVERYONE\nPARTICIPATES.\" - PAT QUINN 7/V4\nHIN\ni\ncom www\nNQUIN\nINN QU\nFOR LLINOS\nco\nww.Quir\nm www.Quinn\nATTACKS THE GREEN PARTY\nFOR PARTICIPATING AGAINST HIM\nimglip.com\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/2170.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/2170_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/2170_enlarged.jpeg"
+    },
+    {
+        "id": "2779",
+        "text": "Dbet toroeder\nI gotta say, I never thonght I'd get tired of Joe Biden winning\nthe cleetion, but after the 2787484547th time, it feels a litle played out.\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/2779.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/2779_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/2779_enlarged.jpeg"
+    },
+    {
+        "id": "221",
+        "text": "HOW ARE WE BREAKING THE\nDEMOCRATIC PARTY??\nBY ACTUALLY HELPING THE PEOPLE THEY\nPROMISE TO HELP EVERY ELECTION!\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/221.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/221_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/221_enlarged.jpeg"
+    },
+    {
+        "id": "6693",
+        "text": "Obama: *whispers* put the laser pointer\naway or give it to me\nMR. DODD\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/6693.png"
+    },
+    {
+        "id": "4736",
+        "text": "REPUBLICANS\nARE NO LONGER\nA PARTY\nTHEY'RE A...\nCRIME\nSYNDICATE\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/4736.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/4736_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/4736_enlarged.jpeg"
+    },
+    {
+        "id": "5696",
+        "text": "THINGS I TRUST MORE THAN TED CRUZ\n1. FLINT MICHIGAN TAP WATER\n2. BILL COSBY DRINKS\n3. ELEVATOR RIDES WITH RAY RICE\n4. ANYTHING FROM CHIPOTLE\nfb/Politicked\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/5696.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/5696_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/5696_enlarged.jpeg"
+    },
+    {
+        "id": "4582",
+        "text": "The llev Mascol ol the Republican Parly.\nAderanged and ignorait\nPali\nmihlle-agen hillbillyzm bad har\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/4582.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/4582_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/4582_enlarged.jpeg"
+    },
+    {
+        "id": "1571",
+        "text": "Me\nMemes on\nT_D\nMy essay on why\nthe Republican\nparty is better\nthan the\nDemocratic party\nHope my professor isn't an NPC\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/1571.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/1571_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/1571_enlarged.jpeg"
+    },
+    {
+        "id": "4372",
+        "text": "I TOLD him to SUCK my DICK...\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4372.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4372_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4372_enlarged.jpeg"
+    },
+    {
+        "id": "3879",
+        "text": "Republicans\nDemocrats\nLibertarians\nGovernment\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/3879.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/3879_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/3879_enlarged.jpeg"
+    },
+    {
+        "id": "4896",
+        "text": "* Thecore of Trump's\n* agenda has alwaysbeen\n\u00fantetheringAmerican politics\nromtactualrealiD and\namong Republicans, at least,\nhets beenstartlingly successiul\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4896.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4896_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4896_enlarged.jpeg"
+    },
+    {
+        "id": "2019",
+        "text": "G\u1ef0 HEN\nTina didn t dare mention\nthe bride's bikini line.\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/2019.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/2019_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/2019_enlarged.jpeg"
+    },
+    {
+        "id": "6257",
+        "text": "When someone says\nDemocrats will win in 2020\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/6257.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/6257_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/6257_enlarged.jpeg"
+    },
+    {
+        "id": "8067",
+        "text": "genizing\nfoty and\ngperience\ndethen te\nev\nTRUM\nDonald Trump rooster\nstatue takes China by\nstorm\nSerena Dong, CNN\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/8067.png"
+    },
+    {
+        "id": "3608",
+        "text": "\"So, if we lie to the government,\nit's a felony.\nBut if they lie\nto us\nits politics.\"\nBI Murray\nThanks to the Alaska\nLibertarian Party for this post!\nTo get involved locally, go to\nIp.org/states!\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3608.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3608_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3608_enlarged.jpeg"
+    },
+    {
+        "id": "1692",
+        "text": "The Democratic Party is socialist.\nI am the Democratic Party.\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/1692.png"
+    },
+    {
+        "id": "3815",
+        "text": "FOUNDING FATHERS\nHERE'S THE FIRST AMENDMENT\nOH AND IN CASE SOMEONE TRIES TO TAKE THAT AWAY\nHERE'S THE SECOND AMENDMENT\nThanks to the Libertarian Party\nof Florida for this post! To get\ninvolved locally, go to\nIp.org/states!\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3815.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3815_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3815_enlarged.jpeg"
+    },
+    {
+        "id": "209",
+        "text": "Poor people\nSpending beyond their means while\nonly performing cheap labor jobs\nwithout ever developing skills or\nimproving their value to the market\nTheir bank accounts\n[adultswim.com]\n\"Why did capitalism do this\"\n[adultswim.com]\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/209.png",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/209_compressed.jpeg"
+    },
+    {
+        "id": "230",
+        "text": "ELSA.\nDO YOU WANNA BUILD A WALL?\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/230.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/230_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/230_enlarged.jpeg"
+    },
+    {
+        "id": "1428",
+        "text": "VOTER REGISTRATION\nDEMOCRATIC PARTY\nREPUBLICAN PARTY\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/1428.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/1428_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/1428_enlarged.jpeg"
+    },
+    {
+        "id": "5114",
+        "text": "Chris Person\nFolow\n850\n1,327\n1000 PMFeb 20ne\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/5114.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/5114_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/5114_enlarged.jpeg"
+    },
+    {
+        "id": "1347",
+        "text": "OH NO, THE ECONOMY IS COMING BACK!\nCALL SOROS!\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1347.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1347_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1347_enlarged.jpeg"
+    },
+    {
+        "id": "8188",
+        "text": "WE NEED TO BUILDA WALL\nph\nNOT TO KEEP THEM OUT,\nBUT TO KEEP YOU WITH ME\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/8188.png"
+    },
+    {
+        "id": "4322",
+        "text": "Ow ON\nTOPIC\nPolitical Revolution vs Improving the System\nCNN\nMIT\nCW DEMOCRATIC PRESIDENTIAL DEBATE\nIDemDebate\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4322.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4322_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4322_enlarged.jpeg"
+    },
+    {
+        "id": "5788",
+        "text": "People dying\nBig corporations/\nthe government/\nbillionaires\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/5788.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/5788_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/5788_enlarged.jpeg"
+    },
+    {
+        "id": "5995",
+        "text": "WHERE'S HILLARY?\nCOUNTING VOTES!\nimgfip.comam\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/5995.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/5995_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/5995_enlarged.jpeg"
+    },
+    {
+        "id": "227",
+        "text": "White House\n7:00 PM ET\nTHE WHITE HOI\nWASHINGTON\nBREAKING NEWS\nWITHOUT ANY EVIDENCE, TRUMP SAYS HE'S BEING CHEATED\nLIVE\nCN ELECTORAL MAP 70\n253 213\nCN\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/227.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/227_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/227_enlarged.jpeg"
+    },
+    {
+        "id": "4659",
+        "text": "WHAT DOES GOP REALLY STAND FOR?\nGREED\nOVER\nPEOPLE\nMC\nI CADOF.ORG #GreedoverPeople\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4659.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4659_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4659_enlarged.jpeg"
+    },
+    {
+        "id": "8271",
+        "text": "OW TO MAKE AMRICA\nGREMGAGA\n....30\nDONALD J. TkuAU\nRIPPLED\nAMERICA\nIf you\nlike\nHITLER'S\nLAST DAYS\n20\nThen\ntry\nBILLO'RE\n16.00\n10.67\njasonhorton:\nSTRONG\nTarget is pretty slick\nERS TAGT4\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/8271.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/8271_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/8271_enlarged.jpeg"
+    },
+    {
+        "id": "4360",
+        "text": "Khalid Abuhakmeh\nPe\nI loved playing #BadHombres in the arcade.\nBrings back memories. #debatenight\nHOMBRES\n\u56fe\u3002\n30\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4360.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4360_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4360_enlarged.jpeg"
+    },
+    {
+        "id": "4674",
+        "text": "IOWA\nA TEXAS GOVERNOR\nBecase t worked so wel the last fime.\nPundstan.com\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4674.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4674_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4674_enlarged.jpeg"
+    },
+    {
+        "id": "6495",
+        "text": "Obama: I now present this medal to Joe Biden\nJoe: \"thinking* I can't believe club penguin shut\ndown\n253\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/6495.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/6495_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/6495_enlarged.jpeg"
+    },
+    {
+        "id": "4937",
+        "text": "DOCTORS AGREE:\nDOUCHES ARE BAD\nFOR WOMEN'S HEALTIE\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4937.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4937_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4937_enlarged.jpeg"
+    },
+    {
+        "id": "1600",
+        "text": "NO PROGRESSIVE IN THE DEMOCRATIC\nPARTY IS GOING TO RISE UP, TAKE\nCONTROL OF THE PARTY AND SAVE US. THERE\nIS ONE RULING PARTY. THE CORPORATE PARTY.\nIT MAY ENGAGE IN PETT.\nINTERNECINE WARFARE AS IT DID IN THE RECENT\nGOVERNMENT SHUTDOWN. IT MAY SQUABBLE\nOVER POWER AND THE SPOILS OF POWER. IT\nMAY COME WRAPPED IN MORE TOLERANT STANCES\nREGARDING WOMEN, LGBT RIGHTS AND THE\nDIGNITY OF PEOPLE OF COLOR, BUT ON THE\nFUNDAMENTAL ISSUES OF WAR, INTERNAL SEGURITY\nAND GORPORATE DOMINATION THERE IS NO DIVERGENGE\n",
+        "label": 1,
+        "target": [
+            "community"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1600.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1600_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1600_enlarged.jpeg"
+    },
+    {
+        "id": "1757",
+        "text": "What do Donald Trump and a\nPumpkin have in Common?\nThey're Orange on the outside, Hollow on\nthe Inside and should be tossed out in\nearly November.\nimor\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1757.png"
+    },
+    {
+        "id": "4471",
+        "text": "Ghunteh\n\"never, im my 24 years of teaching, has a substitute left a\nnote this bad\"\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4471.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4471_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4471_enlarged.jpeg"
+    },
+    {
+        "id": "834",
+        "text": "YOU THINK\nHILLARY GIVES\nYOU A HARD TIM\u00c9?\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/834.png"
+    },
+    {
+        "id": "5051",
+        "text": "REMEMBER THE CROSS WE BEAR-\nFAKE LIB NEWS\nSOCIALISM\nILLEGAL\nALIEN INVASION\nCRUSHING\nDEM TAXES\nSANCTUARY\nCITIES/STATES\nCANC RE\nBAD\nLIBERAI POLICIES\nDONT ACCEPT IT-VOTE REPUBLICAN\nAERICAN\nGITUEN\nTAKPAYER\nSOCIAL JUSTICE\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/5051.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/5051_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/5051_enlarged.jpeg"
+    },
+    {
+        "id": "4838",
+        "text": "COMMON CORE MATH\n33.000 EMAILS + 13 DEVICES + 1\nHAMMER + BLEACHBIT = 0 EMAILS\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4838.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4838_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4838_enlarged.jpeg"
+    },
+    {
+        "id": "4909",
+        "text": "HEY, WORKING\nCLASS TRUMP\nV\u00d5TERS: HE JUST\nADDED ANOTHER\nGOLDMAN SACHS\nCEO TO HIS\nCABINET.\nTRUMP\nHATES YOU.\nHATES. YOU.\n- PATTON OSWALT\nAddieting Info\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4909.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4909_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4909_enlarged.jpeg"
+    },
+    {
+        "id": "5100",
+        "text": "DID YOU KNOW\nOUT OF S TRUMP SUIPORTERS AR\nST AS STUPID AS THE OTHER\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/5100.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/5100_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/5100_enlarged.jpeg"
+    },
+    {
+        "id": "3480",
+        "text": "LIBERTARIAN\n\"A PERSON WHO DOESN'T\nFOLLOW UP THE PHRASE\n1 BE IEVE IN FREEDUM'\nWITH THE WORD BUT\nCARTALON\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/3480.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/3480_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/3480_enlarged.jpeg"
+    },
+    {
+        "id": "1684",
+        "text": "WELL NEVER HAVE TO WORRY\nABOUT CHINA ATTACKING US!\nTHEY ARE 12 HOURS AHEAD, SO\nWE'LL HAVE PLENTY OF TIME TO\nSHOOT DOWN THEIR MISSILES\nDid she REALLY say\nthat? Yep, you're\nlooking at the future of\nthe Democrat party...\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1684.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1684_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1684_enlarged.jpeg"
+    },
+    {
+        "id": "1156",
+        "text": "DEMOCRATS IN 1860:\nDEMOC\n\"They're not persons under the\nlaw. They have no rights.\"\n\"They're nc\nlaw. The\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1156.png"
+    },
+    {
+        "id": "1189",
+        "text": "WE ARE LEADERS\nR\nOF THE PARTY OF HATE,\nDIVISION & DESTRUCTI\u00d3N\nThis perfectly sums up the\nDemocrat Party.\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1189.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1189_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1189_enlarged.jpeg"
+    },
+    {
+        "id": "8121",
+        "text": "GET IN, PUSSY\nWE'RE MAKING AMERICA.GREAT\nAGAIN!\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/8121.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/8121_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/8121_enlarged.jpeg"
+    },
+    {
+        "id": "8256",
+        "text": "Build my wall\nYou filthy\nMexicans\nMr.Trump have\nA snickers\nBecause you get\nNarcissistic when\nYour hungry and\nBasically\n100% of the time\nWhy?\nBetter?\nNow he looks\nLike a\nCheeseball\nBetter\n",
+        "label": 1,
+        "target": [
+            "community"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/8256.png"
+    },
+    {
+        "id": "2295",
+        "text": "GREEN PARTY\nWE ENCOURAGE FACE TO-FACE\nRELATIONSHIPS WITH LOCAL\nBUSINESS OWNERS AND\nSHOPKEEPERS\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/2295.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/2295_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/2295_enlarged.jpeg"
+    },
+    {
+        "id": "6631",
+        "text": "Democrats: Trump is vulgar\nand not presidential.\nThe Democrat frontrunner:\nYou're full of sh!t\nYou're a dog-faced\npony soldier!\nDon't be a horse's ass\nListen, fat ..\nI'm going to go out and\nslap you in the face\nQthe savage eag\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/6631.png"
+    },
+    {
+        "id": "1424",
+        "text": "IRONY.\nSAMERICA\nERAT AGAIN\nTHE PARTY WHO FREED THE SLAVES AND FOUGHT FOR\n(IVIL RIGHTS IS BEING CALLED \"RACIST\" BY THE PARTY\nTHAT OWNED THE SLAVES AND STARTED THE KKK.\ne.com\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/1424.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/1424_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/1424_enlarged.jpeg"
+    },
+    {
+        "id": "4994",
+        "text": "IF TRUMP WINS HE WILL\nDESTROY THE REPUBLICAN PARTY\nGOOD\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/4994.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/4994_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/4994_enlarged.jpeg"
+    },
+    {
+        "id": "8290",
+        "text": "IS THE NEW BLACK\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/8290.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/8290_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/8290_enlarged.jpeg"
+    },
+    {
+        "id": "6860",
+        "text": "CAN WE ALL SHOW\nSOME RESPECT FOR THE\nHIGEST PAID PERSON\nAT CNN & WAPO?\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/6860.png"
+    },
+    {
+        "id": "5862",
+        "text": "38\neveryon's plans to\nhave a nice October\nPolitical columnists that now\nhave a national platform for an\nextra four weeks\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/5862.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/5862_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/5862_enlarged.jpeg"
+    },
+    {
+        "id": "2815",
+        "text": "AIMYOUR\nRae. OR_Kae Nov 4\nIwant Joe Biden, need Joe Biden or whatever TI said\n1 2\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/2815.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/2815_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/2815_enlarged.jpeg"
+    },
+    {
+        "id": "5961",
+        "text": "THEY FOUND OIL IN\nAUSTRALIA\nBUT THEY ALREADY\nHAVE DEMOCRACY\n[ControversiaHumor.com]\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/5961.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/5961_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/5961_enlarged.jpeg"
+    },
+    {
+        "id": "1088",
+        "text": "Biden: here he is, that son of a-\nObama: joe it's okay man\nBiden: no stand back barack im\nbout to whoop his ass\nroostemtach\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/1088.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/1088_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/1088_enlarged.jpeg"
+    },
+    {
+        "id": "3863",
+        "text": "AND THEN THE STATE SAID\nLET THERE BE ROADS\n",
+        "label": 1,
+        "target": [
+            "society"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3863.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3863_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3863_enlarged.jpeg"
+    },
+    {
+        "id": "1129",
+        "text": "When someone tags you\nin a meme\nOUAR\nYes, this is a good\nmeme. Thank you.\nSTARECAT.COM\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1129.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1129_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1129_enlarged.jpeg"
+    },
+    {
+        "id": "1340",
+        "text": "THE DEMOCRAT PARTY\nAMERI\u00c7AS OLDEST\nHAT\u00c9 GROUP\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/very_harmful/1340.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/very_harmful/1340_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/very_harmful/1340_enlarged.jpeg"
+    },
+    {
+        "id": "8196",
+        "text": "CATCHING\nATCHING\nE ICAN S\nWAN WHAT ARE YOU DOING?\n10\nMEXICANS!\n\u56deA\u53e3CHONG\nPELICANS\nwhest f Fert H\n",
+        "label": 1,
+        "target": [
+            "community"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/8196.png"
+    },
+    {
+        "id": "5145",
+        "text": "\"IT'S BEEN THE SAME\nSTORY EVER SINCE\nI CAN REMEMBER,\nEVER SINCE WILSON -\nTHE REPUBLICANS\nDON'T DO A THING FOR\nTHE LITTLE MAN.\"\n-JOHN UPDIKE\nThe GOP stands for the rich\nand big business, and that's it.\nLike Americans Against The\nRepublican Party to show\nwhere you stand!\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/5145.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/5145_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/5145_enlarged.jpeg"
+    },
+    {
+        "id": "6858",
+        "text": "I BETTER LISTEN TO THE GOVERNMENT\nAND TURN IN MY GUNS\n@mr_young_republican\nSAID NO AMERICAN EVER,\n",
+        "label": 1,
+        "target": [
+            "community"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/6858.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/6858_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/6858_enlarged.jpeg"
+    },
+    {
+        "id": "6752",
+        "text": "What a time to be alive\nJust Stop\nCan't Make It Up\nO 69\nCornell voted to stop calling its English\nDepartment the \"English Department\" in\norder to fight \"structural forms of\nracism\"\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/6752.png"
+    },
+    {
+        "id": "6725",
+        "text": "I'VE SERVED THIS\nCOUNTRY FOR DECADES.\nWHAT IS\nCHINA\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/6725.png"
+    },
+    {
+        "id": "6544",
+        "text": "when will Obama return home to watch\nanime with me\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/6544.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/6544_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/6544_enlarged.jpeg"
+    },
+    {
+        "id": "2002",
+        "text": "HILLARY CLINTON IS THE FIRST WOMAN CANDIDATE\nTO BE NOMINATED FOR NEXT POTUS IN U.S. HISTORY?\nFALSE JILL STEIN WAS NOMINATED IN\n2012 FOR NEXT POTUS IN THE GREEN PARTY\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/2002.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/2002_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/2002_enlarged.jpeg"
+    },
+    {
+        "id": "855",
+        "text": "REAGAN CREATED 14 MILLION JOBS INA RECORD\n70 MONTH-STRETCH OF UNINTERRUPTED JOB\nGROWTH, REDUCED THE ANNUAL DEFICIT HE\nINHERITED BY A TRILLION DOLLARS IN SIX YEARS,\nAND NEARLY TRIPLED THE STOCK MARKET\nJUST KIDDING,\nTHAT WAS OBAMA.\nOccUPY DEMOCRATS\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/855.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/855_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/855_enlarged.jpeg"
+    },
+    {
+        "id": "1588",
+        "text": "David Mack e\nFotlow\nlol their faces\nDEMOCRATIC DEBATEE\nPM-n 201\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/1588.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/1588_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/1588_enlarged.jpeg"
+    },
+    {
+        "id": "3640",
+        "text": "Democrats: \"VWe as a caring society must do\nmore to help the homeless!\"\nThe homelesS: \"How about loosening zoning\nregulations so more housing can\nbe buit, in place of the gated\nsuburbs you live in full of $1.4\nmilion McMansions with big yards?\nDemocrats:\nRenaian Hemestereerees\nOR Men\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3640.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3640_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3640_enlarged.jpeg"
+    },
+    {
+        "id": "2243",
+        "text": "DOIN' MY\nPieDeus.com\nFRIDAY DANCE\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/2243.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/2243_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/2243_enlarged.jpeg"
+    },
+    {
+        "id": "8144",
+        "text": "It all makes sense now.\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/8144.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/8144_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/8144_enlarged.jpeg"
+    },
+    {
+        "id": "1533",
+        "text": "e new\nYer th\nThis President fuela\ndivision and anti-Semitisml\nThis President\nwith his Jewish\ngrandson Josenh\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/1533.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/1533_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/1533_enlarged.jpeg"
+    },
+    {
+        "id": "4422",
+        "text": "The Red Beard\nGRedBeardedFela\nMe tuning in to #PresidentialDebate for 0.07 seconds\n337 am 30 Sep 2000 - Twiner for Android\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4422.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4422_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4422_enlarged.jpeg"
+    },
+    {
+        "id": "1403",
+        "text": "THE FACE YOU MAKE\nWHEN YOU'VE SPENT HALF YOUR LIFE BEING\nPelitinARAINWASHED BY THE DEMOCRATIC PARTY\n-AmericaRepublic-\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1403.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1403_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1403_enlarged.jpeg"
+    },
+    {
+        "id": "1701",
+        "text": "THE GOP STANDS\nWITH THE PRESIDENT\nWITH IMPEACHMENT LOOMING\nTHEY KNOW THEY'RE IN THE TOILET\nimgflip.com\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1701.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1701_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1701_enlarged.jpeg"
+    },
+    {
+        "id": "1996",
+        "text": "LICENSED COSMETOLOGIST CERTIFIED PARAMEDIC\n20YEARS OF TRAINING\nCERTIFIED POLICE OFFICER\n2YEARS OF TRAINING\n6&1/2 MONTH ACADEMY\nEXPLAIN THIS SHIT!\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/1996.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/1996_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/1996_enlarged.jpeg"
+    },
+    {
+        "id": "3696",
+        "text": "Have you been engaging in unprotected\ngovernment welfare and warfare?\nBecause it seems you have contracted high\ntaxes, crippling regulation, and burdensome\nLicensing.\nLibertarian101.com\n",
+        "label": 1,
+        "target": [
+            "society"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3696.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3696_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3696_enlarged.jpeg"
+    },
+    {
+        "id": "1273",
+        "text": "Beau's\nTRUMP\nSANDWICH\n-WHITE BREAD-\n- Full oF BALONEY-\nW/ RusbIAN DRESSIN\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1273.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1273_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1273_enlarged.jpeg"
+    },
+    {
+        "id": "5840",
+        "text": "Big corporations,\ngovernment,\nbillonaires, and\npeople in general\npositions of\npower, screwing\nthe world and\nminorities over\n- Like it or hate it.\nthat's history right there.\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/5840.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/5840_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/5840_enlarged.jpeg"
+    },
+    {
+        "id": "1269",
+        "text": "WELCOME TO THE\nDEMOCRATIC PARTY CIRCUS!\nANYUNSUBSTANTIATED ALLEGATIONS,\nFALSE STATEMENTS'OR BATSHIT CRAZY\nLIES YOU'D LIKE TO TELL?\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1269.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1269_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1269_enlarged.jpeg"
+    },
+    {
+        "id": "23",
+        "text": "Biden: Can I have some friends over?\nObama: I dunno... Ask Michelle.\nBiden: She said to ask you.\nObama:\n@chazafranklin\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/23.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/23_enlarged.png",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/23_enlarged.png"
+    },
+    {
+        "id": "5678",
+        "text": "US politics\nevery 8\nyears.\nSlide to the left.\nUs politics\nevery other\n8 years.\nSlide to the right.\nUS politicians\nre-authorizing\nendless wars &\ndomestic spying\n72\nCriss-Cross!\n",
+        "label": 1,
+        "target": [
+            "community"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/5678.png"
+    },
+    {
+        "id": "1690",
+        "text": "THE DEMOCRATIC PARTY OF 2018 IS A\nSOCIALIST MOVEMENT.\nmakeameme.org\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/very_harmful/1690.png"
+    },
+    {
+        "id": "6849",
+        "text": "946\nterrorists\nantifa\nliberals\n",
+        "label": 1,
+        "target": [
+            "community"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/6849.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/6849_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/6849_enlarged.jpeg"
+    },
+    {
+        "id": "1283",
+        "text": "THE RISE OF\nABSOLUTISM\nIN ERANCE\n\"L'etat, e'est ai\n(I am the state\"\n-Lauis XIV\n\"I AM THE DEMOCRATIC PARTY\"\n-JOE BIDEN 9/29/2020\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1283.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1283_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1283_enlarged.jpeg"
+    },
+    {
+        "id": "30",
+        "text": "HAVE THE LAST FEW MONTHS\nHELPED YOU TO UNDERSTAND\nWHY I'M THE DEMOCRATIC\nPARTY MASCOT\nIt all makes perfect sense\nnow... There Is PANIC In The\nDiabetes Industry! Big Pharma\nexecutives can't believe their\neyes. SEE WHY CLICK HERE \u25ba\u25ba\nhttp://u-read.org/no-diabetes\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/30.png"
+    },
+    {
+        "id": "4444",
+        "text": "CNN\nDEMOCRATIC\nPRESIDENTIAL\nDEBATE\nON\nON\nON\nDERVI\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4444.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4444_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4444_enlarged.jpeg"
+    },
+    {
+        "id": "5881",
+        "text": "Instagram\namericunmade\nSporsored\nLEL\n***\nTEAPARTY\nNEWS\nMAKE AMERIGA GREAT AGAINI\nJOIN FLORIDA TRUMP RALLIESI\nLearn More\namericanmade Florida goes Truml Here we Florida\ncies partiopating Daytone teach, Tampa. Fort\nMyen, Miani, Orlando. Pensacola, Ftmore\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/5881.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/5881_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/5881_enlarged.jpeg"
+    },
+    {
+        "id": "2185",
+        "text": "When you blame the Green\nParty and Russia for losing an\nelection in Ohio\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/2185.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/2185_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/2185_enlarged.jpeg"
+    },
+    {
+        "id": "6553",
+        "text": "Barack Obama\n@BarackObama\nReplying to @MichelleObama\nJoe Biden\n@JoeBiden\nReplying to @BarackObama and\n@MichelleObama\nHe's mine sweetie.\nIG: TheFunnylntrovert\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/6553.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/6553_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/6553_enlarged.jpeg"
+    },
+    {
+        "id": "3754",
+        "text": "STILL LESS EMBARRASSING\nLIVE\nLIBERTARIAN\nERAN PARTY NTIONAL CONVENTION\nOrlando, Florida\nRosan Centre Hotal\nHOUSE\nCSPAN\nTHAN HILLARY CLINTON\ngpcom\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3754.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3754_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3754_enlarged.jpeg"
+    },
+    {
+        "id": "1234",
+        "text": "SO. LET ME GET THIS\nSTRAIGHT\nTHE DEMOCRATIC PARTY HAS A\nCRAZY BITCH& A 90 YEAR OLD\nMAN RUNNING FOR PRESIDENT\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1234.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1234_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1234_enlarged.jpeg"
+    },
+    {
+        "id": "1493",
+        "text": "LETTING PRES. OBAMA, A CONSTITUTIONAL LAW\nPROFESSOR, PICK THE NEXT SUPREME COURT\nJUSTICE WOULD BE HUGELY IRRESPONSIBLE!\nWE NEED PRES. TRUMP, A\nFORMER REALITY TV STAR,\nTO MAKE THE PICK!\nOCCUPY DENOCRATS\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/1493.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/1493_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/1493_enlarged.jpeg"
+    },
+    {
+        "id": "6537",
+        "text": "BIDEN: I was so sad when I didn't get a medal in the original trilogy\nOBAMA: That was Chewbacca, Joe\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/6537.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/6537_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/6537_enlarged.jpeg"
+    },
+    {
+        "id": "4873",
+        "text": "I DONT TRUST YOU TO MAKE A\nCHOICE,\nBUT YOU'D MAKE A DAMN GOOD\nPARENT.\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4873.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4873_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4873_enlarged.jpeg"
+    },
+    {
+        "id": "4600",
+        "text": "REPUBLICAN:\nUSED TO FIGHT FOR THE POOR, MIDDLE\nCLASS, ENVIRONMENT, AND AGAINST\nHUGE CORPORATIONS\nWHAT HAPPENED?\nAENCANS KGAST THE ErLICAN ITY\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4600.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4600_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4600_enlarged.jpeg"
+    },
+    {
+        "id": "6654",
+        "text": "CNN Breaking News: Joe Biden found two\nquarters in Burlington today (story still\ndeveloping).\n@fuckjerry\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/6654.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/6654_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/6654_enlarged.jpeg"
+    },
+    {
+        "id": "5723",
+        "text": "Bernie or Hillary?\nBe informed. Compare them on the isues that malter.\nIssue: friends needs a charger\n\"ya sure here\"\n\"what % you at\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/5723.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/5723_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/5723_enlarged.jpeg"
+    },
+    {
+        "id": "4739",
+        "text": "Pixie Casey\nOpie casey\nV Follow\n\"She knew it was better to be in the Plastics, hating lile, than to\nnot be in at all.\"\n828 PM - 29 Nov 2016\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4739.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4739_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4739_enlarged.jpeg"
+    },
+    {
+        "id": "1187",
+        "text": "We're more Stupid than\nyou give us Cred\u012bt for\nGood Morning, Sunday Morning!\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/1187.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/1187_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/1187_enlarged.jpeg"
+    },
+    {
+        "id": "4884",
+        "text": "Angry Liberal tantrum\nWhy is facebook allowing all these\npeople to disagree with me 22?\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4884.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4884_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4884_enlarged.jpeg"
+    },
+    {
+        "id": "924",
+        "text": "ILOOK LIKE BARACK OBAMA.cOM\nNew pdaie 012: Artick ee Mahable.com\nHi, my name's Trevor, and I look like Barsck Obama. I've\nhad lots of people stop me on the streets, ask me about\ntasen and healthcare and things like that, and I thought\nrd ereate a website to clarity chat I am, ia fact. NOT\nBarack Ohama. Please note:\n1.\nI am NOT Barack Obama, we just look alike.\nWe are not in any way related (to the best of my\nknowledge).\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/924.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/924_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/924_enlarged.jpeg"
+    },
+    {
+        "id": "2836",
+        "text": "O 2\nAlly Gator\nretroc\nFollow\nBiden: am i an avenger now?\nObama: sure Joe\nBiden:\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/2836.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/2836_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/2836_enlarged.jpeg"
+    },
+    {
+        "id": "4366",
+        "text": "VICE PRESIDENT DEBATE 2020\n\u041c\u0415MES\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4366.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4366_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4366_enlarged.jpeg"
+    },
+    {
+        "id": "4431",
+        "text": "Democrats\nbefore\ngetting\nelected\nSlide to the left.\nDemocrats\nonce in\noffice\nSlide to the right.\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4431.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4431_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4431_enlarged.jpeg"
+    },
+    {
+        "id": "5660",
+        "text": "IF WE COULD\nMAKE A NEW CATEGORY\nFOR POLITICAL\nMEMES THAT CAN BE\nHIDDEN LIKE NSFW:\nTO KEEP THIS SITE\nFUN FOR PEOPLE\nWHO DON'T WANT TO\nDELVE INTO US POLITICS\nTHAT WOULD BE GREAT\nimgfilip.com\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/5660.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/5660_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/5660_enlarged.jpeg"
+    },
+    {
+        "id": "4872",
+        "text": "In 1993, Bill appointed Hillary\nto head the White House\nHealth Care Reform Committee\nDixon Diaz 01/10/2017\nBut now that Trump is appointing\nhis son in law as an advisor,\nDemocrats remembered there's an\nanti-nepotism policy\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/4872.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/4872_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/4872_enlarged.jpeg"
+    },
+    {
+        "id": "6355",
+        "text": "Debate preview:\nHE\nYes, two Nobel\nPeace noms. in\none week.\nOOPS!\nI MADE POOPY\n@two_deplorable_ladies\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/6355.png"
+    },
+    {
+        "id": "5021",
+        "text": "\"You'll never finda more wretched\nhive of scum and villainy\nHAVEYOU SEEN THE REPUBLICAN PARTY?\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/5021.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/5021_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/5021_enlarged.jpeg"
+    },
+    {
+        "id": "1575",
+        "text": "DON JR. YESTERDAY:\nThe Democratic Party\nplatform \"is similar\nto the Nazis.\"\nYour dad called the Nazis who marched in\nCharlottesville and KILLED a non-violent protester\n\"very fine people.\" Just like Hitler, your dad has\nDEHUMANIZED an entire race of people by\nreferring to them as \"animals\" and throwing\ntheir CHILDREN into detention camps.\nIf you're so concerned about Nazis,\nTELL YOUR DAD TO\nSTOP ACTING LIKE ONE!\noccor ermoCRATS\nSeriously! Image by Occupy\nDemocrats.\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/very_harmful/1575.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/very_harmful/1575_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/very_harmful/1575_enlarged.jpeg"
+    },
+    {
+        "id": "4964",
+        "text": "DON'T GROPE.\nVOTE.\nFEPUBLICANS oR CLINTON\nThis rolling billboard from\nTrump's very own Republican\nParty really says it all.\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/very_harmful/4964.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/very_harmful/4964_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/very_harmful/4964_enlarged.jpeg"
+    },
+    {
+        "id": "6852",
+        "text": "DID YOU FALL\nFROM HEAVEN?\nNO, WHY?\nBECAUSE YOU\nREMIND ME OF\nLUCIFER.\nifunny.co\n",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/6852.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/6852_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/6852_enlarged.jpeg"
+    },
+    {
+        "id": "1353",
+        "text": "Democrat Party then\nDemocrat Party now\n@newcentrist @centrisms\n@paleolibertarianite\nARIO\n",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/very_harmful/1353.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/very_harmful/1353_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/very_harmful/1353_enlarged.jpeg"
+    },
+    {
+        "id": "3306",
+        "text": "LIVES IN ONE OF THE MOST\nFREE SOCIETIES ON THE PLANET\nCOMPLAINS ABOUT NOT\nHAVING ENOUGH FREEDOM\nimgflip.com\n",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/3306.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/3306_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/3306_enlarged.jpeg"
+    },
+    {
+        "id": "1754",
+        "text": "@AP Photo: Alex Brandon EIElegante101 Fixed it @skolanach Donald J. Trump O @realDonaldTrump I WON THE ELECTION! O LOLOLOLOLOLOLOLOLOLOLOLOL OLOLOLOLOLOLOLOLOLOLOLOL 8:55 PM \u00b7 11/15/20 \u00b7 Twitter for iPhone @SKOLANACH",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1754.png"
+    },
+    {
+        "id": "5116",
+        "text": "The latest to come out of Donald Trump. Da GRANLUNDO engun",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/5116.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/5116_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/5116_enlarged.jpeg"
+    },
+    {
+        "id": "4420",
+        "text": "THE COMMISSION ON PRESIDENTIAL DEBATES ANNOUNCES THAT MASKS WILL BE MANDATORY AT THE NEXT TWO DEBATES.",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4420.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4420_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4420_enlarged.jpeg"
+    },
+    {
+        "id": "2835",
+        "text": "Obama: \"whispers\" put the laser pointer away or give it to me M-0o Joebama eObomaansiden yFollow 10:30 PM - 13 Nov 201a + t3 se 1212",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/2835.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/2835_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/2835_enlarged.jpeg"
+    },
+    {
+        "id": "1331",
+        "text": "DEMOCRATIC PARTY 1828 - 2018 OFFENDED TO DEATH RIP Democratic Party",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1331.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1331_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1331_enlarged.jpeg"
+    },
+    {
+        "id": "6567",
+        "text": "WANNA DO SOME PUSHUPS?",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/6567.png"
+    },
+    {
+        "id": "290",
+        "text": "WHAT IF I TOLD YOU VISEOKVOLUNTARY \"PRICE GOUGING\" IS A PHRASE MADE UP TO INCITE ANGER & FEAR IN PEOPLE WHO DON'T UNDERSTAND ECONOMICS? Thanks to the Libertarian Party of Illinois for this post! To get involved locally, go to Ip.org/states!",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/290.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/290_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/290_enlarged.jpeg"
+    },
+    {
+        "id": "4840",
+        "text": "OH, WE CAN'T PASS GUN LAWS BECAUSE IT TREADS ON YOUR LIBERTY? ELL ME MORE ABOUT HOW WE MUST REGULATI MARRIAGE AND VAGINAS.",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4840.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4840_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4840_enlarged.jpeg"
+    },
+    {
+        "id": "2781",
+        "text": "WHY CAN'T PURPLE CRAYONS TASTE LIKE GRAPE?",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/2781.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/2781_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/2781_enlarged.jpeg"
+    },
+    {
+        "id": "1407",
+        "text": "THOUSANDS DIE FROM CANCER EVERY DAY. abc Uhe Washington Post NBC CNN The V New York Times npr BUT LETS KEEP TALKING ABOUT THE CORONAVIRUS BECAUSE IT IS DAMAGING THE PRESIDENT NBC",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1407.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1407_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1407_enlarged.jpeg"
+    },
+    {
+        "id": "6759",
+        "text": "Biden: Showed Trump the drone strike controls in your top desk drawer Obama: That's an Etch-A-Sketch Biden: Yup",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/6759.png"
+    },
+    {
+        "id": "878",
+        "text": "NO! He stole my Look",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/878.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/878_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/878_enlarged.jpeg"
+    },
+    {
+        "id": "3721",
+        "text": "STILLWAITING FOR A THIRD PARTY TO GAIN SOME TRACTION Imgtip.com",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/3721.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/3721_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/3721_enlarged.jpeg"
+    },
+    {
+        "id": "5659",
+        "text": "In retrospect, I should've developed more hobbies beyond going out to eat.",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/5659.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/5659_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/5659_enlarged.jpeg"
+    },
+    {
+        "id": "6649",
+        "text": "BIDEN FOR RESIDENT",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/6649.png"
+    },
+    {
+        "id": "4917",
+        "text": "THE TRUMPS WILL BE A DYNASTY THAT WILL LAST FORDECADES PROPELLING THE REPUBLICAN PARTY INTO ANEWPARTY",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4917.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4917_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4917_enlarged.jpeg"
+    },
+    {
+        "id": "1465",
+        "text": "IAM ALSO VERY THANKFUL THIS CHRISTMAS THAT THE DEMO RATS ARE NO LONGER IN THEWHITE HOUSE",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/1465.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/1465_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/1465_enlarged.jpeg"
+    },
+    {
+        "id": "50",
+        "text": "Green Party for the common good 2017 Manifesto Pledges - Fully Automated Luxury Gay Space Communism - Making a profit will be punishable by Gulag - Death penalty will be re-introduced for politically incorrect banter (white males only) - The UK will be renamed 'Airstrip One\" Brighton will be the new capital city - Minimum of 100 million new immigrants per year - Destruction of all wildlife areas so that new environmentally friendly houses can be built - TV License to be \u00a35,000 per year and the BBC will exclusively broadcast cuckold porn - Compulsory state veganism Now that's a party I can get behind. I'll be voting for the GREEN PARTY!",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/very_harmful/50.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/very_harmful/50_enlarged.png",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/very_harmful/50_enlarged.png"
+    },
+    {
+        "id": "6595",
+        "text": "SCHOOL RIS BIDEN BUS @vinoandvetos 2922 20222 TRUMP TRAIN",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/6595.png"
+    },
+    {
+        "id": "1069",
+        "text": "Obama Surprises Joe Biden With The Medal Of Freedom",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1069.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1069_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1069_enlarged.jpeg"
+    },
+    {
+        "id": "4825",
+        "text": "have no hope in the Republican Party or the Democratic Party. The only hope for this country is God. \" - Franklin Graham FOX",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4825.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4825_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4825_enlarged.jpeg"
+    },
+    {
+        "id": "14",
+        "text": "Before and After Pictures Alcohol Before 60 After Eating Paint Chips Before After Marijuana Before After Funniest Barack Obama Memes of All Time barack obama memes ...",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/14.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/14_enlarged.png",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/14_enlarged.png"
+    },
+    {
+        "id": "4758",
+        "text": "\"let's dispel once and for all with this Fiction that Barack Obana doesn't knou what he's doing. He knows exactly uhat he's doing... let's dispel once and for all uith this fiction that Barack Obana doesn't know ubat he's doing. He knows exactly uhat he's doing... 1et's dispel once and For all with this fiction that Barack Obana dodst krow what he's deing kenus exactiy what he's doing... let's dispel ance and for all th this Fiction that Barac Obana deesn't know uhat he's doing. He knows Marco Robio",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4758.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4758_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4758_enlarged.jpeg"
+    },
+    {
+        "id": "4308",
+        "text": "Presidential debate memes Me a european who just woke up",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/4308.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/4308_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/4308_enlarged.jpeg"
+    },
+    {
+        "id": "3303",
+        "text": "When you're blasting commies in the comment section and a MAGA fool joins in I don't remember askina vou agod damn thina",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3303.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3303_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3303_enlarged.jpeg"
+    },
+    {
+        "id": "8164",
+        "text": "DONALD TRUMP WALL COP",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/8164.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/8164_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/8164_enlarged.jpeg"
+    },
+    {
+        "id": "6149",
+        "text": "WHY THE FUCK. DO WE HAVE PRESIDENTS DAY OFF WORK, BUT NOT ELECTION DAY",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/6149.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/6149_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/6149_enlarged.jpeg"
+    },
+    {
+        "id": "3559",
+        "text": "Cool: Tcant do that because of myreligion. Not cook You cant dothat because of my religion. Thanks to the Libertarian Party of Florida for this post! To get involved locally, go to Ip.org/states!",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3559.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3559_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3559_enlarged.jpeg"
+    },
+    {
+        "id": "3571",
+        "text": "TIMID MEN PREFER THE CALM OF DESPOTISM TO THE TEMPESTUOUS SEA OF LIBERTY Leuriun tary ofllisi lterson Thanks to the Libertarian Party of Illinois for this post! To get involved locally, go to Ip.org/states!",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/3571.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/3571_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/3571_enlarged.jpeg"
+    },
+    {
+        "id": "3309",
+        "text": "INSTEAD OF KEEPING MUSLIMS TROUT OF AMERICA * 2016 THIFREETHOUCHTPROJEC. WE COULD KEEP AMERICANS OUT OF MUSLIM COUNTRIES BUT THAT'S NONE OF MY BUSINESS),",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/3309.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/3309_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/3309_enlarged.jpeg"
+    },
+    {
+        "id": "5902",
+        "text": "Donald J. Trump O GrealDon - Mar 9 Sauti Arabia and Russia are arguing over the price and flow of oil. That, and the Fake News, is the reason for the market drop ta 29.IK \u3147 254 O 110.3K Get a load Of this cking kdiot Memes&gt;US Politics",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/5902.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/5902_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/5902_enlarged.jpeg"
+    },
+    {
+        "id": "3481",
+        "text": "REPUBLICANS DEMOCRATS ALWAYS BLAME DEMOCRATS | ALWAYS BLAME REPUBLICANS BUT THE REAL PROBLEM IS THE CULT-LIKE WORSHIP OF POLITICAL PUPPETS AND THE BELIEF THAT WE NEED THEM TO RUN OUR LIVES",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/3481.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/3481_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/3481_enlarged.jpeg"
+    },
+    {
+        "id": "8032",
+        "text": "@AntiDonaldTrumpMemes Ithinkiknow EVERYTHING ICCOLLAGE",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/8032.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/8032_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/8032_enlarged.jpeg"
+    },
+    {
+        "id": "937",
+        "text": "BARACKA FLOCKA FLAME",
+        "label": 0,
+        "target": [],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/not_harmful/937.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/not_harmful/937_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/not_harmful/937_enlarged.jpeg"
+    },
+    {
+        "id": "1911",
+        "text": "GIVING BIRTH TO A GREENS VOTER",
+        "label": 1,
+        "target": [
+            "organization"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1911.png",
+        "img_768": "./data/HarMeme_V1/HarMeme_Images_768/harmeme_images_us_pol/test/somewhat_harmful/1911_enlarged.jpeg",
+        "img_768_1280": "./data/HarMeme_V1/HarMeme_Images_768_1280/harmeme_images_us_pol/test/somewhat_harmful/1911_enlarged.jpeg"
+    },
+    {
+        "id": "1762",
+        "text": "I think Caroline Lucas has brought the whole business of politics into disrepute reall... Caroline's done all of the things she's promised to do, she even got arrested for it. She's making a mockery of democracy\" Mark Steel Comedian Green Party signup.greenparty.org.uk",
+        "label": 1,
+        "target": [
+            "individual"
+        ],
+        "img": "./data/HarMeme_V1/HarMeme_Images/harmeme_images_us_pol/test/somewhat_harmful/1762.png"
+    }
+]

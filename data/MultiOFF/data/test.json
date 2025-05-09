@@ -1,0 +1,962 @@
+[
+    {
+        "id": "1",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/1.png",
+        "img_512": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512/test/1/1_enlarged.jpeg",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/1/1_enlarged.jpeg",
+        "text": "3 hrs Black nurse in Connecticut asked me if Trump was bringing back slavery in earnest. Chuck: No ma am. I know some real raaaacists but we don't ever talk about bringing back slavery. That's not on the agenda. Nurse: That's good. What do y'all talk about? Chuck: Mostly we don't want your menfolk having raping our women, mugging us, or killing us. We also want you to stop having kids we got ta pay for Nurse: yeah we got to stop doing that. Well I liked Donald on the Apprentice. Ill vote for him. There are too many Puerto Ricans in this country. They the ones you got ta watch Why can't we have a conversation like this on race?"
+    },
+    {
+        "id": "2",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/2.png",
+        "text": "I don't believe that women have any rights, andlthink gays should be hanged. No, actually, l 'm a Muslim and those are my religious beliefs. Wow, what a complete 4 primitive asshole you are! You must be a Republican. Oh I 'm sorry! apologize! I hope you don't think I 'm Islamophobic! ( c ) 2016 Dixon Diaz"
+    },
+    {
+        "id": "3",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/3.png",
+        "img_512": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512/test/1/3_enlarged.png",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/1/3_enlarged.png",
+        "text": "WHY THE FUCK DOES IRITHE DONALD HAVE BETTER NEWS COVERAGE THAN IRINEWS made on imgur"
+    },
+    {
+        "id": "4",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/4.png",
+        "text": "After the Bern subsides, get ready to... Feel The Johnson"
+    },
+    {
+        "id": "5",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/5.png",
+        "img_512": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512/test/0/5_enlarged.jpeg",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/0/5_enlarged.jpeg",
+        "text": "MAG & WALLY Mrs. Clinton, I 'm awesome! congratulations on the I euen beat a guy Democratic presidential nomination. That's not a Democrat. 2016 MAC kWALy"
+    },
+    {
+        "id": "6",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/6.png",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/0/6_compressed.jpeg",
+        "text": "o 28 % 1:19 PM 76 AT & T M-Cell Details Dad Messages Text Message Today 1:15 PM this guy Bernie Sanders is going to bankrupt our country, son No he's not Dad he is really kewl he is? i didnt know that It's true. He is very kewl and awesome I learned about it on Reddit youve convinced me. i am feeling the bern I love you dad i love you too son O Text Message Send"
+    },
+    {
+        "id": "7",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/7.png",
+        "text": "In addition to lambasting the zoo for the death of the gorilla, campaigners also want to make the deceased primate the president of America. Polling this month revealed two per cent of Texan voters supported the animal the same level of support as for Green Party candidate Jill Stein."
+    },
+    {
+        "id": "8",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/8.png",
+        "text": "REPUBLICAN PARTY DONATES BOOKS TO ELEMENTARY SCHOOL 500 COPIES OF KILLING THE RISING SUN BY BILL O'REILLY"
+    },
+    {
+        "id": "9",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/9.png",
+        "text": "Only Olmec knows the Legend behind each of the treasures in his Temple Which one are we going to hear about today. I have information that will lead to Hillary Clinton's arrest."
+    },
+    {
+        "id": "10",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/10.png",
+        "text": "-47 points 5 hours ago Lol, you Redditors will believe anything as long as it comes from some disgusting democrat like Michael Moore who scams fools out of money to watch fake shit. I remember when I watched `` Sicko '' in theater with this liberal girl I was dating, she actually believed Cuba's healthcare system is better than ours. Anyway, I 've got a date tonight with a very beautiful 23-year-old woman. She's an Instagram model and has a degree in Economics. We plan to read some Milton Friedman in bed together tonight. You fools can have fun arguing while I have fun in real life. permalink source save save-RES report give gold reply"
+    },
+    {
+        "id": "11",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/11.png",
+        "text": "A flash mob to vote or a candidate ( especially Bernie Sanders )"
+    },
+    {
+        "id": "12",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/12.png",
+        "text": "THINGSITRUST MORE THAN DONALD TRUMP @ NFL MEMES 1. FLINT MICHIGAN TAP WATER 2. BILL cosBY DRINKS 3 ELEVATOR RIDES WITH RAY RICE"
+    },
+    {
+        "id": "13",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/13.png",
+        "text": "LOUDER WITH CROWDER COM A registered Democrat, Islamic terrorist mass-murders gay people. The Left blames Christians and the NRA. You can't write this stuff -STEVEN CROWDER SELIKE '' IF YOU AGREE"
+    },
+    {
+        "id": "14",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/14.png",
+        "text": "THERE ARE MORE BOTH TRUMPAND THAN TWO CHOICES! HILLARY SUCK! THEY SUCK TOO!"
+    },
+    {
+        "id": "15",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/15.png",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/1/15_compressed.png",
+        "text": "This U.S. Marine was captured during a daring daylight raid. But not before he single handedly took out 13 combatants. Donald Trump would 've deported him for being Muslim. Share if you're against Islamophobia."
+    },
+    {
+        "id": "16",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/16.png",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/1/16_compressed.jpeg",
+        "text": "thewrap.com SUICIDE `` Suicide Squad ' Executive Producer Is Trump's Chief Fundraiser Steven Mnuchin is involved in two intense missions this summer: Raising cash for Donald Trump and `` Suicide Squad '' mole show why cant 2016 be normal landmaster normal is a setting on a dryer"
+    },
+    {
+        "id": "17",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/17.png",
+        "img_512": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512/test/0/17_enlarged.jpeg",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/0/17_enlarged.jpeg",
+        "text": "IF YOU DISLIKE TRUMP, YOU SHOULD HELP VOTEHIMIN. THIS WAY WE CAN CHANGE HIS PARTY FROM WITHIN. YES HILLARY SUPPORTERS, THIS IS How RIDICULOUS YOU SOUND."
+    },
+    {
+        "id": "18",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/18.png",
+        "text": "Academy Award and BAFTA Award winner I never called anyone a 'vagina voter. What I actually said in response to being shamed for supporting a man over a woman: ( 1/3 ) t 369 803 Academy Award and BAFTA Award winner don't vote with my vagina. It's so insulting to women to think that you would follow a candidate JUST because she's a woman. '' ( 2/3 ) t 460 902 Academy Award and BAFTA Award winner HRC doesn't rep my interests, @ Bernie Sanders does. Simple as that. ( 3/3 ) t 199 494"
+    },
+    {
+        "id": "19",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/19.png",
+        "text": "If you are a Clinton supporter, say these words and own them: I support fracking I support election fraud I support Big Pharma and voter suppression. I support TPP. I support arms deals I supported NAFTA. with dictators. I supported DOMA. l support drone bombing I supported repealing of innocent people. Glass Steagal. I support GMOs. I support Citizens United. I support offshore drilling."
+    },
+    {
+        "id": "20",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/20.png",
+        "text": "22 hrs America does not need a conservative or liberal, AMERICA does not need a republican or Democrat President or Congress, America needs our leadership to get on his or her knees and dedicate America back to God just like our forefathers did years ago! Wake up America and turn back to the roots of this ONCE great country that once sang of God as it's sovereign Lord. Like Comment Share 12 people like this."
+    },
+    {
+        "id": "21",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/21.png",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/1/21_compressed.jpeg",
+        "text": "GARY JOHNSON HASCONSISTENTL ITS TIME FOR THE KEA OPPOSED THE DRAO WAR AND ALL TREMENDOUS SUCCESS US TO START OVERSEASINTERVENTIONS RROMAMILITARY THINKING OF IRAQ STANDPOINT ASA BUSINESS OPPORTUNITYA '' I THINK WALLSTREETS JUST GROUP A ROCKET DICETO EVEN BEYOND OPPOSEENDLESS WAR"
+    },
+    {
+        "id": "22",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/22.png",
+        "text": "A Gary Johnson Super PAC Spent $ 30,000 on `` Internet Web Memes '' gawker.com You and 3 others 1 Comment Like Comment Share"
+    },
+    {
+        "id": "23",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/23.png",
+        "text": "here come dat boi!!!!!! o shit waddup! thought it was take. Sorry for doubting you, Bernie Sanders."
+    },
+    {
+        "id": "24",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/24.png",
+        "text": "Gary Johnson's Meme Stash 4 mins. Wait, are you guys really libertarians? You know that capitalism killed ~500,000,000 people from hunger, disease and wars in the 20th Century alone, right? Not to mention the atrocities carried out by the US and Britain in the 19th century. How can you justify that? I Like Comment Share Be the first person to like this."
+    },
+    {
+        "id": "25",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/25.png",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/0/25_compressed.jpeg",
+        "text": "Hillary Clinton hillary Clinton Add CANCEL"
+    },
+    {
+        "id": "26",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/26.png",
+        "text": "January 22, 2017 Newly-appointed Secretary of Defence Christie will retain his name's phonetic pronunciation ( kris kris-tee ), however in written form it will appear as the text string rm ( O-O ) mn Foreign policy decisions are to be made with exclusive reliance on President Trump's impeccable business acumen and based solely on the interests of Trumpco Industries, LLC ( now officially synonymous with America's interests '' ). The term Citizen of the United States is now similarly synonymous with Employee of Trumpco Industries ''. Those employees deemed unprofitable are reportable to President/CEO Trump and will be fired ( via high-powered naval railgun ) into the Gulf of Mexico President Donald J. Trump"
+    },
+    {
+        "id": "27",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/27.png",
+        "text": "A HEAL Bill Clinton was the first nigga president, not Obama. Haha you don't got to be black to be a nigga you can be any race. If you do nigga shit than you're a nigga and my nigga freaky Bill got his dick sucked by a cute fat bitch while his wife was down the hall in their bed room. Now if that ain't sum nigga shit than don't know what is and the nigga smoke weed too."
+    },
+    {
+        "id": "28",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/28.png",
+        "text": "Back April 25, 2016, 2:15 PM Guy at bus stop: Hey sexy Girl: ignores him ] Guy: said hey you fucking bitch Girl: Please leave me alone Guy: I'll kill you god dammit l'll do it Me: leave her alone buster Guy: What are u gon na do tough guy Me: takes trump hat off guy's head and puts Bernie hat on his headl That's what Guy: Hey what the Me: you 've been bernied bub Girl: Here's my number call me [ everyone claps and cheers ]"
+    },
+    {
+        "id": "29",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/29.png",
+        "text": "Amazing Myths of Why For Donald Tanked The Debate Vot A `` C KIND OF VIRAL"
+    },
+    {
+        "id": "30",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/30.png",
+        "text": "HERE COME JOHNSON 2016 FACEBOOK REASONABLE PEOPL FOR GARY JOHNSON"
+    },
+    {
+        "id": "31",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/31.png",
+        "text": "imgflip com IVE BEEN FEELIN THE BERN"
+    },
+    {
+        "id": "32",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/32.png",
+        "text": "spusu O N 55 O 21:42 Porn hub X FREE Access to Pornhub Premium! HD 5:15 Donald Trump and Hillary Clinton Real Celebrity Sex Tape Exposed XXX USA 9,989 Views 79 % VERIFIED"
+    },
+    {
+        "id": "33",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/33.png",
+        "text": "Lie Detector Reveals Bush's Secret are you a are you reptilian a closet shapeshifter Democrat, Bush-chan? Bush-chan? Did you d 9/11, Bush chan? I Bus IS IT a -- a gore."
+    },
+    {
+        "id": "34",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/34.png",
+        "text": "While some might see nothing but a piece of cardboard, Ernie wallows in the horrifying truth that years of innefective chemotherapy has left Bert so frail and weak that he is indistinguishable from thick card stock. Knowing Bert is no longer capable of coherent communication, Bernie wonders if his brother resents him for his miserable state, trapped here, infirm and unable to interact with the world. Not for the first time Bernie, seeing Bert struggle simply to move his eyes and to breathe, doubts he made the right choice."
+    },
+    {
+        "id": "35",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/35.png",
+        "text": "STRONG TOGETHER STRONG TOGETHER Hillary Clinton, seen here with Bernie Sanders, was purged in 2016. Following her execution, Clinton was edited out of the photo by cabinet censors. Such a retouching was common during Sanders's rule."
+    },
+    {
+        "id": "36",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/36.png",
+        "text": "OBAMA PITAMERICAINTHETOLER HILLARY WILL FLUSH THE PATRIOT POST"
+    },
+    {
+        "id": "37",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/37.png",
+        "img_512": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512/test/0/37_enlarged.jpeg",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/0/37_enlarged.jpeg",
+        "text": "HEY GIRL EVERYTIME SOMEONE DECIDESTO VOTE FOR BERNIE SANDERSISMILE"
+    },
+    {
+        "id": "38",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/38.png",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/0/38_compressed.jpeg",
+        "text": "T 20 %, 10:28 PM OO AT & T freep.com Detroit Free press Metroid e ress Hide Caption A Political reporter Kathleen Gray and Free Press pollster, Bernie Porn, of EPIC-MRA, discuss the shift as part of USA TODAY Network's Facebook Live 2016 series. POLITICS New poll shows Clinton and Trump nearly tied in Michigan Aa Todd Spanaler Detroit Free Press"
+    },
+    {
+        "id": "39",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/39.png",
+        "text": "IS BERNIE SANDERS ENDORSING THE ESTABLISHMENT HE CAMPAIGNED AGAINST OUT OF TOUCH WITH WHAT HIS VOTING BASE WANTEDP NO, IT 'S THE VOTERS WHO THOUGHT THERE H COULD ACTUALLY BE TRUE POLITICAL CHANGE IN AMERICA WHO ARE OUT OF TOUCH. made on imgur"
+    },
+    {
+        "id": "40",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/40.png",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/0/40_compressed.jpeg",
+        "text": "How to get to reddit frontpage XVZneWS.COm Bernie got up at 700am today and brushed his teeth 1. Copy link 2. Post link on r/politics 3. Frontpage"
+    },
+    {
+        "id": "41",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/41.png",
+        "text": "Bernie or Hillary? Issue: Chicken wings Wingstop is the spot. Some lemon pepper wings with some BWW is my chicken wing spot! mf mango habanero sauce. Some Those BBQ wings sure are spicy! original hots on the side so l can really feel that bern"
+    },
+    {
+        "id": "42",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/42.png",
+        "text": "Hillary Clinton attacks Donald lrump for posting Pepe the Frog meme The Independent Sep 13, 2016"
+    },
+    {
+        "id": "43",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/43.png",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/0/43_compressed.jpeg",
+        "text": "NOOING THE GOP COMING UP: FLORIDA ZIKA FIGHT WHAT TRUMP SAW PENCE EXCLUSIVE NTERVIEW 1 YEAR-OLD 'S HARD QUESTION WOOING THE GOP LIVE CLINTON REACHES OUT TO WARY REPUBLICANS MSNBC YEARS L. NEARLY DOUBLING THE FIVE-POINT ADVANTAGE SHE HELD OVER HER 8:25AM MT"
+    },
+    {
+        "id": "44",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/44.png",
+        "text": "TRIBUNE I MeT WITH BILL CLINTON, BUT We ONLY TALKED ABOUT OUR GRANDCHILDReN. GeNeRAL LORETTA LYNCH THEY DO N'T SO, HOW ARe WANT To HAve TO ViSiT THe GRANDKiDSS THeiR GRANDMA In PRISON!! Cagle com"
+    },
+    {
+        "id": "45",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/45.png",
+        "text": "HILLARY CLINCHES NOMINATION VOTE FOR BERNIE SANDERSANYNAY inngflip com"
+    },
+    {
+        "id": "46",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/46.png",
+        "img_512": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512/test/1/46_enlarged.png",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/1/46_enlarged.png",
+        "text": "I LOVE GARY JOHNSON! DO YOU REALLY LOVE GARY JOHNSON OR ARE YOU JUST LOOKING AT CANDIDATES AND SAYING YOU LOVE THEMP made on imgur"
+    },
+    {
+        "id": "47",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/47.png",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/1/47_compressed.jpeg",
+        "text": "MEMBER WHEN DONALD TRUMP WAS JUST A Co HARMLESS OLD REALITYTVSTARP COMEDY"
+    },
+    {
+        "id": "48",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/48.png",
+        "text": "Shhhhh, it will all be over soon Bernie for President Hill Just look at the pretty flowers.... Hillary Clinton.com"
+    },
+    {
+        "id": "49",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/49.png",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/0/49_compressed.jpeg",
+        "text": "Instead of doing my chem homework, I am a democrat who voted for Donald Trump and not feel anything. loose skin from weight loss and I want my girlfriend [ light ] ( self subredditsimulator ) submitted 8 hours ago by confession ss # 45 268 ( 7.79 )"
+    },
+    {
+        "id": "50",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/50.png",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/1/50_compressed.jpeg",
+        "text": "SAYS HE IS A BLUE COLLAR SELF-MADE MAN SAYESHEISA BLUE COLLAR SELFaMADEMAN Gary Johnson 2016 ISAN ACTUAL BLUE NOT A ECO COLLARSETF MADE SELF-MADE MAN MAN"
+    },
+    {
+        "id": "51",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/51.png",
+        "text": "E Data to Be mtered Bernie"
+    },
+    {
+        "id": "52",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/52.png",
+        "text": "When Trump purchased and rebuilt Mar-A-Lago the Grand mansion and estate In Palm beach, Florida he got into a dispute with the city, who are well known for being strict on zoning regulations. Trump put up a 50 foot flag pole even though 30 foot is the maximum allowed. The city imposed a 1,000 dollar fine per day. While Trump and the city argued back and forth, finally when the fine had reached 120,000 dollars Trump proposed a solution. He would donate that amount to veterans organizations, would move the flag and pole to a different location in front of the mansion and would only use a 30 foot flag pole. The city agreed. So Trump brought in the company who does Golf course construction had them build a 20 foot high grassy hill and put a 30 foot flag pole on top of that"
+    },
+    {
+        "id": "53",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/53.png",
+        "img_512": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512/test/1/53_enlarged.jpeg",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/1/53_enlarged.jpeg",
+        "text": "WHO CARES WHAT TRUMP SANDIN 2005 Mike Green HE WAS DEMOCRAT BACK THEN SO IT 'S NOT HIS FAULT"
+    },
+    {
+        "id": "54",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/54.png",
+        "img_512": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512/test/0/54_enlarged.jpeg",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/0/54_enlarged.jpeg",
+        "text": "TRUMP will release his Tax Returns WHEN... THE BENGHAZI BITCH releases her emails"
+    },
+    {
+        "id": "55",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/55.png",
+        "text": "UNSCATHED PENCE"
+    },
+    {
+        "id": "56",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/56.png",
+        "text": "INIOWA BERNIE SANDERS GOT 84 % OF THE YOUTH VOTE, BUT ONLY 18 % OF THE YOUTH SHOWED UP TO VOTE. YOUNGBERNERS, YOU HAVE ONE JOB SHOWUPAND SMASH THAT MFVOTE BUTTON!"
+    },
+    {
+        "id": "57",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/57.png",
+        "text": "ey Girl, lem me holla at u about Bernie"
+    },
+    {
+        "id": "58",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/58.png",
+        "text": "IF HILARY CLINTON WINS IN 2016 IT WILL BE THE FIRST TIME TWO PRESIDENTS HAS HAD SEX WITH EACH OTHER"
+    },
+    {
+        "id": "59",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/59.png",
+        "img_512": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512/test/0/59_enlarged.jpeg",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/0/59_enlarged.jpeg",
+        "text": "il THINK A MARRIAGE IS AS A MARRIAGE HAS ALWAYS BEEN, BETWEEN A MAN AND A WOMAN '' HILLARY BDOHAM CLINTON, 2000 ATBT politics `` Proud to celebrate a historic victory for marriage equality & the courage & determination of LGBT Americans who made it possible. @ Hillary Clinton ETHAN MILLERJGETTY"
+    },
+    {
+        "id": "60",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/60.png",
+        "text": "TRENDING Karl Marx Chinese State Media Promotes Rap Song Admiring 19th Century German Philosopher Cretaceous-Paleogene Extinction Event Killed Off Marine Animals in Addition to Dinosaurs, Study Says Hillary Clinton: Presidential Candidate Remains Winner of Kentucky Primary After Recanvass of Votes See More"
+    },
+    {
+        "id": "61",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/61.png",
+        "text": "This is donald trumps brother donut trump. Every 4.20 seconds donald takes a of his brothers donuts. updough this post in 375 degrees boiling oil and comment `` dont be a grump mr trump '' to help donut"
+    },
+    {
+        "id": "62",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/62.png",
+        "text": "c-c-c mon Morty! we g- got ta *burp* we have to solve income inequality! Wubbaluba dubdub! feel the Bern!"
+    },
+    {
+        "id": "63",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/63.png",
+        "text": "6:51 PM... oo Verizon o 94 %, K Settings Wi-Fi Wi-Fi CenturyLink7942 CHOOSE A NETWORK FIRE-OBAMA HILLARY FOR-PRISON-2016 TRUMP 2016 Other Ask to Join Networks Known networks will be joined automatically. If no known networks are available, you will have to manually select a network."
+    },
+    {
+        "id": "64",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/64.png",
+        "text": "shared photo 2 hrs I really dont support Hillary Bernie or Trump! l rather put Jesus back in the White House/America/world. BERNIE IS JUST A NICE OLD MAN WHO WANTED TO HELP US BUT U VOTED FOR THE LIAR AND THE RACIST Like Comment Share Write a comment..."
+    },
+    {
+        "id": "65",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/65.png",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/1/65_compressed.jpeg",
+        "text": "In M. Night Shyamalan's new movie, Bruce Willis discovers that had really been all along Cards Against Humanity PICK 2 compensation. Hillary Clinton. Bill Clinton, naked on a bearskin rug with a saxophone 3 cards agains Hamenes"
+    },
+    {
+        "id": "66",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/66.png",
+        "img_512": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512/test/1/66_enlarged.jpeg",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/1/66_enlarged.jpeg",
+        "text": "HILARY CLINTON MAKESIOKES ABOUT COLORED PEOPLETIMEBUT LIBERALSSCREAMTRUMPISTHERACIST BUT THATS NOT OF MY BUSINESS gflip com"
+    },
+    {
+        "id": "67",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/67.png",
+        "text": "MAKE AMERICA GREAT AGAIN Donald Trump will `` move on your wife like a bitch. '' He'll grab your daughter's crotch. He'll grab your sisters. He'll do it because that's what he does. And then he'll brag about it-on a bus, or in a car, or on aplane, or in a train Because he can. Unless you stop him."
+    },
+    {
+        "id": "68",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/68.png",
+        "text": "Me: Hillary oversaw a coup in Honduras which installed a regime that murders indigenous rights activists Democrat: DO YOU WANT TRUMP TO WIN 3/3/16, 4:48 PM"
+    },
+    {
+        "id": "69",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/69.png",
+        "text": "TRUMP 'S FACE LOOKS LIKE A TRAGIC ACCIDENT THE ANUS BLEACHING SALON made on imgur"
+    },
+    {
+        "id": "70",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/70.png",
+        "text": "WHEN ITS ALL OVER TRUMP WILL NOT LOSE A DIME RUNNING FOR PRESIDENT IGUARANTEEIT"
+    },
+    {
+        "id": "71",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/71.png",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/0/71_compressed.jpeg",
+        "text": "SAYS GENDER AND RACEDONTMATTER VOTES FOR HILLARY BECAUSE ITS TIME FORA WOMAN PRESIDENT AND THINKSCULTURAL APPROPRIATION IS WRONG"
+    },
+    {
+        "id": "72",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/72.png",
+        "text": "REMEMBER WHEN EVERYONE WAS FOR BERNIE AND NEVERWANTED HILLARY TO BE PRESIDENT PEPPERIDGE FARMREMEMBERS"
+    },
+    {
+        "id": "73",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/73.png",
+        "text": "TRIBUNE BeRNie FeeLS THe BURN"
+    },
+    {
+        "id": "74",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/74.png",
+        "text": "I Like Page While Obama flies around the country on Air Force One, accompanied by Crooked Hillary, with the president in plain sight campaigning for her, which is in and of wrong, yet in Kentucky we have the Democrat Attorney General of Kentucky going after a humble woman who went to jail over her belief that God intended marriage for one man and one woman. Beshear is also hot on the trail of our Christian Governor, filing one frivolous lawsuit after another. One may laugh but l fear we aren't far away from the Democrats in power herding the People of the Book into Commonwealth Stadium and unleashing the modern day lions upon us. Dm Kim Davis: Kentucky Clerk Who Refused Marriage Licenses Violated Open Records Act FRANKFORT, Ky. ( AP ) The Kentucky lawyer general's office says an eastern Kentucky region assistant who made news When she declined to issue marriage"
+    },
+    {
+        "id": "75",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/75.png",
+        "text": "Bernie or Hillary? Be informed. Compare them on the issues that matter. Issue: Favorite DLR Conner Tanner"
+    },
+    {
+        "id": "76",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/76.png",
+        "text": "....o Verizon LTE 3:17 PM 76 % Settings Wi-Fi Wi-Fi Myspe CHOOSE A NETWORK... Hillary ClintonsPrivates MySpectrumWiFi00-5G NETGEAR 10 PONTI PONTLEXT Other Ask to Join Networks Known networks will be joined automatically. If no known networks are available, you will have to manually select a network."
+    },
+    {
+        "id": "77",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/77.png",
+        "text": "The Democrat Party is the world's most successful hate group. It attracts poor people who hate rich people, black people who hate white people, gay people who hate straight people, feminists who hate men, environmentalists who hate the internal combustion engine, and a lot of bratty college kids who hate their parents. However, the real secret of the party's success is that it attracts the support of journalists who hate Republicans, and who therefore work tirelessly to convince the rest of us that we should vote for Democrats."
+    },
+    {
+        "id": "78",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/78.png",
+        "text": "IF GARY JOHNSON COULD JUST -GET SOME MORE EXPOSURE THAT WOULD BE GREAT made on imgur"
+    },
+    {
+        "id": "79",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/79.png",
+        "img_512": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512/test/0/79_enlarged.jpeg",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/0/79_enlarged.jpeg",
+        "text": "BEFORE HILLARY HITSINOURHANDs JILL STEIN FOR PRESIDENT"
+    },
+    {
+        "id": "80",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/80.png",
+        "text": "Dirty Donald Crooked Clinton Which Democrat Will America Choose"
+    },
+    {
+        "id": "81",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/81.png",
+        "text": "Anonymous ( ID: WWL21 SS5 07/23/16 ( Sat ) 06:34:42 No.82336390 2 > 82336988 82337591 82338 4007 > > 8233 9818 2 82341989 82342803 82343149 2 82345582 82345632 > > 82345887 82346435 82350134 823516913 82351911 File: 14692459 56898-po ng ( 412 KB, 725x480 ) Did you think I 'd forgotten, Donald? For a thousand years l have waited, watched in dejection as you made your pitiful country great again. I hope you enjoyed yourself. I really do. Because in the time that you were president, l have amassed a great and terrible army of of skeleton delegates skelegates, if you will, Donald. Without you around to ward off the forces of Chaos, I can finally escape from my prison. You just made your first mistake, Donald. Now l can return to that fateful night in 2016 and claim what is rightfully mine! Together with my army of skelegates, l will finally have the majority l need to become the Republican nominee, and fight a principled conservative campaign for President. Nothing will stand in our way. Goodbye, Donald. Your New York ways will taint the Party no longer. This is the priesthood rising! With my new powers, l will plunge this country into TENTHOUSAND YEARS of darkness, and the delegates... they will be at my side every step of the way. Thank you, Donald"
+    },
+    {
+        "id": "82",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/82.png",
+        "text": "YOU SHOULD NEVER STEREOTYPE ANYONE NO MATTER WHAT GROUP THEY ARE A PART OF OH YOU ARE A REPUBLICAN YOU MUST BE RACIST THEN"
+    },
+    {
+        "id": "83",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/83.png",
+        "img_512": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512/test/0/83_enlarged.jpeg",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/0/83_enlarged.jpeg",
+        "text": "`` Let these clowns fight it out. Meet me in the green room. What's your name? Melissa? `` It's Melania `` Whatever. Just meet me there. '' BREAKING NEWS CLINTON-TRUMP DEBATE BEGINS MOMENTARILY ON CNN"
+    },
+    {
+        "id": "84",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/84.png",
+        "text": "RUMP AMERICA GREAT AGAIN lent majority ANDS WITH RU MP GREAT CA TRUMP TRUMP FEMINIST tor Bernie"
+    },
+    {
+        "id": "85",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/85.png",
+        "text": "This racist democrat was chief Justice when the court decided that `` separate but equal '' was something everyone would just have to accept."
+    },
+    {
+        "id": "86",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/86.png",
+        "text": "George Bush do ya thing TRUMP"
+    },
+    {
+        "id": "87",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/87.png",
+        "text": "Paul Joseph Watson @ PrisonPlan... 3h Your family ripped apart the lives of hundreds of thousands of women and children in Iraq. Shut the fuck up, you complete cunt. Jeb Bush a Jeb Bush As the grandfather of two precious girls, I find that no apology can excuse away Donald Trump's reprehensible comments degrading women. t 2,415 4,343"
+    },
+    {
+        "id": "88",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/88.png",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/0/88_compressed.jpeg",
+        "text": "HUMP TRUMP LHP TRUMP E TRUMP TRUMP TRUMP TRU METRU MP PENCE PENCE TRUMP TRUMP RUM TRUN TRUMP GREAT ILAIME TRU MP TRUMP TRUMP TRU Mt PEN TRUMP RUMITRUMP TR TRUMP TRUMP"
+    },
+    {
+        "id": "89",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/89.png",
+        "text": "DONALD TRUMP DONALD DUCK E DONALD TRUCK made on imgur"
+    },
+    {
+        "id": "90",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/90.png",
+        "text": "GOING OUT OF Family Moral Values Bankruptcy Must Go pocrisy tfque Republican Party LAST DAYS GOP S RENT BE SANGS"
+    },
+    {
+        "id": "91",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/91.png",
+        "text": "Be 2016 You take the Hillary pill, the story ends. You wake up in your bed and believe whatever you want to believe. You take the Bernie pill, you stay in truthland, and you will uncover just how deep the corruption goes. Remember: all Bernie's offering is the truth. Nothing more."
+    },
+    {
+        "id": "92",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/92.png",
+        "text": "My rural neighbor is a hippie Bernie supporter and his dog got loose. Guess what I did? NEIGHBORS BTFO ( self, The Donald ) submitted 6 hours ago by to /r/The Donald 158 comments share [ I I put on my MAGA hat, coaxed him into my car and drove the 1/3rd of a mile to his place. When I saw my neighbor, Itold him that I caught his dog illegally entering my country, and that I was deporting him. My neighbor laughed and offered me a beer, because we both understand that people with different political viewpoints can still be good neighbors."
+    },
+    {
+        "id": "93",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/93.png",
+        "text": "The fuck Bernie Sanders ' starter pack THE SCIENCE OF ECONOMICS THE ECONOMIC TEACHING OF LEON MACLAREN discover the conditons which allow evey indwodual true goal of Economics Patriot Wikipedia, the free encyclopedia https: //en.m.wikipedia.org wiki Patriot Mobile-friendly A patriot is someone who feels a strong support for their country, See also Patriotism RAYMOND MAKE WELL Ed Patriotism New England Patriots"
+    },
+    {
+        "id": "94",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/94.png",
+        "text": "A comic starring: Jay Ferris bfan 1001 flea comic by Septapus The internet needs a lot of fixing in genera Anyone have windows vista or know how to fix the internet for thats why im voting for al gore `` fix the internet '' is a broad request I dunno I hear Jill Stein has a great plan to decontaminate our WiFi"
+    },
+    {
+        "id": "95",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/95.png",
+        "img_512": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512/test/1/95_enlarged.png",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/1/95_enlarged.png",
+        "text": "THIS IS A WALLINSIDE A NAZI GAS CHAMBER dwebs WHEN A DEMOCRAT MENTIONS GUN CONTROL REMEMBER THIS PICTURE"
+    },
+    {
+        "id": "96",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/96.png",
+        "img_512": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512/test/0/96_enlarged.jpeg",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/0/96_enlarged.jpeg",
+        "text": "As a 27 year old staff attorney for the House Judiciary Committee during the Watergate investigation, Hillary Rodham was fired by her supervisor, lifelong Democrat Jerry Zeifman. e Hillary d When asked why Hillary Rodham was fired, Zeifman said in an interview, `` Because she was a liar. She was an Constitution, the rules of the House, the rules of the Committee, and the rules of confidentiality. ''"
+    },
+    {
+        "id": "97",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/97.png",
+        "text": "19 hrs None of your opinions matter Like Comment Share and 7 others Yeah, but that's like, your opinion Like Reply 12 hrs Also it's absolutely a fact that your like 9 paragraph soliloquy about black lives matter or Bernie sanders or something that you put on Facebook doesn't matter Like Reply 3 hrs Especially because everyone seems to think their Facebook E profile is the fucking mouth of god Like Reply 3 hrs"
+    },
+    {
+        "id": "98",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/98.png",
+        "text": "Bernie or Hillar Be informed. Compare them on the issues that matter. SUPER BOWL Issue: HALFTIME SHOW `` I wish it were `` Woo! Play just Beyonc\u00cc\u00a9 '' 'The Scientist ' ''"
+    },
+    {
+        "id": "99",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/99.png",
+        "text": "New hobby: Putting Donald Trump's mouth on puffer fish"
+    },
+    {
+        "id": "100",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/100.png",
+        "text": "Bernie or Hillary? Be informed. Compare them on the issues that matter. Robot Uprising Issue: elling at Roomba [ nervous metallic lau `` BRING IT ON HA HA HA '' ASSHOLE!! '' obvious plant"
+    },
+    {
+        "id": "101",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/101.png",
+        "text": "`` Bernie looks like the guy in disaster movies who knows what's coming but no one listens to b/c he has bad hair & keeps dropping his papers"
+    },
+    {
+        "id": "102",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/102.png",
+        "text": "I don't believe that women have any rights, and I think gays should be hanged. No, actually, I 'm a Muslim and those are my religious beliefs. Wow, what a complete 4 primitive asshole you are! You must be a Republican. Oh! I 'm sorry! A I apologize! I hope you don't think I 'm Islamophobic! ( c ) 2016 Dixon Diaz"
+    },
+    {
+        "id": "103",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/103.png",
+        "text": "Q10 If the candidates for President were Democrat Hillary Clinton, Republican Donald Trump, and independent Harambe, who would you vote for? 48 % Hillary Clinton 43 % Donald Trump 5 % Harambe 4 % Not sure...."
+    },
+    {
+        "id": "104",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/104.png",
+        "text": "Share Wow Care. Listen, Hills, you're going to go on and you're gon na make lots of policy and I will never you're gon na watch let go, Bern! it grow."
+    },
+    {
+        "id": "105",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/105.png",
+        "text": "`` I trust Hillary Clinton about as far as I can throw her."
+    },
+    {
+        "id": "106",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/106.png",
+        "text": "CRUZ Ha WISCON MILWAUKEE, WI 57 PM CT TED CRUZ DONALD T JOHN KAS SEN TED CRUZ DELIVERS REMARKS AFTER VICTORY IN WI GOP PRIMARY AMERICA 'S ELECTION HQ 2016"
+    },
+    {
+        "id": "107",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/107.png",
+        "text": "Why is Bill Clinton looking like he's got a case of the suds AN SA"
+    },
+    {
+        "id": "108",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/108.png",
+        "text": "Cedar Rapids ashington, DC 12:55 55 PM ET 11 DAK LIVE BREAKING NEWS CLINTON LANDS IN IOWA AS FBI REOPENS EMAIL INVESTIGATION /CNNU WOLF F OF THE YEAR CONSUMER CONFIDENCE ALSO HIT A NINE-YEAR HIGH L DO I HAVE TO GO OUT THERE? Hillary"
+    },
+    {
+        "id": "109",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/109.png",
+        "img_512": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512/test/0/109_enlarged.png",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/0/109_enlarged.png",
+        "text": "Add Friend 5 hrs I hopped in a cab today and my elderly cab driver was writing on his clipboard while driving ( literally accelerating and jotting ), blaring Howie Carr, yelling ( like yelling, not just raising his voice in excitement, and with no provocation, I just said hello and something about the crazy weather about how Donald Trump is going to save the world, and then was pushy when I asked if they did a college discount with ID, saying `` you must be some sort of Bernie supporter socialist n the same breath he asked me how much I wanted to give him for tip so he could make the correct change. gave him an appropriate tip, because l understand cab drivers without tips can't actually live on the wage they 'd earn, and I 'm a fellow human bring who cares about others qaulity of life and fair pay for thier labor. But my head is still tilted and making a whattheactualfudge '' face. 1 Comment Like Comment a Share"
+    },
+    {
+        "id": "110",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/110.png",
+        "img_512": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512/test/0/110_enlarged.jpeg",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/0/110_enlarged.jpeg",
+        "text": "Donald Trump has been in the public eye forover30years And, he's NEVER been accused of being a racist until he startedrunningfor president and his political opponents started attacking him THINK ABOUT IT!!"
+    },
+    {
+        "id": "111",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/111.png",
+        "text": "HILLARY SCANDALS TRUMP SCANDALS called some women fat 20 yearsago 4 dead Americans in Benghazi Supportedarming Syrian jihadists, which led to rise of ISIS Supported toppling Gaddafi, which led to International migrant crisis Private e-mail server. Lied under oath about it. Took Clinton Foundation donationsfrom countries that oppress women. Clinton Foundation pay for play. Intimidated Bill Clinton's rape victims laughed about defendingachild rapist. Called KKK leader Robert Byrd her mentor. Russian uranium deal. Rigged primaries against Bernie lied to media about her health"
+    },
+    {
+        "id": "112",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/112.png",
+        "text": "H smoke upthe weed9 1 point 12 hours ago To give my own answer, it's not clear that the symbolization of abstract social forces and revolutionary struggle in individuals is necessarily a bad thing. Was it bad that the leftist American fighters in the Spanish Civil War were the 'Abraham Lincoln Brigade '? Is it bad that in Venezuela the revolution uses the image of Simon Bolivar? Is it bad that Hillary Clinton has a strong support base of black people because of the image they have of Bill Clinton whereas the republican base has abandoned Jeb Bush's attempt to use the legacy of George Bush? ls it bad that people think Kurt Cobain is a genius whereas the countless bands that mimic him are inferior All of these are forms of a `` cult of personality ' once we remove the mysticism and propagandistic function of the words. To me, the answer is that all of these are simply ways to talk about something deeper, and thus thinking about the cult of personality ironically creates its own cult of personality in which we believe this concept has real power instead of being a TI symptom of a deeper process"
+    },
+    {
+        "id": "113",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/113.png",
+        "img_512": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512/test/0/113_enlarged.jpeg",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/0/113_enlarged.jpeg",
+        "text": "Bernie or Hillary? Be informed. Compare them on the issues that matter. Issue: Selena The loss of Selena was unsurmountable I loved J. Lo She would 've been the superstar of this lifetime as she crossed over from the Spanish-language market to mainstream in that movie! English markets. Her fashion sense, stage presence, dance moves and charisma were like none I 'd seen before. Fuck Yolanda Saldivar."
+    },
+    {
+        "id": "114",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/114.png",
+        "text": "The I just got into politics a few months ago and didn't pay attention to economics and history in high school starter pack 2016 Bernin BERNIESANDERS COM Bernie FEEL 2016 THE BERN"
+    },
+    {
+        "id": "115",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/115.png",
+        "text": "When some guy on Reddit told me that Communism goes against human nature. realized that all those years of studying dialectical materialism and political economy were useless. Bernie Sanders is right, socialism is just when the government gives you free weed Friedrich Engels"
+    },
+    {
+        "id": "116",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/116.png",
+        "img_512": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512/test/0/116_enlarged.png",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/0/116_enlarged.png",
+        "text": "Paul Ryan @ PRyan @ BarstoolBigCat 1 in 20 want to see Harambe in the Oval Office Public PolicyPolling olls Support for President: Gary Johnson 6 %, Harambe 5 %, Jill Stein 2 % 8/1/16, 10:23 PM 1 RETWEET 1 LIKE"
+    },
+    {
+        "id": "117",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/117.png",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/0/117_compressed.png",
+        "text": "bern png 48 KB, 733x594 ) google igdb Anonymous ( ID: yc2D15UQ ) 5 hours ago No.73661847 13661948 13662111 A-136621134 13662216 13662300 e 136623rg 13GS2381 136G2422 73663050 73663192 73663333 73663368 > > 73663529 > > 73663771 73663890 > > 73664136 > > 73664279 > > 73664291 > > 73664377 > > 73664435 > > 73664594 > > 73 FALSE AND DANGEROUS 73665677 73665999 73666059 73666192 73666215 73666278 73666302 > > 73666400 > > 73666805 > > 73667887 > > 73668267 > > 73668841 > > 73668876 > > 73 73673762 73676350 73677137 > http: //www.snopes.com/bernie-sanders-glow-sticks/ https: //www.youtube.com/watch? vsewUTO8Nr1RSw What the fuck is wrong with you people? How TO MAKE BERNIE SANDER's GLOWSTICKS! YOU WILL NEED. Anonymous ( ID: yc2D15UQ ) 5 hours ago No. 73662032 663600 63836 978 73670230 7367324 73662906 Apparently some toddler got his face blown off when his mother tried making one for him Anonymous ( ID: F4RaLf J ) 4 hours ago No. 73662906 73663200 > > 73663836 73664466 73665240 > > 73665812 > > 73668332 > > 73676432 7366 2032 I bet he's feeling the bern"
+    },
+    {
+        "id": "118",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/118.png",
+        "img_512": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512/test/0/118_enlarged.png",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/0/118_enlarged.png",
+        "text": "Imagine if I started a hip hop career. And then l threw an underground concert and I claimed that the concert was awesome because 10,000 people showed up and cheered like crazy. But then a bunch of evidence is revealed that indicates only like eight people actually showed up and that I was completely bullshitting. At that point, everyone would believe that l am mentally deranged or that I am the biggest liar on the face of the earth. Nobody would say that I am exaggerating because that would be FAR too generous This is no different than what Donald Trump did with his outlandish `` I saw many thousands of Muslims in New Jersey cheer on 9/11 '' claim. Except for one thing. Many people still believe him or say he was `` slightly exaggerating"
+    },
+    {
+        "id": "119",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/119.png",
+        "text": "Donald Trump winsthe Oscar for Lead Actor in a Comedy Film for his outstanding work in the GOP Presidential Debates!"
+    },
+    {
+        "id": "120",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/120.png",
+        "img_512": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512/test/1/120_enlarged.jpeg",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/1/120_enlarged.jpeg",
+        "text": "Donald J. Trump @ real Donald Trump. Th v I will post a nude of myself if anyone can pass level 4 on my new game `` Trump On The Run # DownloadNow 22.5K 42K"
+    },
+    {
+        "id": "121",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/121.png",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/0/121_compressed.jpeg",
+        "text": "rump economic plan would r 3.5 million vols, scares me of anothe rum p Prrs alt ncy. 3. Write down the Donald Trump quote that most impressed you Why? 4, Write down the Donald Trump quote that most alarmed you Why? rump claimed he has been ouolted for"
+    },
+    {
+        "id": "122",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/122.png",
+        "text": "Blame The Black Guy yeah, Hillary, I don't care if you try to blame your decision to use an unsecured email server on a black guy just so long as I 'm not the black guy you're blaming! CARTOONS by Hen www.cartoons hen Com Copyright Henry Christensen, 2016"
+    },
+    {
+        "id": "123",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/123.png",
+        "text": "updated her profile picture 21 hrs. l sent in my absentee ballot and I 'm feelin the bern in my favorite Bernie underwear. Friendly reminder to vote in the primary tomorrow! Also a friendly reminder not to sexualize the female body."
+    },
+    {
+        "id": "124",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/124.png",
+        "img_512": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512/test/0/124_enlarged.jpeg",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/0/124_enlarged.jpeg",
+        "text": "http: // gic10 L OCICLO com `` Bernie Sanders is now free to gic ttp vacation in Venezuela and enjoy watching his ideas put into effect. '' ttp ttp ralLogic1 htL: 1.com http John Hayward: //LiberalL dalLogic10 http: //Lib com http: //LiberalLo FaceBook.com/LiberalLogic101 http: //LiberalLogic101.com ( We don't mind if you download and share this image, just leavetheattribution )"
+    },
+    {
+        "id": "125",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/125.png",
+        "text": "Many in the GoP keep calling Donald Trump a liar and manipulator. To me, liars and manipulators are 301 Republicans who were elected to the HOUSE and SENATE that PROMISED to stop Barack Obama and his godless Democrat Party's destruction of America... BUT DIDNT STOP ANYTHING!"
+    },
+    {
+        "id": "126",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/126.png",
+        "text": "FEAR LEADS TO ANGER ANGER LEADS TO HATE www.UncleSamsMisguidedChila Om HATE LEADS TO STUPIDITY STUPIDITY LEADS TO SUPPORTING HILLARY CLINTON FOR PRESIDENT!"
+    },
+    {
+        "id": "127",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/127.png",
+        "text": "E Victims i of Communism You Gov M e m o r a I F o u n d a t i o n First-of its kind YouGov Poll Shows `` Bernie Sanders Bounce '' for Collectivism, Surprising Support for Socialism and Communism Among Younger Americans 45 % of 16-20 year olds would vote for a `` Socialist '', 21 % for a `` Communist '' One-third of Millennials Believe George W. Bush Killed More People Than Stalin Vast Majority Unaware of Communism's Death Toll More Millennials Prefer Words of Karl Marx over the Bible Bernie Sanders ' Philosophy Wins More Support Than Milton Friedman's"
+    },
+    {
+        "id": "128",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/128.png",
+        "text": "maGBa662B5Murphy -net www.shutterstock.co What if Bernie Sanders were a Communist? ProiectMurphy"
+    },
+    {
+        "id": "129",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/129.png",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/0/129_compressed.png",
+        "text": "WHEN YOU FIND OUT SOMEONE YOU THOUGHT WAS A FRIEND SUPPORTS HILLARY CLINTON BLOCK 1776 REBORN"
+    },
+    {
+        "id": "130",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/130.png",
+        "text": "VIEWER WARNING This is a pro-monarchy blog written by a monarchist. BE WARNED that materials contained in this blog are reactionary, religious, counter-revolutionary and pan-monarchist. You are advised that any and all republican governments, politicians and in particular revolutionaries will be mocked, ridiculed, insulted and unmasked for the truly disgusting characters that they are. This blog is not recommended for anyone who favors revolution admires politicians or holds an inherent respect for republican governments. Anyone who is lacking in a sense of humor, anyone who is politically correct and anyone who holds the Whig version of history is advised to leave now before you are offended, outraged or have your feelings hurt."
+    },
+    {
+        "id": "131",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/131.png",
+        "text": "This is the evolution of Democrats. Kennedy put a man on the moon, Obama put a man in the women's bathroom. What a loser. What an embarrassment the Democrat party has become! MAY 201O O Write a comment Post"
+    },
+    {
+        "id": "132",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/132.png",
+        "text": "DISNEY-PIXAR FINDING FRANK OCEAN meANNIPCIURESm VIN PEEN l um l N E BERN WI IINAIAN FEM IRLI KTCNEJ AKIAEHIN MEALA REA SEM AL R M A AN ER\u0152_\u00c4W EA AN\u00be\u00a1\u00d3OM RAKI H \ufffd\u00e4\u00d1ERSEER STY RE\u017d\u00d0\u00a3BRERAMET\u00be\u00f7\u00ce RK.FWU I \u00be\u00aa\u00a6\ufffd\u00d2\u00a6K1IST.MWKAEXRW NAMIB\u017d__RIEEMIRAER \u2022_\u00c4LELALIA\u0152\u00bc\u00d3DRJON.WUBAOM\u0152\ufffd\u00c7IONARIMIERCREIIF"
+    },
+    {
+        "id": "133",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/133.png",
+        "text": "Hillary Clinton @ Hillary Clinton @ realDonald Trump thinks democrats care about his opinion, how does it feel putting your stuff here it doesn't belong? 1272 2210 RETWEETS FAVORITES Donald J. Trump arealDonald Trump Hillary Clinton Ask Bill. 3322 5880 RETWEETS FAVORITES"
+    },
+    {
+        "id": "134",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/134.png",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/1/134_compressed.jpeg",
+        "text": "undervalued property tixit up. and then flip for aprofit! Flipping Houses FOR a a Ralph R Roberts A Reference for the Rest of Us! 1 NATIONAL BEST SELLER TRUMP THE ART OF THE DEAL From the star of NBC's hit show App DONALD JE TRUMP with TONY SCHWARTZ HALLSTREET"
+    },
+    {
+        "id": "135",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/135.png",
+        "text": "AND THE TRUMP PENCE WILL SOUND TO SIGNIFY THE BEGINNING OF THE END made on inngur"
+    },
+    {
+        "id": "136",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/136.png",
+        "text": "94 %, 11:12 AM www.cnn.com/2016/05/19/politics/donald trump-egyptair-terre E BREAKING NEWS Hillary Clinton says EgyptAir Flight 804 highlights threat from organized terror groups. Watch her live now. politics CNN Donald Trump doesn't wait for investigators to call missing EgyptAir flight act of terror"
+    },
+    {
+        "id": "137",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/137.png",
+        "text": "Bernie fans when they realized they actually had to go out and vote and not just tweet about him OHATEPTUNTE."
+    },
+    {
+        "id": "138",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/138.png",
+        "img_512": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512/test/0/138_enlarged.jpeg",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/0/138_enlarged.jpeg",
+        "text": "As a 27 year old staff attorney for the House Judiciary Committee during the Watergate investigation, Hillary Rodham was fired by her supervisor, lifelong Democrat Jerry Zeifman. Hillary a da When asked why Hillary Rodham was fired, Zeifman said in an interview, `` Because she was a liar. She was an unethical, dishonest lawyer, she conspired to violate the Constitution, the rules of the House, the rules of the Committee, and the rules of confidentiality. ''"
+    },
+    {
+        "id": "139",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/139.png",
+        "text": "threedogs toaster The Mother Trump feeds it's Trumplings a small loan of a million dollars"
+    },
+    {
+        "id": "140",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/140.png",
+        "text": "Momma said when Mr. Trump buildsthat wall. We should put Hillary on the other side of it. And if she wants back in she can just email us."
+    },
+    {
+        "id": "141",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/141.png",
+        "text": "shared SubjectPolitics's video 2 hrs It's sad when you make the 74 year old socialist look good in comparison to you HILLARY CLINTON PLAYING THE `` NoMAN CARD '' COUNT: 1 SubjectPolitics com 1:21 IX 1,443,217 Views SubjectPolitics Like Page April 28 at 3:29am Hillary Clinton plays the Woman card 13 times in a MINUTE... Like Comment Share she could make osama bin laden look good Like Reply 1.1 hr. Edited"
+    },
+    {
+        "id": "142",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/142.png",
+        "img_512": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512/test/1/142_enlarged.png",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/1/142_enlarged.png",
+        "text": "ISO YOU 'RE TELLING ME THAT HILLARY CLINTON WAS RUBBING ELBOWS WITH KNOWN KKK MEMBER ROBERT BYRD, DEFERRED TO BLACK CIILDEEN AS SUPER PREDATORS AND PUSHED LEGISLATION THAT DISPROPORTIONATELY TARGETS INCARCERATION OF MINORITIES BUT SOMEHOW SHE DESERVES THE BLACK VOTES"
+    },
+    {
+        "id": "143",
+        "label": 1,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/143.png",
+        "text": "12 mins 2 Not sure if real Anyone know how credible this is Sperm Whales Found Dead In FL, Stomachs Full Of Uncounted Bernie Sanders Ballots According to a press release from Florida's marine Biologist Union, many of the whales had stomachs FULL of uncounted Bernie Sanders ballots.. wwVWZGARLIC.COM Like Comment Share I"
+    },
+    {
+        "id": "144",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/144.png",
+        "text": "HERE JOHNSON 2016 FACEBOOK REASONABLE PEOPLE FOR GARY JOHNSON"
+    },
+    {
+        "id": "145",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/145.png",
+        "text": "WHAT IF POKEMON GO WAS RELEASED TO D US FRO THE FBIS STANCEON HILLARY CLINTON"
+    },
+    {
+        "id": "146",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/146.png",
+        "text": "Donald Trump's hair looks like someone tried to use the blur tool in photoshop to cover a bald spot"
+    },
+    {
+        "id": "147",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/147.png",
+        "img_512": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512/test/0/147_enlarged.png",
+        "img_512_1280": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images_512_1280/test/0/147_enlarged.png",
+        "text": "MAMAS Who am I supposed to vote for? Am l supposed to vote for the Democrat who's going to blast me in the or the Republican who's blasting my ass?"
+    },
+    {
+        "id": "148",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/148.png",
+        "text": "EcakpnBeHn rnacoBnl 18 minutes ago We will have presidential nominees that people with higher IQs voted for. Why does Clinton and Trump have the majority vote? People are generally irrational embed caHyBaj noyeT"
+    },
+    {
+        "id": "149",
+        "label": 0,
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/149.png",
+        "text": "Voting for Trump because Bernie s out is like blowing a dude because your girlfriend dumped you A really racist dude @ alpaca pone"
+    }
+]

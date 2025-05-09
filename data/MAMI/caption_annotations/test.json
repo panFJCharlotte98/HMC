@@ -1,0 +1,1242 @@
+{
+    "15916": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15916.png",
+        "gt_caption": "The image features two human subjects. The top half displays a male subject with a serious expression, while the lower half captures another male subject, smiling and appearing excited. The background is neutral, with no identifiable settings. The text overlay reads: \"Your computer has 20 viruses\" in the top section and \"There are 40 hot milfs in your area\" in the bottom section."
+    },
+    "15136": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15136.png",
+        "gt_caption": "The image features a woman with long brown hair, depicted in a desert-like environment. She is wearing a black bikini top and is positioned in a leaning pose. The background includes earth tones, suggesting a dry landscape. Overlaid text at the top reads, \"WHERE WILL YOU BE,\" and at the bottom, \"WHEN DIARRHEA HITS.\" The image appears to use humor in portraying an exaggerated scenario. The woman's clothing emphasizes her physical form, and the positioning of her arms indicates a revealing posture."
+    },
+    "15846": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15846.png",
+        "gt_caption": "The image shows a scene from a television show where a man and a woman are standing near a small round table in what appears to be a bar or restaurant setting. The woman, wearing a form-fitting yellow and red outfit, is standing upright with a neutral facial expression and her arms resting on the table. The man, wearing dark clothing and glasses, is leaning forward toward her chest, appearing to look in that direction. Text has been overlaid onto the image: the word \u201cMOVIE\u201d is placed near the woman's face, \u201cSUBTITLES\u201d is placed on her chest area, and \u201cME\u201d is placed above the man, indicating his perspective. The image contains visual cues suggesting sexual innuendo through the man's eye line and the placement of the \u201cSUBTITLES\u201d label on the woman\u2019s chest. The female subject is dressed in a way that emphasizes her bust area through the fitted clothing."
+    },
+    "15457": {
+        "img": "./data/MAMI/MAMI_2022_images/test/stereotype/15457.png",
+        "gt_caption": "The image features an adult female subject standing against a pink and gray radial background. She is wearing a white T-shirt with black text that reads: \"THIS IS WHAT A FEMINIST LOOKS LIKE.\" The woman is carrying a bag on her shoulder and has an assertive facial expression, with her mouth open as if speaking or shouting. Overlaid text at the top of the image reads: \"DEMANDS RESPECT AND NOT BE TREATED AS A SEXUAL OBJECT.\" The text at the bottom reads: \"STANDS IN A LINE FOR THREE HOURS TO WATCH A MOVIE ABOUT A RICH MAN WHO ABUSES SEXUALLY AND PSYCOLOGICALLY A GIRL.\""
+    },
+    "15692": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/15692.png",
+        "gt_caption": "The image features a woman with dark hair, wearing glasses, and smiling while appearing to adjust her glasses. She is positioned in a relaxed indoor setting. Overlaid on the image is the text: \"WHEN I SAY I LIKE IT ROUGH... THAT DOESN'T MEAN CHRIS BROWN ME...\" The woman is depicted in a manner that could be interpreted as flirtatious, with her expression conveying a playful tone. The visual cues do not include any explicit nudity or overtly sexual body parts, but the context of the text implies sexual innuendo."
+    },
+    "16334": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16334.png",
+        "gt_caption": "The image features a comic-style illustration divided into two sections labeled \"Women\" and \"Males.\" The left section includes a rectangular object labeled \"OBJECT,\" while the right section shows a cartoon figure of a male character smiling, alongside the same rectangular object labeled \"OBJECT.\" The text at the top reads, \"Photographing something you want to show everyone.\" The human subject in the image is male."
+    },
+    "15795": {
+        "img": "./data/MAMI/MAMI_2022_images/test/stereotype/15795.png",
+        "gt_caption": "The image shows a man with short dark hair, wearing a light-colored shirt, expressing confusion or frustration. He has both hands on his head. The overlaid text reads: \"GIRLFRIEND OFFERS TO WATCH FOOTBALL WITH YOU COMMENTS ON THE TEAM'S UGLY UNIFORMS.\""
+    },
+    "16232": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/16232.png",
+        "gt_caption": "The image is divided into two parts. On the left side, there is a photo of a young woman with long brown hair, wearing a light-colored shirt with a floral pattern, appearing to be smiling and positioned in a casual indoor setting. On the right side, there is a screenshot depicting a person wearing a black hoodie and sitting at a table with a bowl of food, looking somewhat defensive or confused. The overlaid text reads: \"why are u attacking me? i was eating peacefully.\" This juxtaposition highlights a contrast between a visually appealing image of the woman and a more serious, somewhat humorous expression from the person on the right."
+    },
+    "16304": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16304.png",
+        "gt_caption": "The image features a black-and-white illustration of a woman identified as a nurse, holding a syringe in her right hand. She is looking directly at the viewer with a serious expression. The text overlaid on the image reads: \"YOU CAN'T FIX STUPID\" at the top, and \"But You Can SEDATE IT!!!\" beneath it. Additionally, there is another line of text at the bottom that says, \"And It's so simple.\" The woman appears to be an adult female."
+    },
+    "15758": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/15758.png",
+        "gt_caption": "The image features a two-panel illustration from the animated series \"SpongeBob SquarePants.\" In the first panel, a character, depicted as a robot, is holding a weapon, and there is overlaid text that reads \"men\" followed by \"women's rights should be equal to men's rights.\" In the second panel, the robot is still holding a weapon, and the overlaid text states \"EQUAL RIGHTS EQUAL FIGHTS.\" The gender of the depicted character is male."
+    },
+    "15400": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15400.png",
+        "gt_caption": "The image shows a digitally altered composition in which a cat's head is edited into the space between a pair of human legs, which are bent at the knees and spread apart. The human subject appears to be female, suggested by the smooth, hairless skin and body positioning, though no genitalia are visible. The legs are positioned in a way that draws attention to the groin area, making the presentation sexually suggestive. Overlaid text at the bottom of the image reads: “THIS ISN’T TUNA.” This text, combined with the visual of a cat positioned near the pelvic region, creates sexual innuendo through implied double meaning."
+    },
+    "16055": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/16055.png",
+        "gt_caption": "The image shows a female volleyball player from behind, wearing a blue jersey with the number \"6\" and the word \"CONNECTICUT\" on the back. She is bending forward in a typical ready position on the court, with her posture emphasizing her buttocks, which are clad in tight black shorts. Several other players, also female and dressed similarly, are visible in the background. The visual focus is clearly centered on the woman’s lower body. Overlaid text at the bottom of the image reads: “Women's Volleyball” and underneath that, in smaller text: “IT'S STARTING RIGHT NOW, LET’S GO BEFORE WE MISS IT!!!” The tight-fitting shorts and the camera angle directed at the subject’s backside contribute to a sexually provocative portrayal. The text and image combination may imply sexual innuendo by emphasizing physical appearance rather than athletic performance."
+    },
+    "15144": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15144.png",
+        "gt_caption": "The image features a woman with dark, curly hair, wearing a yellow and red uniform. She has a name tag that reads \"Max.\" The background shows a diner setting with various kitchen items. The text overlaid on the image reads \"BEST EXAMPLE OF A CURVY WOMAN.\" The subject appears to be female. The attire accentuates her curves, but there is no explicit emphasis on nudity or sexual body parts. The image focuses on her facial expression and overall appearance without any direct sexual innuendo or overtly provocative elements."
+    },
+    "16187": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/16187.png",
+        "gt_caption": "The image shows a woman with a distorted expression, appearing to be mid-motion as her head and face are slightly contorted. She is wearing a yellow shirt and a necklace, with her hair flying to the side. The overlaid text at the top reads: \"SANDWICH!!!!!!\" and at the bottom: \"don't make me tell you twice woman.\" The image appears to depict a dramatic or exaggerated facial expression, paired with the text, which suggests a forceful demand."
+    },
+    "17018": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/17018.png",
+        "gt_caption": "The image shows a basketball hoop with several basketballs caught in the net. The background consists of greenery, including trees. Overlaid text at the bottom reads, \"COLLEGE GIRLS IN ONE IMAGE.\" The visual elements primarily focus on the basketballs and the hoop."
+    },
+    "15438": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15438.png",
+        "gt_caption": "The image consists of two panels featuring a robotic character in a cartoonish style standing against a backdrop of city buildings. The text on the left panel reads, \"Hot girls with big titties,\" and the text on the right panel says, \"Cute girls with nice personality.\" The image features a robot and text only. There are visual elements that indicate a humorous juxtaposition of attractiveness versus personality."
+    },
+    "15232": {
+        "img": "./data/MAMI/MAMI_2022_images/test/shaming/15232.png",
+        "gt_caption": "The image shows two women sitting on a subway or train. One woman on the left is wearing a pink shirt, while the woman on the right has curly hair and appears to have a serious expression. She is wearing a light blue denim jacket and is seated with her arms crossed. Below the image, there is overlaid text that reads, \"IF MONDAY WERE A PERSON.\" Both subjects are visually identifiable as female."
+    },
+    "15863": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15863.png",
+        "gt_caption": "The image features a man with an injured face, evident from bruising around his left eye, which appears swollen and bloodied. He has short, dark hair and is looking directly at the camera with a neutral expression. The upper portion of the image contains the text \"A SAMMICH\" in bold letters, while the lower portion reads \"MAKE ME A SAMMICH!\" in a slightly smaller font. Additionally, there is a text line above the man's image that says \"Gina Carano didn't make them.\" The overall context seems to indicate a humorous or sarcastic intent, involving themes of domestic roles or food preparation."
+    },
+    "15765": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15765.png",
+        "gt_caption": "The image features two women laughing. One woman, in the foreground, has long dark hair and is wearing a light pink outfit, while the other woman, in the background, has shorter hair and is dressed in a lighter-colored top. The overlaid text reads: \"DUDES BE VENTING ON HERE LIKE WE CARE POST SOME GREY SWEATPANTS PICS HOE.\" Both subjects are female. The overall visual content captures the two women in a candid, joyful moment."
+    },
+    "15294": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15294.png",
+        "gt_caption": "The image shows a public outdoor scene involving two female subjects. On the left, a woman is wearing a Hooters uniform\u2014composed of a tight white tank top and short orange shorts\u2014and holding drinks in both hands. Her outfit accentuates her chest and legs. On the right, another woman, dressed in a more modest outfit with glasses and grey trousers, is standing and looking toward the woman on the left while holding a sign that reads: \u201cWOMEN ARE NOT FOR DECORATION.\u201d Text overlaid at the bottom of the image reads: \u201cFEMINISM,\u201d with a subtext underneath that says: \u201cBecause not everyone can be pretty.\u201d The image contrasts the appearance and messaging of the two individuals."
+    },
+    "15504": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15504.png",
+        "gt_caption": "The image consists of two panels featuring animated characters from a children's television show. The left panel shows a female character with brown hair and glasses sitting on a bed, appearing surprised or concerned. She is wearing a yellow dress. The right panel depicts another character, which is a person in a pink outfit with a white shirt, bending over in a suggestive manner, with their body facing away from the viewer and blue shoes visible. The text overlay reads, \"When you call your girl a bitch vs when the DJ asks where all the bad bitches in the club at.\" The image conveys contrasting reactions between the two scenarios presented in the text."
+    },
+    "15659": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/15659.png",
+        "gt_caption": "The image features two lions, with a male lion in a pronounced posture, mouth wide open as if roaring or shouting. The female lion is positioned beside him, seemingly more subdued. The male lion's stance and facial expression suggest he is engaging in a loud action, possibly a roar. Overlaid text above the lions reads: \"NOW GO MAKE ME A SAMMICH.\" The text uses a slang term for \"sandwich,\" implying a command from the male lion to the female lion. The text directly interacts with the scene to create a conversational context between the animals."
+    },
+    "15732": {
+        "img": "./data/MAMI/MAMI_2022_images/test/stereotype/15732.png",
+        "gt_caption": "The image shows a man, identified by his gender, cooking in a kitchen. He is wearing a light blue shirt and is focused on preparing food in a pot on the stove. The kitchen environment includes various appliances and utensils. There is overlaid text at the bottom that reads, \"MEN COOKING BECAUSE THEIR WOMAN IS CURRENTLY OUTSIDE, CHANGING THE OIL IN THE CAR.\""
+    },
+    "16115": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16115.png",
+        "gt_caption": "The image features a female subject with elaborate makeup and styled hair, portraying a glamorous appearance. She has a prominent hairstyle, with the hair styled high and back, and is wearing a black, sequined outfit with a plunging neckline. The subject's skin is smooth and there is a visible tattoo on her upper arm. The overlayed text reads: \"BOTOX WHO NEEDS FACIAL EXPRESSIONS ANYWAY.\" The overall presentation emphasizes a dramatic beauty aesthetic associated with drag culture."
+    },
+    "15235": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15235.png",
+        "gt_caption": "The image shows a close-up of a woman with long reddish-brown hair and a nose ring. Her mouth is wide open with her tongue visible, and her face is tilted toward the camera. The text overlaid at the top of the image reads: \"SOME GIRLS ACT LIKE HEROES BUT\", and the text at the bottom reads: \"MOST TIMES THE 'ER' IS SILENT\". The combination of text and the image's framing of the woman\u2019s open mouth implies a sexual innuendo, particularly through wordplay on the word \"heroes\" with the suggestion that removing \u201cer\u201d changes its meaning. There is no overtly revealing clothing visible, but the overall visual and textual context conveys a suggestive message."
+    },
+    "15182": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15182.png",
+        "gt_caption": "The image shows two panels depicting two individuals, a male and a female, seated together at an NBA Finals game. In the first panel, the female has long dark hair and is wearing a sleeveless top, appearing engaged and expressive in her reactions, while the male, who has short light brown hair, is sitting with a neutral expression. The second panel features the same female looking animated and vocal, while the male appears distracted, looking at his phone. Overlaid text in both panels reads: \"DON'T BRING A GIRL TO THE NBA FINALS\" in the first panel, and \"SHE'LL GET BORED\" in the second. There are visual cues that suggest the female is portrayed with an emphasis on her expressions and engagement, while the male's demeanor contrasts with a lack of interest."
+    },
+    "15100": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15100.png",
+        "gt_caption": "The image shows a woman and a young girl sitting on a wooden staircase. The woman is wearing a two-piece bathing suit with a floral pattern and high-waisted green bottoms. She has long, wavy hair and is smiling while holding a pair of sunglasses. The girl, who appears to be approximately two to three years old, is dressed in a matching bikini top and green bottoms with red sandals. Both subjects are engaging in a playful interaction, with the woman raising her hand for a high five and the girl mimicking her gesture. The overlaid text consists of a dialogue: \"She1: Y do u want to get married? She2: just to do these things with my daughter \\U0001f60d\"."
+    },
+    "15999": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15999.png",
+        "gt_caption": "The image features a female subject standing by water, wearing a bikini top that consists of two colors: light blue and a patterned section. She has long, dark hair and is positioned in a posture that suggests surprise or discomfort, with her body slightly turned and her hands in front of her as if reacting to something. The background shows a body of water, likely a beach or pool setting. Overlaid text reads: \"When ur cleaning dishes and a chunk of food touches your hand.\" The overall presentation is casual, depicting a moment that may be relatable to many."
+    },
+    "15977": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15977.png",
+        "gt_caption": "The image features a side-by-side comparison labeled \"2020 BEFORE and AFTER.\" On the left, there is a female subject with blonde hair, smiling while wearing a white dress and appearing to be in a bright, outdoor setting. On the right, another female subject with dirty, disheveled hair has visible traces of blood on her face and is holding a cigarette, set against a darker, possibly chaotic background. The left image conveys a clean and joyful appearance, while the right image presents a stark contrast with a more distressed and grim demeanor."
+    },
+    "15615": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15615.png",
+        "gt_caption": "The image shows a text conversation with the message \"Send me a picture of you in your bra\" followed by multiple heart-eye emoji. Below the text, there is a picture of a person, who appears to be a woman, printed and placed inside a bra. The person is dressed in a leather jacket, and the photo is inside the bra, which is laid out on a wooden surface. The bottom of the image contains the text: \"some shit I would do.\" The image combines a suggestive request with a humorous or ironic twist based on the placement of the photo."
+    },
+    "15667": {
+        "img": "./data/MAMI/MAMI_2022_images/test/stereotype/15667.png",
+        "gt_caption": "The image consists of two panels, featuring animated characters from a well-known television show. In the upper panel, a female character with yellow skin and spiky hair is standing in front of a projection screen that displays the text: \"Sexism is still sexism even if it's pointed towards men.\" In the lower panel, the same female character is shown again alongside several male characters, who are police officers. The word \"Feminists\" is overlaid on the lower panel. The female character appears to be reading a book while the male characters are depicted with weapons and appear to be in a confrontational stance."
+    },
+    "16273": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16273.png",
+        "gt_caption": "The image depicts a man with a significant amount of body hair on his chest, styled to resemble a bikini top. He has a beard and is standing in a setting that appears to be outdoors, possibly at a pool or beach. There is a woman behind him, seemingly grooming or styling the hair on his head. The overlaid text reads, \"OPERACI\\xd3N BIKINI.\" The man is the only human subject in the image, and he is male."
+    },
+    "15725": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15725.png",
+        "gt_caption": "\"The image depicts a person performing on stage with a spotlight illuminating the area. The performer, who appears to be male based on the context and attire, is dressed in a glittery outfit that includes a cropped top and a short, fitted bottom. The background features a decorated stage with colorful lights and a banner that reads '2 QUEENS.' Overlaid text at the bottom reads, 'THAT AWKWARD MOMENT WHEN YOU REALIZE YOUR TUCK'S HAVING A WARDROBE MALFUNCTION.' The performer is posing in a manner that suggests an attempt to showcase their outfit while engaging the audience. The visual cues include the performer's styling and the outfit's tight fit, which may imply intentional emphasis on their silhouette.\""
+    },
+    "15466": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15466.png",
+        "gt_caption": "The image features two otters floating in the water, intertwined, with a light blue background. Overlaid text at the top reads, \"I HAVE A GIRLFRIEND,\" and at the bottom, it states, \"BITCH.\" The otters appear to be in a close and affectionate pose. The overall focus of the image is on the otters and the text accompanying them."
+    },
+    "15909": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15909.png",
+        "gt_caption": "The image shows a close-up of a woman with blonde hair, light skin, and makeup including mascara and lipstick. She is wearing flower-shaped stud earrings, and her nails are manicured with white tips. Her hand is partially covering her mouth, and her face is positioned close to a dark vertical surface, creating a sexually suggestive pose that may imply a sexual act. The overlaid text at the top reads: \"When you're telling someone a secret.\""
+    },
+    "15718": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15718.png",
+        "gt_caption": "The image features a woman with a neutral expression, wearing an orange garment that suggests a prison uniform. Her hair is short and brown. The overlaid text reads: \"WANTED IN 50 STATES.\" The woman's gender is female. The image appears to depict a wanted poster format commonly seen in law enforcement contexts."
+    },
+    "16085": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16085.png",
+        "gt_caption": "The image features a close-up of a banana with a shiny, wet appearance, suggesting some form of moisture or liquid on its surface. In the background, there are trees and greenery, indicating an outdoor or natural setting. Overlaid text reads: \"When you leave her house after 2 hours of just kissing banana in ...\". The content appears to have a humorous or suggestive undertone due to the text associated with the banana, implying a playful or innuendo-filled context."
+    },
+    "15801": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15801.png",
+        "gt_caption": "The image contains two side-by-side panels. The left panel is labeled \"What boys think girls like\" and features a muscular male subject, displaying his torso with a background of palm trees and a bright sky. This male appears to be in his early twenties and is portrayed in a confident and attractive manner. The right panel is labeled \"What girls actually like\" and depicts a male subject, appearing slightly younger, who is working in a domestic setting, cleaning dishes in front of a variety of pots and pans. This male is wearing a black shirt and has short hair. The style is casual, and he is focused on his task."
+    },
+    "15341": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15341.png",
+        "gt_caption": "The image features a woman with long, curly hair, wearing yellow rubber gloves and a turquoise top. She appears to be holding a circular object with a dirty surface, likely a dish or a plate, while expressing frustration. The background shows a kitchen setting, indicating a domestic environment. There is overlaid text at the top and bottom of the image, which reads: \"SO FAR THE ONLY THING IVE NOTICED ABOUT BEING SINGLE? THE AUTOMATIC DISHWASHER NO LONGER FUNCTIONS.\" The woman is the only human subject in the image and is presented with an intense facial expression, suggesting her annoyance or anger related to the text."
+    },
+    "15436": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15436.png",
+        "gt_caption": "The image shows a two-panel comparison with the title \"taking a selfie with your best friend:\" at the top. In the first panel, labeled \"expectation,\" there are two women, smiling and posing closely together for a selfie. In the second panel, labeled \"reality,\" two men are pictured together, with one man making a silly face and the other sticking his tongue out, both appearing less coordinated or serious in their pose. The image contrasts the idealized version of a selfie with a more candid, humorous reality. The subjects in both panels appear to be enjoying themselves, with the first panel showing a more traditionally posed selfie and the second showcasing a playful or awkward moment."
+    },
+    "16001": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16001.png",
+        "gt_caption": "The image features two human subjects engaged in conversation. One subject is a male, dressed in a tuxedo, seated on the left, while the other subject is a female, wearing a light-colored dress, seated on the right. The female has long, styled hair and is positioned in a way that draws focus to her legs, which are crossed. Overlaid text at the bottom reads, \"ADMIT IT AMERICAN PIE (1999) TAUGHT YOU THE WORD MILF.\" The setting appears to be a rustic interior, possibly a cabin, with wooden walls and a stone fireplace visible in the background."
+    },
+    "15857": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15857.png",
+        "gt_caption": "The image consists of two sections. The top section features a male subject with short hair and wearing what appears to be a sporty outfit, his expression serious and directed towards the viewer. The text overlaid in bold white letters reads: \"WOMAN GO BACK TO THE KITCHEN!\" The bottom section shows a female subject with long, curly hair, dressed in a light-colored top, smiling and gesturing with her right hand as if presenting something. The overlaid text states: \"NICE TRY. NOW BACK TO THE FRIENDZONE WHERE YOU BELONG.\" The genders of the human subjects are identified as male for the top section and female for the bottom section."
+    },
+    "15954": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15954.png",
+        "gt_caption": "The image consists of a meme featuring a character from an animated series. At the top, there is overlaid text that reads: \"MOM: Eat the food, it is not that hot.\" Below this text, there is an image of a character with long dark hair, portrayed with a neutral expression. The character's gender appears to be female. The meme concludes with additional text at the bottom that states: \"The food meme.\" The background includes clouds and a blue sky, which adds to the overall setting of the image."
+    },
+    "15526": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15526.png",
+        "gt_caption": "The image features a woman with long brown hair and a serious expression. She appears to be in a casual setting, possibly indoors, and is wearing a dark-colored top. The overlaid text reads: \"Babe call off work and stay with me tonight!\" and \"Goes straight to bed. Sleeps with back to you.\" The gender of the human subject is female. The subject's expression and posture may convey a sense of annoyance or disappointment."
+    },
+    "15092": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15092.png",
+        "gt_caption": "The image contains a cartoon scene featuring a character that appears to be a crab, with a wide-eyed expression of surprise or shock. The background includes several other cartoon characters in various colors, but they are somewhat blurred. Overlaid text reads: \"WHEN YOUR GIRLFRIEND SLAPS YOUR ASS AND CALLS YOU HER BITCH.\" Below the main image, there is additional text that says: \"Oh hell no.\" The characters depicted are presented in a comedic manner consistent with animated shows, and the expressions convey exaggerated emotions. The genders of the characters are not clearly identifiable based on this cartoon style. Overall, the content presents a humorous scenario typical of meme culture."
+    },
+    "15242": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15242.png",
+        "gt_caption": "In the image, there are two human subjects: a male and a female. The male, wearing a black t-shirt, is smiling and standing in front of a school locker. The female, who has long brown hair and is wearing a pink shirt with a plaid pattern, appears to be listening to him. The background suggests a school environment, indicated by the lockers. Superimposed text reads, \"Girl: My parents aren't home Guy: Don't worry, they'll come back.\""
+    },
+    "16136": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/16136.png",
+        "gt_caption": "The image shows a woman with long hair, sitting with her face partially obscured by her arm as she raises it defensively. A male hand is seen approaching from the right side of the frame, appearing to be in a fist position. The background suggests an indoor setting, likely a kitchen, given the blurred presence of cabinets and appliances. Overlaid text at the top reads, \"When Steve interrupts me.\" The woman appears to be the only human subject whose gender can be identified. The image focus is on the facial expressions and hand movements."
+    },
+    "16336": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16336.png",
+        "gt_caption": "The image features a cartoon cow that is anthropomorphized, depicted standing on its hind legs. It appears to be in a joyful or exaggerated pose, with its front legs raised. The cow has a black and white coat, a large head with a pink nose, and a tail. Above the cow, there is overlaid text that reads, \"When your girlfriend says she's hungry:\" followed by another line at the bottom stating, \"MILK ME ALL YOU WANT BITCH.\" The humor in this image seems to derive from a play on words related to hunger and the act of milking a cow."
+    },
+    "15637": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15637.png",
+        "gt_caption": "The image features a close-up view of a pair of female feet positioned with one foot slightly raised. There is text overlaid on the image that reads: \"YOU CAN TELL HOW MUCH A WOMAN LIKES YOU BY HER FEET. IF THEY ARE BEHIND HER EARS, SHE REALLY REALLY LIKES YOU.\" The feet appear to be bare and well-groomed. The content focuses solely on the feet and the accompanying text."
+    },
+    "15187": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15187.png",
+        "gt_caption": "The image contains a caption at the top that reads: \"Mom: just eat it, it's already hot, \" and beneath that, the text \"The soup: \" appears, referring to the visual content. Below the text, there is an image of a woman dressed as the superhero Captain Marvel, portrayed by Brie Larson in the Marvel Cinematic Universe. She is shown in a blue and red superhero suit with a star emblem on her chest, standing with a serious expression. The background features a cosmic setting, highlighting the superhero persona. The image uses the character's appearance to visually represent the concept of \"the soup\" in the humorous context suggested by the caption."
+    },
+    "15898": {
+        "img": "./data/MAMI/MAMI_2022_images/test/shaming/15898.png",
+        "gt_caption": "The image consists of two panels. The top panel features a female subject seated outdoors, wearing a black jacket and a yellow shirt, gesturing with her right hand while expressing herself. The overlaid text reads, \"I'M NOT FAT I'M BIG BONED.\" The bottom panel shows a male subject, characterized by an exaggerated expression of anger or frustration, wearing a light gray shirt and gesturing emphatically. The overlaid text in this panel states, \"BIG BONES DON'T JIGGLE WHEN YOU MOVE.\" The genders of the subjects in the image are female for the top panel and male for the bottom panel. The female subject's body size is emphasized by her sitting position and the context of the text."
+    },
+    "15547": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15547.png",
+        "gt_caption": "The image features a woman with a surprised expression, depicted with exaggerated facial features. She has curly hair and bold red lipstick. The background appears to show a dimly lit venue, possibly a red carpet event. The overlaid text reads: \"When you touch wet food in the sink.\" The woman is the sole human subject in the image, and she is presented in a neutral, non-provocative manner with no emphasis on nudity or sexual body parts."
+    },
+    "15340": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15340.png",
+        "gt_caption": "The image depicts a woman in an apron standing at a sink, drying a dish. She has a neutral expression and is engaged in household chores. The scene appears to be set in a vintage kitchen environment with dishes stacked on the counter. Overlaid text reads: \"WHY YES, I CAN COOK, CLEAN AND MULTI-TASK. JUST ASK MY HUSBAND AND MY BOYFRIEND!\" The woman is presenting as a female subject."
+    },
+    "15323": {
+        "img": "./data/MAMI/MAMI_2022_images/test/shaming/15323.png",
+        "gt_caption": "The image shows a plus-size adult female wearing a bright blue T-shirt and dark pants, positioned outdoors on a grassy area. She is bent forward slightly with her arms at her sides, appearing to be in motion or preparing for motion. Her facial expression is intense or focused, and her body posture suggests physical exertion. Visible visual cues such as the size of her arms and torso indicate that she is overweight. Overlaid text in all capital letters is present in two sections. The top text reads: \u201cSHR SAYS SHE BE EXERCISING BUT,\u201d and the bottom text reads: \u201cWHEN I WATCH HERE SHE BE ONLY TAKING TEN SLOW STEPS AND SAYING THAT'S HER EXERCISE FOR THE DAY.\u201d"
+    },
+    "15830": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15830.png",
+        "gt_caption": "The image shows a person with long, wavy blonde hair, wearing bright makeup, including bold eye makeup and red lipstick. They are dressed in a bright red outfit with a deep neckline, exposing part of their chest. The individual has large earrings and a decorative hairpiece with feathers. Overlaid on the image is the text: \"HAPPY BIRTHDAY JUICEY JUICE!! YOU BITCH!\" The subject appears to be a male impersonating a female, exhibiting features typically associated with drag performances. Their expression is wide-eyed and mouth open in what appears to be an exaggerated and playful manner."
+    },
+    "15532": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15532.png",
+        "gt_caption": "The image features a man with curly hair and a surprised expression holding his hands apart, indicating a length. The overlaid text reads: \"I SAW A VERY SEXY WOMAN BUT SHE HAD A DICK THIS LONG...\" The man appears to be dressed in a collared shirt and a jacket. The image employs visual exaggeration regarding size. The overall tone suggests humor through its erratic expression and the unexpected nature of the statement."
+    },
+    "15253": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15253.png",
+        "gt_caption": "The image features two individuals seated closely together in a casual setting, likely at a sports event. There is a male figure wearing sunglasses and a dark shirt with the word \"ASTROS\" visible; he has his arm around a female figure. The female subject is wearing a white tank top that is fitted and slightly low-cut, highlighting her chest area. Her hair is blonde and styled in a ponytail. Both subjects appear to be engaged in conversation, with the male figure gesturing toward the female. A man with shorter hair, seated nearby and slightly older, is also visible in the foreground. Overlaid text reads: \"Me explaining to my girlfriend that she has to put gas in her car in order for it to work.\""
+    },
+    "15927": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/15927.png",
+        "gt_caption": "The image is a digitally illustrated cartoon showing a hand placing a pill into the mouth of a small animal, which appears to be a dog or cat. The animal\u2019s mouth is open as it is being administered the pill. The hand and animal are labeled with overlaid text: the word \u201cME\u201d is placed near the hand, and the word \u201cWOMEN\u201d is placed near the animal. In the upper-right corner, there is an inset showing a box labeled \u201cRESPECT\u201d with several round pills next to it, indicating the pill being administered is from that box."
+    },
+    "16083": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16083.png",
+        "gt_caption": "The image displays a scene from an animated film featuring two characters, Hades, a male figure with gray skin and blue hair, and a female figure with red hair. The text overlay reads: \"Hades understands\" at the top, followed by dialogue from the characters. Hades is depicted expressing disbelief or frustration, while the female character is speaking positively about someone else, saying, \"This one is different. He's honest and sweet, and wouldn't do anything to hurt me.\" Below that, Hades responds, \"HE'S A GUY.\" Both characters appear to be cartoonish and are set against a dark background."
+    },
+    "15726": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15726.png",
+        "gt_caption": "The image features a group of five female subjects standing on a porch. They are facing away from the camera, revealing their backs. They are dressed in casual summer clothing, including shorts and tank tops. The overlaid text reads, \"When you and your squad see someone you hate.\" The women are displaying hand gestures that could be interpreted as expressive; one woman is raising her middle finger. The scene conveys a relaxed atmosphere, with the subjects seemingly engaged with each other."
+    },
+    "15220": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15220.png",
+        "gt_caption": "The image features a young woman with long dark hair styled in a high ponytail. She is wearing a shiny, silver outfit that reveals her shoulders. She has a pink fur coat draped over one arm. The expression on her face appears contemplative or slightly unsure. The overlaid text reads, \"WHEN YOUR DAD ASKS IF YOU'RE REALLY WEARING THAT TO GO OUT.\" The subject is female."
+    },
+    "15102": {
+        "img": "./data/MAMI/MAMI_2022_images/test/stereotype/15102.png",
+        "gt_caption": "The image consists of two sections. The upper part contains a block of text that reads: \"When you are a feminist and somebody tries to insult you by telling you 'with these ideas no man will ever want to marry you.'\" The lower part features a character with long white hair and a beard, sitting on a throne, smiling and laughing. The caption below the image states: \"YOU HAVE NO POWER HERE.\" The character appears to be male, represented as an older person."
+    },
+    "15630": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15630.png",
+        "gt_caption": "The image features a woman with long, straight hair, holding her hand up to her head. She has a neutral expression on her face and appears to be wearing minimal clothing, which emphasizes her bare shoulders and neckline. The background shows a bright indoor setting with large windows that let in natural light. Overlaid text at the top of the image reads: \"SUMMER 2020 THE NEW SEXY.\" The woman's gender is female, and she is portrayed in a way that can be interpreted as sexually provocative due to the minimal clothing and body positioning."
+    },
+    "15787": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15787.png",
+        "gt_caption": "The image features a woman smiling while resting her chin on her hand. She has long, dark hair and is wearing a light-colored top. The background appears to be a bright indoor setting, with light-colored walls. Overlaid text at the top reads, \"Friendzoned you,\" and the text at the bottom says, \"Sets you up with one of her hot friends.\" The subject is female."
+    },
+    "15074": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15074.png",
+        "gt_caption": "The image consists of three separate photos of women cooking in a kitchen environment. Each woman is portrayed from the back, displaying their stance while engaging in cooking activities. The first woman is wearing a loose gray dress and is stirring something on the stove. The second woman is in a red top with polka dots and a black skirt, also standing at the stove, depicted with her hands on her hips. The third woman is wearing a purple top and appears to be stirring a pot. Overlaid on the image is the text: \"All Asian women stand like this when they cook.\" All individuals in the images are clearly female."
+    },
+    "15418": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15418.png",
+        "gt_caption": "The image features an adult woman with long blonde hair and light skin, wearing a low-cut black top. She is looking at the camera with a slight smile and a tilted head, posed in front of a blurred background that includes plants and a doorway. The overlaid text at the top of the image reads: \"BOYS, I PREHEATED THE OVEN FOR YOUR PIZZA,\" and the text at the bottom reads: \"STICK IT IN ANY TIME.\" The combination of the woman's pose, attire that emphasizes her chest, and the phrasing of the text contains visual and verbal cues that suggest sexual innuendo."
+    },
+    "15884": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15884.png",
+        "gt_caption": "The image features a conversation between two individuals, identified as a girl and a guy. The girl states, \"I'm not looking for anything serious, just a friend with benefits,\" and the guy responds, \"There's no way I'm paying your health insurance.\" Overlaid at the bottom is the text, \"Not today Satan.\" The visible human subjects include a female and a male, with the female appearing to be dressed in a way that shows her shoulders and part of her arms. The expressions of both subjects suggest a casual conversation. The male appears to have a slight smile, while the female looks at him with a contemplative expression."
+    },
+    "16018": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16018.png",
+        "gt_caption": "The image shows two photos side by side, with the overlaid text \"this could be us but you ain't here\" at the top. In both photos, a woman's midsection is visible, with her wearing a white top and Calvin Klein underwear. A hand is placed on her waist, with the hand's position shifting slightly between the two images. The image highlights a close and intimate gesture, with the focus on the woman's body and the hand on her waist, emphasizing a physical connection. The visual context suggests a scenario where the person in the photo is expressing longing or frustration about the absence of someone they are addressing."
+    },
+    "15537": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15537.png",
+        "gt_caption": "The image features a penguin in the center with a solid color background that consists of red shades. There is overlaid text at the top that reads, \"DO GROUP PROJECT WITH CUTE GIRL\" and at the bottom, it states, \"GET PHONE NUMBER TO TALK ABOUT PROJECT.\" The visual elements prominently include the penguin, and the text conveys a theme related to a group project involving a female subject, though no human subjects are depicted directly in the image."
+    },
+    "15688": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/15688.png",
+        "gt_caption": "The image shows a woman inside a car, smiling and looking towards the camera while holding the steering wheel with her left hand. She appears to have long blonde hair and is wearing a blue shirt. There is overlaid text in a bold, white font that reads: \"I HELPED AN OLD LADY CROSS THE STREET ONCE- WITH MY FRONT BUMPER.\" The context suggests a humorous take on a situation involving a car and an elderly person."
+    },
+    "15357": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15357.png",
+        "gt_caption": "The image features a woman standing by a swimming pool, wearing a two-piece bikini. She is posing with one hand on her hip and the other raised, showing a confident stance. The woman has light-colored hair, and she is wearing sunglasses. In the background, there are poolside chairs and greenery, suggesting a leisure setting. Overlaying the image, in bold white text, are the words: \"WANT A BIKINI BODY? PUT ON A BIKINI!\" The woman appears to be plus-sized, and her body is prominent in the image due to the cut of her swimsuit. The overall focus is on her and the message conveyed by the text."
+    },
+    "15810": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15810.png",
+        "gt_caption": "The image features a man with a serious expression, sitting in a chair with a backdrop that suggests a television studio setting. He has short hair and is wearing a suit with a tie. Overlayed text at the top reads, \"HOW MEN LOOK WHEN THE WOMAN OF THE HOUSE SAYS TAKE OUT THE TRASH\" and at the bottom, \"AND ITS COLD OUTSIDE.\" The image is focused solely on the male subject's facial expression and the text."
+    },
+    "15391": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15391.png",
+        "gt_caption": "The image features a young girl with curly hair and a neutral expression, looking slightly to her left. She appears to be a child. The background suggests a domestic setting, likely a living room. Overlaid text reads: \"Wanna know if ur mans cheating? Snatch his phone run in the bathroom. If he tries 2 kick the door down..u ain't the only one! You're Welcome.\" The overall appearance is casual and focuses on a humorous take on relationship dynamics."
+    },
+    "16251": {
+        "img": "./data/MAMI/MAMI_2022_images/test/stereotype/16251.png",
+        "gt_caption": "The image consists of three separate sections. The top section depicts a snowy scene with cars lined up, suggesting traffic congestion. The middle section shows a woman with a pained expression, appearing to cry or be distressed. Overlaying her image is the text 'TRY TO AVOID TRAFFIC' above her and 'GETS ON A MONORAIL' below. The bottom section features a man with curly hair, gesturing with his hands as he speaks, and includes the text 'WOMEN.' There are two human subjects depicted: one female in the middle section and one male in the bottom section."
+    },
+    "17028": {
+        "img": "./data/MAMI/MAMI_2022_images/test/shaming/17028.png",
+        "gt_caption": "The image features a male subject with long, curly blonde hair, singing into a microphone. He appears to be wearing a sleeveless shirt, and his expression is focused on performing. The background is dark, indicating a stage setting. Overlaid text reads: \"HAPPY 62ND BIRTHDAY SARAH JESSICA PARKER\" and at the bottom: \"THIS IS REALLY TWISTED, SISTER. #UnKNOWN_PUNster @2017.\" The first sentence suggests a humorous or sarcastic tone in the context of the birthday greeting."
+    },
+    "15125": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15125.png",
+        "gt_caption": "The image depicts a digitally altered animal, specifically a pig, with a human-like aspect. The pig is lying on its side with a relaxed posture and a smirk on its face. It has a cartoonish appearance, and its body position suggests casualness. Overlaid text reads: \"JAPANESE SCIENTISTS HAVE CREATED A CAMERA WITH SUCH A FAST SHUTTER SPEED THAT THEY CLAIM CAN PHOTOGRAPH A WOMAN WITH HER MOUTH SHUT.\" The content primarily features humor and parody."
+    },
+    "15479": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/15479.png",
+        "gt_caption": "The image shows a young adult female with long dark hair leaning forward in front of a desktop computer setup. She is wearing a white off-the-shoulder blouse, and her head is being held down by a hand positioned at the back of her neck. The person holding her head is not fully visible, but the hand appears to belong to an adult. The keyboard in front of the woman is illuminated with multicolored lights, suggesting it is a backlit or RGB keyboard. There is overlaid text at the top of the image that reads: \"BABE LOOK AT MY KEYBOARD IT GLOWS\". The lighting and composition draw attention to the keyboard. There are visual cues, such as the woman\u2019s body positioning and the presence of another person\u2019s hand pressing on her neck, that may suggest sexual innuendo."
+    },
+    "15910": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15910.png",
+        "gt_caption": "The image features a cat, specifically an orange tabby, sitting in a relaxed pose on a flat surface. The cat appears to be in an upright position with its front paws resting on its belly. The background includes a few objects, but they are not the focal point. Overlaid on the image is the text: \"DO YOU SHAVE... YOUR PUSSY?\" The subject is a single, non-human figure, with no visible human subjects or indications of overweight individuals."
+    },
+    "15205": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15205.png",
+        "gt_caption": "The image shows a close-up portrait of a young woman with light brown hair and blue eyes. She is smiling and looking directly at the camera, appearing friendly and relaxed. The overlaid text reads: \"YOU HAVE A NEW GIRLFRIEND? BECOMES HER BEST FRIEND.\""
+    },
+    "15413": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15413.png",
+        "gt_caption": "The image shows a heavily edited photo of a man, likely Kanye West, with makeup applied to his face, including eyeshadow, blush, and lipstick. The overlaid text at the top reads: \"WHEN YOUR GIRLFRIEND GOING OUT WITH HER 'GIRL' FRIENDS,\" and the bottom text reads: \"BUT YOU GOT TO BE SURE SHE AIN'T CHEATING.\" The image plays on the concept of jealousy, showing a man with exaggerated makeup to humorously represent a concern about infidelity."
+    },
+    "16152": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16152.png",
+        "gt_caption": "The image features a comedic scene involving two animated characters, one resembling a female pig wearing a dark hood and a pearl necklace, and the other is a pig character with light-colored hair and wearing a pink outfit. The overlaid text reads: \"Me: i'm still mad at him. VAGINA: I'M NOT!!!\" The character in the hood appears to be making a facial expression that suggests a nonchalant or dismissive stance, while the light-haired pig seems to be facing her. Both characters appear to be female based on their visual presentation."
+    },
+    "15658": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15658.png",
+        "gt_caption": "The image features a woman with long, straight black hair, seated with a serious expression. She is wearing a black top, and her gaze is directed downward. The overlaid text reads: \"UNDERSTAND YOUR GIRL ISN'T CHEATING ON YOU BUT SHE DOES KEEP IN CONTACT WITH YOUR REPLACEMENT JUST IN CASE.\" The woman appears to be a female subject. The tone of the text suggests a commentary on relationships."
+    },
+    "15498": {
+        "img": "./data/MAMI/MAMI_2022_images/test/stereotype/15498.png",
+        "gt_caption": "The image features a male character with curly hair wearing a purple jacket and a brown top hat, smiling and making a hand gesture. The background includes a blurred setting that appears to be an interior space. Overlaid text reads: \"OH, FEMINISM IS ABOUT EQUALITY? THEN YOU MUST BELIEVE IN EQUAL SENTENCING FOR MEN AND WOMEN WHO COMMIT THE SAME CRIMES?\""
+    },
+    "16002": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/16002.png",
+        "gt_caption": "The image features a female subject, who appears to be performing an extremely flexible pose while leaning against a fence. She has long, straight blonde hair and is wearing a blue swimsuit. The subject's body is contorted in a way that emphasizes her flexibility, as one leg is bent and resting on her head. There is text overlaid on the image that reads: \"FLEXIBILITY\" at the top, and \"Wait... Was I Saying Something?\" at the bottom."
+    },
+    "16157": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16157.png",
+        "gt_caption": "The image features a male subject with short dark hair and a beard, wearing a red shirt. He has a long piece of breadspecifically a baguetteinserted into his mouth, with a slightly humorous expression on his face. The background appears to be a kitchen, with various items visible, including a countertop and some dishes. The overlaid text reads, \"AND THAT WAS THE LAST TIME HE DEMANDED SHE MAKE HIM A SANDWICH\" and below it, \"Make me a sammich\" memes? - What's So Funny? - CindysBeenTrippin Boards."
+    },
+    "16133": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/16133.png",
+        "gt_caption": "The image features a female subject with long, dark hair and a big smile, appearing to look directly at the camera. She has a light skin tone. The background contains a blurred interior setting that suggests a room with a table or desk. There is overlaid text at the top that reads: \"YOU SAID 'ALL ASIANS LOOK THE SAME?'\" and text at the bottom that says: \"AWW... YOU ONLY CAN IMAGINE ME WHEN YOU SEE EVERYONE ELSE.\" The text is presented in a bold, white font against the darker background of the image."
+    },
+    "16179": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/16179.png",
+        "gt_caption": "The image consists of two parts: overlaid text at the top and a digitally altered photo below. The text reads: \"- Her: So. What movie are we goi...\". The lower portion shows a female subject with long dark hair, facing upward and to the side. A dark, shadow-like overlay is positioned across the center of her face. The shape and placement of this overlay resemble the outline of a penis, particularly due to its curved form and orientation over her facial features, including the mouth and nose. This visual cue introduces sexual innuendo despite the absence of nudity or explicitly sexual behavior."
+    },
+    "16159": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16159.png",
+        "gt_caption": "The image features a split scene from a movie, displaying two characters engaged in a tense conversation. The top section shows a woman with medium-length dark hair, looking distressed, and she says, \"Let me go.\" The bottom section depicts a man with short hair, appearing upset and pleading as he responds, \"No... please no.\" The overlaid text at the top reads, \"*Stop crying, it's just a movie.*\" and \"*The movie:*\" is also included. The overall tone of the exchange suggests emotional distress. The genders of the subjects are one female and one male."
+    },
+    "15698": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15698.png",
+        "gt_caption": "The image features a woman, likely Kylie Jenner, posing outdoors in a bikini. She is wearing a brown, triangle-style bikini with thin straps and accessorized with a bracelet and earrings. She is standing in front of palm trees, with a background that includes a hint of a house or outdoor structure. The overlaid text reads: \"Kylie jenner bikini instagram this is my favourite picture of her.\" The woman is looking at the camera with a relaxed expression, and her posture emphasizes her body, with one hand placed on her hip while the other is adjusting the strap of her bikini top."
+    },
+    "16132": {
+        "img": "./data/MAMI/MAMI_2022_images/test/stereotype/16132.png",
+        "gt_caption": "The image features a scene from a film, displaying a male character, who appears to be a middle-aged man with short, slightly disheveled hair. He is holding a telephone with a serious expression on his face, indicating he is engaged in a conversation. The overlaid text at the top reads, 'My angry girlfriend: I'm fine'' and the text at the bottom states, 'I am trying to solve a puzzle.' The overall representation is straightforward, illustrating a conversation context."
+    },
+    "15213": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/15213.png",
+        "gt_caption": "The image features a woman, identified as female, who is engaged in washing dishes at a sink. She has a vintage hairstyle and is wearing an apron over a shirt with short sleeves. The scene is depicted in a cartoonish or retro style with a dotted background. The overlaid text reads, \"It's International Dishwasher Day!\" The woman is focused on cleaning a plate with a sponge, and the sink is filled with water. There are various dishes, including plates, around the sink."
+    },
+    "16084": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16084.png",
+        "gt_caption": "The image features a woman with long blonde hair, sitting on a leopard-print couch or chair. She is wearing a red off-the-shoulder top with a low neckline that reveals significant cleavage, along with black lace detailing, which emphasizes a sexually provocative appearance. The overlaid text at the top of the image reads: \"ACTRESS WAS 38 BACK THEN\" and the text at the bottom reads: \"HOW OLD ARE YOU NOW?\" The image references the age of the actress shown and prompts the viewer to reflect on the passage of time."
+    },
+    "15089": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15089.png",
+        "gt_caption": "The image contains a photograph of an adult female standing in a kitchen, along with overlaid text at the top and bottom. The top text reads: \"Shout out to all the women that still take time to cook, clean, and take care of home. You are appreciated.\" The bottom text reads: \"Much appreciated, grown woman status. WCW.\" In the image, the woman is facing sideways while cleaning a stovetop with a spray bottle in one hand. She is wearing a sleeveless white top with an open back and tight, light gray leggings that accentuate the shape of her buttocks. The clothing is form-fitting and the camera angle emphasizes her lower body, which serves as a visual cue contributing to a sexually provocative presentation. The visual framing and outfit create suggestive emphasis."
+    },
+    "15631": {
+        "img": "./data/MAMI/MAMI_2022_images/test/stereotype/15631.png",
+        "gt_caption": "The image shows a person with long, brown dreadlocks wearing glasses, a red-orange hoodie, and a multicolored knit hat. The individual appears to be in a public setting with other people visible in the background. The overlaid text at the top of the image reads: \"IS USED IN ANTI LIBERAL MEMES\" and the text at the bottom reads: \"IS A TRANS WOMAN\". The subject presents with traditionally feminine visual cues, but the image includes text that refers to the person as a transgender woman."
+    },
+    "15887": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15887.png",
+        "gt_caption": "The image consists of two side-by-side photographs of a woman displayed in a bikini, with the overlaid text reading: 'She is considered a 'plus size' model, I just consider her to be beautiful.' The woman appears to be smiling and is posed in a beach setting, with water in the background. She has wavy hair and is wearing a black bikini in both images. Her body shape suggests a curvy figure, which may be interpreted as fitting within a \"plus size\" category. The overall composition focuses on her figure and expression, emphasizing confidence."
+    },
+    "15196": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15196.png",
+        "gt_caption": "The image shows a man, who appears to be middle-aged with short gray hair, sitting in a chair while reading from a piece of paper. He is wearing a dark shirt with a collar. The background features a brick wall and a portion of what looks like a television studio set. Overlaid text in large font reads: \"FEMINISTS SAID THAT ONLY MEN ARE ABUSERS THAT WAS A LIE.\" The image focuses solely on the male subject and the text."
+    },
+    "17048": {
+        "img": "./data/MAMI/MAMI_2022_images/test/shaming/17048.png",
+        "gt_caption": "The image shows a group of female cheerleaders performing a high-kick routine during what appears to be a public sports event. The focus is on one cheerleader at the front, who is raising her leg vertically while smiling. She is wearing a short, tight-fitting uniform consisting of a green top and white shorts. The shorts are pulled tightly against her body, emphasizing the lower pelvic area and buttocks. Visible discoloration or shading on the shorts draws further attention to that region. The visual framing and clothing place emphasis on specific sexual body parts, contributing to a sexually provocative presentation. Overlaid text at the top of the image reads: \"YAY\", and at the bottom: \"CAREER DEVELOPMENT\". The combination of the visual and textual elements suggests sexual innuendo."
+    },
+    "15180": {
+        "img": "./data/MAMI/MAMI_2022_images/test/stereotype/15180.png",
+        "gt_caption": "The image shows a young child, likely a girl, sitting in the driver's seat of a car, gripping the steering wheel with both hands. She has curly hair and is wearing a white shirt with a colorful design and light blue pants. The environment appears to be the interior of a vehicle, with car controls and a steering wheel visible. There is overlaid text that reads: \"STRONG, INDEPENDENT BUT SLIGHTLY SHORT WOMAN.\" The child is portrayed in a humorous scenario that combines a sense of independence with the visual cue of her size in relation to the car."
+    },
+    "15803": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15803.png",
+        "gt_caption": "The image features a large male figure, who appears to be overweight, depicted in a humorous or comedic context. He is smiling and seems to be in a bath or a shower setting. The overlaid text reads: \"Relationships are like fat people. Most of them don't work out. Epic Funny Comments, Memes, Pictures: Relationships are like fat people.\" The subject is dressed in minimal clothing, which emphasizes his body size. The overall composition suggests a comedic take rather than a serious one, with a focus on humor related to physical appearance and relationships."
+    },
+    "15880": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15880.png",
+        "gt_caption": "The image consists of two side-by-side photographs of a female subject. On the left, the woman appears to be wearing a blue top and is showing her midsection, which has some visible body curves and a tattoo on her side. On the right, she is wearing a black top and holding up the waistband of a patterned skirt, demonstrating a noticeable change in her body size or shape. The overlaid text at the top reads, \"Wow, her diet is that good, she lost a tattoo.\" The images suggest a comparison of the woman's appearance before and after a weight change, focusing on her midsection in both photographs."
+    },
+    "15636": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15636.png",
+        "gt_caption": "The image features an elderly woman with gray hair, wearing glasses, looking surprised or confused as she interacts with a computer or laptop. She has a hand raised to her face, indicating a sense of shock or curiosity. The overlaid text reads: \"Milf? What brand of milk is that?\" and \"Milf - Meme by Shaden_Gamen :) Memedroid.\" The portrayal is of an elderly female subject. The tone appears to be one of humor."
+    },
+    "17063": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/17063.png",
+        "gt_caption": "The image shows a Barbie doll with a distorted face, where one eye appears to be blackened, suggesting bruising, while the other eye remains unmarked. The doll has blonde hair and a bright smile. The background is pink, and the overlaid text reads, \"NO SAMMICH BARBIE\" at the bottom and \"MATTEL: Creating the future of play\" near the top."
+    },
+    "15485": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15485.png",
+        "gt_caption": "The image features a woman with long dark hair, wearing a pink dress, who is smiling and gesturing with one hand while holding a cupcake in the other. She is positioned in a kitchen-like setting with several cupcakes displayed in front of her. The text overlay includes the word 'SAMMICH' at the top, followed by the statement: 'The male lion can mate up to 50 consecutive times a day for 3-5 days in a row. When you can do that then I'll make you one.' At the bottom, there's additional text that reads: 'Make me a sammich\" memes? - What's So Funny? - CindysBeenTrippin Boards.' The depicted woman is identified as female. The dress is cut to expose part of her shoulders and chest, which could be interpreted as emphasizing her femininity. However, there are no explicit sexual cues or nudity present in the image."
+    },
+    "15723": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15723.png",
+        "gt_caption": "The image features a close-up of a woman, who appears to be experiencing an emotional moment, with tears visible on her cheeks. She has dark, wavy hair and is holding her hand up to her face, covering part of it while looking distressed. The overlaid text at the top states, \"WHEN YOUR KIDS WON'T,\" and at the bottom, it continues with \"STOP TALKING TO YOU.\""
+    },
+    "16204": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/16204.png",
+        "gt_caption": "The image illustrates a two-panel diagram. The top panel includes a sun labeled \"light source,\" an arrow indicating \"light ray\" directed toward a figure labeled \"object,\" and a cartoonish male figure in a suit labeled \"observer.\" The bottom panel features two cartoonish female figures, one on the left and another on the right, below the word \"object\" in the center. The bottom also includes text that reads \"Respect Women.\" The human subjects include one male and two females. The females are depicted in clothing that is somewhat fitted but not overtly revealing or provocative. The overall content appears to convey a message about perception and respect."
+    },
+    "15288": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15288.png",
+        "gt_caption": "The image features a female subject, who appears to be in a kitchen setting, apparently engaged in cooking. She is smiling widely and looking excited while stirring a bowl. The overlaid text reads, \"HELLO THERE FOOD I CAN'T WAIT TO HAVE YOU INSIDE ME.\" The woman is wearing a dark top with a white apron. The focus is primarily on her enthusiastic expression and the act of cooking."
+    },
+    "15774": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15774.png",
+        "gt_caption": "The image features two main sections. The top section displays a product advertisement for special gloves designed for couples, titled \"Handschuhe f\\xfcr zwei\" (Gloves for Two). The gloves are illustrated in a gray color and are shaped to accommodate two hands holding each other. There is text in German describing the gloves and a price of 17,90 The bottom section shows a woman with light brown hair, wearing a blue shirt, smiling widely at the camera. The woman appears to be in a casual indoor setting, possibly in front of a wall covered with photos or decorations. Overlaid on her image is the caption \"THE PERFECT CHRISTMAS PRESENT,\" written in bold, white letters. The female subject's expression conveys excitement or happiness."
+    },
+    "15616": {
+        "img": "./data/MAMI/MAMI_2022_images/test/stereotype/15616.png",
+        "gt_caption": "The image features a young woman with long, light-colored hair smiling at the camera. She is wearing a brown jacket and has a neutral background. Overlaid text at the top reads, \"\\\\\"I JUST WANT A NICE GUY.\\\\\"\", and the text at the bottom says, \"CONTINUES DATING EX THAT CHEATED.\" The image presents a single female subject."
+    },
+    "16148": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16148.png",
+        "gt_caption": "The image consists of two parts. The top part features three women in a bed looking at each other, with two of them smiling and the third appearing more contemplative. The women have varying hairstyles and are wearing casual, comfortable clothing. The bottom part displays a still of a male character with a surprised or confused expression, accompanied by the text \"[visible confusion]\"."
+    },
+    "15595": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15595.png",
+        "gt_caption": "The image features a scene from a film in which a man is expressing exuberance, with his arms raised and a broad smile on his face. He is wearing a white suit with a black shirt and appears to be celebrating. There are two male figures in the background, with one appearing to be laughing or engaging with the main subject. The overlaid text reads: \"THE MOMENT YOU REALIZE YOUR CRAZY EX GIRLFRIEND HAS BECOME SOMEONE ELSE'S PROBLEM.\" The gender of the human subjects present in the image is male."
+    },
+    "15626": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15626.png",
+        "gt_caption": "The image depicts a police officer, identified as male, interacting with a person in the driver's seat of a car. The text overlay reads: \"Me: It's Medicinal. Cop: first of all... that's a prostitute.\" The setting appears to be an outdoor area with trees in the background. The officer is seen leaning towards the car, gesturing slightly with his left hand, while a portion of the scene, including the passenger's face, is obscured."
+    },
+    "17044": {
+        "img": "./data/MAMI/MAMI_2022_images/test/stereotype/17044.png",
+        "gt_caption": "The image features a woman in a retro-style outfit, including a blue dress with white polka dots and an apron that has a cartoon character on it. She is posed in a kitchen setting with cabinets behind her and various kitchen items visible, including cleaning supplies. The woman has light brown, wavy hair and is wearing yellow rubber gloves. Overlaid text at the bottom reads: \"THE LAST TIME I MARCHED IT WAS DOWN THE AISLE.\" The overall presentation is a mix of domestic imagery with a humorous text implying a playful take on marriage or commitment. The woman appears to be in a relaxed, engaging pose."
+    },
+    "15254": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15254.png",
+        "gt_caption": "The image depicts a male character with curly hair wearing a purple coat and a bow tie, seated with his hand on his chin, giving a smirking expression. Overlaid text reads: \"HOW ARE YOU AND YOUR LIL GIRLFRIEND? BITCH MY 'LIL' GIRLFRIEND WILL KICK YOUR ASS.\" The visual elements are primarily focused on the male character and his expression."
+    },
+    "15414": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15414.png",
+        "gt_caption": "The image features a male subject wearing a dress shirt with a tie and suspenders, standing in an office environment. The background includes cubicles and individuals working. Overlaid text reads: \"IF YOU COULD JUST COME CLEAN MY HOUSE THAT WOULD BE GREAT.\" The male subject appears to be making a request, indicated by his facial expression and body language, which suggests a serious tone. No other human subjects or provocative content are present in the image."
+    },
+    "15552": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15552.png",
+        "gt_caption": "The image features a cat with a grumpy expression, partially wrapped in an orange towel. The background shows a light-colored wall, and the cat appears to be wet, with its fur slicked down. Overlaid text at the top reads, \"KEEP LAUGHING\" and the text at the bottom says, \"ONLY WET PUSSY YOU'VE SEEN IN WEEKS.\" The cat is the only subject present in the image."
+    },
+    "17067": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/17067.png",
+        "gt_caption": "The image is a formal studio portrait featuring three individuals: an adult female, an adult male, and an infant. The adult female, positioned on the left, has long curly hair, light skin, and is wearing a dark top. She has a noticeable dark discoloration around one eye that may suggest bruising. She is holding the infant, who has visibly darker skin, short hair, and is dressed in a red sweater. The adult male on the right has light skin, short dark hair, and is wearing a white T-shirt under a black sleeveless sweater with a chain necklace; he is smiling at the camera. Based on visual characteristics such as skin tone and facial features, the two adults appear to be of Caucasian descent, while the infant appears to be of African descent. The background is a neutral-toned studio backdrop. Overlaid text at the bottom of the image reads: \"MAURY\" and \"He's got a show for that.\""
+    },
+    "15541": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15541.png",
+        "gt_caption": "The image displays a close-up of paper currency that has been intricately folded into a shape resembling female genitalia. The paper appears to be a banknote with visible printed details, but the denomination and country of origin are not clearly identifiable. The background surface is textured, possibly leather. Overlaid at the top of the image is the text: \"TWO THINGS THAT RULE THE WORLD,\" and at the bottom, it reads: \"IN ONE PICTURE.\" The image contains visual cues intended to suggest sexual innuendo through the deliberate folding of the currency to mimic the appearance of a vulva."
+    },
+    "15858": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15858.png",
+        "gt_caption": "The image features a scene from a film, with a female character, Hermione Granger, depicted with long, brown hair and wearing a black robe and a pointed hat. She has a serious expression and is seated, with an older male character visible behind her, likely representing a wizard with a long beard. The background consists of a wooden setting that suggests an interior, possibly a castle environment. Overlaid text at the top reads, \"THE KITCHEN!\" and additional text at the bottom states, \"Hermione Granger Memes. Best Collection of Funny Hermione Granger\""
+    },
+    "16224": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16224.png",
+        "gt_caption": "The image features a person with long dark hair and a beard, making a gesture with their hands as if expressing excitement or emphasis. The individual appears to present a diverse gender identity, combining traditionally feminine and masculine features. Overlaid text reads: \"DAT GIRL'S BEAUTIFUL FAT ASS LOOKS SO DELICIOUS!!!\" The language used in the text implies a focus on body image."
+    },
+    "16243": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16243.png",
+        "gt_caption": "The image features four illustrated characters divided into two sections labeled \"Girls\" and \"Boys.\" In the upper section, there are two female characters: one with long blonde hair wearing a blue dress who says, \"I have a new boyfriend,\" and another with short black hair in a black shirt who responds, \"Wow, I'm so happy for you.\" In the lower section, there are two male characters with beards: one says, \"I have a new girlfriend,\" while the other, with a surprised expression, replies, \"WTF, is she blind.\" The illustration focuses on gendered reactions to relationship announcements, with all characters depicted in a neutral manner without overtly provocative elements."
+    },
+    "15356": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15356.png",
+        "gt_caption": "The image features a male subject with a full beard, wearing a pink bra with polka dots. The bra straps are over his shoulders, and the chest area has the words \"PISSED DAD\" written in what appears to be dirt or a non-permanent marker. The subject is posed in a humorous manner, displaying the outfit in a casual indoor setting. Below the image, there is overlaid text that reads: \"A girl got a text from a boy asking to see her in her bra... DAD REPLIED.\" The visual cues indicate a playful or comedic intent without a clear sexual context. The overall presentation leans towards a lighthearted interpretation of the situation."
+    },
+    "15170": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15170.png",
+        "gt_caption": "The image features a female subject with a wide smile and wide eyes, conveying an expressive facial expression. She has medium-length brown hair and is wearing a light blue shirt. The background shows what appears to be a wall with photos and notes. Overlaid text at the top reads, \"EVERYTIME WE HAVE SEX I SCRATCH YOUR BACK SO BAD,\" and at the bottom, it continues with \"IT IS IMPOSSIBLE TO DO ANOTHER GIRL WITHIN 24 HOURS. LOVE U TIM!\" The content suggests a casual, humorous tone related to intimate relationships."
+    },
+    "16020": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/16020.png",
+        "gt_caption": "The image features animated characters from a cartoon. There are two prominent characters: one appears to be male, with an orange body and a large, exaggerated smile, while the other character appears to be female, with a lighter-colored body and a surprised expression. The male character is wearing a blue shirt with an orange design. The image contains overlaid text that reads, \"COME ON IT AINT GONNA SUCK ITSELF.\""
+    },
+    "15201": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15201.png",
+        "gt_caption": "The image depicts a female subject lying on a bed in a casual position, with her body spread out and her legs extended. She is wearing a loose-fitting garment, which appears to be a dress or nightgown. The bed is adorned with light-colored bedding and pillows in a soft setting. Overlaid text reads: \"THIS SUMMER IS GOING TO BE INCREDIBLE.\" The overall composition emphasizes a relaxed or carefree moment in the context of summer."
+    },
+    "16228": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/16228.png",
+        "gt_caption": "The image features a female subject with short, dark hair, looking directly at the viewer with a serious expression. She is dressed in a simple, dark-colored garment. Overlaid text at the top reads, \"WHAT YOU WANNA EAT?\" and at the bottom, \"A GIRL HAS NO PREFERENCE.\""
+    },
+    "15862": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15862.png",
+        "gt_caption": "The image features a drag queen with long, wavy blonde hair and dramatic makeup, including bold lipstick and striking eye makeup. The individual appears to be male, presenting in a feminine manner. There is overlaid text that reads: \"JEEZUS... YOU LOOK LIKE SOMETHING THAT THE CAT THREW UP AND THEN GOT FUCKED BY A DONKEY.\" The overall presentation includes a striking facial expression, likely intended to convey a sense of humor or exaggeration consistent with drag performance."
+    },
+    "16211": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16211.png",
+        "gt_caption": "The image features a historical photograph of a woman with a determined expression, dressed in a light-colored, Victorian-style dress with short sleeves. She is seen with her right arm raised in a fist, conveying an assertive stance. Overlaid text at the top reads, \"INTERNATIONAL WOMEN'S DAY?\" and the text at the bottom states, \"CHUCK NORRIS CAN MAKE ME A SANDWICH.\" The woman appears to be the only human subject in the image."
+    },
+    "15056": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15056.png",
+        "gt_caption": "The image features two children outdoors on a sandy surface. One child, who appears to be overweight and is wearing a white t-shirt and blue shorts, is squatting and holding a green popsicle. He has a serious facial expression. The second child, who is slimmer and wearing a white t-shirt and light blue shorts, is in the background making a funny gesture with his hands. The overlaid text reads, \"BENEFIT FOR BEING FAT? WELL...BOOBS.\" The genders of both subjects can be inferred as male."
+    },
+    "15958": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15958.png",
+        "gt_caption": "The image depicts a kitchen setting with two human subjects: a woman and a man. The woman is sitting on a man's back, who is positioned on the floor. She appears to be smiling and holds a cup in her hands, dressed in a short, blue dress. The man, who is on the ground, is wearing a black outfit. Overlaid text at the bottom states \"HE TOLD ME TO GET BACK IN THE KITCHEN.\" Below this text, there are additional lines that read \"Dating Fails - sandwich - Dating FAILs & WINS | Funny Memes - dating ...\" The composition features a humorous scenario, highlighting interaction between the two subjects in a playful context."
+    },
+    "15097": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15097.png",
+        "gt_caption": "The image features two female subjects, both portrayed prominently. On the left is a woman with long dark hair wearing a blue dress, displaying cleavage. On the right is a woman with long light brown hair, dressed in a sparkly outfit. The overlaid text states: \"LATINAS BE LIKE I'M 104 YEARS OLD.\" The image presents both individuals with smiles, emphasizing their youthful appearance despite the implication of their age in the text."
+    },
+    "16023": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16023.png",
+        "gt_caption": "The image features two human subjects: a man and a woman. The woman is sitting with a concerned expression, facing slightly towards the right, and is wearing a light pink shirt. The man is sitting to her left, with a facial expression that indicates distraction or contemplation, wearing a blue shirt. The overlaid text reads: \"HER: HE'S PROBABLY THINKING ABOUT OTHER WOMEN ME: YUP.\" The overall composition suggests a scenario involving relationship dynamics."
+    },
+    "15854": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15854.png",
+        "gt_caption": "The image shows four adult individuals\u2014two women in the foreground and two men positioned behind them. The two women, one with light skin and blonde hair and the other with darker skin and dark hair, appear to be leaning forward with their eyes closed and mouths open in a manner suggesting expressions of physical strain or intense reaction. The men behind them, both light-skinned and dressed in business attire, also have closed eyes and tense facial expressions. The individuals are closely positioned in a way that visually suggests physical proximity. Overlaid text at the top reads: \"when you and your homie load each other's dishwashers.\" The image contains visual cues that imply sexual innuendo (sexual act) through the posture, facial expressions, and positioning of the subjects."
+    },
+    "15159": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15159.png",
+        "gt_caption": "The image features a woman and a boy in a casual setting. The woman has long dark hair and is wearing a black shirt, positioned to the left side of the image. The boy, who appears to be of a younger age, is wearing a striped shirt and is positioned to the right, looking at the woman with a slightly raised eyebrow. The overlaid text reads: \"So your telling me, The accessories-kitchen category doesn't have a woman in it?\" The genders of the human subjects are one female and one male."
+    },
+    "15651": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15651.png",
+        "gt_caption": "The image is divided into two sections. The top section features two female subjects in a bathroom setting. One girl, whose back is facing the viewer, has long hair and is wearing a sleeveless top that reveals her shoulders and part of her back. The other girl, with a more frontal view, is smiling at the mirror while wearing a fitted sleeveless top. The bottom section shows a group of male subjects, with one boy holding a toy lightsaber, appearing to enact a playful confrontation. The group consists of several boys with various clothing styles. The overlaid text on the top reads, \"Girls in the bathroom;\" and on the bottom, it states, \"Boys in the bathroom;.\" The image is concluded with the text, \"Yet another boy girl meme.\""
+    },
+    "15228": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15228.png",
+        "gt_caption": "The image features a female subject in the foreground, who is smiling and taking a selfie while wearing a light-colored top. In the background, another female is partially visible, posed in a manner that emphasizes her figure, wearing minimal clothing. The image contains overlaid text that reads: \"LADIES\" and \"THIS IS HOW TO TAKE A SEXY SELFIE.\" The composition suggests a focus on self-presentation and confidence in appearance."
+    },
+    "15221": {
+        "img": "./data/MAMI/MAMI_2022_images/test/shaming/15221.png",
+        "gt_caption": "The image shows an adult woman with light skin and short hair posing in front of a pink background. She is wearing glasses, a white T-shirt tied at the waist, and high-waisted floral-patterned pants. Her body size is visibly larger, indicating that she is overweight. The overlaid text at the top of the image reads: \u201cI AM A,\u201d followed by the phrase \u201cTruth Teller\u201d which is crossed out and replaced in handwritten-style text with \u201cLAND WHALE.\u201d At the bottom of the image, additional overlaid text reads: \u201cTHERE, I FIXED IT.\u201d"
+    },
+    "15873": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15873.png",
+        "gt_caption": "The image shows an orange-colored tent set up outdoors with a scenic background that includes trees, a body of water, and a blue sky. The tent's front entrance is unzipped in a vertical fashion, creating a central opening that visually resembles a slit. Above the tent, there is overlaid text that reads: \"THIS TENT LOOKS LIKE IT\u2019S '35 AND READY TO SETTLE DOWN'.\" The tent is the sole subject of the image. The image includes visual cues that suggest sexual innuendo, as the shape and placement of the tent's entrance are intentionally presented to resemble female genitalia."
+    },
+    "17007": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/17007.png",
+        "gt_caption": "The image shows an outdoor sports scene featuring two female athletes actively engaged in an Australian Rules Football match. The athlete in the foreground, wearing a white and red uniform with the number 5 on the back, is airborne with one leg extended and arm outstretched toward a red football. Her body position suggests a dynamic athletic movement. The second athlete, wearing a blue and yellow uniform, is also reaching for the ball while making physical contact with the first athlete. Both are wearing cleats and are on a grassy field with other people visible in the background. Overlaid text at the top reads: \"AND THE NEXT STATUE,\" and at the bottom, it reads: \"GOES TO ........\""
+    },
+    "15642": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15642.png",
+        "gt_caption": "The image shows an adult woman with long blonde hair, light skin, and wearing a black top with a low neckline that reveals part of her chest. She is looking directly at the camera with a neutral facial expression and a slight smile. The background appears to be an outdoor setting with greenery and part of a building visible. The overlaid text at the top reads: \"BOYS, CAN YOU HELP ME FIX THE COMPUTER,\" and at the bottom, it says: \"IT'S SO HARD.\" The image includes visual cues that suggest sexual innuendo, primarily through the combination of the woman's revealing clothing and the wording of the text."
+    },
+    "16181": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16181.png",
+        "gt_caption": "The image appears to be a still from a performance or television show, featuring a person with long, blonde hair and makeup, who is holding a microphone and gesturing with their hands. The individual is wearing a dress that is partly patterned. There is overlaid text that reads: \"BITCH, MOCK MY DRESS ONE MORE TIME I WILL CUT YOU.\" The person is likely presenting in a theatrical or dramatic manner, and their gender appears to be male as indicated by features typically associated with a male subject. The overall context seems to suggest a confrontation or assertive expression."
+    },
+    "15627": {
+        "img": "./data/MAMI/MAMI_2022_images/test/stereotype/15627.png",
+        "gt_caption": "The image features a young female subject with light-colored hair styled in a bob cut, seated inside a car. She has a neutral expression on her face and is looking directly at the camera. The overlaid text reads: \"IS ACTUALLY A REALLY NICE GIRL WHEN YOU GET PASSED THE FACT THAT THIS PICTURE ISN'T HER.\" The woman is wearing a casual outfit."
+    },
+    "15946": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15946.png",
+        "gt_caption": "The image features two sections. The left side shows a group of five individuals, four of whom appear to be women and one a man, posing together in a social setting. The women wear various outfits, with one in a red dress, another in a dark-colored outfit, and a third in a fitted gray dress. The man in the background is dressed casually. The right side of the image zooms in on the buttocks of one of the women, indicating a close-up of the previously mentioned scene. The top of the image contains overlaid text that reads, \"Photobomb level: robbery.\" The bottom section displays additional text: \"savage af @firemuff go follow @firemuff.\""
+    },
+    "15216": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15216.png",
+        "gt_caption": "The image depicts a farm setting with a number of chickens in a barn or enclosed area. In the foreground is a chicken with its wing partially raised. The background shows several other chickens scattered across the ground, which is covered in straw. Overlaid on the image is the text: \"SEE THEM CUTE CHICKS DOWN THERE? MINE! ALL MINE!\" The overall content focuses primarily on the chickens and uses playful language in the text to engage viewers."
+    },
+    "16233": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16233.png",
+        "gt_caption": "The image features a male subject with short hair and a slight smile, dressed in a dark jacket. He is holding his right hand to his temple in a gesture that suggests thinking or cleverness. The background shows a slightly blurred outdoor scene, along with text overlaid on the image. The text reads: \"SHE WON'T CATCH YOU CHEATING IF YOU DON'T CHEAT.\" The portrayal is straightforward, involving a single male figure and a text-based statement."
+    },
+    "16145": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16145.png",
+        "gt_caption": "The image features a framed photograph of a man with glasses, depicted in a serious expression, wearing a suit and tie. He appears to be at a press conference setting with a logo visible in the background. The text overlaid on the image reads: \"KEEPING YOUR SANITY IN A HOUSE FULL OF MOODY WOMEN... YOU DA REAL MVP!\" The overall tone of the text suggests a commentary on dealing with women, but the image itself is presented in a straightforward manner."
+    },
+    "15569": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15569.png",
+        "gt_caption": "\"The image features a muscular female figure posing in a purple bikini. The woman, who appears to be an athlete or bodybuilder, has prominently defined muscles, particularly in her arms and abdomen. Her hair is styled in a blonde, slightly tousled manner. There are large windows with drawn curtains in the background, providing a bright interior setting. Text overlaid at the top reads, 'DEAR WHATEVER DOESN'T KILL ME' and at the bottom, 'I'M STRONG ENOUGH NOW THANKS.' The subjects' gender is female. The portrayal highlights the woman's muscular physique, contributing to a representation of strength and fitness.\""
+    },
+    "15055": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15055.png",
+        "gt_caption": "The image features a two-part scene from a television show. The upper section shows two female characters, one with blonde hair and one with dark hair, looking at a male character who is off-screen. The text above them reads \"My bf\" and \"Um... whatcha got there?\" In the lower section, there is an ostrich and a male character holding a cup, with the text \"Crippling depression, low self esteem, suicidal thoughts and actions\" next to the ostrich and \"Me\" next to the male character, followed by \"A smoothie.\" The characters include one female and one male in the upper section, and one male in the lower section. The male character appears contemplative while the ostrich is in the frame."
+    },
+    "15965": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/15965.png",
+        "gt_caption": "The image shows a man and a woman sitting on a white couch. The man, who appears to be male, has a surprised or exaggerated expression while raising one arm as if reacting to something. He is wearing a light-colored sweater with horizontal stripes and blue jeans. The woman, who appears to be female, is seated next to him with a playful or teasing gesture, reaching out towards him. She is wearing a light-colored dress with a shawl and has on black stockings. Her legs are crossed, and she is wearing red shoes. The background is neutral, focusing on the subjects and the couch. The text overlay in the image reads, \"Equality in 2020.\""
+    },
+    "15772": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15772.png",
+        "gt_caption": "The image features a woman smiling while a man leans in to kiss her cheek. The woman has light-colored hair and appears happy. The overlaid text reads: \"I DON'T NEED FEMINISM BECAUSE THIS WAS MY AMBITION AND ALL YOUR LIES ABOUT EMPOWERED SLUTHOOD AND RAPE CULTURE AND MEN DIDN'T KEEP ME FROM REACHING.\""
+    },
+    "15655": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15655.png",
+        "gt_caption": "\"The image shows a close-up of a person's midsection wearing unbuttoned jeans. The individual is holding the waistband of the jeans, and there is visible skin and a slight bulge. The text overlaid on the image reads: 'I REPLACED SEX WITH FOOD NOW EVEN I CAN'T GET INTO MY PANTS.' The gender of the person in the image appears to be male based on the physical characteristics presented. The depiction may be interpreted as humorous, but the focus is on the visual elements and the text displayed.\""
+    },
+    "15499": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15499.png",
+        "gt_caption": "The image shows a man and a woman in a bedroom setting. The man, who appears to be dressed casually in a dark shirt, is positioned behind the woman, who is facing away from him. The woman has long hair and is wearing a sleeveless top, with her expression suggesting discomfort or annoyance. Overlaying the image is the text, \"HOW TO HIDE FOOTBALL FROM YOUR GIRLFRIEND,\" and beneath it, \"HAD TO LAST 90 MINUTES,\" all in bold white and pink letters. The visual context suggests an exaggerated scenario related to hiding an activity from a partner."
+    },
+    "17068": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/17068.png",
+        "gt_caption": "The image features a male character from a science fiction series, depicted with a facial expression of exasperation or frustration, covering his face with one hand. The background appears to be a futuristic setting. Overlaid text in large, bold letters reads: \"PLEASE PUNCH ME IN THE FACE.\" The tone of the content cannot be assumed, and the image maintains a focus on the visual representation of the character and the text."
+    },
+    "15561": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15561.png",
+        "gt_caption": "The image features a male subject with short brown hair, sitting on a couch, displaying a facial expression that appears displeased or uncomfortable. He is wearing a white shirt and a red tie. The background includes a brick wall and a wooden shelf with decorative items. Overlaid on the image is the text: \"UNHAPPY WITH HIS WIFE NEVER CHEATS.\" The male subject is the only one present."
+    },
+    "15304": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15304.png",
+        "gt_caption": "The image is divided into two sections. The top section features an adult woman with light skin and long red hair, lying on a bed. She is positioned on her side, partially propped up on one arm, and is wearing a white strapless garment that exposes her shoulders and upper chest. The image composition and attire emphasize a sexually suggestive appearance. The overlaid text on the top section reads: \"SOME MEN CLAIM THAT WOMEN BELONG IN THE KITCHEN MAYBE BECAUSE THEY DON'T KNOW WHAT TO DO WITH THEM IN THE BEDROOM.\" The bottom section features the character Kermit the Frog holding a glass mug with a teabag inside, as if drinking tea. The overlaid text in this section reads: \"BUT THAT'S NONE OF MY BUSINESS.\" The overall image contains visual cues and text that convey sexual innuendo."
+    },
+    "15150": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15150.png",
+        "gt_caption": "The image features a scene on a red carpet event with a female subject and a male subject. The female, dressed in a pink gown, is looking at the camera with a smile and holding a small handbag. The male, positioned to her left, is dressed in a black suit and is striking a pose with an exaggerated hand gesture, pointing towards her. There is overlay text at the top that reads, \"When you're high AF and your girlfriend tells you to make her look good:\" The environment appears to be a glamorous event, with other people in the background, some dressed in formal attire."
+    },
+    "16314": {
+        "img": "./data/MAMI/MAMI_2022_images/test/stereotype/16314.png",
+        "gt_caption": "The image shows a woman with blonde hair styled in a bob, appearing serious with a neutral expression. She is wearing a black top with puffed sleeves. The background is a gradient of purple. There is overlaid text that reads: \"A LARGE GROUP OF KARENS IS CALLED A HOMEOWNERS' ASSOCIATION.\""
+    },
+    "16317": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/16317.png",
+        "gt_caption": "The image features a close-up photograph of a green praying mantis with large, prominent eyes. The mantis is positioned against a white background, creating a stark contrast. At the top of the image, the word \"WOMEN\" is displayed in bold, large green text. Beneath this text, there is a caption that reads: \"When judging a woman by her appearance, REMEMBER: Even mantids can do puppy eyes.\""
+    },
+    "15789": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15789.png",
+        "gt_caption": "The image features a woman with long blonde hair styled in loose waves, wearing a black outfit with a deep neckline. She has a slight smile and is looking directly at the camera. Overlaid text reads, \"HAPPY MOTHER'S DAY STIFLER'S MOM!\" The subject is identified as a female. There are visual cues that emphasize her femininity, such as the clothing choice highlighting her neckline. The text reference could imply a cultural connection to a character known for a specific portrayal."
+    },
+    "15892": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/15892.png",
+        "gt_caption": "The image shows a close-up of a white cleaning brush with bristles inserted into what appears to be a human mouth with red lipstick, creating a visual composition that mimics the act of cleaning. The image is cropped tightly, so the full context or surroundings are not visible, and only a partial view of the person's face is shown. The overlaid text at the top reads: \"WINTER'S OVER,\" and at the bottom, it says: \"GET YOUR CHIMNEY SWEPT OUT.\" The visual and textual elements together suggest sexual innuendo, implied through the combination of the brush being inserted into the mouth and the metaphorical phrasing."
+    },
+    "16275": {
+        "img": "./data/MAMI/MAMI_2022_images/test/stereotype/16275.png",
+        "gt_caption": "The image is a four-panel illustration divided into two sections labeled \"MAN\" and \"WOMAN.\" Each section contains two drawings labeled \"BEFORE SHOWER\" and \"AFTER SHOWER.\" In the top section labeled \"MAN,\" the left drawing (\"BEFORE SHOWER\") depicts a male figure with disheveled hair, facial hair, and a dirty appearance. The right drawing (\"AFTER SHOWER\") shows the same male figure with neat hair, clean skin, and wearing a collared shirt. In the bottom section labeled \"WOMAN,\" the left drawing (\"BEFORE SHOWER\") depicts a female figure with smooth skin, styled hair, and makeup. The right drawing (\"AFTER SHOWER\") shows the same female figure with wet, flat hair and exaggerated facial features resembling a tired or distressed expression."
+    },
+    "17013": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/17013.png",
+        "gt_caption": "The image is a four-panel collage showing the progressive physical deterioration of a red tennis ball over time. Each panel depicts a hand holding the same or a similar ball, with increasing levels of visible damage along a central split. The top-left panel is labeled \"1st year\" and shows a ball with a small tear. The top-right panel is labeled \"2nd year\" and shows the tear widening. The bottom-left panel is labeled \"3rd year\" and shows the split enlarging further. The bottom-right panel is labeled \"Final year\" and shows the ball significantly torn open, revealing the interior. There are no human subjects fully visible, only parts of a hand holding the ball. Overlaid text above each panel reads: \u201c1st year,\u201d \u201c2nd year,\u201d \u201c3rd year,\u201d and \u201cFinal year.\u201d The image uses visual cues to suggest a progression over time, and the shape and central tear in the ball may imply sexual innuendo through its resemblance to female genitalia."
+    },
+    "15155": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15155.png",
+        "gt_caption": "The image features a comic-style illustration depicting a man and a woman. The man, with dark hair wearing a blue jacket, appears to be recoiling back as the woman, with blonde hair wearing a red outfit, strikes him with her right hand. The background contains elements suggestive of an indoor setting, like windows. Overlaid text reads: \"NO.. YOU MAKE ME A SANDWICH.\" The male figure is depicted as a man, and the female figure is depicted as a woman. There are visual cues indicating an aggressive interaction, with the woman's arm being outstretched in a striking motion."
+    },
+    "15648": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15648.png",
+        "gt_caption": "The image features a male chef, Gordon Ramsay, in a kitchen setting where he appears to be shouting or expressing frustration. He is wearing a white chef's coat and has a slightly disheveled hairstyle. The kitchen background includes pots and kitchen equipment, suggesting an active cooking environment. Overlaid text at the bottom reads: \"GORDON RAMSAY THE ONLY MAN EVER TO TELL A WOMAN TO LEAVE THE KITCHEN.\""
+    },
+    "15067": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/15067.png",
+        "gt_caption": "The image shows an adult woman with light skin and blonde hair, standing in a kitchen and looking down at her chest area. She is wearing a fitted, purple and black striped shirt that has white powder, likely flour, smeared across the chest region. Her pose suggests that she is observing the powder on her clothing. The overlaid text at the top of the image reads: \"BF WAS HELPING ME MAKE COOKIES...\" and at the bottom, it says: \"BOYS WILL BE BOYS.\" The placement of the powder, combined with the subject's expression and body positioning, suggests sexual innuendo, as it implies the flour was intentionally placed in that location."
+    },
+    "15860": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15860.png",
+        "gt_caption": "The image depicts a person wearing a shimmering, form-fitting dress with a long wig and a beard. The individual stands confidently on a red carpet, appearing to be in a public event setting. Overlaid text states, \"PREPARE YOUR ANUS!\" The subject is generally understood to be male, characterized by the combination of traditionally feminine attire and masculine facial features. The dress is quite revealing and sparkly, emphasizing the subject's physique."
+    },
+    "15747": {
+        "img": "./data/MAMI/MAMI_2022_images/test/shaming/15747.png",
+        "gt_caption": "The image features a woman with light brown hair styled in a voluminous manner and smiling at the camera. She has large, dark eyes and is wearing a pink outer garment layered over a black top, along with some layered necklaces. The background shows greenery, suggesting an outdoor setting. Overlaid text at the top reads, \"If mayonnaise was a person.\" The subject appears to be female based on her features and clothing."
+    },
+    "15621": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15621.png",
+        "gt_caption": "The image features a meme-style collage divided into four sections. The top left section shows a female character with white hair and a dark outfit, representing a villain. The top right section displays a male character sitting on a bed with a cat. The bottom left section features a female character with blue hair and a headpiece, displaying an expression of anger or frustration. The bottom right section portrays another female character with dark hair and a green face, also appearing villainous. The overlaid text reads, \"Growing up I always wanted to be a princess but instead I turned into one of these bitches.\""
+    },
+    "15852": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15852.png",
+        "gt_caption": "The image features a male subject with short, dark hair and glasses, appearing serious or stern. He is wearing a collared shirt and tie. The background includes elements of an office environment. Overlaid text at the top reads \"GENTLEMEN PREFER BLONDES,\" while the text at the bottom states, \"THE POPULATION OF BLONDE WOMEN IN THE WORLD IS LESS THAN 2%.\""
+    },
+    "15650": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15650.png",
+        "gt_caption": "The image features two distinct sections. The top section includes a photo of a man and a woman sitting together; the woman appears to be smiling and is sitting close to the man, who is holding a cup. The overlay text reads: \"According To A Study, Women Are Actually Happier With Less Attractive Men.\" The bottom section presents a dog, likely a Shiba Inu, with a blurry background, accompanied by the text: \"[ happiness noise ]\" stylized as a caption. The human subjects in the image consist of one male and one female. The woman is dressed casually. The portrayal of the subjects is typical in casual settings."
+    },
+    "15683": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15683.png",
+        "gt_caption": "The image features multiple photos of three young women, two of whom are seen posing together in two of the images, while a third woman is positioned behind them. The woman on the left is wearing a black top and shorts, and the woman on the right is in a pink top and shorts. The background includes a window with blinds, indicating an indoor setting with warm lighting. The text overlaid on the top of the image reads: \"get you friends that help you get a good picture \\U0001f602\"."
+    },
+    "15926": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15926.png",
+        "gt_caption": "The image shows a woman with long, straight blonde hair and a concerned expression on her face. She is wearing a light blue sweater. The background features blurred outlines of other people, indicating a busy environment. Overlaying the image is text that reads, \"HEY I'M NOT CHEATING THEY KNOW ABOUT EACH OTHER.\" The woman appears to be in a tense or defensive situation. The focus is primarily on her facial expression and the text."
+    },
+    "15219": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15219.png",
+        "gt_caption": "The image depicts a scene where a house is engulfed in flames, with fire and smoke visible, and firefighters working in the background, suggesting an emergency situation. In the foreground, there is a young girl with brown hair, appearing to smile or smirk, with a pixelated black sunglasses effect over her eyes. Overlaid text reads: \"WHEN A CREEPER BLOWS UP YOUR HOUSE\" and \"AIN'T THAT A BEAUTIFUL SIGHT!\" Additionally, there is a green, pixelated character resembling a \"Creeper\" from the game Minecraft positioned in front of the burning house. The girl is identified as female based on visual cues."
+    },
+    "16305": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/16305.png",
+        "gt_caption": "The image features a black and white illustration of a man in a suit, presenting a gesture with one hand raised. The overlaid text reads: \"HONEY, PLEASE GO BACK DOWNSTAIRS AND FINISH MAKING DINNER.\" The man appears to be male based on the visual cues such as clothing, posture, and facial features. The text and image together suggest a domestic scenario, invoking a traditional gender role."
+    },
+    "16198": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/16198.png",
+        "gt_caption": "The image is a two-part comparison graphic composed of cartoon-style illustrations and one edited photographic element. The top section is titled \u201cPhotographing something you want to show everyone.\u201d It features two labeled panels: \u201cMales\u201d on the left and \u201cFemales\u201d on the right. In the \"Males\" panel, a rectangular block labeled \u201cOBJECT\u201d is fully visible. In the \"Females\" panel, a cartoon female character's face partially blocks the view of the object, implying the person is taking a selfie with the object behind them. The lower section of the image is labeled \u201c- Fixed -\u201d in red text and keeps the same \"Females\" panel. However, the \"Males\" panel is altered to include a photographic image of a person's chest wearing a low-cut top, prominently revealing cleavage. The image contains visual cues suggesting sexual innuendo through the intentional focus on the breasts."
+    },
+    "15645": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/15645.png",
+        "gt_caption": "The image features a smiling young woman with light brown hair, depicted in a close-up shot. She is wearing a light blue shirt. The background includes a cluttered wall with various photographs and papers. Overlaying the image is text that reads: \"I BURNED ALL YOUR CHRISTMAS PRESENTS I'M THE ONLY GIFT YOU NEED.\" The woman appears to be of a feminine gender based on visual cues."
+    },
+    "15528": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15528.png",
+        "gt_caption": "The image shows a glass of beer on a wooden table. Attached to the sides of the beer glass are two objects shaped like plastic baby bottle nipples, placed in a manner that visually resembles female breasts. The foam of the beer at the top contributes to the effect by mimicking the appearance of a head or hair. In the background, there are outdoor seating arrangements and a person partially visible, but the focus remains on the glass. The overlaid text at the top of the image reads: \"THIS IS WHAT,\" and at the bottom: \"ALL MEN NEED TO SURVIVE.\" The image contains visual cues suggesting sexual innuendo through the arrangement of the bottle nipples to resemble female anatomy."
+    },
+    "16098": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16098.png",
+        "gt_caption": "The image features a person presenting in drag, characterized by long blonde hair and makeup that highlights their facial features. They are wearing a dress with off-the-shoulder sleeves, which has a light, colorful pattern. The overlay text reads: \"I'M NOT ALWAYS SWEET AND INNOCENT BUT WHEN I AM, I'M FAKING IT.\" The individual appears to have a confident expression with a slight smile. The gender of the subject is male, given the typical association of drag performance. The image depicts a playful or humorous statement through the use of drag."
+    },
+    "15093": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15093.png",
+        "gt_caption": "The image features a woman with long, wavy blonde hair and a revealing black outfit that emphasizes her chest. She is posing confidently with a slight smile. The overlaid text reads: \"I DON'T CARE WHAT MOVIE SHE'S IN AND WHAT HER ACTUAL NAME IS SHE WILL ALWAYS BE STIFFLERS MOM.\" The woman appears to have feminine characteristics and is the sole human subject in the image."
+    },
+    "15068": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15068.png",
+        "gt_caption": "The image features a human subject with exaggerated facial features. The person is wearing glasses and has a hairstyle that includes a headband. Their face appears distorted as it is stretched out by rubber bands, creating a humorous and surreal visual effect. The text overlaid on the image reads: \"DJFRENCHGUY MAKES HELLA STUPID MEMES.\" The subject is female. The overall presentation is one of parody, with a focus on absurdity."
+    },
+    "16050": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/16050.png",
+        "gt_caption": "The image features a scene from a film, divided into three panels with overlaid text. In the first panel, a male character (presumably Harry) is asking a female character (Hermione) if she is taking a breath. The second panel shows Hermione responding that she needs fresh air. The third panel features the same male character asking if there's an air conditioner in the kitchen."
+    },
+    "16105": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16105.png",
+        "gt_caption": "The image is a comic strip featuring four panels with stylized cartoon characters. \\n\\nIn the first panel, there are two female characters: one has long blonde hair and is wearing a blue dress with a white collar, and the other has short dark hair and is wearing a black shirt. The text reads, \"Hey isn't it weird how we live longer than men?\" followed by the response, \"Huh. weird.\" \\n\\nThe second panel features a male character with a light-colored beard, facing another male character from the side. The second male is holding a gun, and the first male is looking at him. The text in this panel says, \"ok so here's the plan. I shoot and we see if the garbage lid protects you.\" \\n\\nIn the final panel, the second male responds with \"Yep.\""
+    },
+    "15707": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15707.png",
+        "gt_caption": "The image features a woman with a distressed expression, appearing to be in a state of emotional conflict. She has dark, wavy hair and is seen with a hand on her forehead, as if overwhelmed. There are tears visible on her cheeks, indicating sadness or frustration. The overlaid text reads: \"TOO TIRED FOR SEX TOO HORNY TO SLEEP.\" The subject is identified as female. The portrayal focuses on an emotional expression."
+    },
+    "15259": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15259.png",
+        "gt_caption": "The image features two female subjects, each presented in a distinct style. On the left, a woman is dressed in a fitted, long-sleeve, maroon dress that emphasizes her body shape. On the right, another woman is wearing a white crop top that exposes her midriff, along with visible tattoos and makeup that gives her a bold, alternative appearance. The background of the right image includes a swimming pool. Overlaid text states, \"GET YOURSELF A LATINA THAT CAN DO BOTH.\""
+    },
+    "15790": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/15790.png",
+        "gt_caption": "The image features a character from a video game performing a dynamic action pose, with a bright, colorful background. The overlaid text reads: \"Girl: *hits me* You wouldn't hit a girl Me, who supports equal rights:\". There is one male character depicted in a muscular stance, highlighting his physical strength and assertiveness. The content implies a humorous scenario concerning gender perceptions and physical confrontations."
+    },
+    "15146": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15146.png",
+        "gt_caption": "The image features a hamster with a smiling expression, sitting against a yellow background. There is overlaid text that reads: \"INSISTS THAT WOMEN HAVE A RIGHT TO SEXUAL OBJECT PREFERENCE\" on the top and \"DEMONIZES MEN WHO DERIVE PLEASURE FROM LOOKING AT ATTRACTIVE WOMEN\" on the bottom. The hamster is depicted with both front paws raised."
+    },
+    "16120": {
+        "img": "./data/MAMI/MAMI_2022_images/test/stereotype/16120.png",
+        "gt_caption": "The image features two male subjects. The first male, positioned towards the back, is seen with their back to the viewer, while the second male, standing in front, appears to be younger and is wearing a white shirt and tie. There is overlaid text on the image that reads: \"WHEN YOU A LITTLE BITCH AND YOUR GF CHEATS ON YOU.\" The visual context suggests a humorous or exaggerated reaction to a relationship issue."
+    },
+    "15902": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15902.png",
+        "gt_caption": "The image shows a young adult woman with light skin and long brown hair, partially pulled back by her own hand. She has an open-mouthed expression and is looking upward with wide eyes. She is wearing earrings and appears to be in an indoor setting with cylindrical objects in the background. Overlaid text at the top of the image reads: \"When you take your hot pocket out of the microwave but it's still cold in the middle.\" The text at the bottom reads: \"oh fuck put it back in!\" The image contains visual cues and phrasing that suggest sexual innuendo, particularly through the facial expression and the caption that mirrors language commonly found in adult entertainment contexts."
+    },
+    "15266": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15266.png",
+        "gt_caption": "The image features a close-up of a woman lying on a bed with her eyes closed, mouth open, and arms raised above her head, gripping her hair. Her facial expression appears to show intense emotion or strain. She is not visibly clothed, and while no explicit nudity is shown, the positioning and expression, combined with the context of the text, suggest a sexually provocative portrayal. Overlaid text is present and reads: “I HEARD THE SEXUAL MOANS OF MY NEIGHBORS GIRLFRIEND EARLIER. SO IN MY BEST MORTAL KOMBAT VOICE I YELLED, ‘FINISH HEEEEER’. THEY LAUGHED. 20 MINUTES LATER I HEARD HIM YELL, ‘ROUND TWO FIGHT.’” The text contains clear sexual innuendo, referencing audible sexual activity and using phrases associated with the video game Mortal Kombat in a sexual context."
+    },
+    "15963": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/15963.png",
+        "gt_caption": "The image shows a close-up of a young adult female with light skin and long, wavy reddish-brown hair. She appears to be in the backseat of a vehicle, leaning forward with her face close to the camera. Her eyes are partially closed, and she has a lopsided facial expression that may suggest intoxication. Overlaid text at the top of the image reads: \"ONE TEQUILA, TWO TEQUILA, THREE TEQUILA...\" and at the bottom: \"FLOOR.\""
+    },
+    "15043": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15043.png",
+        "gt_caption": "The image features three individuals posing together in a mirror, with a photograph being taken. There are two male subjects on either side of a female subject. The males are shirtless, displaying muscular physiques, while the female, in the center, is wearing a dark top and appears to be holding the camera. The males are positioned closely, with one of them resting his arm on the other's shoulder. In the lower part of the image, there is an overlay featuring a cartoonish face with a caption that reads, \"Bromance... by death0411 - Meme Center.\" The overall visual suggests camaraderie among the three individuals, with a focus on their physical appearance."
+    },
+    "15589": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15589.png",
+        "gt_caption": "The image features a woman standing in a kitchen, cooking with a spatula while holding a frying pan with vegetables. She appears to be smiling and looks engaged in her task. The woman is wearing a red tank top. The text overlay on the image reads: \"I'M GOING TO COOK AND CLEAN BABY YOUR BATH WATER IS READY.\" The woman is the only human subject in the image."
+    },
+    "15694": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15694.png",
+        "gt_caption": "The image features two human subjects seated at a press event, likely related to the American Music Awards. One subject, a male with a bald head, is wearing a light gray suit with a red tie. The other subject, a female with long blue and blonde hair, is dressed in a clothing item that shows significant skin. The background includes a banner indicating the American Music Awards. Overlaid text reads, \"That Quick Glance\" and \"We all do it.\" The image features visual cues that suggest a dynamic interaction, with lines indicating a glance from the male subject towards the female."
+    },
+    "15072": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15072.png",
+        "gt_caption": "The image depicts a scene where several female dolls, characterized by long hair and stylized bodies, are positioned facing away from the viewer at the edge of a swimming pool. The dolls appear to be in a playful pose, as they have their hands raised. In the background, a male figure is seated in the pool, smiling and waving. Above the scene, there is overlaid text that reads \"VIRGIN LEVEL - JASON STROUTHER.\" The environment appears tropical, with trees in the background. The dolls are stylized and not depicted in traditional human fashion."
+    },
+    "17034": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/17034.png",
+        "gt_caption": "The image shows a scene at a beach where two women and a man are interacting. The women are dressed in bikinis, while the man is sitting in a chair and appears to be overweight, with his torso exposed. The woman on the left is pulling on the man's arm, while the woman on the right is also assisting in the effort. In the background, there are people sitting on the sand and others appearing to watch the scene. The bottom of the image has text that reads: \"Moving a beached whale Is harder then they thought.\""
+    },
+    "15635": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15635.png",
+        "gt_caption": "The image shows a medical setting where a pregnant woman is lying on an examination table, looking at an ultrasound monitor. A female healthcare professional, likely a doctor or nurse, is standing beside her, asking a question. The woman on the table has long hair and is wearing a hospital gown that covers her body, except for her midsection, where her pregnancy is visible. Overlaid speech bubbles convey dialogue: the healthcare professional asks, \"Did you want a boy or girl?\", to which the woman responds, \"I wanted him to pull out but here I am.\" The bottom of the image contains text that reads, \"This is why the industry promotes facials.\""
+    },
+    "16112": {
+        "img": "./data/MAMI/MAMI_2022_images/test/stereotype/16112.png",
+        "gt_caption": "The image features a young woman with medium-length light brown hair and a soft facial expression. Overlaid text reads, \"I'M A FEMALE PROGRAMMER AND STILL LOOK GOOD.\" The woman is positioned slightly off-center, facing to the right, with a neutral background. The overall composition is a close-up of her face and upper shoulders."
+    },
+    "15903": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15903.png",
+        "gt_caption": "The image features a young woman with long dark hair wearing glasses. She has a slight smile and is looking directly at the viewer while adjusting her glasses with one hand. The text overlaid on the image reads: \"REAL WOMEN DONT POST PASSIVE AGGRESSIVE MEMES ABOUT MEN. THEY'RE TOO BUSY MAKING THEM A SANDWICH.\" The woman appears to be in a casual indoor setting. The visual cues suggest she is portrayed in a manner that includes an undertone of sexual provocation through her attire and expression."
+    },
+    "15227": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15227.png",
+        "gt_caption": "The image is divided into two parts, featuring two individuals: a female and a male. The female subject, positioned at the top, has blood on her forehead and holds her hair back, with her expression suggesting discomfort or concern. The text overlaid above her reads, 'I'M GOOD / JUST LET ME FIX MY HAIR.' The male subject, positioned at the bottom, is shown lying on the ground, appearing to be in apparent distress with his hands on his body, while the text below him reads, 'AHHHHHH!!!!!! I'M DYING!!!' The male subject is wearing a white athletic uniform. The visual cues of discomfort are prevalent for both individuals in their postures and expressions."
+    },
+    "16312": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16312.png",
+        "gt_caption": "The image features a two-panel layout with overlaid text. The top panel shows a male figure (gender identified as male) with their hand over the mouth of another individual (gender identified as male), conveying a sense of intimidation. The accompanying text reads: \"IF YOU'RE DATING MY DAUGHTER AND YOU'RE STUPID ENOUGH TO DO THIS I'M GOING TO KILL YOU.\" The second panel depicts a male figure (gender identified as male) looking distressed or concerned, while another male figure (gender identified as male) observes this expression. The image overall conveys a figurative message about parental protection regarding dating."
+    },
+    "16126": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/16126.png",
+        "gt_caption": "The image shows a woman with long brown hair sitting in front of a mirror. She has a distressed expression on her face and appears to be applying makeup, possibly to conceal a bruise under one eye, which is visible both on her face and in the mirror's reflection. She is wearing a green top. The setting appears to be a bathroom or bedroom, based on the mirror and counter. Overlaid text at the top of the image reads: \"BEFORE YOU MARRY A COP REMEMBER.\" Text in the middle and bottom reads: \"THE THIN BLUE LINE WILL PROTECT YOUR HUSBAND, BEFORE IT PROTECTS YOU!\" and \"40% OF WOMEN MARRIED TO POLICE OFFICERS SUFFER FROM DOMESTIC ABUSE.\""
+    },
+    "15199": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15199.png",
+        "gt_caption": "The image features a male subject who is wearing traditional attire with a patterned shirt and a necklace. He also has glasses and a head wrap. The overlaid text reads: \"DRAWS NAKED PICTURES OF BLACK WOMEN GETS MAD WHEN BLACK WOMEN SHOW THEIR BODIES.\" The image has a neutral background with colorful fabric hanging in the distance."
+    },
+    "15952": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15952.png",
+        "gt_caption": "The image shows a woman lying in bed, wearing a light blue top with her shoulders exposed. A small dog is lying beside her. The overlaid text at the top reads: \"HEY BABE CAN YOU MAKE ME A SANDWICH?\" The text at the bottom reads: \"Hey babe can you make me a sandwich? - I should have bought the boat...\" The woman is facing forward, and her posture suggests she is looking at something beside her, likely a device or a book. The scene is set in a bedroom with warm lighting and a relaxed atmosphere."
+    },
+    "16203": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16203.png",
+        "gt_caption": "The image is a two-panel illustration comparing the reactions of  Girls\" and \"Kings\" when asked about body image. In the first panel, there is an illustration of two girls, with one girl asking, \"Am I fat?\" and the other responding, \"Omg no you are so beautiful.\" In the second panel, there is an illustration of two men, with one asking, \"Bro am I fat?\" and the other responding, \"Bro I know 5 fat people and you are 4 of them.\" The characters are drawn in a simple cartoon style, and the conversation highlights the contrasting ways the genders are portrayed in response to body image concerns. The text is overlaid at the top of each panel."
+    },
+    "15005": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15005.png",
+        "gt_caption": "The image depicts a kitchen scene where a cooking pan is on fire, creating a large flame that stretches upward. In the background, various kitchen utensils are visible, including pots and glasses, as well as a bottle of wine on the counter. The overlaid text reads: \"COOKING FOR MY WIFE.\" The overall focus is on the chaotic cooking situation in the kitchen."
+    },
+    "16143": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16143.png",
+        "gt_caption": "The image presents a two-panel format with the text \"The girlfriend I want:\" at the top left and \"The girlfriend I have:\" at the top right. The left panel features a close-up photo of a woman with long, light-colored hair and a smiling expression. The woman's facial features are well-defined, and she appears happy. The background suggests a casual indoor setting. There is no visible text in the right panel, which is blank. The image contains one female subject, depicted positively."
+    },
+    "15947": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15947.png",
+        "gt_caption": "The image features a woman with long, blonde hair, wearing a black sweater. She is smiling and appears to be seated against a light-colored wall. There is overlaid text at the top and bottom of the image. The text at the top reads, \"WHEN A COUGAR GETS SO OLD SHE NEEDS A HEARING AID\" and the text at the bottom states, \"SHE BECOMES A DEF LEPPARD.\""
+    },
+    "15668": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15668.png",
+        "gt_caption": "The image depicts a male subject sitting at a table outdoors. He is holding a mug and wearing a blue hoodie, while a sign on the table reads, \"Cute girls in a hoodie are better than hot girls in a bikini\" along with \"CHANGE MY MIND\" in bold text. There are additional items on the table, including papers and another mug with the words \"LOUDER WITH CROWDER.\" The setting appears to be a public area with greenery in the background. The male subject is the only human present in the image."
+    },
+    "15225": {
+        "img": "./data/MAMI/MAMI_2022_images/test/stereotype/15225.png",
+        "gt_caption": "The image features a collage of several female subjects, each displaying a variety of hairstyles and expressions. The text overlaid on the bottom of the image reads: \"A COMPLAINT OF KARENS.\" The human subjects are all female, showcasing various hairstyles and wearing different clothing styles. The visual focus is on their hairstyles, with some having voluminous or styled hair."
+    },
+    "15735": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15735.png",
+        "gt_caption": "The image features a child with light brown hair, seen making a gesture commonly interpreted as triumphant or assertive. The child wears a green and white shirt. The background consists of geometric shapes in various shades, predominantly in blues and purples. There is overlaid text that reads: \"CUTE GIRL SIT NEXT TO YOU IN CLASS ONLY DAY YOU REMEMBERED TO WEAR COLOGNE.\""
+    },
+    "15309": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15309.png",
+        "gt_caption": "The image features a bright pink explosion resembling a mushroom cloud, set against a pink sky. Overlaid on the image is text that reads: \"NOBODY: GENDER REVEAL PARTYS: IT'S A GIRL.\" The visual presents a comedic juxtaposition of a destructive explosion with the concept of gender reveal parties, conveying an exaggerated idea without any actual human representation."
+    },
+    "15855": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15855.png",
+        "gt_caption": "The image features a cartoonish character with a sad expression and an exaggerated face, typically representing feelings of loneliness or social awkwardness. Overlaid text says, \"HOT GIRL SITS NEXT TO ME ON BUS TALKS TO GUY IN FRONT OF ME.\" The tone appears to convey a sense of frustration regarding social interactions. The image relies on text and illustration to convey its message."
+    },
+    "16080": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16080.png",
+        "gt_caption": "The image consists of four quadrants. In the top-left quadrant, there is a depiction of a figure with a fiery appearance, possibly representing anger, with large glowing eyes and claws. In the top-right quadrant, the text reads, \"My girl mad at me for something.\" The bottom-left quadrant features a simplistic cartoon character with a smirk and rosy cheeks. In the bottom-right quadrant, the text states, \"Me thinking about how cute she looks when angry.\" The genders of the subjects can be inferred from the text, suggesting a female subject in the top-right quadrant and a male perspective in the bottom-left quadrant, though specific human subjects are not visually represented."
+    },
+    "16039": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/16039.png",
+        "gt_caption": "The image features a male subject with long hair, smiling and looking directly at the camera. He appears to be wearing headphones and is situated against a dark background with another individual partially visible behind him. There are two lines of overlaid text at the top and bottom of the image. The top text reads, \"YOU WOULDN'T SLEEP WITH ME IF I WAS THE LAST PERSON ON EARTH?\" and the bottom text reads, \"WHO WOULD STOP ME?\" The overall expression of the male subject appears confident."
+    },
+    "16089": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/16089.png",
+        "gt_caption": "The image features a group of people in a sports setting. A female subject is seen from behind, wearing a black shirt with a number \"7\" on it and tight-fitting green bottoms that emphasize her figure. The background includes a blurred crowd, suggesting a sporting event. There is overlaid text at the bottom of the image that reads: \"VACUUM SEALED FOR FRESHNESS.\" The image presents a focus on the female subject's body shape."
+    },
+    "15874": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15874.png",
+        "gt_caption": "The image consists of two panels featuring a muscular male subject wearing a red bandana. The top panel has the text \"Shut up guys, im talking to the cutest girl ever,\" and the bottom panel contains the text \"Sorry babe, you were saying?\" Surrounding the male figure in the bottom panel are several heart icons. The male subject is depicted with a confident expression and is shirtless, emphasizing his muscular physique."
+    },
+    "15891": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15891.png",
+        "gt_caption": "The image features a man with short hair and a slight smile, holding a glass in his right hand, while he is dressed in a black tuxedo with a bow tie. The background is blurred but suggests a celebratory atmosphere with bright lights. Overlaid text reads: \"HERE'S TO THE WOMEN WHO DON'T CHEAT ON THEIR HUSBANDS.\""
+    },
+    "15409": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15409.png",
+        "gt_caption": "The image features three groups of individuals depicted under the headings \"Poor,\" \"Rich,\" and \"Super Rich.\" In the \"Poor\" section, a female subject is dressed in formal attire, wearing a suit and holding a handbag. The \"Rich\" section shows another female subject in casual wear, wearing a black top and grey sweatpants, with a baseball cap. In the \"Super Rich\" section, a male subject is depicted wearing casual shorts and a t-shirt, walking with a female subject who is dressed in a fitted top and a skirt. The visual cues suggest varying levels of casualness and formality in attire corresponding to each category, with the individuals being a mix of genders: two females and one male."
+    },
+    "15818": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15818.png",
+        "gt_caption": "The image features an animated female character with a hairstyle that is black and styled in a short, curly manner. She is wearing a pink dress with a white apron and yellow rubber gloves, and she appears to be talking on a telephone. In the background, there is a partially visible door and a window with a green landscape outside. The text overlaid on the image reads: \"YES I DO THE COOKING YES I DO THE CLEANING.\" The character is portrayed in a domestic setting."
+    },
+    "15959": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15959.png",
+        "gt_caption": "The image consists of a cartoon illustration with overlaid text. The top text states: \"Me: *steals the heart of a cute girl*\" and the bottom text reads: \"Everyone else in the surgery room:\". The main visual element features a close-up of a cartoon cat character, characterized by large, expressive eyes and a focused expression. It appears to convey surprise or disbelief, indicated by the furrowed brows and emphasized eyes. The tone of the image could be interpreted as humorous based on the context, but it is presented in a straightforward manner."
+    },
+    "15162": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15162.png",
+        "gt_caption": "The image depicts a female cartoon character, characterized by a rounded face and a prominent mouth with red lipstick. She is wearing a pink shirt with a collar, and her hairstyle is short and dark, with some volume on the sides. The overlaid text reads: \"NO... NO.. YOU CLEAN...\" The visual cues suggest that she is portrayed in an authoritative or assertive manner. The character's expression and attire are typical of a comedic or exaggerated style found in animated series."
+    },
+    "15805": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15805.png",
+        "gt_caption": "The image features a young female subject with long blonde hair and a neutral expression, looking surprised or confused. She appears to be in a casual setting, likely indoors, with blurred background figures and soft lighting. The overlaid text reads: \"SO, IF YOU'RE A FEMINIST HOW CAN YOU EAT DAIRY?\" The focus is primarily on the facial expression of the individual and the text."
+    },
+    "15662": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15662.png",
+        "gt_caption": "The image is divided into two sections, each featuring a female subject. On the left, a woman with short hair is portrayed running, wearing athletic attire consisting of a sports bra and shorts, displaying a fit physique. The text above her reads, \"Me at 25 after a quick 5 mile run.\" On the right, a different woman with glasses and short hair is depicted bent over, appearing fatigued after performing a task, dressed in a pink blazer over a black outfit. The accompanying text states, \"Me at 35 after buckling my kid into the car seat.\" Both subjects are adults, and the image juxtaposes the physical activity of youth with the fatigue of parenting in later years."
+    },
+    "15301": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15301.png",
+        "gt_caption": "The image features a male figure with short, light brown hair and wearing a white shirt. He appears to be expressing surprise or disbelief, with his right hand raised and fingers spread in a gesture often associated with emphasizing a point. The overlaid text reads: \"WAIT A MINUTE WHAT DID YOU MEAN? WOMAN COOKING BETTER THAN MAN?\" followed by a smaller line that states, \"wait a minute what did you mean? woman cooking better than man ...\". The focus is primarily on the male subject and the text accompanying his expression."
+    },
+    "15148": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/15148.png",
+        "gt_caption": "The image features a dramatic scene depicting a giant creature, possibly a monster or a bear, interacting with a human subject who appears to be screaming in fear. The human has long hair and a shocked expression, and they are reaching out with their arms. The creature's claws are in the foreground, emphasizing its size and threatening posture. The background contains a dark, potentially forested setting, enhancing the eerie atmosphere. The overlaid text reads: \"WHEN YOU FIND OUT SHE'S BEEN CHEATING ON YOU.\" There are no identifiable humans beyond the assumed female representation in the figure in distress."
+    },
+    "15996": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15996.png",
+        "gt_caption": "The image features a woman with long blonde hair and wearing a formal outfit, adorned with a necklace and earrings. She has a serious expression on her face. The overlaid text reads: \"OOPS I DID IT AGAIN\" at the top and \"memegenerator.net\" at the bottom. The gender of the subject is female."
+    },
+    "15679": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15679.png",
+        "gt_caption": "The image shows a gray and white cat lying down with a group of baby chicks on its back. The chicks are of various colors, including yellow and brown. The cat appears relaxed, and the chicks are situated closely together on its fur. Overlaid at the top of the image is the text \"CHICK MAGNET\" in a bold, white font."
+    },
+    "15332": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15332.png",
+        "gt_caption": "The image features a male subject with slightly long, curly hair and a surprised expression on his face. He is wearing a dark shirt. Overlaid text reads: \"WHAT IF I'M REALLY ATTRACTIVE AND HOT GIRLS JUST THINK I'M OUT OF THEIR LEAGUE.\" The overall focus of the image is on the male subject and the text accompanying him."
+    },
+    "15496": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15496.png",
+        "gt_caption": "The image features a cat sitting in a relaxed position on a couch or floor. The cat has a gray and white coat and is looking directly at the camera with an expression that may be perceived as annoyed or indifferent. The text overlay at the top reads, \"WHEN YOUR GF SAYS,\" and the text at the bottom quotes the cat saying, \"\\\\\"I'M OFF MY PERIOD\\\\\".\" This is accompanied by the label \"Sexy Cat Meme - Imgflip.\" The content primarily focuses on the cat and its pose, which could be interpreted in a humorous context due to its positioning and the text provided."
+    },
+    "15512": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15512.png",
+        "gt_caption": "The image consists of two visuals side by side. The left visual features a humanoid figure with an octopus-like body, positioned in a manner that suggests a casual or relaxed stance. The figure appears to have a two-tone skin texture. The right visual depicts a humanoid figure from the waist down, showing skin that appears to be blended with the surrounding environment, suggesting nudity. The background of both visuals is a neutral-toned indoor setting, possibly a living room with a couch. Overlaid text reads: \"If your dick appointment doesn't leave you like this... block him.\" Below that, additional text states: \"WHOM NEEDS A FELLA TO BE YOUR FAKE BOYFRIEND ON TURKEY DAY.\" The genders of the figures are difficult to discern based solely on their lower bodies and the design of the monsters. The visuals include elements that suggest sexual innuendo, due to the combination of nudity and the context of the text."
+    },
+    "15487": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15487.png",
+        "gt_caption": "The image contains a collage of four panels with cartoon characters and animals. The top panel features the text: \"Girls: Guys don't know how to touch women. Also girls:\" Below this, there are three images: the first shows a cartoon character with a red object, the second depicts a hand interacting with an animated character, and the third shows another animated character reacting. The bottom left image displays a character resembling a yellow sponge with a facial expression, and the bottom right shows a dog with a surprised expression. The characters depicted are all animated and non-human."
+    },
+    "15358": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15358.png",
+        "gt_caption": "The image features a man cooking in a kitchen. He has a beard and is wearing a sleeveless shirt, suggesting a casual setting. There is overlaid text that reads: \"men cooking... Men cooking because you're living fucking beings who need to learn how to make your own damn food and not rest on thousands of years of oppression of women to justify why you can't take care of yourself.\" Additionally, the text includes the word \"NOPE\" and states: \"because the last generation of mothers didn't teach their daughters shit.\" The overall content appears to convey a critical or sarcastic commentary on gender roles related to cooking."
+    },
+    "16155": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16155.png",
+        "gt_caption": "The image depicts a man with braided hair smiling broadly. Overlaid text at the top reads, \"THIS IS ME,\" and the text at the bottom states, \"WATCHING FOOTBALL WHETHER GIRLFRIEND LIKE IT OR NOT.\" The man appears to be expressing enjoyment or enthusiasm, and he is wearing a black shirt. The overall content focuses on the theme of watching football."
+    },
+    "15051": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/15051.png",
+        "gt_caption": "The image consists of two main sections. The top part displays a group of women standing in front of a building, wearing red robes and white bonnets, holding signs related to women's rights and bodily autonomy. The overlaid text reads, \"WHEN THE AVERAGE FEMINIST BE LIKE 'STAY OUT IF MY WOMB!'\" The bottom part features a man with neutral expression, raising his hand in a gesture that suggests dismissal or refusal. The overlaid text states, \"THE AVERAGE MAN BE LIKE Not a problem!\" The human subjects include multiple females in the top section and one male in the bottom section."
+    },
+    "16121": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/16121.png",
+        "gt_caption": "The image features a smiling male subject with short dark hair and glasses, dressed in a black shirt. He has visible tattoos on both arms. Overlaid text reads: \"I GOT ATTACKED BY FEMINIST BUT I LANDED ROSETTA ON A COMET SO I GOT THAT GOING FOR ME WICH IS NICE.\""
+    },
+    "15354": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15354.png",
+        "gt_caption": "The image consists of two main sections, each depicting a different person shopping in a personal care aisle. In the top section, there is a woman characterized by long hair and casual attire, holding a bottle of shampoo while looking at products on the shelf. The text next to her reads, \"WOMAN: Shampoo for dry and damaged hair.\" In the bottom section, a man is shown looking at his phone while standing in front of a similar array of shampoo bottles. The accompanying text states, \"MAN: 6 in 1 shampoo for hair, face, body, carpet, car and dishes.\" Both individuals appear to be in a store, and the overall setting is well-lit and organized."
+    },
+    "16036": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16036.png",
+        "gt_caption": "The image features two Barbie dolls side by side, labeled \"BEFORE\" on the left and \"AFTER\" on the right. The left doll has a slender appearance, wearing a pink dress with puffy sleeves and large earrings. The right doll appears to have gained weight, depicted with a fuller face and body, still wearing a similar pink dress and large earrings. The doll's overall features in both images maintain a similar styling, but the right doll's depiction emphasizes a larger body shape. The overlaid text at the top reads, \"Me in quarantine.\" Both dolls are gendered female."
+    },
+    "15475": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15475.png",
+        "gt_caption": "The image features a woman with long dark hair, wearing large hoop earrings and a dark top. Her expression includes rolled back eyes and an open mouth, suggesting a dramatic or exaggerated reaction. The overlaid text reads: \"WHEN YOU HIT HER WITH THE HEY HOW'S IT GOING!\" The image primarily focuses on the woman's facial expression and the accompanying text."
+    },
+    "15231": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15231.png",
+        "gt_caption": "The image shows two individuals on what appears to be a train. On the left, a young woman with a broad smile is positioned so that her face is visible, while on the right, a young man is seated with his head tilted back and eyes closed. The background contains train seats and windows. There is overlaid text that reads: \"YOUR MUM CALLED TOLD THE BITCH TO BACK OFF, IM YOUR GIRLFRIEND NOW.\""
+    },
+    "17041": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/17041.png",
+        "gt_caption": "The image depicts a tennis match taking place at a large stadium, with a notable audience in the background. In the foreground, a female player is in an active pose, preparing to hit a tennis ball. She is wearing a white tennis outfit, which includes a short skirt and is positioned in a way that emphasizes her legs. The overlaid text states, \"Tennis ...Is pretty damn fine.\" There are additional players in the background, with at least one male player visible. The overall scene captures a dynamic moment in a tennis game."
+    },
+    "15618": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15618.png",
+        "gt_caption": "The image features two panels from the animated show \"SpongeBob SquarePants.\" The first panel shows a character, Patrick Star, dressed in a suit and glasses, intently writing on paper, suggesting seriousness or focus. The second panel depicts Patrick in a more casual setting, sitting on the ground with a confused expression, holding a tool and surrounded by various objects, implying a struggle with a task. The text on the right side reads: \"Me expertly sliding into the dms\" above the first panel and \"Me talking to girls in real life\" above the second panel."
+    },
+    "15793": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15793.png",
+        "gt_caption": "The image features two human reproductive system illustrations, specifically depicting uteri. Above the illustrations, there is overlaid text that reads: \"Uterus: I didn't bleed all day yesterday, she thinks her period ended already so she's wearing cute panties. Also uterus: Surprise her.\" The depicted uteri are shown in a playful manner, with one appearing to be hidden or clothed, suggesting a contrast between expectation and reality related to menstruation. The content references a common experience related to menstruation."
+    },
+    "15151": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15151.png",
+        "gt_caption": "The image features a young woman with long, blonde hair and a cheerful expression, smiling directly at the camera. She is wearing a low-cut top that reveals part of her chest, which suggests a focus on her physical appearance. The overlaid text reads, \"I'M THIS PRETTY BECAUSE BOTH MY PARENTS ARE WHITE.\" There are no male subjects present in the image. The visual cues that imply this image is intended to portray the female subject in a sexually provocative manner include the choice of clothing that emphasizes cleavage and the context of the text."
+    },
+    "15701": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15701.png",
+        "gt_caption": "The image features a male subject with light brown hair and a beard, smiling with a playful expression. The overlaid text reads: \"HEY GIRL YOU'RE CUTE, GIRL.\" The male is positioned in a way that emphasizes his facial features, particularly his smile and wink."
+    },
+    "17033": {
+        "img": "./data/MAMI/MAMI_2022_images/test/shaming/17033.png",
+        "gt_caption": "The image features a side-by-side comparison of two female subjects. On the left, there is a black-and-white photograph of a woman with long, dark hair and a natural appearance. On the right, a color photograph of a woman with light brown hair styled in loose waves, wearing makeup, and a black dress with a notable neckline. Overlaid text at the top reads, \"REMEMBER: TOO MUCH PLASTIC SURGERY,\" and below it, \"CAN MAKE YOU LOOK LIKE A SQUINTING CAITLYN JENNER.\" The left image depicts a younger version of the woman, while the right image shows a more stylized, glamorous version, potentially referencing cosmetic surgery. The overall presentation appears to comment on appearance changes due to plastic surgery."
+    },
+    "15991": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15991.png",
+        "gt_caption": "The image features a scene between two individuals: a woman and a man. The text at the top reads \"Me as a girlfriend.\" The woman, who has light brown hair, is animatedly speaking to the man, asking, \"Why aren't you laughing at me? Everything I say is funny and adorable.\" Below the image, the word \"Basically\" is displayed. The woman appears engaged and expressive, while the man looks toward her, presumably listening. The visual tone of the woman suggests confidence and personality."
+    },
+    "15217": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15217.png",
+        "gt_caption": "The image depicts a young woman on a beach. She appears to be smiling and looking directly at the camera. Her long, dark hair is styled with a red flower accessory. She is wearing a bikini that displays a significant amount of skin, particularly emphasizing her cleavage. The background shows sand and a body of water. Overlaid text at the top of the image reads, \"Hey look at my face\" and at the bottom, \"I said my face!\" The subject is identified as female."
+    },
+    "16005": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16005.png",
+        "gt_caption": "The image features a character from an animated series, described here as SpongeBob SquarePants, wearing a purple dress, a matching hat, and holding a pink purse. The character has exaggerated feminine features, such as long eyelashes and bright lipstick. The overlaid text reads, \"Mom: 'no ones going to think you're a girl just hold my purse for a minute please' Me:\". The image portrays the character in a way that emphasizes a humorous take on gender roles and societal expectations."
+    },
+    "15982": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15982.png",
+        "gt_caption": "The image features a male subject, who is sitting and appears to be speaking on a phone. He has short hair and is wearing a blue shirt. The background includes curtains and a decorative emblem. Overlaid on the image is text that reads: \"Eey Don't mess with my girlfriend bitch.\" The tone of the text, along with the expression of the subject, suggests a casual or confrontational context."
+    },
+    "15101": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15101.png",
+        "gt_caption": "The image features a woman sitting on the ground, appearing to lean back while looking at the camera. She is wearing glasses, a leopard print top, and has a sash reading \"FEMINIST\" across her chest. The background is light blue. The text overlaid on the image states, \"WOMEN ARE NOT OBJECTS.\" The woman has long dark hair and displays a neutral expression. There are large shoes visible in the foreground, indicating a somewhat humorous or casual pose."
+    },
+    "15091": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15091.png",
+        "gt_caption": "The image features a cartoonish, anthropomorphic yellow chick character wearing glasses, a pink outfit with the name \"Mell\" on it, and surrounded by a pile of cookies. The chick is holding a small knife, presumably for cutting the cookies. Above the character is overlaid text that reads, \"YES I DO THE COOKING\" and \"YES I DO THE CLEANING.\" There are no human subjects depicted, and the tone appears lighthearted and whimsical."
+    },
+    "15477": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15477.png",
+        "gt_caption": "The image depicts a penguin standing in the center against a background divided into two colors: blue on the left and red on the right. There is overlaid text in bold, capital letters at the top that reads, \"TRIP AND FALL IN FRONT OF PRETTY GIRL\" and at the bottom, it states, \"SHE THINKS ITS CUTE, NOW MY GIRLFRIEND.\" The visual elements focus on the penguin and the humorous text."
+    },
+    "15118": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15118.png",
+        "gt_caption": "The image features a woman with a broad smile, wearing bold eye makeup with green eyeshadow, and accessorized with a red necklace. She has long, dark hair and is dressed in a green garment. The background is a muted color, which contrasts with her vibrant attire. Overlaid text reads: \"DON'T CALL MY NAME DON'T CALL MY NAME LAQUEISHA SHANAY DESHAMANEQUA COSHONIQUE JACQUINEEQUA FANTAISA.\" The subject appears to be of larger body size, contributing to a representation of an overweight individual."
+    },
+    "15696": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15696.png",
+        "gt_caption": "The image is split into two sections labeled \"How girls Surprise from behind\" on the left and \"How boys Surprise from behind\" on the right. The left side depicts two young female subjects, one with long hair and wearing a white top, who is playfully covering the eyes of another girl with long, light brown hair, dressed in a light colored outfit. The right side shows three male subjects: one man with a black shirt and a hat, and two others nearby, appearing to be celebrating or in a lively mood. The background is a yellow wall, and one figure is gesturing with his hand. No overlaid text provides details beyond the labels at the top of each section."
+    },
+    "16278": {
+        "img": "./data/MAMI/MAMI_2022_images/test/stereotype/16278.png",
+        "gt_caption": "The image depicts a woman lying on the ground in a seemingly unconscious state. She is wearing a black shirt and denim shorts. The woman has dark hair and a visible tattoo on her arm. In her hand, she holds what appears to be a water bottle. Overlaid on the image is the text: \"WHEN YOU DRINK YOUR FIRST BEER.\" The scene suggests she has consumed alcohol."
+    },
+    "16003": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16003.png",
+        "gt_caption": "The image consists of two photos of a female subject, depicted in a playful manner. In the top photo, she is smiling widely, making a silly facial expression with her eyes squinted and teeth showing. In the bottom photo, she is making a pouty face, with her finger touching her cheek. The background appears light and neutral, and there is overlaid text that reads: \"Tag the cutest girl on your friendlist.\" The subject's clothing is casual."
+    },
+    "15988": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15988.png",
+        "gt_caption": "The image features two cars parked next to each other, with a focus on a white convertible car. The car's back seat appears to have several heads visible, which from a distance look like human heads but are actually round objects resembling melon or pumpkin heads. Overlaid text at the top of the image reads, \"How many people are in the car?\" Below the text, there are three laughing emojis. The overall presentation is intended to prompt a humorous or puzzling reaction regarding the appearance of the heads in the car."
+    },
+    "16138": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16138.png",
+        "gt_caption": "The image features a four-panel comic format. The top two panels include stylized drawings of male characters depicting two different reactions from women, labeled \"GIRLS.\" The first character shows a sad or disheartened expression, while the second has tears in their eyes with glasses. The accompanying text reads \"YOU UGLY\" above the first character and \"SHUT UP\" above the second. The bottom two panels are labeled \"BOYS\" and feature a different pair of male characters. One character has a similar sad expression while the other appears confident, and the text reads \"YOU UGLY\" for the first character and \"I KNOW\" for the second. The image showcases male characters in varying emotional states towards perceived insults."
+    },
+    "15442": {
+        "img": "./data/MAMI/MAMI_2022_images/test/stereotype/15442.png",
+        "gt_caption": "The image features the character SpongeBob SquarePants, depicted with an angry expression. He is holding a small tool in one hand. The overlaid text reads: \"FEMINIST IN VIDEO TECH STOP ATTACKING GIRLS.\" SpongeBob is portrayed wearing simple white underwear, which is characteristic of the cartoon style. There are no human subjects present, as SpongeBob is an animated character."
+    },
+    "15613": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15613.png",
+        "gt_caption": "The image consists of two panels. The top panel features a young woman with long, light-colored hair, wearing a striped top, and a young man, who is light-skinned, wearing a gray t-shirt and standing while looking away from the camera. The text overlaying this panel reads \"LOW SELF ESTEEM\" on the left, and \"ME AT 14\" on the right. The bottom panel shows a young black man wearing a patterned shirt and a young light-skinned man in a gray t-shirt. The young man in gray appears to be comforting or engaging with the black man, who has a neutral expression. The text in this panel states \"FREIND SAD IM NOT IN HIS CLASS.\""
+    },
+    "15641": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15641.png",
+        "gt_caption": "The image features a bald male subject sitting on a chair with a relaxed posture. He is wearing an open robe that reveals part of his torso and legs. The overlaid text reads, \"GOOD MORNING SEXY\" at the top and \"CHEERS TO YOU\" at the bottom. The male subject appears to be in a casual setting, with a plant visible in the background. The overall presentation conveys a provocative tone due to the male subject's attire and posture."
+    },
+    "15334": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15334.png",
+        "gt_caption": "The image features five women standing in a row, all wearing matching maroon off-the-shoulder dresses. They are facing the camera and smiling, with each woman numbered from 1 to 5. There is a question overlaid at the top of the image that reads, \"Which one is the mother?\\U0001f914\", and below the numbered individuals, it states, \"1 mother and 4 daughters \\U0001f633\". All the subjects appear female. The women are presented in an equal manner regarding attire and pose."
+    },
+    "15791": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15791.png",
+        "gt_caption": "The image shows a woman sitting on a bed, holding a red piece of clothing, possibly lingerie, as she looks down at it. The woman has long hair and appears to be in a casual setting. The background includes a wooden floor and various items scattered around, indicating a personal space. There is overlaid text that reads, \"The PERFECT Valentines Day gift. We all know someone who'd love this...\" accompanied by a laughing emoji."
+    },
+    "15646": {
+        "img": "./data/MAMI/MAMI_2022_images/test/stereotype/15646.png",
+        "gt_caption": "The image features a person sitting on a chair, wearing a yellow shirt. The individual appears to be female and has a fuller figure. She is in front of a scale, in what seems to be a non-descript indoor setting. There is overlaid text at the top that reads, \"Fat people logic,\" and beneath it, the text states, \"Tells skinny people they need to eat more. Cries about body positivity and big is beautiful.\""
+    },
+    "15729": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15729.png",
+        "gt_caption": "The image shows a doll with a distorted face, appearing to be melting or deformed, with a skin tone color resembling foundation. Overlaid text reads: \"WHEN IT'S 100 DEGREES BUT YOU STILL TRYNA APPLY FOUNDATION.\" The depiction of the doll includes exaggerated facial features, such as large eyes and a small mouth, giving it a cartoonish yet unsettling appearance. The overall focus is on the humorous struggle of makeup application in extreme heat."
+    },
+    "15001": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15001.png",
+        "gt_caption": "The image features two human subjects, a male and a female. The male character has long dark hair and is dressed in a black outfit, while the female character has red hair and is wearing dark clothing. The image contains overlaid text in two sections. In the upper section, the text reads: \"Steve is hot and perfect in every way.\" The woman responds with, \"You don't look so bad yourself. There's no need to be jealous.\" In the lower section, the male character states, \"I'm not jealous. I'm gay.\""
+    },
+    "15919": {
+        "img": "./data/MAMI/MAMI_2022_images/test/stereotype/15919.png",
+        "gt_caption": "The image depicts a woman with short, vibrant red hair and glasses, appearing to speak intently. She has a serious expression on her face. The background features blurred figures, including an individual holding a camera, suggesting a public or interview setting. The overlaid text reads, \"MEN ARE PIGS AND MY BOYFRIEND BETTER BUY ME THIS KITCHEN!\" The tone of the image appears assertive based on the text and the woman's expression."
+    },
+    "15661": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15661.png",
+        "gt_caption": "The image is divided into two sections. The upper part depicts two female subjects engaged in a pillow fight. Both appear to be young, with one wearing a white top and plaid shorts, and the other in a pink top. They are smiling and holding pillows. The background includes a corkboard and light-colored walls. The lower section shows a male subject, identifiable as a streamer, sitting in front of a computer, wearing headphones. He is playing a video game, and the scene is set in a virtual environment where he appears to be interacting with game elements. The overlaid text reads: \"GIRLS : PILLOW FIGHT!!\" and \"BOYS : BED FIGHT!!!!!\""
+    },
+    "15081": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15081.png",
+        "gt_caption": "The image features a woman with long, dark hair and a serious expression, wearing a yellow uniform with red accents. She has a name tag that reads \"Max.\" The background suggests a diner setting, with kitchen equipment visible. Overlaid text at the top and bottom states: \"LET ME TELL YOU SOMETHING ON BEHALF OF WOMEN EVERYWHERE: WE. DON'T. LIKE. BEARDS.\" The subject appears to be female, and the overall presentation carries a confident demeanor."
+    },
+    "15671": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15671.png",
+        "gt_caption": "The image features two human subjects in a kitchen setting, both of whom are engaged in a tense exchange. The first subject, a woman with dark hair, is wearing a pink and white chef's uniform, while the second subject, a man with blonde hair, is dressed in a white chef's shirt. Above them, the text reads \"GORDON RAMSAY\" and below, in larger font, states \"THE ONLY GUY WHO TELLS WOMEN TO GET OUT OF THE KITCHEN....\" The scene depicts a heated conversation commonly associated with kitchen dynamics, particularly in professional cooking environments. The overall focus is on the interaction between the two subjects, emphasizing an intense moment."
+    },
+    "16045": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/16045.png",
+        "gt_caption": "The image shows a close-up of a blonde female subject looking upward, with only her face and the top of her shoulders visible. The framing and angle suggest she is positioned below someone, and her facial expression is neutral. The context and composition, along with the upward gaze, contribute to a sexually suggestive visual portrayal, though no nudity or overtly revealing clothing is visible. Overlaid text at the top and bottom of the image reads: \"WHEN HE TELLS YOU 'HERE IT COMES, BAYBAY!!'\" and \"And it's been 2 minutes and you're still waiting\". The text, in combination with the image composition, contains clear sexual innuendo referencing delayed male sexual climax."
+    },
+    "15177": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15177.png",
+        "gt_caption": "The image features a male figure reading from a piece of paper while seated, with a background that appears to be a studio setting. The overlaid text reads: \"YOU SAY THAT YOU DIDNT CHEAT ON ME BUT YOUR STD DETERMINED THAT WAS A LIE.\" The overall look of the male subject indicates he is an older adult. Visual cues related to sexual innuendo are evident in the text regarding infidelity and STDs."
+    },
+    "15804": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/15804.png",
+        "gt_caption": "The image consists of two panels depicting a conversation between characters. In the first panel, a woman with dark hair is smiling and engaging with a man, who has light-colored hair and is turned slightly away from her. The text in this panel reads, \"REAL MEN DON'T HIT WOMEN.\" In the second panel, the same woman appears more aggressive, with her hair disheveled and showing signs of a confrontation. She responds with, \"I'M A WOMAN!\" There are visible splatter effects that suggest violence, which adds to the tone of the interaction. Both characters appear to be gendered as male and female, respectively."
+    },
+    "15746": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15746.png",
+        "gt_caption": "The image features two frames of a man, who is depicted in different emotional states. In the top frame, the man, who has short curly hair and is wearing a dark shirt and a hat, appears to be excited or amused while speaking; there is a green parrot visible on his shoulder. The overlaid text reads, \"Dads when their son mentions a girl.\" In the bottom frame, the man's expression changes to one of concern or shock, and he is wearing a different dark shirt. The overlaid text in this frame states, \"Dads when their daughter mentions a guy.\" The image is structured to juxtapose two different reactions based on the context of children mentioning individuals of the opposite gender."
+    },
+    "16081": {
+        "img": "./data/MAMI/MAMI_2022_images/test/stereotype/16081.png",
+        "gt_caption": "The image features a woman with short hair, smiling while facing the camera. She is wearing a dark top and appears to be in a well-lit indoor setting that includes tables and chairs. Overlaid text at the top reads \"ANTI-FEMINISM\" and at the bottom, it says \"PRO-STUPID.\""
+    },
+    "17027": {
+        "img": "./data/MAMI/MAMI_2022_images/test/shaming/17027.png",
+        "gt_caption": "The image features a male subject dressed in a revealing outfit that includes a black top with laces and a fringe, paired with a brightly colored wig that has a long, curly style. The subject is making a facial expression that conveys distaste or disgust. The background shows a partially blurred area, and the focus is on the subject, who is positioned front and center. Overlaid text reads, \"SARAH JESSICA PARKER\" and \"COMING OUT OF QUARANTINE.\" The male subject's clothing emphasizes a non-traditional gender presentation."
+    },
+    "15867": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15867.png",
+        "gt_caption": "The image features a male subject, who appears to be making a gesture with his right hand while speaking. He has short blonde hair and is dressed in a dark suit with a white shirt and a red tie. The background is a light blue color, which resembles a debate setting. Overlaid text at the top reads, \"When you sit next to a girl and she moves away,\" and at the bottom, it states, \"That's okay, I'm not surprised.\""
+    },
+    "15602": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15602.png",
+        "gt_caption": "The image features a cartoon character, SpongeBob SquarePants, who is a yellow sea sponge with large, expressive eyes and a distinct facial expression. He is depicted in a setting that appears to be inside a restaurant or store, with visible windows in the background. The character is wearing a blue hat. Overlaid text reads, \"TODAY I MET A CUTE GIRL BUT SHE REJECTED MY FRIENDSHIP.\" The character is male as identified by his voice and personality traits in the original media. The overall composition seems to convey a humorous but neutral moment in the context of friendship."
+    },
+    "15412": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15412.png",
+        "gt_caption": "The image features a woman who appears to be in a business suit, standing with her arms crossed. She has short hair and a neutral expression. The background is a solid orange color. Overlaid text reads, \"MY BOYFRIEND BEATS ME AT SCRABBLE EVERY WEEK. AND I WENT TO DARTMOUTH.\""
+    },
+    "16117": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16117.png",
+        "gt_caption": "The image is a graphical poster divided into two halves with text and photographs. Across the top of the entire image, the text reads \"INTERRACIAL RAPE\" followed by a URL link. On the left side, there is a black and white photograph of a white woman with long hair, appearing distressed, with a few obvious marks of bruises on her face, indicating she's injured. The text below her reads \"BLACK ON WHITE 19,293\". On the right side, there is a photograph of a smiling black woman with curly hair, presented in black and white. The text on this side reads \"WHITE ON BLACK 0\". The central message of the poster seems to provide statistics on interracial rape, focusing on racial dynamics."
+    },
+    "15237": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15237.png",
+        "gt_caption": "The image features a woman with short, dark hair, smiling while seated against a neutral background. She is wearing a dark-colored top and appears to be engaging in conversation or presenting a statement. The overlaid text reads: \"Guess who just became the cutest girl in the office?\""
+    },
+    "16071": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16071.png",
+        "gt_caption": "The image features a still from an animated series showing a character, SpongeBob SquarePants, who is yellow with large eyes and a rectangular shape. He appears to be clasping his waist with one hand while showing an expression that suggests discomfort or contemplation. The overlaid text reads, 'Everybody: you're not fat! Me:'."
+    },
+    "17030": {
+        "img": "./data/MAMI/MAMI_2022_images/test/stereotype/17030.png",
+        "gt_caption": "The image features a muscular female subject posing in a gym environment. She is standing next to a weight bench with dumbbells. The subject has an athletic build, displaying toned muscles in her arms, legs, and abdomen. She is wearing a black sports bra and black shorts, which reveal her physique. The overlaid text reads: \"SHE MAKES YOU 100 SANDWICHES AFTER THAT, SHE FORCES YOU TO EAT ALL.\" There is an emphasis on her muscularity, which may be perceived as provocative due to the visibility of her physique."
+    },
+    "15685": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15685.png",
+        "gt_caption": "The image features a female subject demonstrating a gymnastic pose, specifically a split while balancing on a railing. She has shoulder-length hair and is wearing a light-colored sleeveless top and denim shorts. The background consists of a wall with a fire hydrant and a pole. At the bottom of the image, there is overlaid text that reads: 'Gymnast / In a perfect world every women would be a gymnast!' The female subject is depicted in an athletic manner, showcasing flexibility and strength."
+    },
+    "16324": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/16324.png",
+        "gt_caption": "The image features a still from an animated show, depicting two characters. One character, a young girl, is shown in a yellow outfit and appears to be recoiling or flailing, while the other character, a man, is dressed in blue pajamas and holds a bat, advancing towards her. The top of the image contains the text \"WHEN I See\" and the bottom includes the text \"A woman,\" with a dark overlay obscuring additional details. The genders of the characters are as follows: the girl is female and the man is male. The scenario depicted might suggest an aggressive or confrontational interaction."
+    },
+    "16237": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16237.png",
+        "gt_caption": "The image features a series of sculpted stone heads arranged on a table. There are four stone figures with varying facial expressions and features. The largest figure in the center has a round face with an oval shape and a neutral expression, while the other figures display more exaggerated features, such as pronounced lips and small eyes. Above these figures, there is overlaid text that reads: \"girl: *walking down the street* builders:\". The genders of the human subjects mentioned in the text are not visually present; however, the textual reference indicates a girl. The overall tone of the image is neutral and does not imply humor or any specific emotional context."
+    },
+    "15987": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/15987.png",
+        "gt_caption": "The image features a female with a shaved head, bending over with a vacuum cleaner hose attached to the top of her head, suggesting the hose is being used to pull her head back. The woman appears to be held by a hand on her waist from her back. Her facial expressions indicate she's in distress or strain. A black bar censors the woman's chest part, suggesting she's nude. The text overlaid on the image reads, \"When she ain't got no hair to pull so you gotta improvise\" at the top, and \"No hair, no problem!\" at the bottom. The overall scene suggests clear cues referencing a sexual act where hair pulling is involved, but improvised due to lack of hair."
+    },
+    "15756": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15756.png",
+        "gt_caption": "The image features a woman with brown hair styled in a side part, displaying a facial expression characterized by eye-rolling and a slightly amused or incredulous look. The overlaid text reads, \"BEHIND EVERY GREAT MAN THERE'S A WOMAN ROLLING HER EYES.\" The composition primarily focuses on the woman's expression, conveying a sense of exasperation or sarcasm."
+    },
+    "15452": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15452.png",
+        "gt_caption": "The image features two individuals lying on a bed, with one person (gender not specified) resting their head on the shoulder of the other. The person on the right is partially visible, displaying a bare shoulder and wearing a light-colored shirt. The left arm of one individual can be seen resting across the other. The overlaid text reads: \"DRUNK SEX OR Sober SEX.\" The image captures a relaxed, intimate pose between the two subjects."
+    },
+    "15752": {
+        "img": "./data/MAMI/MAMI_2022_images/test/stereotype/15752.png",
+        "gt_caption": "The image shows two human subjects, a woman and a man. The woman, who appears to have long hair and is wearing a light-colored top, is shown crying and holding her face with one hand, while grasping the man's hand with the other. The man has short hair and is dressed in a light blue shirt, and he appears to be comforting or expressing concern towards her. The overlaid text at the bottom of the image reads: \"SORRY FOR CHEATING BABY BUT HE HAD GRAY SWEATPANTS.\""
+    },
+    "15476": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15476.png",
+        "gt_caption": "The image consists of two panels. The top panel features a group of four children and one adult woman seated outside in a park-like setting, dressed in light-colored, formal clothing, suggesting a historical or vintage theme. The adult woman, identified as the mother, is smiling while holding one of the children. The children appear joyful as well. The bottom panel depicts a scene from a film, which shows a man, wearing casual attire, running from two animated dinosaurs in an indoor environment that looks like an enclosure. The text overlay on the top states, \"WHAT I THOUGHT BEING A MOM OF BOYS WOULD LOOK LIKE,\" while the text on the bottom reads, \"WHAT IT'S ACTUALLY LIKE.\""
+    },
+    "15847": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15847.png",
+        "gt_caption": "The image features two female subjects in separate frames. The top half shows one girl with long, blond hair and a slight smile, and the overlaid text reads, \"WHEN A GIRL POSTS A NAUGHTY SUGGESTIVE MEME.\" The bottom half displays another girl also with long hair but with a more serious expression, and the text says, \"WHEN YOU COMMENT SOMETHING SUGGESTIVE BENEATH.\" Below these frames, there is additional text that states, \"Make your mind up women...\" The image appears to depict a contrast between lighthearted and serious expressions, related to the theme of suggestive content."
+    },
+    "15328": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15328.png",
+        "gt_caption": "The image features a male subject with light-colored hair styled in loose waves, wearing a brown top hat and a purple jacket. He has a slight smile and is resting his head on his hand, which is propped up. Overlaid text at the top reads, \"MY WIFE IS SUPER SEXY,\" and at the bottom, it states, \"she sure is - Meme on Imgur.\" The overall visual is focused on the male subject and the accompanying text."
+    },
+    "15448": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15448.png",
+        "gt_caption": "The image consists of two panels. The top panel features a woman with long hair wearing a striped tank top, walking ahead of a man wearing a light blue shirt, who appears to be looking at her. The bottom panel shows two men, one with short hair wearing a black and white striped shirt and the other with short hair and a light gray shirt, having a conversation. The overlaid text in the top panel reads, \"BEING SELF CONFIDENT, FEELING GOOD LOOKING AND PROUD OF MY ACHIEVEMENTS,\" and in the bottom panel, it reads, \"THE SELF DESTRUCTIVE PART IN ME, TELLING ME I'M SHIT AND NOT WORTH IT...\" The woman is portrayed in a casual outfit without overtly revealing clothing, and the overall context suggests a contrast between self-confidence and self-doubt."
+    },
+    "15838": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15838.png",
+        "gt_caption": "The image features a male subject wearing glasses and a button-up shirt, with short hair and a serious expression. He appears to be in an office setting, with blurred figures in the background. The image contains overlaid text that reads \"OBJECTIFY WOMEN.\" and \"VAR OBJECT = {GENDER:WOMEN}.\""
+    },
+    "15210": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15210.png",
+        "gt_caption": "The image features a male subject with a bald head and sunglasses, staring directly at the camera. The overlaid text reads: \"WHAT IF I TOLD YOU / YOUR GONNA DIE A VIRGIN.\" The background appears to be a green-toned setting. The male subject is portrayed in a serious manner."
+    },
+    "15454": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15454.png",
+        "gt_caption": "The image features a young man standing at a doorway with a somewhat serious expression. He is wearing a brown shirt and a patterned cap. The setting appears to be indoors, with a portion of a wall and doorframe visible. Overlaid text reads: \"CHEATING ON HIS GIRLFRIEND GETS JEALOUS WHEN MISTRESS FLIRTS WITH OTHER GUYS.\" The tone of the text suggests a narrative about jealousy in romantic relationships."
+    },
+    "15289": {
+        "img": "./data/MAMI/MAMI_2022_images/test/objectification/15289.png",
+        "gt_caption": "The image features a woman with long, light brown hair seated in front of a computer setup. She is wearing a blue outfit that has a low neckline, emphasizing her chest. The background includes gaming elements, and a Twitch stream is visible on the screen, displaying gameplay. There is a text overlay at the top, which includes the statement \"women: 'we are not objects'\" followed by \"also women:\" along with a \"DANCE SUB GOAL: 124/150.\" At the bottom of the image, a comment reads, \"Can you make the fortnite full screen I'm tryna see the new update not those honkers thanks.\" The woman appears to be actively engaging with a gaming audience."
+    },
+    "15036": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15036.png",
+        "gt_caption": "The image shows a group of nine females and one male in a hot tub, surrounded by trees and a wooden structure in the background. The male, who has short hair and glasses, is smiling and positioned in the center, while the females are around him, engaging with each other. The text overlaid on the image reads: \"FRIEND ZONE LEVEL: INFINITY\" at the top, and \"Virgin lvl over 9000\" at the bottom. The females are dressed in swimsuits."
+    },
+    "15233": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15233.png",
+        "gt_caption": "The image has two distinct parts side by side. On the left, there is a photo featuring three young men, all appearing to be in a bar setting. They are smiling and holding up beers, suggesting a social gathering. On the right, there is an illustration showing several women in dancer-like poses, wearing outfits that emphasize their bodies and are suggestive in nature. The text at the top reads, \"What my gf thinks 'Boys Night' is VS what it really is,\" and the bottom has, \"So true \\U0001f602 Tag your squad.\""
+    },
+    "15546": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15546.png",
+        "gt_caption": "The image features an individual with glamorous makeup and curly, blonde hair, presenting a facial expression that includes pursed lips and closed eyes. Overlaid text reads \"KISSING ASS IT'S YOUR SPECIALTY.\" The individual appears to be male based on facial features commonly associated with masculinity, face shape, and the presence of makeup typically used in drag performance. The emphasis here is primarily on the expression and the overlaid text."
+    },
+    "15335": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15335.png",
+        "gt_caption": "The image is split into two panels titled \"Before kids:\" on the left and \"After kids:\" on the right. In the left panel, there is a woman sitting on a chair wearing a fitted red dress, appearing to smile and have long dark hair, with her legs crossed, emphasizing her outfit. In the right panel, the same woman is depicted in a more casual, outdoor setting, sitting on a camping chair and wearing a red jacket over layers, showing a more rugged appearance. She has a headband and appears to be engaged in a task, looking serious and focused. There is no overlaid text in the panels aside from the titles. Both images feature a female subject. The left image portrays the woman in a visually appealing outfit, while the right image presents her in a much more casual and practical manner, suggesting a change in lifestyle."
+    },
+    "17058": {
+        "img": "./data/MAMI/MAMI_2022_images/test/shaming/17058.png",
+        "gt_caption": "The image is split into two sections. On the left, there is a human subject, a woman with light-colored, voluminous curly hair, appearing to shout or express excitement. She is wearing a dark outfit with thin straps. On the right, there is an animal, a sheep, that has been edited to feature similar cosmetic elements, including bright pink lipstick and blue eyeshadow. The background of both sections is a light color, with the sheep positioned against a green backdrop. The text at the bottom labels the left image as \"Nicki Minaj\" and the right image as \"Sheep.\""
+    },
+    "15544": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15544.png",
+        "gt_caption": "The image consists of three separate photos of a female subject with light brown hair, presented in a horizontal format. In the first photo, she appears to be playfully shushing, with her finger to her lips. The second photo captures her with a slight smile, looking downwards. In the third photo, she is smiling openly while looking to the right. Below these images, there is a text that reads: \"Who's the cutest girl in your friendlist?\" The visual presentation features a mix of casual expressions from the subject. The subject presents a neutral demeanor across the three images."
+    },
+    "15624": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/15624.png",
+        "gt_caption": "The image features a young woman with visible bruising around her eyes, commonly referred to as \"black eyes.\" She has long, light brown hair and is wearing a gray top. The background shows a partially visible kitchen area. Overlaid text at the top reads, \"NEVER GOT ONE OF THESE WHILE MAKING A SAMMICH,\" and at the bottom, it states, \".....THINGS TO REMEMBER.\" The woman appears to be in a relaxed pose, with one hand running through her hair. The image portrays her in a manner that draws attention to her facial injuries."
+    },
+    "15693": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15693.png",
+        "gt_caption": "The image consists of two panels. In the top panel, a woman is walking past a man, and the text \"WOMAN\" is overlaid next to her, while \"MAN\" is placed next to the man. In the bottom panel, two men are positioned together, and the text \"ANOTHER MAN\" is displayed near one of them, alongside \"MAN\" next to the other. The woman in the top panel appears to be wearing a striped outfit. Both male figures exhibit neutral clothing styles, with one in a plaid shirt and another in a solid-colored shirt."
+    },
+    "15545": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15545.png",
+        "gt_caption": "The image features a man with gray hair and a beard, dressed in a black suit with a white shirt, seated at a table. He appears to be looking directly at the camera with a slight smile. Overlaid text states: \"I DON'T ALWAYS MEET A NICE GIRL BUT WHEN I DO, I MEET HER BOYFRIEND TEN MINUTES LATER.\" The tone of the image appears to convey a comedic message."
+    },
+    "16192": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/16192.png",
+        "gt_caption": "The image features two sections comparing perceptions of smiling. The top section shows a woman with long, smooth hair smiling, presumably portraying an idealized version of how one thinks they look when smiling. The text above her reads, \"How I think I look when I smile.\" The bottom section displays a different woman, along with another female, both laughing heartily, suggesting a more candid, perhaps less polished moment. The text here states, \"How I really look.\" Both individuals are identified as female."
+    },
+    "15352": {
+        "img": "./data/MAMI/MAMI_2022_images/test/violence/15352.png",
+        "gt_caption": "The image contains a collage featuring a family photograph and a close-up of an older man with glasses. In the top half, there is a group picture of three individuals: two males and one female child. The male subjects have light brown hair and are wearing casual clothing, while the female child has dark hair and is also dressed casually. The lower part of the image has overlaid text that reads: \"She 'didn't have time' to make me a sandwich. I 'didn't have time' to save her from our burning house that I set on fire.\" The text is presented in a bold, white font against a dark background."
+    },
+    "15600": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15600.png",
+        "gt_caption": "The image features a male subject with light brown hair and a beard, wearing glasses and a sleeveless shirt. He is looking directly at the camera with a neutral expression. Overlaid text at the top reads, \"HEY GIRL,\" and at the bottom, it states, \"YOU'RE TOO CUTE TO BE STRESSED OUT.\""
+    },
+    "15853": {
+        "img": "./data/MAMI/MAMI_2022_images/test/0/15853.png",
+        "gt_caption": "The image features a young girl holding a large stack of cash, predominantly consisting of hundred-dollar bills. She has a concerned or frustrated expression on her face as she looks at the camera. The text overlaid on the image reads, 'You work too much.' followed by 'Me:' and below that, 'I want to be rich ok? :p'. The expression and context suggest a humorous take on work and financial aspirations."
+    }
+}

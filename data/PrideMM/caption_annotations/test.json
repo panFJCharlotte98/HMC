@@ -1,0 +1,1278 @@
+{
+    "2": {
+        "img": "./data/PrideMM/Images/test/1/2.png",
+        "gt_caption": "The image features a colored background resembling a rainbow flag, with text layered across it. The top section in red states, \"Imagine only being able to date.\" Below this, a pink band includes the text, \"This meme was made by,\" followed by a blue section with the phrase \"Bisexuality gang.\" At the bottom, in large white text, it says, \"Half the population.\""
+    },
+    "22": {
+        "img": "./data/PrideMM/Images/test/0/22.png",
+        "gt_caption": "The image features a shirtless man with a mullet hairstyle, leaning against a red truck. He has a beard and appears to be holding a piece of grass or straw in his mouth. Overlaying the image is text that reads: \"IF MY SON CAME OUT AS TRANSGENDER I WOULDN'T HAVE A SON I WOULD HAVE A DAUGHTER.\" The background includes trees and natural surroundings."
+    },
+    "23": {
+        "img": "./data/PrideMM/Images/test/0/23.png",
+        "gt_caption": "The image features a conversation from an online platform. The first message is from a user named \"polyglotplatypus,\" stating, \"Having gay parents must be horrible. I mean you either get twice the usual amount of dad jokes or get stuck into an infinite loop of 'go ask your mom.'\" Below this, another user, \"pizzaotter,\" responds with, \"These are the kind of gay jokes that are funny.\" "
+    },
+    "31": {
+        "img": "./data/PrideMM/Images/test/0/31.png",
+        "gt_caption": "The image consists of a four-panel comic. The first panel features a character standing on a rock ledge, stating, \"Gay marriage shouldn't exist.\" In the background, a large group of characters with stern expressions holds various weapons. The second panel shows the same character saying, \"It should just be considered 'marriage',\" while the crowd continues to appear hostile. The overall scene depicts a confrontation between the character and the crowd."
+    },
+    "55": {
+        "img": "./data/PrideMM/Images/test/0/55.png",
+        "gt_caption": "The image consists of a tweet featuring two Grindr logos side by side. The left logo has a rainbow background, while the right logo has a black background. A user, identified as @panklenlewd, includes the text \"every year man\" above the logos. Below, another user, @axelfirekirby, replies with the text, \"isnt grindr already gay? so on june it becomes \u2728SUPER GAY\u2728\"."
+    },
+    "64": {
+        "img": "./data/PrideMM/Images/test/0/64.png",
+        "gt_caption": "The image shows a scene with three people: a doctor and a couple. The woman appears to be asking the doctor about the gender of their unborn child, with the text reading, \"What is it, Doctor? A boy or a girl?\" Below that, another line states, \"We're not allowed to assume the gender anymore. But it's got a cock.\" The overall composition focuses on the interaction between the couple and the doctor, accompanied by the text that addresses gender assumptions."
+    },
+    "123": {
+        "img": "./data/PrideMM/Images/test/0/123.png",
+        "gt_caption": "The image features a character from an animated series, displaying a facial expression that suggests a smirk or slyness. The character has light-colored hair and is wearing a distinctive outfit, which includes a decorative accessory on their head and a monocle over one eye. Above the character, there is overlaid text that reads: \"\"Pray away the gay\" camp counselors after putting the gay kids with other gay kids:\""
+    },
+    "129": {
+        "img": "./data/PrideMM/Images/test/0/129.png",
+        "gt_caption": "The image features a depiction of a figure resembling Isaac Newton standing in a doorway, with light beams streaming in from outside. The figure is dressed in period clothing, including a long coat and waistcoat. Inside the room, various scientific instruments and a prism can be seen on a table. The overlaid text reads: \"Isaac Newton demonstrating that going outside is gay (ca. 1670).\""
+    },
+    "134": {
+        "img": "./data/PrideMM/Images/test/1/134.png",
+        "gt_caption": "The image features a split design. On the left side, a series of rainbow-colored flags, including elements that represent LGBTQ+ pride, are presented with white text reading \"Liberals' Solidarity And Support For The Trans Community.\" On the right side is an illustration of a fantasy landscape with a castle and a figure in a long robe standing in the foreground, accompanied by the large text \"The Wizard Game.\" At the top, the phrase \"WHO WOULD WIN?\" is displayed in bold black letters."
+    },
+    "174": {
+        "img": "./data/PrideMM/Images/test/0/174.png",
+        "gt_caption": "The image features a green cartoon dinosaur, often referred to as \"Philosoraptor,\" which is depicted in a thoughtful pose. Overlaid text reads: \"IF A MAN CAN DECIDE TO BE A WOMAN AND THEN SOCIETY IS SUPPOSED TO ACCEPT IT THEN WHY CAN'T I DECIDE TO BE 60 YEARS OLD AND GET A SENIOR DISCOUNT?\" The background is a simple gradient, enhancing the focus on the dinosaur and the text."
+    },
+    "230": {
+        "img": "./data/PrideMM/Images/test/0/230.png",
+        "gt_caption": "The image features a dialogue between a son and a dad. The text shows the son reporting that a boy at school is calling him gay, to which the dad responds by telling him to ignore it. The son then comments that the boy is cute. The image culminates with a visual of a man with a surprised or confused expression, emphasizing the dad's reaction to the son's statement."
+    },
+    "277": {
+        "img": "./data/PrideMM/Images/test/1/277.png",
+        "gt_caption": "The image is a four-panel comic featuring two characters, one showing an annoyed expression and the other looking somewhat apologetic. The first panel depicts the annoyed character asking why the other seems to continuously talk about being transgender. The second panel shows the second character responding with \"Oh sorry...I just...\" The third panel features this character laughing nervously and saying, \"Ah ha this is embarrassing... see, like...\" The final panel contains a more animated expression from the second character, who states, \"LIKE EVERY SINGLE SECOND OF MY LIFE IS AFFECTED BY IT, RIGHT? LIKE EVERY SECOND. OF EVERY DAY. FOREVER.\" The comic is signed at the bottom with \"\u00a9SHUBBABANG.\""
+    },
+    "321": {
+        "img": "./data/PrideMM/Images/test/0/321.png",
+        "gt_caption": "The image consists of two panels featuring a cartoon character with pink hair and sunglasses. In the top panel, the character appears confident and is shown with a hand raised, accompanied by the text \"GENDER EUPHORIA FROM NORMAL THINGS.\" In the bottom panel, the character looks confused and distressed, with a hand on their head, alongside the text \"MY WIFE TELLING ME I DRIVE LIKE A WOMAN.\""
+    },
+    "369": {
+        "img": "./data/PrideMM/Images/test/0/369.png",
+        "gt_caption": "The image features a cartoon-style comic divided into four panels. The first panel shows a green, smiling character labeled \"Me\" stating, \u201cI don\u2019t feel like I\u2019m faking!\u201d The second panel introduces a muscular red character with the text \"Survivors guilt.\" In the third panel, the red character quotes, \u201cMost trans people feel like they are faking, so you might not be one,\" with \"Survivors guilt\" text again present. The fourth panel repeats a similar quote with the red character's dialogue and ends with \"Me\" expressing a contemplative reaction. The comic uses exaggerated expressions and animated characters to convey the dialogue."
+    },
+    "423": {
+        "img": "./data/PrideMM/Images/test/0/423.png",
+        "gt_caption": "The image is a comic-style illustration featuring two characters, one resembling a superhero and the other appearing to be a sidekick. The character resembling the superhero, typically associated with a bat theme, is seen delivering a slap to the sidekick. The sidekick expresses a viewpoint by saying, \"Well, I'm Christian and I support gay mar...,\" while the superhero responds with, \"Read your Bible!\" The background is a plain color, and the characters are depicted in a stylized, illustrative manner typical of comic books."
+    },
+    "491": {
+        "img": "./data/PrideMM/Images/test/0/491.png",
+        "gt_caption": "The image consists of a two-panel format featuring a cartoon character with reddish-brown hair and sunglasses. In the top panel, the text reads, \"Admitting u r trans and comming out,\" and the character has a neutral expression and hand raised. The bottom panel has the text, \"\u2018Pretending\u2019 u are trans and imaging transitioning,\" with the character displaying a more cheerful expression and pointing. The background is two different shades of yellow."
+    },
+    "548": {
+        "img": "./data/PrideMM/Images/test/1/548.png",
+        "gt_caption": "The image contains two signs held by a person, with the first sign reading \"Gay\" and the second sign reading \"A swear word.\" Below this, there is a line of text that states, \"Corporate needs you to find the differences between this picture and this picture.\" Accompanying this text is a picture of a woman with brown hair, wearing a light purple sweater, who has a neutral expression. The image features another line of text that reads, \"Almost any swear filter,\" followed by \"They're the same picture\" at the bottom."
+    },
+    "554": {
+        "img": "./data/PrideMM/Images/test/0/554.png",
+        "gt_caption": "The image features a man wearing a red cap and a red jacket, holding a skateboard. He is depicted with a colorful rainbow shirt underneath his jacket. The text overlaid at the top reads \"Companies during Pride week,\" and there is also a line of text at the bottom that says, \"How do you do, fellow gays?\""
+    },
+    "557": {
+        "img": "./data/PrideMM/Images/test/1/557.png",
+        "gt_caption": "The image features a man with a short hairstyle, smiling and giving a thumbs up. On the right side of the image, there is a list of statements, each beginning with \"Why yes, I do support,\" followed by topics such as \"expansion of welfare through UBI,\" \"universal healthcare,\" \"LGBT+ rights,\" \"drug legalisation,\" and \"raising taxes on the wealthy.\" The list concludes with the phrase, \"That's absolutely right! I'm 'RIGHT WING.'\" There are also various icons next to some of the statements, and the overall background is plain white."
+    },
+    "567": {
+        "img": "./data/PrideMM/Images/test/1/567.png",
+        "gt_caption": "The image depicts a sequence that illustrates human evolution, showing four figures that gradually transition from an ape-like ancestor to a modern human. The final figure is a naked human male, standing next to a stylized female figure wearing a dress and high heels. Above the modern human, there is a speech bubble that says, \"Go back, something has gone wrong..\". The background is a plain beige color, and there are no other notable details present in the image."
+    },
+    "612": {
+        "img": "./data/PrideMM/Images/test/0/612.png",
+        "gt_caption": "The image features two video thumbnails from a YouTube channel. The top thumbnail depicts two individuals, one holding a sparkling object and looking surprised while the other leans in with puckered lips. It displays text that includes \"3AM,\" \"GAY POTION,\" and a rainbow graphic. The bottom thumbnail shows the same individual smiling with the text \"BEFORE\" on the left and \"AFTER\" on the right, indicating a transformation. The right side also features a graphic arrow pointing from \"BEFORE\" to \"AFTER,\" which suggests a change in appearance, and includes the text \"IMJAYSTATION FINALLY DRINKING THE GAY POTION!!\" along with additional views metrics."
+    },
+    "673": {
+        "img": "./data/PrideMM/Images/test/0/673.png",
+        "gt_caption": "The image features a black-and-white photograph of a train traveling on a curved railway through a landscape, with rolling hills in the background. Overlaid on the image is the text: \"You're telling me a Trans Continental built this railroad?\" Additionally, there are graphic elements in color, including a pink and blue symbol, which resembles the transgender pride flag, along with a circular graphic that depicts a paint palette and a brush. The overall composition includes both visual and textual elements that appear to engage in a commentary or question regarding the railroad."
+    },
+    "674": {
+        "img": "./data/PrideMM/Images/test/0/674.png",
+        "gt_caption": "The image features a chart with a large, filled circle labeled \"What will happen if gay marriage is legalized?\" The chart includes a legend with categories listed, highlighting \"Gay people will get married\" in light blue, along with darker categories: \"A third World War will break out,\" \"Various plagues locusts, frogs, etc. will erupt,\" \"Schools will begin teaching kids how to have gay sex,\" and \"The terrorists will win.\" The chart predominantly displays the light blue section, suggesting that it represents the only outcome seen as relevant. At the bottom, there is an annotation stating \"literally all came true.png\" along with the file size information."
+    },
+    "689": {
+        "img": "./data/PrideMM/Images/test/1/689.png",
+        "gt_caption": "The image consists of three panels depicting two men sitting closely together outdoors. In the first panel, one man expresses the opinion, \"I think people who preorder Hogwarts Legacy are bigots.\" In the second panel, the other man responds, \"So do I.\" The scene is set in a garden with greenery in the background, and the overall mood appears contemplative. The text in each panel is prominently displayed."
+    },
+    "712": {
+        "img": "./data/PrideMM/Images/test/0/712.png",
+        "gt_caption": "The image depicts a comic strip with four panels. In the first panel, a character with blond hair tells another character that they are from the future. The second panel features the first character stating, \"Well, turns out you're gay~\" In the third panel, the second character responds, \"But I like girls.\" The final panel shows the first character replying, \"Exactly.\" The title at the top reads \"Futur(E).\""
+    },
+    "740": {
+        "img": "./data/PrideMM/Images/test/0/740.png",
+        "gt_caption": "The image consists of a comic strip divided into two sections, with the titles \"Girls in ancient Greece\" and \"Boys in ancient Greece.\" Each section features characters with speech bubbles. In the \"Girls\" section, a girl says, \"You know I gotz to try dat MEDUSSY\" and the Medusa character responds, \"just five more minutes, baby.\" In the \"Boys\" section, a bearded character says, \"You know I gotz to try dat MEDUSSY,\" with the same Medusa replying again, \"just five more minutes, baby.\" Below the comic, there is an image of a man in a suit, and the text states, \"Medusa is bisexual.\""
+    },
+    "776": {
+        "img": "./data/PrideMM/Images/test/0/776.png",
+        "gt_caption": "The image features a character resembling Wario, depicted in a fierce pose with exaggerated facial features and colors. The background consists of horizontal stripes in pink, blue, and white, resembling a flag. Overlaid text reads: \"BLACK WARIO S\" and \"BLACK WARIO SAID TRANS RIGHTS.\""
+    },
+    "780": {
+        "img": "./data/PrideMM/Images/test/1/780.png",
+        "gt_caption": "The image is a comic strip depicting a conversation between two characters, a father and his son. In the first two panels, the son calls out to his father, who responds with \"Not now, son.\" In the third panel, the father looks surprised as the son uses the same phrase back at him. The final panel shows the son, now in a different attire, and the father again responding with \"Not now, father.\" The characters have distinct hairstyles and outfits, suggesting a specific stylistic choice."
+    },
+    "814": {
+        "img": "./data/PrideMM/Images/test/0/814.png",
+        "gt_caption": "The image consists of four panels featuring characters portrayed by actors, with text overlaying their faces. The top left panel has the label \"Republicans\" and the text, \"Gay people are welcomed in the republican party don't be brainwashed by the woke left.\" The top right panel is labeled \"log cabin republicans\" with the question, \"You'll ensure equal rights right?\" The bottom left panel shows a close-up of the same character from the top left, with no additional text. The bottom right panel features the character from the top right asking again, \"You'll ensure equal rights?\" In the corner, there is text that says \"made with mematic.\""
+    },
+    "921": {
+        "img": "./data/PrideMM/Images/test/0/921.png",
+        "gt_caption": "The image features a character with a serious expression, with blue eyes and stylized hair, set against a greenish background. Above the character, there is overlaid text that reads: \"My sister's friend : *tries to kick me in the balls* Me, a trans man :\". Below the character, another line of text states: \"I don't have such weaknesses.\""
+    },
+    "955": {
+        "img": "./data/PrideMM/Images/test/1/955.png",
+        "gt_caption": "The image features a news headline that reads, \"Missouri Dad Who Fought To Get LGBTQ+ Books Banned From School Arrested For Child Molestation,\" attributed to Koh Mochizuki and dated February 02, 2022. It shows two individuals, one of whom is wearing a mask and holding a blank poster board, while a second person appears to be speaking to the first. The background indicates a meeting or presentation setting, and there is additional text referencing a source, \"KMBC9/YouTube.\""
+    },
+    "973": {
+        "img": "./data/PrideMM/Images/test/1/973.png",
+        "gt_caption": "The image shows a white egg resting on a small black stand against a plain, light-colored background. The egg is marked with the text \"TRANS RIGHTS OR TRANS FIGHTS,\" where \"TRANS RIGHTS\" is written in blue and \"TRANS FIGHTS\" is in pink, with the word \"OR\" in gray. Below the egg, there is a handwritten note that reads \"/be.an.adult.\""
+    },
+    "996": {
+        "img": "./data/PrideMM/Images/test/0/996.png",
+        "gt_caption": "The image contains three panels featuring a figure reacting to two contrasting statements about the Greeks. The first two panels show a person, gesturing disapproval with a hand raised while wearing a red jacket, alongside the text \"The Greeks were all open and accepting of gay couples\" and \"The Greeks were all pedophiles.\" The third panel shows the same person smiling and giving a thumbs-up, accompanied by the text \"The Greeks were made up of dozens of nation-states, over the course of a thousand years, and had a wide variety of views on homosexuality.\" The background is a plain yellow color."
+    },
+    "1202": {
+        "img": "./data/PrideMM/Images/test/0/1202.png",
+        "gt_caption": "The image features two animated characters from a cartoon. One character, depicted as green with long, slender arms and wearing a dark red outfit, appears to be in a submissive position. The other character, with short blond hair and wearing a white and gray outfit, is shown in an aggressive stance, yelling a question. Overlaid text reads: \"Random dude: *wears a pink shirt* Every 3rd grader in a 10 mile radius: What are you? Gay?\""
+    },
+    "1252": {
+        "img": "./data/PrideMM/Images/test/0/1252.png",
+        "gt_caption": "The image features a man with a beard and short hair, appearing to speak directly to the camera. He is set against a colorful background that includes shelves filled with comic books. The overlay includes the text \"Why Marvel And DC Are OBSESSED With Turning ALL Comics GAY,\" along with other social media links and a subscription prompt. The man's name, \"Jon Del Arroz,\" and his website are also displayed prominently in the image."
+    },
+    "1336": {
+        "img": "./data/PrideMM/Images/test/0/1336.png",
+        "gt_caption": "The image features a comic-style layout with two panels. In the first panel, a cartoonish brain with eyes is depicted saying, \"hey you trans?\" The brain's speech is met with a response from a character off-screen: \"no i don't get gender dysphoria so shut up.\" In the second panel, the character is shown lying down, with text that states: \"but you like being referred to as she/her, you hide away from life to be a girl online, you get insane gender envy from catgirl vtubers, you add :3 to the end of every one of your messages, and you hate being told to be a man!\""
+    },
+    "1395": {
+        "img": "./data/PrideMM/Images/test/1/1395.png",
+        "gt_caption": "The image features two panels from an animated show. In the top panel, a character, Meg, is expressing frustration and states, \"You guys always act like you're better than me,\" while being labeled as \"Semibisexuals.\" The bottom panel depicts three characters sitting on a couch, with the label \"LGBT+ people\" overlaying the scene. The characters appear to be engaged in conversation, and the setting includes various elements of a living room."
+    },
+    "1408": {
+        "img": "./data/PrideMM/Images/test/0/1408.png",
+        "gt_caption": "The image features a person speaking in front of a screen displaying an article headline that reads, \"TikTok: Trans influencer Dylan Mulvaney comes out as 'lesbian'.\" The article is credited to Sandip Kishan Anbuselvan, dated May 29, 2023. In the background, a colorful, rainbow-themed graphic is visible, along with a TikTok logo and a heart symbol. The person in the foreground appears engaged and is wearing a light-colored hoodie. Text at the bottom indicates \"Image courtesy of The Skimm.\""
+    },
+    "1424": {
+        "img": "./data/PrideMM/Images/test/1/1424.png",
+        "gt_caption": "The image features a four-panel cartoon depicting birds discussing gender identity. In the first panel, a bird states, \"There are different reasons to why people question their gender.\" The second panel shows another bird responding, \"It's important to not jump to con-.\" In the third panel, one bird exclaims, \"YOU'RE TRANS!!!\" In the final panel, a different bird asserts, \"CIS PEOPLE DON'T QUESTION,\" while a third bird below them states, \"THERE'S NO OTHER EXPLANATION!!!\" Overlaid at the bottom of the image is the text \"EGG_IRL.\""
+    },
+    "1425": {
+        "img": "./data/PrideMM/Images/test/0/1425.png",
+        "gt_caption": "The image features two animated dog-like characters, with one dog appearing to be giving advice or support to the other. The character on the left is partially out of focus and has a speech bubble that says, \"Oh?\" The character on the right, which is more prominent, has a speech bubble that reads, \"Hey, I heard you were planning on transitioning, So I found this wig to help you adapt to your new identity, daughter.\" The background suggests a domestic setting, with clothing or accessories visible."
+    },
+    "1428": {
+        "img": "./data/PrideMM/Images/test/1/1428.png",
+        "gt_caption": "The image features a compilation of various fictional company logos, each stylized with rainbow colors. The logos include:   - Umbrella Corporation with the tagline \"Our Business Is Life Itself...\" - UAC (Union Aerospace Corporation) - SKynet - OCP (Omni Consumer Products) - Shinra Corporation - Weyland-Yutani Corporation with the phrase \"Building Better Worlds\" - Lexcorp - Gen (with \"We Make the Future\") - Abstergo Industries - Black Mesa Research Facility - SCP Foundation with \"Secure, Contain, Protect\" - Aperture Laboratories - Mann Co. with \"We Sell Products and Bet on Fights\" - Mom's Friendly Robot Company - Virtucon - Mishima Zaibatsu  The logos are arranged in a grid format against a light gray background."
+    },
+    "1432": {
+        "img": "./data/PrideMM/Images/test/0/1432.png",
+        "gt_caption": "The image features a middle-aged man holding a sign that reads: \"I LOVE MY TRANS SON AND MY AR-15!\" The sign includes colored text with the word \"TRANS\" in blue and pink, representing the transgender pride colors. The man, who is wearing a light shirt and has glasses, is standing outdoors among a crowd of people. In the background, there are trees and structures, indicating an outdoor gathering or event. The man appears to have a rifle slung over his shoulder."
+    },
+    "1459": {
+        "img": "./data/PrideMM/Images/test/0/1459.png",
+        "gt_caption": "The image features a cartoon-style depiction of a white goose with an orange beak, holding a knife in its beak. The goose is set against a circular background with green and black segments. Overlaid text reads: \"BE GAY DO CRIME.\" The text \"BE GAY\" is styled in rainbow colors, while \"DO CRIME\" is written in white within a black band."
+    },
+    "1462": {
+        "img": "./data/PrideMM/Images/test/0/1462.png",
+        "gt_caption": "The image features two side-by-side photographs. The left side shows a black and white image of soldiers raising an American flag, a reference to a historical moment often associated with military valor. The right side displays a group of individuals raising a rainbow flag, symbolizing LGBTQ+ pride. Above the images, there is overlaid text expressing a controversial opinion regarding the comparison of struggles faced by the LGBTQ+ community to those of soldiers. The text reads: \"the LGBT community has NO RIGHT to even compare their 'struggles' to that of our soldiers who risk their LIFE to fight for our country.\" Beneath that, another comment states: \"This is WAY too damn far. I'm mad this completely wrong and disrespectful. Wow.\""
+    },
+    "1518": {
+        "img": "./data/PrideMM/Images/test/1/1518.png",
+        "gt_caption": "The image features a Twitter conversation consisting of two tweets. The first tweet, from the account @Polygon dated December 19, discusses the theme of queer representation in a piece about \"The Lord of the Rings,\" including a quote by Molly Ostertag stating, \"Queer people have always existed...but our hearts are the same.\" It includes an illustration of two characters, Sam and Frodo, engaged in a tender moment, with accompanying text from the story. The second tweet, from the account @AltHistoryHub, expresses a critical opinion about cultural creation and preservation, stating, \"They have to subvert culture as they dont create. Only destroy.\" The visual content combines elements of both the illustration and textual discussion around these themes."
+    },
+    "1524": {
+        "img": "./data/PrideMM/Images/test/0/1524.png",
+        "gt_caption": "The image features a post discussing a YouTube review by Pratik Borade about the movie \"Shubh Mangal Zyada Saavdhan.\" On the left side, there is a thumbnail of Borade making a face, suggesting a critique. The right side displays promotional content for the movie, which includes two characters in traditional attire, alongside text in Hindi that translates to 'Cultural Marxism.' A play button indicates the video format, and there are engagement options such as \"Share,\" \"Save,\" \"Hide,\" and \"Report.\" The post has received 29 comments and displays a voting percentage of 67% upvoted."
+    },
+    "1530": {
+        "img": "./data/PrideMM/Images/test/0/1530.png",
+        "gt_caption": "The image depicts a person working on a car, specifically focused on the area near the wheel. The individual is positioned on the ground and appears to be engaged in mechanical work. There is overlaid text that reads, \"Just worked on my car for 3 hours straight and 1 hour gay.\""
+    },
+    "1602": {
+        "img": "./data/PrideMM/Images/test/1/1602.png",
+        "gt_caption": "The image features a scene from the animated show \"The Simpsons.\" The top text reads, \"Stonewall Inn- just chillin letting the local LGBT community party and get drunk in peace,\" while the bottom text shows a character with a cap and shirt labeled \"COACH\" exclaiming, \"LET'S TEAR THIS PLACE APART.\" The background consists of various characters from the show, looking on with expressions of surprise or concern."
+    },
+    "1620": {
+        "img": "./data/PrideMM/Images/test/1/1620.png",
+        "gt_caption": "The image contains a tweet from a user named ReadySpaghettiOne, discussing the introduction of anti-LGBTQ laws in the U.S. The tweet states that 385 such laws have been introduced at the state level this year, mentioning Ron DeSantis and expressing concerns about the treatment of trans individuals in Florida. Below the text, there is a four-panel cartoon. The first panel shows a hand labeled \"Trans people\" emerging from water. The second panel shows a hand labeled \"Joe Biden\" reaching towards it. The third panel displays a hand bringing the two hands together with the text, \"I have your back against this hatred.\" The fourth panel shows the hand labeled \"Trans people\" sinking below the water's surface."
+    },
+    "1621": {
+        "img": "./data/PrideMM/Images/test/1/1621.png",
+        "gt_caption": "The image consists of two parts. On the left, there is a card resembling an Uno card, featuring text that reads: \"say that you're straight or gay OR draw 25.\" On the right, there is a person holding several playing cards, with a green beverage can on the table. Above them is a square graphic labeled \"Semibisexual,\" which includes a pink flag and text that defines semibisexuality as a sexual orientation describing a person who feels sexual attraction towards one gender but considers themselves to be bisexual or \"partially bisexual.\""
+    },
+    "1668": {
+        "img": "./data/PrideMM/Images/test/0/1668.png",
+        "gt_caption": "The image features an animated character with long, wavy hair that is pink and blue. They are smiling and wearing a light-colored, ribbed sweater. The character is holding a piece of paper in one hand. Above the character, there is overlaid text that reads: \"THE CIS, MASCULINE, HETERO URGE TO CUDDLE AND SNUGGLE WITH GIRLS.\" The background is a soft, neutral color."
+    },
+    "1687": {
+        "img": "./data/PrideMM/Images/test/0/1687.png",
+        "gt_caption": "The image depicts a man seated at a table outdoors in a park-like setting. He is holding a mug and is smiling. In front of him, there is a large sign on the table that reads, \"Liking femboys is less gay than liking tomboys,\" with a smaller text underneath saying, \"CHANGE MY MIND.\" The scene appears to be casual, with trees and benches visible in the background."
+    },
+    "1697": {
+        "img": "./data/PrideMM/Images/test/0/1697.png",
+        "gt_caption": "The image features two individuals sitting together by a body of water, with the person on the left, wearing a gray shirt, appearing to look down, while the person on the right, in a white tank top, has one arm around the left individual's shoulder. Above them, there is overlaid text that reads: \"When your non-binary friend is sad because they keep getting misgendered,\" followed by the word \"their\" repeated twice, stylized in purple."
+    },
+    "1706": {
+        "img": "./data/PrideMM/Images/test/0/1706.png",
+        "gt_caption": "The image is a comic strip featuring penguins, with a total of four panels. In the first panel, two penguins are depicted kissing, accompanied by a heart and text explaining that homosexuality exists in the animal kingdom, particularly among birds. The second panel mentions the role of gay penguins as surrogate parents. The third panel discusses jealousy issues among gay penguins in captivity and shows a penguin looking at an egg. The fourth panel humorously concludes with the phrase \"Be Gay, Do Crime!\" written in rainbow colors, suggesting it holds true in nature."
+    },
+    "1731": {
+        "img": "./data/PrideMM/Images/test/1/1731.png",
+        "gt_caption": "The image is a four-panel comic featuring two cartoon birds engaged in a conversation. In the first panel, one bird, holding a microphone, asks about funding for anti-LGBT politicians. The second panel shows the other bird, labeled as a \"megacorp,\" stating that they have a wide range of values. The third panel presents a statement about valuing money from pandering to LGBT acceptance, illustrated with coins falling and a hat adorned with symbols representing LGBT pride. The fourth panel contrasts this with a statement about also valuing money from corporate tax cuts, showing the two birds shaking hands, with one bird holding a picture framed with LGBT colors. The comic includes additional text at the bottom prompting to find more comics from the creator."
+    },
+    "1736": {
+        "img": "./data/PrideMM/Images/test/0/1736.png",
+        "gt_caption": "The image features a note that reads, \"Hey, if you're not gay, my friend thinks you're cute. Here's her number: [number]. And if you are gay here's Mike: [number].\" Below the note, there are two images: one of a man in a yellow jacket with the label \"bisexuals\" and another of a cartoon character with the label \"asexuals\" and the text \"This is worthless!\" above his head."
+    },
+    "1759": {
+        "img": "./data/PrideMM/Images/test/0/1759.png",
+        "gt_caption": "The image is a comic strip featuring two characters engaged in a conversation about gender identity and transgender issues. The first character expresses skepticism about someone's claim to be transgender, mentioning that this person identifies as a girl but does not pursue medical interventions. The second character counters that medicalization is not necessary for someone to be considered transgender, emphasizing that identification is key. The first character then questions how people can discern the truth in such claims. The final dialogue states that \"no one has to prove they're trans.\" The characters have expressive features, and the text is presented in speech bubbles throughout the panels."
+    },
+    "1791": {
+        "img": "./data/PrideMM/Images/test/1/1791.png",
+        "gt_caption": "The image features a graphic announcement regarding the film \"Doctor Strange 2.\" It states that \"DOCTOR STRANGE 2 HAS BEEN BANNED IN SAUDI ARABIA.\" Below this headline, it includes additional information indicating that the film is expected to be banned in all Arab countries due to the inclusion of an LGBTQ+ character. The background of the image includes characters from the film, and the layout includes elements such as a logo and social media handles."
+    },
+    "1800": {
+        "img": "./data/PrideMM/Images/test/0/1800.png",
+        "gt_caption": "The image depicts a comic strip with four panels. In the first panel, a character expresses their thoughts after being kicked out for being transgender, stating, \"MY BRAIN WHEN I GOT KICKED OUT FOR BEING TRANS.\" In the following panels, two characters discuss their situation, with one saying, \"WELL, MOM AND DAD KICKED US OUT...\" and the other responding, \"YEAH, NOTHING'S HOLDING US BACK ANYMORE...\" They suggest starting hormone replacement therapy (HRT) with \"WE SHOULD START HER ON HRT!!!\" The final panel features one character saying, \"DUHI MEAN, WHAT'S GOING TO HAPPENDOUBLE KICKED OUT? LET'S FINALLY DO IT.\" The characters display a range of emotions throughout the panels."
+    },
+    "1819": {
+        "img": "./data/PrideMM/Images/test/1/1819.png",
+        "gt_caption": "The image features a pixelated structure created using blocks, resembling a building or wall. At the top of the structure, the text in colorful blocks reads \"F**K OFF.\" Below this text, the wall has a gradient of colored blocks, transitioning from red at the top to various colors, including pink and blue towards the bottom. The background shows a body of water and a horizon with a sunset."
+    },
+    "1837": {
+        "img": "./data/PrideMM/Images/test/0/1837.png",
+        "gt_caption": "The image contains a collage labeled \"The still cis 'tho starter pack (transmasc version).\" It features a variety of items and illustrations. There is a snack package labeled \"Trans Stuff DYSPHOREOS,\" a black hoodie, black sweatpants, a plush shark, and a gray sports bra. Additionally, there are two comic-style character illustrations: one depicts a character with messy black hair and a neutral expression, and the other shows a character with pink hair and bunny ears, appearing contemplative. To the left, there are two text excerpts: one reads \"yeah I just rly love this male character\" and the other states \"i want his gender.\""
+    },
+    "1898": {
+        "img": "./data/PrideMM/Images/test/0/1898.png",
+        "gt_caption": "The image features a scene from a gathering where several individuals are depicted around a central figure, who appears distressed while holding a fork and a plate. Surrounding this central figure are multiple plates stacked with pancakes. Overlaid text labels various groups, identifying them as \"Masculine men,\" \"Feminine men,\" \"Masculine women,\" \"Feminine women,\" and the central figure is labeled \"Me.\" At the bottom, there is an additional phrase that reads, \"This is just pancakes.\""
+    },
+    "1928": {
+        "img": "./data/PrideMM/Images/test/1/1928.png",
+        "gt_caption": "The image shows a protest scene with individuals gathered in a public space. A person is holding a large sign that reads: \"MOMS 4 LIBERTY IS ON THE WRONG SIDE OF HISTORY!\" The sign is colorful, with each part of the text in different colors. In the foreground, there is a rainbow-colored flag, and in the background, groups of people are seen participating in the event, some wearing casual clothing and expressing various gestures associated with a protest. The setting appears to be an urban area, with buildings and shops visible."
+    },
+    "1931": {
+        "img": "./data/PrideMM/Images/test/1/1931.png",
+        "gt_caption": "The image features a four-panel comic. In the first panel, a character with blue hair and a pink outfit addresses young people with the text \"HEY YOUNG PEOPLE\" while holding an object. The second panel shows the same character exclaiming \"BONERRR\" while engaging with another character. The third panel has the blue-haired character saying, \"LEAVE THE KIDS ALONE!\" In the final panel, the character asserts, \"I'M BEING GENOCIDED!\" The comic is framed with decorative elements, including rainbow motifs. The overlay contains text from the Twitter account \"Libs Of TikTok 2,\" including hashtags related to LGBTQ topics."
+    },
+    "1958": {
+        "img": "./data/PrideMM/Images/test/0/1958.png",
+        "gt_caption": "The image features a cartoon character with a round, yellow face and large eyes, having a nervous expression. Surrounding the character are a bouquet of red roses and a striped gift box shaped like a heart with a ribbon. At the top of the image, there is text that reads, \"The trans masc urge to asks every transfem out.\" The overall layout includes a combination of graphical elements centered around a theme of romantic or affectionate gestures."
+    },
+    "1985": {
+        "img": "./data/PrideMM/Images/test/0/1985.png",
+        "gt_caption": "The image features a muscular character with a prominent beard, wielding a large hammer. He is depicted running forward, wearing a red costume with blue sleeves and orange boots. Surrounding him is overlaid text that reads: \"I'M JOINING THE WAR ON TRANS\" in large letters at the top, \"ME\" in white letters, and \"ON THE SIDE OF THE\" above the word \"TRANS\" in bold red letters at the bottom. The overall presentation suggests a dynamic and assertive stance."
+    },
+    "2019": {
+        "img": "./data/PrideMM/Images/test/0/2019.png",
+        "gt_caption": "The image is a four-panel comic featuring a character with black hair and a neutral expression in the first two panels, transitioning to a happy expression in the last two panels. The text accompanying each panel includes:  1. \"thinking im trans\" 2. \"thinking im enby\" 3. \"thinking im trans after all\" 4. \"realizing there is only 1 gender the 'gender norm'\""
+    },
+    "2049": {
+        "img": "./data/PrideMM/Images/test/1/2049.png",
+        "gt_caption": "The image features a scene with a character resembling a muscular man, who appears to be shouting in an animated style, sitting at a table with a young child. The background suggests an indoor setting with a window showing a sunset. Overlaid text at the top reads, \"THE BRITISH GOVERNMENT WHEN ALAN TURING CRACKS THE ENIGMA CODE,\" and at the bottom, it states, \"GAY IS GAY!\""
+    },
+    "2108": {
+        "img": "./data/PrideMM/Images/test/0/2108.png",
+        "gt_caption": "The image features two sections with contrasting statements about how gay rights were perceived to have been achieved in the United States. The top section includes a character with a simplified facial expression, accompanied by the text: \"I, the white liberal have generously decided to give the gays rights.\" The bottom section displays two cartoon characters with colorful hair and beards, both saying, \"Smash the cop car?\" followed by \"Smash the cop car.\" The overall layout includes bold text and illustrations that visually differentiate the two narratives."
+    },
+    "2119": {
+        "img": "./data/PrideMM/Images/test/0/2119.png",
+        "gt_caption": "The image contains two segments. The top segment features an illustration of a figure with pink hair wearing a striped sweater. The text in bold reads \"TRANS WOMEN ARE WOMEN.\" The bottom segment shows a man in a hat smiling while sitting, with a speech bubble that states, \"this is a male's skeleton!\" Below this text, there is a note indicating \"1000 years after.\" The overall composition juxtaposes the two segments, connecting their themes visually and textually."
+    },
+    "2131": {
+        "img": "./data/PrideMM/Images/test/1/2131.png",
+        "gt_caption": "The image is a comic strip divided into two panels. In the first panel, a character with yellow skin and red and black attire proudly presents a drawing of a lesbian couple, receiving positive reactions from three gray figures, who express admiration for the designs, attractiveness, and cuteness. In the second panel, the same character shows a drawing of a gay couple, but the reactions from the gray figures become negative. One figure states uncertainty about supporting it, another claims to not have anything against gay people but expresses hesitation, and the last figure simply responds with \"EW, WHY.\""
+    },
+    "2151": {
+        "img": "./data/PrideMM/Images/test/1/2151.png",
+        "gt_caption": "The image features a prominent text overlay that reads \"OBEY,\" set against a background that includes various colors associated with pride flags and a hammer and sickle symbol. In the foreground, a figure dressed in a white outfit and hood is holding three colorful balloons while standing in front of a large, stylized building labeled \"HINCKLEY STATE.\" The video title at the bottom states, \"How School Ruined Your Entire Life,\" and includes the creator's name, \"Moon,\" along with viewer statistics and the posting date. The video's length is also displayed as \"36:58.\""
+    },
+    "2186": {
+        "img": "./data/PrideMM/Images/test/0/2186.png",
+        "gt_caption": "The image features two politicians engaged in a debate setting. On the left, a man with dark hair and a red tie appears to be speaking passionately, using hand gestures. On the right, a man with light-colored hair, also wearing a red tie, is positioned similarly, facing the audience. Overlaid text at the bottom reads: \"At the GOP Debate, Candidates Promised a Federal Gender-Affirming Care Ban\" with the byline \"BY SAMANTHA RIEDEL\" below it. The logo of \"them\" is displayed at the top."
+    },
+    "2222": {
+        "img": "./data/PrideMM/Images/test/1/2222.png",
+        "gt_caption": "The image is a comic strip with three panels. In the first panel, a gray-skinned character states, \"Me? Heh, heh, no... I don't have any romantic interests?\" The second panel shows a character wearing a red shirt with the word \"WOKES,\" responding, \"Woah, that doesn't mean that I'm...\" while another gray character looks surprised. In the third panel, the same gray character, now wearing a rainbow-striped hat with a pushpin on it, says, \"Dammit.\" The background of each panel is a tiled wall."
+    },
+    "2227": {
+        "img": "./data/PrideMM/Images/test/0/2227.png",
+        "gt_caption": "The image consists of three panels, each featuring different characters and text. The top panel shows two characters, with the text \"trans guys who pack\" and \"trans guys who don't pack\" positioned above them. The middle panel displays two animated characters giving a high-five, accompanied by the text \"trans girls who tuck\" and \"trans girls who don't tuck.\" The bottom panel features a single character in a dramatic pose, with the text \"TRANS GIRLS WHO PACK\" overlaying the image."
+    },
+    "2230": {
+        "img": "./data/PrideMM/Images/test/0/2230.png",
+        "gt_caption": "The image contains text and emojis. At the top, it says, \"when you can't get a haircut during quarantine\" in bold, capitalized letters. Below, there are two sections labeled \"MtF\" (Male to Female) and \"FtM\" (Female to Male). Next to \"MtF,\" there is an emoji with flowers and large eyes that looks concerned or shy. Next to \"FtM,\" there is an emoji with wide eyes expressing surprise or confusion."
+    },
+    "2270": {
+        "img": "./data/PrideMM/Images/test/0/2270.png",
+        "gt_caption": "The image features two men lying close together, appearing to be in bed. One man has a shaved head and is being gently touched by the other, who has short hair. The background shows a pillow and a blanket with a plaid pattern. Overlaid text from a social media post reads: \"Waking up next to another gay republican is truly a blessing. I love waking up next to him, knowing we won't argue over a pronoun.\""
+    },
+    "2290": {
+        "img": "./data/PrideMM/Images/test/0/2290.png",
+        "gt_caption": "The image features a cartoon character that resembles a small, round dog with a predominantly white body, pink accents, and a bell around its neck. The character has exaggerated facial features, including large eyes and a frowning expression with raised eyebrows. A soft blue background provides contrast. Overlaid text at the top reads, \"how my tiny ass looks telling people I'm a legal adult:\" and at the bottom states, \"I'm A BIG-ASS MAN.\""
+    },
+    "2309": {
+        "img": "./data/PrideMM/Images/test/0/2309.png",
+        "gt_caption": "The image features an illustration of a cartoon fox character holding a firearm, standing in front of cannabis plants. The character has a colorful fur pattern, predominantly blue and purple, and is wearing a tactical vest. Overlaid on the image is the text: \"Libertarians want trans furrys to be able to protect their cannabis farms with unregistered machine guns.\" Additionally, there is a logo in the top left corner reading \"Libertarian Party of Louisiana\" along with the Twitter handle \"@LouisianaLp.\" Above this, there is another text line stating, \"For that matter, we also support gender-fluid hyper queens defending their magic mushroom farms with HIMARS.\""
+    },
+    "2336": {
+        "img": "./data/PrideMM/Images/test/0/2336.png",
+        "gt_caption": "The image features a circular logo composed of various colored sections resembling a rainbow. The logo is positioned against a backdrop of window panes. In addition, there is overlaid text that reads, \"SORRY FOR THE SAD MEME\" at the top and \"GAY BANANAS\" at the bottom. The overall composition combines the logo and text in a single visual representation."
+    },
+    "2362": {
+        "img": "./data/PrideMM/Images/test/0/2362.png",
+        "gt_caption": "The image consists of two side-by-side illustrations. The left side features a cartoon-like character with a confident expression and light brown hair, labeled \"TRANS-MASCS.\" The right side shows a darker, more somber depiction of a character with a shadowy appearance, labeled \"TRANS-FEMS.\" Both images are accompanied by the bold, uppercase text \"FACIAL HAIR\" at the top."
+    },
+    "2393": {
+        "img": "./data/PrideMM/Images/test/0/2393.png",
+        "gt_caption": "The image is divided into two sections. The top section features a simplistic illustration of a stick figure with a smiling face, accompanied by text that reads, \"me, a newly cracked egg looking for support from the other trans subs outside r/egg_irl.\" The bottom section displays a chaotic background with several phrases that include \"transphobia,\" \"hate speech,\" \"no trans people agree on politics,\" \"i dont know how to be social online,\" and \"transsexual vs transgender,\" indicating various topics of concern or discourse within the context of the other transgender communities. The phrase \"the other trans subs\" is also present in this section."
+    },
+    "2397": {
+        "img": "./data/PrideMM/Images/test/0/2397.png",
+        "gt_caption": "The image consists of a four-panel comic. The first panel features an animated character with pink hair and sunglasses against a yellow background, looking skeptical or cool. The second panel shows the same character in a similar pose but with a more cheerful expression. The third panel contains the text \"Getting gender envy from normal souces\" on a white background. The fourth panel has the text \"Getting gender envy from Mario Kart,\" accompanied by various characters and items associated with the Mario Kart video game series, including recognizable character designs."
+    },
+    "2433": {
+        "img": "./data/PrideMM/Images/test/0/2433.png",
+        "gt_caption": "The image features a tweet from The Free Speech Union, which includes a smiling woman on stage. The text of the tweet states: \"Plans for a ban on gay conversion therapy will now be ditched amid government concerns regarding the potential unintended consequences for parents and teachers wishing to question an affirmative approach to children's expressions of transgender identity.\" Additionally, there is a link to a Daily Mail article that reads: \"Plans for a ban on gay conversion therapy are set to be ditched.\""
+    },
+    "2458": {
+        "img": "./data/PrideMM/Images/test/0/2458.png",
+        "gt_caption": "The image depicts a Reddit post from the subreddit r/TheLeftCantMeme. The post features an image of a person holding a large shield designed to resemble Captain America's shield, which incorporates colors and themes associated with transgender pride. The overlay text in the post reads: \"Made a trans shield to Project trans youth.\" Above the image, the title of the post states: \"I don't even have to explain.\" The sidebar indicates the subreddit has 52.7k members and was created on September 15, 2017."
+    },
+    "2472": {
+        "img": "./data/PrideMM/Images/test/0/2472.png",
+        "gt_caption": "The image features two animated characters in a digitally rendered environment. One character, a woman with light brown hair, appears to be looking at the other character, a man with disheveled hair and a prominent nose. The man is gesturing assertively, while the background includes various digital screens and lights. Overlaid text reads: \"when you realize you only have a few days left to buy normal clothing before they all turn rainbow.\" Below, there is additional text that says, \"To the computer.\""
+    },
+    "2481": {
+        "img": "./data/PrideMM/Images/test/0/2481.png",
+        "gt_caption": "The image consists of a four-panel comic. In the first panel, a character with curly hair greets a hairdresser and asks about the price of a haircut. The second panel shows the hairdresser responding, referring to the customer as \"Ma'am\" and mentioning that it would involve \"30 minutes of misgendering for a feminine haircut.\" In the third panel, the customer, looking uncertain, reacts with \"Oh, sure... Right...\" In the fourth panel, the customer, now holding scissors with a determined expression, thinks, \"To hell with it...\""
+    },
+    "2562": {
+        "img": "./data/PrideMM/Images/test/0/2562.png",
+        "gt_caption": "The image depicts a scene from a medical setting, showing two characters: a female in blue scrubs holding a clipboard and a male wearing a hospital gown. The woman is asking, \"Does your family have a history of mental illness?\" The male character, who is identified as \"Nicholas II,\" responds, \"My uncle Sergei was a homosexual.\" The background features a window with light coming through, suggesting the setting is well-lit and somewhat bright."
+    },
+    "2582": {
+        "img": "./data/PrideMM/Images/test/0/2582.png",
+        "gt_caption": "\"The image depicts a cartoon scene featuring a young boy standing at a crossroads, facing two distinct paths. On the left, there is a bright landscape with a castle, while the right side shows a darker, stormy atmosphere. Overlaid text expresses conflicted thoughts regarding gender identity, including phrases about fantasizing as a cute girl, questioning one's gender identity at age 15, and critical thoughts about transitioning and acceptance. The text is central to the image and reflects a personal struggle related to gender.\""
+    },
+    "2621": {
+        "img": "./data/PrideMM/Images/test/0/2621.png",
+        "gt_caption": "The image features a character with an animated design, displaying a playful expression. This character is positioned against a vibrant background that highlights a transgender pride flag. In the foreground, there is a toy blaster. The image contains the following text: \"OH, YOU'RE TRANS? TELL ME WHAT'S THE BOLDEST WAY TO COME OUT. (I ACTUALLY WANT TO KNOW).\""
+    },
+    "2633": {
+        "img": "./data/PrideMM/Images/test/1/2633.png",
+        "gt_caption": "The image depicts a man in a yellow checkered shirt standing and looking surprised as he tears off a calendar page. The calendar displays \"JANUARY 1984\" and \"2020,\" indicating a transition of years. In the background, a woman in a teal top is sitting at a table, holding a smartphone and appears to be speaking, with a speech bubble that states, \"Lgbt gained some basic human rights. And are starting to enter main stream society.\" The overall scene suggests a conversation about social progress."
+    },
+    "2663": {
+        "img": "./data/PrideMM/Images/test/0/2663.png",
+        "gt_caption": "The image features an individual standing on a street holding a sign that reads \"TRANS RIGHTS MATTER.\" They are dressed in a beige trench coat and are wearing a black hat and gloves. The person has a large trans pride flag draped over their shoulders, which is blue, pink, and white. In the background, there is a historic building and a red double-decker bus. The sky above is clear and blue."
+    },
+    "2670": {
+        "img": "./data/PrideMM/Images/test/0/2670.png",
+        "gt_caption": "The image features two women standing together in front of American flags, one of which is the Georgia state flag. They are holding a sign that reads, \"Gender Is a Spectrum\" and \"Trust The Science!\" The setting appears to be an office, and there are various items and decor visible in the background. Above the image is a message identifying one of the women as Rep. Marjorie Taylor Greene, along with a mention of a Twitter handle."
+    },
+    "2698": {
+        "img": "./data/PrideMM/Images/test/0/2698.png",
+        "gt_caption": "The image consists of two panels featuring a character wearing headphones and a school uniform, smiling in a setting that appears to be a public space, possibly a subway or bus. In the first panel, a speech bubble above her head expresses a thought: \"That girl is so cute, I wonder what she's listening to...\" In the second panel, the character is shown again, with text overlaying her image stating: \"life it never die women are my favorite guy sex I'm wanting more tell the world: 'stop the war'.\" The tone of the text contrasts with the character's smile."
+    },
+    "2727": {
+        "img": "./data/PrideMM/Images/test/0/2727.png",
+        "gt_caption": "The image depicts a cartoon scene featuring two characters. One character, dressed in a white robe and long hair, is holding a rainbow flag and walking past a man holding signs. The signs read \"REPENT OR BURN!\" and \"SINNER TURN BACK!\" Another sign displays \"WHAT WOULD JESUS DO?\" The character in the robe is saying, \"I'LL FORGIVE YOU.\" The background suggests a Pride Month parade. The overall setting appears to be a street or path."
+    },
+    "2732": {
+        "img": "./data/PrideMM/Images/test/1/2732.png",
+        "gt_caption": "The image features a person posing with a thoughtful expression, dressed in a colorful outfit with elements that include ruffles and accessories like statement earrings and bracelets. There is text overlaid on the image that includes a quote attributed to Alok Vaid-Menon, a trans activist and writer. The text discusses narratives regarding transgender individuals and societal perceptions of children, emphasizing themes of identity and societal expectations."
+    },
+    "2762": {
+        "img": "./data/PrideMM/Images/test/0/2762.png",
+        "gt_caption": "The image is a comic strip divided into four panels. In the first panel, a character standing on a ledge says, \"Having a crush on a trans girl makes me gay.\" In the second panel, another character, also on the ledge, responds with \"Because I am a girl.\" The third panel shows a crowd of characters below the ledge, displaying various facial expressions, with some appearing angry or hostile, while a few hold weapons. The final panel continues to show the crowd with similar expressions. There is no additional text displayed in the image."
+    },
+    "2782": {
+        "img": "./data/PrideMM/Images/test/1/2782.png",
+        "gt_caption": "The image depicts a crowd scene in an outdoor setting, likely during a protest or rally. In the foreground, a young person wearing a blue hoodie is holding a cross aloft. Surrounding this individual, a diverse group of people are visible, some displaying rainbow flags, which are commonly associated with LGBTQ+ pride. There are also individuals in police or security uniforms, some wearing helmets and masks, positioned to the side. The atmosphere appears to be tense but significant, as multiple cameras are pointed toward the scene, suggesting that it is noteworthy. Overlaid text reads: \"Love this boy and his bravery\" and \"Free Friday.\""
+    },
+    "2795": {
+        "img": "./data/PrideMM/Images/test/0/2795.png",
+        "gt_caption": "The image features a scene split into two parts. The upper section depicts two characters shaking hands in front of two banners labeled \"bad parents\" and \"good parents,\" with the phrase \"Coming out as trans\" above them. The lower section shows a close-up of a handshake, accompanied by the text \"You're not our son anymore.\" The background of the lower section is colored red."
+    },
+    "2845": {
+        "img": "./data/PrideMM/Images/test/0/2845.png",
+        "gt_caption": "The image is divided into two sections, each labeled with text. The left side has the label \"Gay men in jail\" above a cartoon character resembling a plumber with a mustache, depicted through bars in a cheerful expression. The right side is labeled \"straight men in jail,\" featuring a darker, stylized image that appears more ominous or somber, also shown behind bars. Both sections have a similar barred background that suggests imprisonment."
+    },
+    "2895": {
+        "img": "./data/PrideMM/Images/test/1/2895.png",
+        "gt_caption": "The image consists of a comic strip with four panels featuring two characters engaged in a conversation. The first character asks when the LGBT community finds the word \"gay\" offensive, referencing their mother, who is identified as anti-LGBT. The second character responds with surprise, suggesting that they do not find it offensive. The first character seems to be seeking clarification because they noticed the second character appeared upset when they referred to them as a gay man earlier. The final panel shows the second character in a contemplative expression. Text from the comic includes: \"*MY MOTHER (ANTI-LGBT)*,\" \"I... UH... WE DON'T???,\" \"HMM... 'OKAY,'\" and \"I ONLY ASK BECAUSE YOU SEEMED UPSET WHEN I CALLED YOU A GAY MAN EARLIER.\""
+    },
+    "2901": {
+        "img": "./data/PrideMM/Images/test/1/2901.png",
+        "gt_caption": "The image features a man with a beard and short hair, smiling widely, in the foreground. He is wearing a white shirt with a dark collar. Behind him, a group of individuals is shown standing in a line, some holding megaphones and flags with a transgender pride design. The background includes a blue sky. At the bottom, there is overlay text that reads: \"MrBeast Vs Trans Controversy,\" followed by \"The Ben Shapiro Show\" and a view count of \"384K views\" from \"1 day ago.\" The total video length is indicated as \"1:07:53.\""
+    },
+    "2945": {
+        "img": "./data/PrideMM/Images/test/1/2945.png",
+        "gt_caption": "The image features two figures, one labeled \"Feminist\" on the left and the other labeled \"Normal Person\" on the right. Each figure is pointing to a vertical list categorized by gender identities, which spans from \"Agender\" at the top to \"Transsexual Female\" at the bottom. The list includes various gender identities such as \"Cisgender,\" \"Gender Fluid,\" \"Non-binary,\" and numerous others. The layout visually contrasts the two figures while displaying an array of gender terms alongside a gradient color scheme."
+    },
+    "2952": {
+        "img": "./data/PrideMM/Images/test/1/2952.png",
+        "gt_caption": "The image features two stills from a cinematic scene, arranged in a side-by-side format. The top portion shows a young boy sitting in the passenger seat of a car, looking contemplative. The overlaid text reads: \"THE US BANNING LGBTQ+ PEOPLE FROM THE FEDERAL GOVERNMENT AND MILITARY BECAUSE OF FEARS OF COMMUNIST INFILTRATION.\" The bottom portion displays a woman in the driver's seat, appearing serious and focused. The accompanying text states: \"THE USSR AND CUBA IMP imprisoning LGBTQ+ PEOPLE BECAUSE OF FEARS OF BOURGEOIS DEGENERACY.\""
+    },
+    "2958": {
+        "img": "./data/PrideMM/Images/test/0/2958.png",
+        "gt_caption": "The image displays a character making a facial expression that suggests a struggle to maintain composure. Above the character, there is overlaid text that reads: 'me trying to put on a poker face while the Catholic school calls the gay sex hotline thinking its my parents number.' In the background, there is a sign indicating a telephone."
+    },
+    "2966": {
+        "img": "./data/PrideMM/Images/test/1/2966.png",
+        "gt_caption": "The image consists of two main parts: overlaid text and a series of three photographs. The text at the top reads, \"Twigu becomes my favorite trans youtuber\" and below it, \"Also Twigu a week later.\" The photos depict a person with dreadlocks, with one photo showing them looking directly at the camera while raising their hand with two fingers extended, often interpreted as a peace sign. The images are set against a background of a parking area with greenery in the distance."
+    },
+    "2970": {
+        "img": "./data/PrideMM/Images/test/0/2970.png",
+        "gt_caption": "\"The image features two animated characters, one holding a rainbow flag and the other standing with an assertive expression. Below them, there is overlaid text that reads: 'LGBT actually stands for Let's Get down to Business To defeat the Huns.' The text is accompanied by hashtags: #lgbt, #mulan, #disney, #please don't get m. The background appears simple and neutral in color.\""
+    },
+    "2994": {
+        "img": "./data/PrideMM/Images/test/0/2994.png",
+        "gt_caption": "The image features two animated characters, depicted as they share a kiss. The background consists of horizontal stripes in various colors, and there are labels positioned above the characters reading \"LESBIAN DATING APPS\" and \"TRANS GIRLS.\" The overall scene portrays a close interaction between the two figures."
+    },
+    "3041": {
+        "img": "./data/PrideMM/Images/test/0/3041.png",
+        "gt_caption": "The image features a bench that has stripes colored in the rainbow pattern, typically associated with LGBTQ+ pride. Above the bench, there is overlaid text that reads: 'WHAT IF WE KISSED ON THE GAY ANTI-HOMELESS BENCH.' The text is accompanied by various emoticons, including face emojis and a monkey emoji. The bench is situated in an outdoor setting, and the background appears blurred."
+    },
+    "3052": {
+        "img": "./data/PrideMM/Images/test/0/3052.png",
+        "gt_caption": "The image features an illustrated character with short, pink hair and fox-like ears. The character has a neutral expression and is wearing a choker. At the top of the image, there is bold, uppercase text that reads, \"I'M STARTING TO THINK,\" and at the bottom, also in bold uppercase letters, it says, \"SOME OF YOU GUYS ARE TRANS.\" The background is a gradient that fades from dark to light."
+    },
+    "3059": {
+        "img": "./data/PrideMM/Images/test/0/3059.png",
+        "gt_caption": "The image consists of two panels featuring a man in a police uniform. In the first panel, he asks, \"Why is no one having a good time?\" In the second panel, he responds, \"I specifically requested it.\" The title at the top reads, \"WHEN EAST GERMANY OPENS A STATE OWNED GAY DISCO.\""
+    },
+    "3076": {
+        "img": "./data/PrideMM/Images/test/0/3076.png",
+        "gt_caption": "The image features a man with short brown hair wearing a beige button-up shirt and a tie, looking slightly confused or concerned. Overlaid text at the top reads, \"I HAVE NO IDEA WHY PUMPKINS ARE NOW A THING IN THE TRANS COMMUNITY,\" and the text at the bottom states, \"AND AT THIS POINT I AM TOO AFRAID TO ASK.\" The background appears to be an indoor setting with some blurred shapes that resemble furniture or decor."
+    },
+    "3105": {
+        "img": "./data/PrideMM/Images/test/0/3105.png",
+        "gt_caption": "The image consists of two main parts: a sign and a photograph. The sign, which is prominently displayed, contains the text: \"There are TWO genders: MALE & FEMALE! 'Trust The Science!'\" It is bordered by a blue frame. Below the sign is a photograph of a woman with blonde hair looking directly at the camera, featuring a serious expression. In the background, there are elements such as flags that suggest the setting may be related to a political or public event."
+    },
+    "3158": {
+        "img": "./data/PrideMM/Images/test/0/3158.png",
+        "gt_caption": "The image depicts a group of people participating in a protest or demonstration. In the foreground, an individual holds a large cardboard sign that reads \"PROTECT TRANS KIDS\" and features transgender symbols. Surrounding figures appear engaged in the event, with some holding additional signs, including one that states \"Existence IS Resistance.\" The atmosphere suggests a gathering focused on social advocacy or awareness, with colorful banners and signs visible in the background."
+    },
+    "3262": {
+        "img": "./data/PrideMM/Images/test/1/3262.png",
+        "gt_caption": "The image features a scene from \"The Simpsons,\" depicting several characters standing on a street. One character, resembling a woman with long, light-colored hair, is positioned in front of a bookstore named \"Hastings Books.\" Surrounding her are other characters, including three children and two adults, who appear to be observing her. The text at the bottom reads, \"LOOK, IT'S J.K. ROWLING, AUTHOR OF HER OWN PUBLIC HUMILIATION.\" The setting features a simple urban backdrop with buildings and a church steeple in the background."
+    },
+    "3264": {
+        "img": "./data/PrideMM/Images/test/1/3264.png",
+        "gt_caption": "The image is split into two sections labeled \"CHILDREN'S EDUCATION\" with \"THEN\" on the left and \"NOW\" on the right. The left side features a black-and-white photograph of a boy holding a rifle while standing in a classroom, surrounded by other children. The right side shows a color image of a person dressed in elaborate, colorful attire with horns, reading a book to a few children seated in front of them. The background includes a rainbow decoration and balloons."
+    },
+    "3274": {
+        "img": "./data/PrideMM/Images/test/1/3274.png",
+        "gt_caption": "The image depicts a person with a shocked expression, holding their head with both hands. The overlaid text reads: \"HOMOPHOBES WHEN THEY REALIZE GAY PEOPLE DESERVE RIGHTS.\" The background appears to be an interior space with light colors. The overall setting and expression suggest a strong emotional reaction."
+    },
+    "3310": {
+        "img": "./data/PrideMM/Images/test/0/3310.png",
+        "gt_caption": "The image features a graph titled \"Kink popularity by age and gender,\" with a two-dimensional layout representing age (younger vs. older) on the vertical axis and gender (female on the left and male on the right) on the horizontal axis. Various terms related to kinks are plotted throughout the graph, with an emphasis on \"being called a good girl\" in the lower left quadrant, which is highlighted in red. Below the graph, there is a statement that reads, \"IS THE MOST FEMININE KINK TO HAVE,\" along with a list of kinks including \".being called a good girl,\" \".attention,\" \".being overpowered,\" and \".bruises.\""
+    },
+    "3366": {
+        "img": "./data/PrideMM/Images/test/0/3366.png",
+        "gt_caption": "The image features a drawn character with short, light-colored hair and a bow. The character is shown from behind, wearing a sweater and a skirt. Overlaying the image is the text: \"You can't get your trans gf pregnant? Sounds like a skill issue to me.\""
+    },
+    "3424": {
+        "img": "./data/PrideMM/Images/test/0/3424.png",
+        "gt_caption": "The image depicts a protest scene during twilight, with a group of people holding signs. One prominent sign at the forefront reads \"TRANS RIGHTS ARE HUMAN RIGHTS\" in bold letters. The background features trees and a hint of urban architecture, with a blueish sky above. The mood is communal as individuals are seen supporting the message conveyed by the signage."
+    },
+    "3429": {
+        "img": "./data/PrideMM/Images/test/1/3429.png",
+        "gt_caption": "The image shows two men standing on a boat with water and mountains in the background. One man is wearing a black jacket and the other is dressed in a white jacket. They appear to be posing for a photograph, with one man placing his hand on the other's shoulder. The photo includes overlaid text that reads, \"Couple celebrating the first same sex marriage by going on a cruise, 1971.\" Below the image, there are numerical indicators showing \"10.2k,\" \"145,\" and \"429.\""
+    },
+    "3441": {
+        "img": "./data/PrideMM/Images/test/0/3441.png",
+        "gt_caption": "The image features a person with a concerned expression, holding their hand to their forehead, suggesting a reaction of realization or distress. Above the image is overlaid text that reads: \"Homophobes when they realize it was the Enola Gay and not the Enola Straight:\" The background appears to be an indoor setting with neutral-colored walls and furniture. The image is attributed to \"made with mematic\" at the bottom left."
+    },
+    "3477": {
+        "img": "./data/PrideMM/Images/test/1/3477.png",
+        "gt_caption": "\"The image features a cartoon character with a sad expression, alongside overlaid text that includes a statement regarding the targeting of trans women through a scam involving fake estrogen pills. The text explains that these pills could increase testosterone production and poison users, while also mentioning concerns about a group behind the scam being linked to hate activities. There is a caution to stay safe from such scams. The top of the image displays a user's comment expressing a disapproving opinion about the situation.\""
+    },
+    "3531": {
+        "img": "./data/PrideMM/Images/test/1/3531.png",
+        "gt_caption": "The image consists of four sections. The top left section shows a man with glasses and a cap, appearing thoughtful or contemplative. Adjacent to this, on the top right, is a Twitter post from PopBase stating, \"The Supreme Court has ruled that businesses can discriminate against LGBTQ Americans,\" accompanied by an image of a person holding a rainbow flag in front of the Supreme Court. The bottom left section features a close-up of a vehicle's gear shift, showing the 'P' (Park) and 'D' (Drive) options. The bottom right section displays a close-up of the man's face, with a neutral expression. Overlaying the top left image is the text: \"My queer ass about to move to the US.\""
+    },
+    "3532": {
+        "img": "./data/PrideMM/Images/test/0/3532.png",
+        "gt_caption": "The image features a side-by-side comparison with two columns labeled \"WOMEN\" and \"MEN.\" Each column contains three circles. The left column states: \"WOMEN,\" \"PREFER,\" \"SOFT,\" and \"COLORS,\" with corresponding colors of pink, yellow, light blue, and purple. The right column states: \"MEN,\" \"PREFER,\" \"DENSE,\" and \"COLORS,\" with corresponding colors of red, yellow, teal, and blue. The background is gray."
+    },
+    "3556": {
+        "img": "./data/PrideMM/Images/test/0/3556.png",
+        "gt_caption": "The image features a close-up view of a vehicle's interior, specifically a panel where a sticker is prominently displayed. The sticker reads: \"NO AIRBAGS! WE DIE LIKE REAL MEN.\" Adjacent to the sticker is a small circular component, possibly a locking mechanism. The background suggests a garage or workshop environment, with some blurred objects visible. The overall color of the panel is a light gray."
+    },
+    "3564": {
+        "img": "./data/PrideMM/Images/test/1/3564.png",
+        "gt_caption": "The image features a comic strip with two characters depicted with distinct facial features and headwear. The first character, wearing a black fedora, poses the question, \"what is a woman?\" The second character responds, stating that they are indifferent to how someone identifies, suggesting it is \"no work at all.\" The conversation continues, with the first character mentioning biological distinctions and the second character asserting that there is \"no biological proof for god either.\" Each statement appears in speech bubbles above the characters, contributing to a dialogue between them."
+    },
+    "3587": {
+        "img": "./data/PrideMM/Images/test/1/3587.png",
+        "gt_caption": "The image is divided into two sections, each containing a character depiction. The left side shows a character resembling Mario in a wedding dress, with large round glasses and a simplistic design, labeled \"How cis 'allies' portray transfems.\" The right side displays a stylized, anime-inspired character resembling Princess Peach, depicted in a pink outfit and sitting in a more detailed and colorful setting. This side is labeled \"How actual trans people portray transfems.\" The overall presentation contrasts the two portrayals visually and thematically."
+    },
+    "3631": {
+        "img": "./data/PrideMM/Images/test/0/3631.png",
+        "gt_caption": "The image depicts a character pouring coffee from a pot into a mug. The character, who resembles a yellow cartoon girl, is observing the cup with a slight smile. Overlaid text reads: \"ATTENTION FROM OLDER WOMEN\" and \"ME, A LESBIAN WITH MOMMY ISSUES.\" The background includes elements of a kitchen setting."
+    },
+    "3659": {
+        "img": "./data/PrideMM/Images/test/0/3659.png",
+        "gt_caption": "The image features an illustration of a character with long, light-colored hair and glasses, dressed in a black outfit with a choker. The character is positioned against a backdrop with bold, abstract black shapes. Overlaid on the image is a tweet from Ray Blanchard that reads: \"Essay on the possible relations among anime, gender dysphoria, and autogynephilia.\" Below the tweet, there is a link with the text: \"Masculinity, anime, and gender dysphoria SocialJusticeWizard An analysis of media-induced transgender identification.\" The tweet includes engagement metrics showing numbers for likes and retweets."
+    },
+    "3726": {
+        "img": "./data/PrideMM/Images/test/1/3726.png",
+        "gt_caption": "The image depicts two animated characters in a room with a wooden floor and windows showing a blue sky. One character, a woman wearing a blue dress, is speaking to a muscular man, asking, \"Wanna go on a date?\" He responds with \"Sure!\" In the background, a third character, a woman with purple hair, is seen through a window, exclaiming, \"NOOO! You have to date transwomen! We're valid, we exist! WE ARE INDISTINGUISHABLE!\""
+    },
+    "3760": {
+        "img": "./data/PrideMM/Images/test/0/3760.png",
+        "gt_caption": "The image is a two-panel illustration featuring a stylized anthropomorphic character and a human male. In the first panel, the anthropomorphic character, which has wolf-like features and is wearing a dark hoodie and pants, is standing next to the male character who has a neutral expression and is holding bags. The anthropomorphic character is saying, \"There's benefits of being short too,\" to which the male responds, \"Oh yeah?\" In the second panel, the anthropomorphic character is depicted with a smug expression, and they have their arm around the male character's shoulder, as they say \"YEAH.\" The background is a simple gray, enhancing the focus on the characters."
+    },
+    "3768": {
+        "img": "./data/PrideMM/Images/test/0/3768.png",
+        "gt_caption": "The image features a comic-style illustration with two characters. One character is pointing at another and saying, \"That's the boy who thinks [image of a character from 'Spider-Man: Across the Spider-Verse'] is a trans allegory.\" The character being pointed at has a shy or blushing expression and is labeled with \"me.\" The background is plain, and the overall design resembles a dialogue bubble from a comic."
+    },
+    "3786": {
+        "img": "./data/PrideMM/Images/test/0/3786.png",
+        "gt_caption": "The image consists of a social media post featuring a meme. At the top, the text reads, \"I'm not stealing I promise\" and is labeled \"Non-Gender Specific.\" Below that, there is another post from a user with the handle u/Cronkwater, stating \"Hmmmm,\" also labeled \"Non-Gender Specific.\" The meme itself features a character named Peter Griffin sitting on a bench, looking contemplative, with overlaid text that says, \"trying to think of original trans memes be like.\" The background depicts a sunset with trees in a park setting."
+    },
+    "3790": {
+        "img": "./data/PrideMM/Images/test/0/3790.png",
+        "gt_caption": "The image is a comic-style illustration divided into two sections, each depicting a character that represents different moods associated with being transgender. On the left, there is a character with cat-like features, appearing shy and contemplative, with overlaid text saying, \"I just wanna exist I guess...\", \"I wish I passed\", and \"don't look at me...\" along with \"UwU\". On the right, another character with a more assertive expression is holding a weapon and appearing fierce, surrounded by text that includes \"TRANS LIBERATION NOW!\", \"WE EXIST!\", and \"AAAA!\". The title at the top reads, \"The Two Trans Moods\"."
+    },
+    "3820": {
+        "img": "./data/PrideMM/Images/test/0/3820.png",
+        "gt_caption": "The image features two cartoon characters in a conversation. The character on the left has messy black hair and appears sad or insecure, wearing a black hoodie with a pride flag symbol. The text next to this character reads, \"I don't deserve you... you should be with a real man.\" The character on the right has a simplistic, expressive face and is wearing a black beanie and a black hoodie with an orange neckline. The text next to this character states, \"I already am.\""
+    },
+    "3881": {
+        "img": "./data/PrideMM/Images/test/1/3881.png",
+        "gt_caption": "The image shows two reusable shopping bags with a design featuring the outline of the state of Texas filled with rainbow stripes. Each bag has the text \"Y'all MEANS All\" prominently displayed in white lettering across the Texas outline. Above the design, there is a logo for \"H-E-B.\" The bags are placed on a table, with bookshelves visible in the background. The overall color scheme is vibrant, emphasizing the rainbow colors."
+    },
+    "3927": {
+        "img": "./data/PrideMM/Images/test/0/3927.png",
+        "gt_caption": "The image features a man in a suit, positioned with his hands clasped in front of him. The background includes purple lighting and some greenery. At the top of the image, there is a red banner that reads \"TRADE OFFER \" Below that, there are two text blocks: on the left, it states \"i receive: A trans masc's estrogen,\" and on the right, it says \"you receive: All my testosterone.\""
+    },
+    "3942": {
+        "img": "./data/PrideMM/Images/test/0/3942.png",
+        "gt_caption": "The image is a four-panel comic divided into two columns labeled \"PRE-HRT\" and \"POST-HRT.\" Each panel on the left shows reactions before hormone replacement therapy (HRT), while the right side depicts reactions after HRT. The first panel shows a character happily viewing a cute animal online, while the second panel depicts them emotionally distressed during a conversation with a friend. The third panel features the character expressing confusion over losing pickles, followed by an exaggerated reaction to their \"sodium sticks\" being gone. The overlaid text includes phrases such as \"AW,\" \"UNINTELLIGIBLE CRYING,\" and \"BRO... I DON'T EVEN LIKE PICKLES.\" The comic is illustrated in a cartoon style."
+    },
+    "4095": {
+        "img": "./data/PrideMM/Images/test/1/4095.png",
+        "gt_caption": "The image depicts a cartoon scene featuring a crowd of sheep on the left, with one sheep speaking. The sheep says, \"WHOA! WHOA! WHOA! HOLD IT RIGHT THERE! HE WASN'T LOST. WE KICKED HIM OUT!\" On the right, a figure resembling a religious figure holds a sheep with multicolored wool and responds, \"I KNOW. AND I FOUND HER.\" The overall composition includes simple line drawings and speech bubbles, emphasizing the dialogue between the characters."
+    },
+    "4175": {
+        "img": "./data/PrideMM/Images/test/1/4175.png",
+        "gt_caption": "The image consists of four panels depicting hands reaching out from water. The first panel shows two hands above the surface, one labeled \"TRANS FOLK IN 33 STATES.\" The second panel features a hand with the label \"BIDEN.\" The third panel displays another hand coming from the left, accompanied by the text \"WE'VE GOT YOUR BACK.\" In the fourth panel, a hand is shown submerging below the water."
+    },
+    "4238": {
+        "img": "./data/PrideMM/Images/test/1/4238.png",
+        "gt_caption": "The image is a comic strip divided into three panels. In the first panel, a blue character, holding a sword, states \"Gwen is trans.\" In the second panel, a green character, also with a sword, responds, \"No she isn't.\" The third panel features an ominous character with horns, who engages in the conflict, stating, \"she's a person who can climb on walls, swing from buildings, and can travel through dimensions. Who gives a shit if she's trans or not.\" The characters are depicted in a combat scenario with exaggerated expressions and action."
+    },
+    "4277": {
+        "img": "./data/PrideMM/Images/test/1/4277.png",
+        "gt_caption": "The image features a young woman giving a thumbs-up gesture and smiling. The background consists of horizontal stripes in various colors, resembling a rainbow flag. At the top of the image, the text reads: \"REPORTED A TRANSPHOBIC R/MEME POST THAT WAS GETTING THOUSANDS OF UPVOTES.\" At the bottom, the text states: \"IT GETS DELETED, AND THE POSTER GETS A TEMPORARY BAN.\""
+    },
+    "4281": {
+        "img": "./data/PrideMM/Images/test/1/4281.png",
+        "gt_caption": "The image consists of a tweet from Pop Base regarding Disney's movie \"Strange World,\" showcasing the first openly gay teenage character. It features two images of the character: one displaying a cheerful expression and the other portraying surprise. Below the tweet, there is a meme featuring two scenes from a film, with the text 'IMPRESSIVE, VERY NICE.' and 'NOW LET'S SEE THE CHINESE VERSION' overlaid on the images."
+    },
+    "4399": {
+        "img": "./data/PrideMM/Images/test/0/4399.png",
+        "gt_caption": "The image is a collage consisting of various photos and illustrations. In the top row, there are two individuals: one holding a flag and another with visible tattoos. There is also an illustration related to the game \"Among Us.\" The second row features a person in a suit, another person taking a selfie in front of a mirror, and a partially obscured text with a graphic. The third row includes a standing individual wearing high heels, a character from \"Among Us\" with a trans flag design, a smiling person with a bowtie, and two cartoon-style illustrations. The overlaid text states: 'GENDERQUEER AN UMBRELLA TERM FOR GENDER IDENTITY THAT IS NOT COMPLETELY MALE OR FEMALE."
+    },
+    "4434": {
+        "img": "./data/PrideMM/Images/test/1/4434.png",
+        "gt_caption": "The image features a four-panel comic strip depicting a conversation between two characters, a male and a female. In the first panel, the male character expresses frustration about a new female transformer being created due to a fan poll, suggesting it contradicts established norms. The female character responds by questioning why anyone would be upset about it. The discussion continues in the second panel, where the female character points out that male is also a gender, but the male character seems confused and indicates he does not understand her point. The comic employs a mix of humor and social commentary regarding gender and representation."
+    },
+    "4440": {
+        "img": "./data/PrideMM/Images/test/1/4440.png",
+        "gt_caption": "The image features a character from an animated television show, wearing ski gear and holding ski poles, standing on a snowy landscape. There are figures in the background, engaged in skiing activities. The character's expression and posture suggest he is speaking directly to an audience. The image contains overlaid text that reads: \"IF YOU'RE AFRAID OF SEEING GAYS AND STILL WATCHING TELEVISION IN 2013 YOU'RE GONNA HAVE A BAD TIME.\""
+    },
+    "4465": {
+        "img": "./data/PrideMM/Images/test/1/4465.png",
+        "gt_caption": "The image features two animated characters, one with green hair and large earrings, and the other with purple spiky hair and sunglasses. The character with green hair is speaking, asking, \"James why don't we like gender roles again?\" The character with purple hair responds, \"because they perpetuate the idea that men and women should act a certain way, don't take non-binary folx into consideration, and segregate humans based off their genitalia.\" The background shows a cityscape with a sign that says \"Wondaz.\""
+    },
+    "4473": {
+        "img": "./data/PrideMM/Images/test/1/4473.png",
+        "gt_caption": "The image features a character with pink hair and purple eyes, holding a coffee cup and wearing a winter jacket. In the background, there is overlaid text that reads: \"trap is not just a slur, but also reflects a mindset that literally gets trans women killed.\" The setting appears to be indoor, possibly resembling a classroom or a similar environment."
+    },
+    "4485": {
+        "img": "./data/PrideMM/Images/test/0/4485.png",
+        "gt_caption": "The image features two young men posing in front of a mirror. One of the individuals is embracing the other from behind while holding a firearm. The person in front is also holding a gun and making a gesture with their hand. Overlaid text includes: \"LGBT\" with a rainbow flag, \"Stands For,\" and \"LET'S GET BITCHES TOGETHER\" in large, bold letters. The setting appears to be a bathroom, indicated by the mirror and background."
+    },
+    "4487": {
+        "img": "./data/PrideMM/Images/test/1/4487.png",
+        "gt_caption": "The image features a masked figure, presumably armed, wearing a militant uniform and holding a weapon. In the foreground, two individuals, a man and a woman, are reacting to the figure. The man, dressed in a plaid shirt, looks back with a surprised expression, while the woman, wearing a light blue top, displays a concerned or confused reaction. Overlaying the image are two text labels: one next to the man reads \"Queers for Palestine,\" and the other next to the woman says \"Being Alive.\""
+    },
+    "4506": {
+        "img": "./data/PrideMM/Images/test/1/4506.png",
+        "gt_caption": "The image features two women, one depicted as She-Hulk with green skin and the other in professional attire, engaging in a posed stance that emphasizes their figures. They appear to be in an office setting with large windows in the background. Overlaid text includes a critique of Disney regarding the portrayal of women, stating: \"Disney: Stop toxic masculinity, women cannot be sexualized. She-Hulk is an excellent lawyer but she gets tragically catcalled because she's a woman. Also Disney: THIS IS WOMEN EMPOWERMENT.\""
+    },
+    "4507": {
+        "img": "./data/PrideMM/Images/test/1/4507.png",
+        "gt_caption": "The image contains a graphic that criticizes the Salvation Army, stating it is \"NOT a charity.\" It describes the organization as an evangelical Protestant church that allegedly uses donations to oppress gay rights. The text includes claims that the Salvation Army has threatened to close soup kitchens in New York if required to comply with civil rights laws regarding gay employees. It further asserts that the organization lobbies against LGBT rights legislation. At the bottom, there is a prompt encouraging people to research charities before donating, followed by the message \"Happy Holidays!\" at the end."
+    },
+    "4536": {
+        "img": "./data/PrideMM/Images/test/1/4536.png",
+        "gt_caption": "The image features a character from a film, wearing dark sunglasses and a black leather jacket, with a serious expression. The text overlaid on the image reads: \"WHAT IF I TOLD YOU I CAN THINK SEXUAL MALE ON MALE INTERACTIONS ARE DISGUSTING BUT STILL SUPPORT GAY RIGHTS.\" The background is blurred, emphasizing the character's face and the bold text."
+    },
+    "4556": {
+        "img": "./data/PrideMM/Images/test/0/4556.png",
+        "gt_caption": "The image contains a meme featuring two sections. At the top, there is a text from a user named @fugluvr that reads, \"Say something positive about gay people.\" Below this, a rainbow flag is displayed, symbolizing LGBTQ+ pride. In the lower section, another user, @TargetRom, has responded with the text, \"Not only do they leave more girls for us, they take another dude with them.\""
+    },
+    "4563": {
+        "img": "./data/PrideMM/Images/test/0/4563.png",
+        "gt_caption": "The image features a character named Urbosa, depicted with long red hair and wearing a blue and gold outfit. She stands with her back turned towards the viewer, showcasing her clothing and elaborate design. The background is colorful with a gradient of blue and pink. Overlaid text reads: \"lady URBOSA SAYS: TRANS VAI ARE WELCOME IN GERUDO VILLAGE BUT TRANS VOE CAN STAY AWAY!\" The text is presented in a bold and stylized font, emphasizing different parts of the message."
+    },
+    "4566": {
+        "img": "./data/PrideMM/Images/test/1/4566.png",
+        "gt_caption": "\"The image features a comic strip format with several characters in a meeting room discussing a new Gundam series. In the first panel, a character mentions that a voice actress has described the main characters as married and gay, leading to concerns about how to address this information. The second panel presents various suggestions for handling the situation, including retracting the comment, apologizing, and presenting the relationship as interpretative. A character responds in the final panel, advocating for the series to embrace its original themes without censorship and allowing the voice actresses' comments to stand. The image includes the BanDai logo prominently overlaid.\""
+    },
+    "4575": {
+        "img": "./data/PrideMM/Images/test/0/4575.png",
+        "gt_caption": "The image shows a person with a face painted in a clown-like manner, featuring white skin and red markings around the mouth. They are wearing a gray hoodie and have their hair tied up. In the background, there is a wall with a flag visible. Overlaid on the image is the text: \"Getting pregnant not once but twice by a trans woman.\" Additional icons on the side appear to be from a social media app, indicating a number of likes and views."
+    },
+    "4610": {
+        "img": "./data/PrideMM/Images/test/0/4610.png",
+        "gt_caption": "The image features two panels. The top panel depicts two male characters in a close embrace, with expressions of intimacy and emotion. Overlaid text reads \"Gay life\" at the top and \"Expectation\" in the middle. The bottom panel shows a single male character sitting on the floor next to a bed, looking down at a phone with a despondent expression. The text overlaid on this panel states \"Reality\" at the top and \"Blocked again...\" at the bottom. The overall visual contrasts an idealized romantic scenario with a more solitary, disappointed reality."
+    },
+    "4639": {
+        "img": "./data/PrideMM/Images/test/0/4639.png",
+        "gt_caption": "The image features a stylized skull design commonly associated with \"The Punisher\" character. The skull is filled with a rainbow color gradient, featuring vertical stripes of purple, blue, green, yellow, orange, and red. Below the skull, the text \"The Punisher\" is displayed in a stylized blue font. The background of the image is black."
+    },
+    "4783": {
+        "img": "./data/PrideMM/Images/test/1/4783.png",
+        "gt_caption": "The image shows a character resembling Gollum from \"The Lord of the Rings\" holding an Oscar statuette on a stage with a blurred background of lights and what appears to be a microphone in front of them. The character has pronounced facial features, large ears, and an expressive mouth, appearing to smile or shout joyously. An overlaid text reads: 'The Most Beautiful Vegan of the Year' award goes to... Golem."
+    },
+    "4874": {
+        "img": "./data/PrideMM/Images/test/1/4874.png",
+        "gt_caption": "The image is divided into two sections. The top half features two women smiling in a car, with text overlay indicating \"Gay Rights movement 1970s\" alongside one woman's vibrant, rainbow-colored hair. The other woman, wearing glasses, is labeled \"Gay Rights Movement 1950s and 1960s.\" The bottom half displays a dark, sketch-like illustration of a face with empty eye sockets, accompanied by the text \"Gay Rights Movement 1980s.\""
+    },
+    "4890": {
+        "img": "./data/PrideMM/Images/test/1/4890.png",
+        "gt_caption": "The image features a comic strip with four panels depicting a conversation between two characters. In the first panel, a character identifies as a trans girl, explaining that \"trans\" is an adjective meaning she is a girl. The second panel shows the other character questioning her statement by asserting she wasn't \"born\" a girl. In the third panel, the trans girl replies that she was assigned a different gender at birth. The final panel has the questioning character stating she is not biologically a girl, to which the trans girl responds by asking what she would be if not biologically a girl, suggesting the alternative of being a robot, and asserts that the other character is using words to delegitimize her girlhood. The comic is titled \"Assigned Male Comics\" and includes the number \"#344\"."
+    },
+    "4891": {
+        "img": "./data/PrideMM/Images/test/0/4891.png",
+        "gt_caption": "The image features a character with short black hair, depicted with a somewhat serious expression. The character is wearing a dark top and is positioned in a neutral setting. Overlaid text reads: \"DON'T MIND ME I'M JUST ALTERING THE FLOW OF TIME SIXTEEN YEARS AGO IN AN ATTEMPT TO FIX MY GENDER AT BIRTH I SWEAR I'M NOT TRANS HAHA.\""
+    },
+    "4893": {
+        "img": "./data/PrideMM/Images/test/1/4893.png",
+        "gt_caption": "The image features three characters with distinct expressions. On the left, a character with a distressed face is saying, \"Nooooooo you can't just be a better show. We represent lesbians, lesbians of color, non-binary people, trans people, and poly relationships, while dealing with.\" On the right, there are two additional characters: one identified by the text \"makin pancakes\" and the other by \"makin bacon pancakes.\" They have less exaggerated expressions compared to the character on the left."
+    },
+    "4898": {
+        "img": "./data/PrideMM/Images/test/1/4898.png",
+        "gt_caption": "\"The image features a character with orange hair and horns, depicted in a four-panel format. The text on the right side of the image discusses the desire to join a trans-positive anime meme subreddit, mentioning the challenges faced with another subreddit named r/Animes. The text states that r/AnimeMemes has banned slurs, does not allow arguments on the subject, does not impose restrictions on meme formats, and notes that many of the moderators are also trans. The character's expressions change throughout the panels, appearing contemplative and then cheerful.\""
+    },
+    "4914": {
+        "img": "./data/PrideMM/Images/test/0/4914.png",
+        "gt_caption": "The image features a painting of two muscular arms engaging in an arm-wrestling match. One arm is black, labeled \"Cis women with PCOS,\" and the other arm is tan, labeled \"Trans women.\" Above the arms, there is text that reads, \"Why TF is my body producing testosterone.\" The overall composition highlights the themes of body identity and hormonal differences."
+    },
+    "4943": {
+        "img": "./data/PrideMM/Images/test/1/4943.png",
+        "gt_caption": "The image contains two side-by-side pictures of tanks. The upper portion is labeled \"RUSSIAN TANKS\" and features a military tank in a parade setting, while the lower portion is labeled \"U.S. TANKS\" and displays a tank painted pink with the text \"THEY/THEM\" prominently featured on its side. The background of both images features distinct settings, with the Russian tank set against a formal public event, and the U.S. tank in a more natural landscape. Above the images, there is text stating, \"Biden is too busy at war with the American people to focus on Russia and China.\""
+    },
+    "4960": {
+        "img": "./data/PrideMM/Images/test/0/4960.png",
+        "gt_caption": "The image features three distinct sections. The top two sections depict two cartoonish faces, one wearing a green Xbox cap and the other a blue PlayStation beanie. Both characters display tears and angry expressions, with text above them stating \"PLAYSTATION IS GAY\" and \"NO! XBOX IS GAY.\" The bottom section shows two characters in an intimate embrace, with one appearing to kiss the other. Overlaying this part is the text \"SWITCH OWNERS.\""
+    },
+    "4984": {
+        "img": "./data/PrideMM/Images/test/0/4984.png",
+        "gt_caption": "The image features a grid of nine cartoon-style frogs, each with a unique color pattern. The frogs are depicted in vibrant hues, including blue, pink, purple, orange, and a rainbow pattern. Above the frogs, there is a question written in bold black text: \"Can anyone explain why frogs have inexplicably been linked to the LGBTQ+ community?\" The overall design is playful and colorful, with a consistent cartoonish style across all the frogs."
+    },
+    "5004": {
+        "img": "./data/PrideMM/Images/test/0/5004.png",
+        "gt_caption": "The image features a chessboard set up with chess pieces positioned at the start of a game. In the foreground, there are two animated characters' faces, with their expressions visible. Overlaid on the image is text that reads: \"playing chess is an inherently gay trait. like why are you making moves on another man.\" The text is bold and positioned prominently across the center of the image."
+    },
+    "110": {
+        "img": "./data/PrideMM/Images/test/0/110.png",
+        "gt_caption": "The image features a portrait of a young woman with brown hair styled in a sleek manner, wearing a black dress that has a sheer overlay adorned with gold dots. The background appears to be blurred, suggesting an event setting, and the focus is predominantly on her facial expression. There is no discernible text within the image itself. The accompanying headline states: \"Millie Bobby Brown quits Twitter after being turned into an 'anti-gay' meme,\" followed by a brief description of a trend on Twitter involving false quotes attributed to her."
+    },
+    "317": {
+        "img": "./data/PrideMM/Images/test/1/317.png",
+        "gt_caption": "The image consists of two panels featuring animated flower characters. In the top panel, a flower with a long stem appears to be shouting or expressing a strong reaction, accompanied by the text: \"REPUBLICANS WHEN PEOPLE TALK ABOUT TRANS WOMEN COMPETING AS A FEMALE ATHLETE.\" In the bottom panel, another flower character has a more subdued expression and a smile, with the text: \"REPUBLICANS WHEN PEOPLE TALK ABOUT TRANS MALES COMPETING AS A MALE ATHLETE.\" The overall layout presents a contrast between the two reactions portrayed in the panels."
+    },
+    "450": {
+        "img": "./data/PrideMM/Images/test/0/450.png",
+        "gt_caption": "The image features a webpage with an article headline stating, \"Trans streamer Keffals swatted and arrested in her home.\" A quote from the article reads, 'Instead of the police helping me, they terrorized me.' The visual includes a video thumbnail showing a person holding a document while expressing urgency, with the text, \"My life is in danger. I need your help.\" Additionally, there is a sidebar for subscription options from \"Patch News.\" On the left side of the image, there is also a play button for the video."
+    },
+    "498": {
+        "img": "./data/PrideMM/Images/test/1/498.png",
+        "gt_caption": "The image features a two-part layout. The top section shows a cartoon character with the number \"503\" on their outfit, raising their arms in a celebratory manner, set in a sports context with various gym equipment in the background. Below this, there is an overlaid text from the website pinknews.co.uk, which reads: \"South Park sinks to new lows with jokes about trans athletes in latest episode.\" The bottom section consists of a still image of a male character, who appears to be in a dark setting, with the text overlay: \"Gonna cry?\""
+    },
+    "642": {
+        "img": "./data/PrideMM/Images/test/1/642.png",
+        "gt_caption": "The image features a layout of four seatbelt buckles, arranged in a 2x2 grid on a blue background. Each buckle is attached to a colorful seatbelt strap, displaying a rainbow pattern. Overlaid on the image, text reads, \"No matter how you color it, ONLY ONE WORKS!\" The image simulates a humorous perspective on the functionality of seatbelt buckles, contrasting the colorful appearance of the straps with their implied differing utility."
+    },
+    "669": {
+        "img": "./data/PrideMM/Images/test/1/669.png",
+        "gt_caption": "The image features a character with long hair and sharp, prominent teeth, dressed in a formal outfit. The background consists of alternating light blue and pink stripes, which are indicative of the transgender pride flag. Overlaying the image is the text that reads: \"POV: You said something transphobic and now she's coming for your soul.\""
+    },
+    "790": {
+        "img": "./data/PrideMM/Images/test/1/790.png",
+        "gt_caption": "The image features two cartoon-style characters depicted in profile. On the left, a man with a beard and glasses is surrounded by various symbols, including a crescent moon and star, a Star of David, the Democratic Party donkey, a hammer and sickle, and a rainbow pride flag. The text near this character reads: \"If you homeschool your kids then they won't fit in with society.\" On the right is another bearded man, who appears to affirm the left character's statement with the single word \"Correct,\" also displayed prominently. This character is accompanied by a cross, the American flag, and a yellow flag featuring a coiled snake with the words \"DON'T TREAD ON ME.\""
+    },
+    "875": {
+        "img": "./data/PrideMM/Images/test/0/875.png",
+        "gt_caption": "The image features a character illustration, likely from an anime style, with long blonde hair and wearing a blue and white outfit. The background consists of colored stripes in pink and blue, resembling the transgender pride flag. Overlaying the image are several lines of text that read: 'I'm trans, not a trapand 'IF MY GOAL WAS TO LIE TO STRAIGHT MEN I'd SELL NFTs,' with 'SELL NFTs' emphasized in red and an arrow pointing towards a graph shown in green. The graph appears to depict significant upward trends. A sparkling effect is also present near the text about NFTs."
+    },
+    "892": {
+        "img": "./data/PrideMM/Images/test/1/892.png",
+        "gt_caption": "The image features a divided format. The upper section contains the text: \"Character from Harry Potter: *clearly isn't gay in any book that they're in*\" followed by \"JK Rowling:\" The lower section shows a scene from a film featuring a character, identified as Thanos, looking contemplative. The character is superimposed with the text: \"Reality can be whatever I want.\""
+    },
+    "1013": {
+        "img": "./data/PrideMM/Images/test/1/1013.png",
+        "gt_caption": "The image features a still from a film with a male character smiling and making a statement. The upper portion contains the text \"Companies when pride month hits,\" followed by a rainbow flag. The lower portion displays the caption: \"You know, I'm something of a homosexual myself.\" The background shows a park setting with people, trees, and buildings."
+    },
+    "1091": {
+        "img": "./data/PrideMM/Images/test/0/1091.png",
+        "gt_caption": "The image contains a Twitter post from a user named KEEMSTAR, discussing the backlash received by Chris from MrBeast following his transition. The text expresses concern over the level of hate directed at Chris and urges people to stop the harassment, particularly regarding comments about his family. Below this message, there is a tweet from Chris sharing an update on his hormone replacement therapy (HRT), stating it has only been two months. Additionally, a tweet from another user named Blix is visible, expressing surprise with the phrase \"bro wtf happened.\" The image features a side-by-side comparison of two photos showing a transformation."
+    },
+    "1122": {
+        "img": "./data/PrideMM/Images/test/0/1122.png",
+        "gt_caption": "The image contains a collage of colorful panels featuring sharks alongside various statements. The top section includes the phrases \"SHARKS ARE PROUD OF GAY MEN,\" \"SHARKS BELIEVE IN LESBIAN POSITIVITY,\" and \"SHARKS BELIEVE BISEXUALITY IS VALID,\" each accompanied by corresponding images of sharks and rainbow-colored backgrounds. The middle section features \"SHARKS WILL ATTACK APHOBES,\" \"SHARKS AREN'T PANPHOBIC BE MORE LIKE SHARKS,\" and \"SHARKS THINK ACES ARE COO.\" The bottom section includes \"SHARKS BELIEVE UNLABELED PEOPLE DESERVE MORE RESPECT,\" \"SHARKS LOVE NONBINARY PEOPLE,\" and \"SHARKS ARE COOL TRANSPOBES ARE NOT,\" all set against various colored backgrounds. Overall, the collage presents a combination of shark imagery and text promoting inclusivity and support for LGBTQ+ communities."
+    },
+    "1125": {
+        "img": "./data/PrideMM/Images/test/0/1125.png",
+        "gt_caption": "The image features a comic strip from 1950. It shows two cartoon characters in a conversation: a boy with short hair and a girl with a bow in her hair. The boy is speaking, saying, \"DO YOU MEAN TO TELL ME YOU'RE SAD JUST BECAUSE YOU WEREN'T BORN A BOY?\" The girl appears to be sitting with a sad expression, while a small dog sits beside her. The background is simple, indicating a casual outdoor setting."
+    },
+    "1406": {
+        "img": "./data/PrideMM/Images/test/1/1406.png",
+        "gt_caption": "The image is a four-panel comic. The first panel shows a sign that says \"TRANS RIGHTS!\" alongside a drawing of an orange car. The second panel features a character with an angry expression. In the third panel, the same character is depicted smiling and holding a gas can, with a car in the background engulfed in flames. The final panel shows the character looking concerned and saying, \"OH NO! HOW AM I GETTING HOME?\" The artist's name, \"@BREADPANES,\" is displayed in the bottom right corner."
+    },
+    "1413": {
+        "img": "./data/PrideMM/Images/test/1/1413.png",
+        "gt_caption": "The image features a colorful Xbox controller designed with a rainbow pattern, symbolizing Pride. Above the controller, there is a headline that reads, \"Gamers threaten to boycott Xbox over Gay Pride controllers,\" followed by the name \"Fiona Hayward.\" Below the headline, there is a descriptive text stating, \"In celebration of LGBT+ Pride month, Microsoft are selling Pride Xbox controllers and console skins.\" Further, it mentions that \"The LGBT Pride collection can be found on the Microsoft store and includes a range of t-shirts, controllers and console skins featuring the rainbow Pride flag.\""
+    },
+    "1466": {
+        "img": "./data/PrideMM/Images/test/1/1466.png",
+        "gt_caption": "The image features two distinct drawings. On the left, there is a figure with a rainbow flag above its head and tears streaming down its face, depicting a distressed expression. The figure appears to be wearing glasses. On the right, there are two characters, a man and a woman, standing close together. The woman has long hair and is smiling slightly, while the man has short hair and facial hair. Below them, there is text that reads, \"So you two are really just going to pursue a normal and healthy sex life built on love, mutual respect, and a genuine desire to see your partner happy?\" Below the text, the word \"Yes\" is prominently displayed. The image also includes an Instagram handle, \"@snake.oils,\" in the bottom right corner."
+    },
+    "1667": {
+        "img": "./data/PrideMM/Images/test/1/1667.png",
+        "gt_caption": "The image shows a Twitter post by the account \"Gays Against Groomers,\" discussing the use of baby colors in the trans flag, suggesting a connection to a \"pedophilic history\" within the trans movement. It features a graphic of a tea cup and the trans flag in the background. Below the post, there is a comment from a user named Caitlin Spice expressing concern that the content could incite violence against people. She mentions a disclaimer in the article about not equating all trans people with pedophiles but believes the headline undermines this disclaimer. The total engagement metrics for the post are also displayed."
+    },
+    "1671": {
+        "img": "./data/PrideMM/Images/test/1/1671.png",
+        "gt_caption": "The image consists of two panels featuring a woman seated on a couch, with a neutral background. In the top panel, she is smiling and gesturing, accompanied by the text \"This one sparks joy.\" Next to her is a colorful graphic consisting of a rainbow triangle over a striped background. The bottom panel shows the same woman in a similar pose, with text reading \"This one does not spark joy,\" alongside a graphic that features a solid orange rectangle next to a solid black rectangle."
+    },
+    "1751": {
+        "img": "./data/PrideMM/Images/test/1/1751.png",
+        "gt_caption": "The image features a photo of two individuals embracing, with one person appearing to be congratulatory. Above the photo, there is a message that reads, \"Congrats! \\U0001f970\\U0001f970.\" Below the photo, there is a news headline stating, \"Coronavirus vaccine appointment turns into surprise marriage proposal.\" A comment below this headline expresses strong disapproval of the term \"marriage proposal,\" stating it is offensive, and argues that it should instead be referred to as a \"civil union proposal.\" The comment elaborates on feelings of being offended in relation to religious beliefs and constitutional rights. The interaction includes various response emojis below the comment."
+    },
+    "1863": {
+        "img": "./data/PrideMM/Images/test/1/1863.png",
+        "gt_caption": "The image depicts a scene split into two parts, featuring a man with a beard in a gray hoodie, who appears to be confronting an individual in a black mask and tactical gear. In the first part of the image, labeled \"Middle school biology,\" the man is seemingly defenseless, while the masked figure threatens him with a gun. In the second part, labeled \"College biology,\" the same man is now holding a long object resembling a plank or battleground weapon, aiming it back at the masked figure, who still has a gun drawn. There are additional people visible in the background, contributing to the setting."
+    },
+    "1892": {
+        "img": "./data/PrideMM/Images/test/1/1892.png",
+        "gt_caption": "The image is a comic strip featuring two female characters discussing sports categories and competition. In the first panel, one character expresses frustration about a lack of separate categories for different genders in sports, stating it is unfair to compete against each other. The second panel shows the other character suggesting that athletes of all genders who weigh similar amounts could compete against one another. The third panel references combat sports as an example where this is already practiced. In the fourth panel, one character reflects on it being strange to consider an athletic ability, while the other dismisses the idea, leading to a comedic exchange about wanting someone to blame. The comic concludes with a website link at the bottom."
+    },
+    "1957": {
+        "img": "./data/PrideMM/Images/test/1/1957.png",
+        "gt_caption": "The image features a well-groomed man with short hair and a serious expression, sitting in what appears to be a car. He is wearing a suit and looks directly at the camera. Above the image is the text: \"My dad after I came out as trans.\" At the bottom of the image, there is another line of text that reads: \"be ashamed of who you are.\""
+    },
+    "1962": {
+        "img": "./data/PrideMM/Images/test/1/1962.png",
+        "gt_caption": "The image shows a person with a bare arm covered in several adhesive bandages, indicating recent injections. Alongside these bandages, there is overlaid text listing various terms: \"1st Jab,\" \"2nd Jab,\" \"Booster shot,\" \"Omicron,\" \"Deltacron,\" \"Super-dupertron,\" \"Megatron,\" \"Super-DuperMegatron,\" \"Megatron3000,\" \"Voltron,\" and \"LGBT-VeganSoyatron.\" The text is arranged vertically alongside the bandaged arm. The background includes a blurred outdoor setting, with plants visible. The image has a timestamp at the top indicating \"Donnerstag 20. Jan.\""
+    },
+    "1965": {
+        "img": "./data/PrideMM/Images/test/1/1965.png",
+        "gt_caption": "The image features a cartoon depicting a character resembling a man with dark hair, glasses, and a suit, labeled \"DeSantis.\" Above him is a speech bubble that says \"DON'T SAY 'GAY'.\" In front of him are two cartoon elephants wearing ties, one red and one green. One elephant asks, \"CAN WE STILL SAY 'FAGGOT'?\" The overall composition uses exaggerated features typical of cartoon art."
+    },
+    "1968": {
+        "img": "./data/PrideMM/Images/test/1/1968.png",
+        "gt_caption": "The image consists of two panels featuring animated characters. In the first panel, a character labeled \"Netflix\" is depicted standing and speaking, with the overlaid text reading, \"You don't have to make characters gay to make them interesting.\" The second panel shows another character, also labeled \"Netflix,\" appearing to attack or react aggressively toward a different character, with the overlaid text stating, \"NOT SCIENTIFICALLY POSSIBLE!\" The background in both panels appears to depict an audience or a crowd, suggesting a lively environment."
+    },
+    "2009": {
+        "img": "./data/PrideMM/Images/test/1/2009.png",
+        "gt_caption": "The image features a social media post by the account \"sensory homunculus monster\" with the handle @SpookyAlienClod. It includes a quote from Catherine Rampell discussing a situation where middle school administrators were unable to decide if a transgender student should be sheltered with boys or girls during an active shooter drill, resulting in the student being left outside. The post also contains a photograph of several transgender pride flags. Overlaid text reads: \"me: things aren't all that bad,\" followed by \"schools: gendered active shooter drills\" and the quote from Catherine Rampell. Additionally, the text at the bottom states: \"Trans student barred from shelter during Virginia school's mass sho...\""
+    },
+    "2231": {
+        "img": "./data/PrideMM/Images/test/1/2231.png",
+        "gt_caption": "The image features a partially open door with a rainbow flag emerging from it, symbolizing LGBTQ+ identity. Behind the door, there is a representation of the American flag. On the left side of the image, there is bold text that reads: \"THESE DAYS IT MAY BE EASIER TO COME OUT AS GAY THAN TO COME OUT AS CONSERVATIVE.\" Below this, there is a question that states: \"WHAT DO YOU THINK?\" The background color is orange, and the design involves contrasting elements of color and symbolism. The logo \"PragerU\" is also present in the top left corner."
+    },
+    "2355": {
+        "img": "./data/PrideMM/Images/test/1/2355.png",
+        "gt_caption": "The image consists of a caption at the top stating, \"So we're all in agreement that we're calling Florida 'Russia 2' for now on, right?\" Below this, there is a block of text that reads: \"So the Florida legislature kidnapped a bunch of non-binary and trans kids today. They refused to let them out and they refused to let the parents in to get them. We are officially there folks.\" At the bottom right corner, there is an icon likely related to a social media platform. Two men are standing in front of a closed door, dressed in formal attire, but no specific features or actions are detailed about them."
+    },
+    "2690": {
+        "img": "./data/PrideMM/Images/test/1/2690.png",
+        "gt_caption": "The image features multiple seatbelt buckles arranged on a blue background. Some of the seatbelts are designed with rainbow stripes, while others are plain silver buckles. The text overlaid on the image states, \"No matter how you color it, ONLY ONE WORKS.\" At the bottom, there is a section showing the number of likes (12,838) and a comment indicating an expectation for people to take a joke."
+    },
+    "2744": {
+        "img": "./data/PrideMM/Images/test/1/2744.png",
+        "gt_caption": "The image consists of two panels. In the first panel, a character with a pink mohawk and glasses is wearing a black mask and saying, \"I trust the science!\" next to a book titled \"General Biology.\" In the second panel, the same character, still in a black mask, looks at a book being held by a bald man with a beard. The book is open to pages labeled \"BOYS\" and \"GIRLS.\""
+    },
+    "2755": {
+        "img": "./data/PrideMM/Images/test/0/2755.png",
+        "gt_caption": "The image features a three-panel meme format. The first panel shows a humanoid figure with a neutral expression and the text \"your whole family thinks you gay,\" accompanied by the word \"Panik\" on the side. The second panel depicts the same figure with a calmer expression, with the text \"your boyfriend doesn't think you gay,\" and the word \"Kalm\" beside it. The third panel reverts to a panicked expression, with the text \"you are a boy,\" again showing \"Panik\" on the side."
+    },
+    "3026": {
+        "img": "./data/PrideMM/Images/test/1/3026.png",
+        "gt_caption": "The image features a silhouette of a person with their head bowed. Behind the person's head, there appears to be a colorful design resembling a gun, with colors of the rainbow flag. Overlaid on the image is a block of text that reads: \"Bake us our cake, say our correct pronouns, put up our flag as your company logo, give us preferential treatment when hiring, and let us twerk in front of your kids at the library, or you're a bigot. And if you're a bigot, we will LITERALLY destroy your livelihood and the means to feed your family, as well as destroy your reputation to the world by LITERALLY plastering your face all over social media as a hateful person. So make a choice. You don't want to be a BIGOT do you? Don't you want to be nice?\" Additionally, the image includes text with hashtags such as #PrideMonth and #LGBT."
+    },
+    "3077": {
+        "img": "./data/PrideMM/Images/test/1/3077.png",
+        "gt_caption": "The image features a character with red hair and a stern expression, wearing colorful shoes and clothing. The character has a cartoonish style. Overlaid text reads: \"homophobia is really stupid so you get angry because they give their dick to another dude? my man thats called jealousy.\""
+    },
+    "3087": {
+        "img": "./data/PrideMM/Images/test/1/3087.png",
+        "gt_caption": "The image features a stylized, cartoonish depiction of a person with glasses and facial hair, appearing to show sadness with tears in their eyes. The character wears a blue hat adorned with various symbols and logos, including \"I'm With Her,\" \"LGBT,\" \"soy-lent,\" a fist symbol, and others. The text \"Gamer 4 Life\" is written on the neck area. Beside the character, there is a bottle labeled \"soy-lent.\" The website \"BLACKED.COM\" is visible on the hat as well."
+    },
+    "3265": {
+        "img": "./data/PrideMM/Images/test/1/3265.png",
+        "gt_caption": "The image features a surprised-looking man with a light brown hair, wearing a white shirt and a tie, set against a gray background. Overlaid text reads, \"Gays who hate being accepted by society watching companies pull Pride merch this year because we're moving backwards in our rights.\""
+    },
+    "3356": {
+        "img": "./data/PrideMM/Images/test/1/3356.png",
+        "gt_caption": "The image features a horizontal design of a rainbow flag, which consists of seven colored stripes: red, orange, yellow, green, blue, indigo, and violet, arranged from top to bottom. Below the rainbow, there is a thick black stripe. The text overlay reads: \"PRIDE.\""
+    },
+    "3402": {
+        "img": "./data/PrideMM/Images/test/1/3402.png",
+        "gt_caption": "The image is a comic strip that discusses themes of attraction and gender identity. It features stick-figure characters with rainbow-colored circles representing different sexual orientations (L for Lesbian, G for Gay, B for Bisexual, and T for Transgender). The first panel asserts the right to love any consenting adult and the attraction to specific genitalia. The second panel emphasizes the importance of acknowledging attraction to transgender individuals. Subsequent panels include questions and further discussion, ending with a return to the initial assertion. There are also various symbols and website information in the corners of the image."
+    },
+    "3542": {
+        "img": "./data/PrideMM/Images/test/1/3542.png",
+        "gt_caption": "The image features a character, portrayed by an actor, making a gesture with one hand while speaking. The character is wearing a red and black uniform with a badge. The background appears to show a space-themed setting, possibly from a starship control room. Overlaid text reads: \"WHY THE FUCK SHOULD I CARE WHAT TWO GAY GUYS DO?\""
+    },
+    "3750": {
+        "img": "./data/PrideMM/Images/test/0/3750.png",
+        "gt_caption": "The image shows a Twitter profile for an account with the name \"Tucker Carlson,\" which is verified with a blue checkmark. The profile includes a professional headshot of a man wearing a suit and tie, alongside a cover image that depicts a city at night. The bio states that he is an Emmy-award-winning broadcast journalist, a graduate of Harvard College and Yale Law School, and a frequent visitor to the Aspen Institute. It mentions that he is fully vaccinated and includes pronouns \"She/Hers\" with a flag emoji. The profile indicates he has 115 following and 5.2 million followers, along with the date joined, which is March 2009. There is a link to a website, TuckerCarlson.com, and a \"Follow\" button."
+    },
+    "3757": {
+        "img": "./data/PrideMM/Images/test/0/3757.png",
+        "gt_caption": "The image features two cartoon characters, one pink and one blue, embracing happily. Above them, the text reads \"AWESOME LESBIAN COUPLE,\" accompanied by heart icons. To the right, a character dressed in a green cloak with a blue face and a serious expression is labeled \"DOOM.\" The background appears muted, emphasizing the characters in the foreground."
+    },
+    "3841": {
+        "img": "./data/PrideMM/Images/test/1/3841.png",
+        "gt_caption": "The image features an article titled \"Utah bans gender affirming care for minors\" by Jared Gans, dated January 28, 2023. It includes a photograph of Utah Governor Spencer Cox, who is depicted sitting on a couch in the Utah State Capitol during an interview. The article notes that Utah has become the first state in 2023 to ban gender-affirming care for minors, highlighting the signing of a bill that restricts access to hormonal treatment for these individuals. The text below the photo provides additional context about the legislation and its implications."
+    },
+    "4031": {
+        "img": "./data/PrideMM/Images/test/1/4031.png",
+        "gt_caption": "The image consists of three panels featuring cartoon characters. In the first panel, a character with pink hair expresses surprise and frustration, saying, \"YOU DON'T DATE TRANS WOMEN? BUT I WAS BORN THIS WAY!\" In the second panel, a second character, who is pale with a simplistic, round head and wearing a green shirt, appears to be seated with a downcast expression and does not respond. In the third panel, the same character replies softly, \"ME TOO,\" while maintaining a similar posture. The background is a plain purple color, and the characters are positioned on a simple couch."
+    },
+    "4048": {
+        "img": "./data/PrideMM/Images/test/0/4048.png",
+        "gt_caption": "The image features a comic book scene with a character in a red and black costume, kneeling down and speaking to a small shark. The character is making a statement in a speech bubble that reads, \"BLAHAJ, YOU ARE HONOR BOUND TO PROTECT TRANS KIDS, CAN YOU HANDLE THAT?\" The shark responds with \"mrrrrr.\" The background includes other characters and an environment typical of a comic book setting. The top of the image has text that states, \"My love for this adorable shark grows by the day.\""
+    },
+    "4224": {
+        "img": "./data/PrideMM/Images/test/0/4224.png",
+        "gt_caption": "The image features a post from Twitter by user Katy Montgomerie, discussing an incident related to protests. It includes a tweet from the Trans Safety Network stating that individuals identified as \"fascists\" attacked counter-protesters during a drag story event at Honor Oak Pub. The message details that the attackers grabbed individuals and caused injuries, also mentioning damage to the pub. Accompanying the text is an image of a person with blood visible on their face and clothing, appearing to be in distress. The overall scene suggests a violent confrontation."
+    },
+    "4232": {
+        "img": "./data/PrideMM/Images/test/1/4232.png",
+        "gt_caption": "The image features a diagram with five numbered sections that discuss concepts related to anatomy and metaphysical ideas, connecting them to themes of enlightenment and spirituality. The text accompanying the image includes commentary on the Freemasons' degrees, the pineal gland, the process of enlightenment, and references to \"sodomy\" as a trigger for enlightenment. The diagram includes labeled parts of a human head and spine, making connections with terms like \"sacred oil,\" \"solar plexus,\" and \"Psycho-Physical Germ.\" There are also comments from users related to the topics presented, expressing opinions on psychics and other themes."
+    },
+    "4275": {
+        "img": "./data/PrideMM/Images/test/0/4275.png",
+        "gt_caption": "The image features an animated character, who appears to be in a dynamic pose with blood splattered on their arms. The backdrop consists of geometric shapes, suggesting a futuristic or abstract environment. At the top of the image, there is text that reads, \"When a piece of media underutilizes an lgbt character.\" At the bottom, another line states, \"now that's just a waste of good fruit.\""
+    },
+    "4288": {
+        "img": "./data/PrideMM/Images/test/0/4288.png",
+        "gt_caption": "The image features a comic-style format divided into four panels. The top two panels, labeled \"Girls on a first date,\" depict two women with specific thoughts: one expresses a desire for her date to be \"marriage material,\" and the other hopes their \"star signs match.\" The bottom two panels, labeled \"Guys on a first date,\" show two men, with one hoping \"she shows up\" and the other expressing a concern that \"she's not a man.\" The panels use illustrations and captions to present contrasting perspectives on first dates."
+    },
+    "4380": {
+        "img": "./data/PrideMM/Images/test/0/4380.png",
+        "gt_caption": "The image features a small black kitten with large, expressive eyes sitting on a light blue blanket. Above the kitten, there is a social media post that reads: \"Noel Wright 3 mins. My daughter loves him, I think he looks a little gay. But whatever makes my princess happy \""
+    },
+    "4730": {
+        "img": "./data/PrideMM/Images/test/1/4730.png",
+        "gt_caption": "The image features a simple line drawing that depicts two characters standing under a floral arch. One character, wearing a wedding dress, is holding hands with another character dressed in a suit. Below the drawing, there is a series of text comments discussing the gender representation of the characters, with several users expressing confusion about their appearances and attire in the context of a wedding. The comments appear to address issues of gender and clothing choices, with users sharing differing perspectives on marriage attire."
+    },
+    "4829": {
+        "img": "./data/PrideMM/Images/test/1/4829.png",
+        "gt_caption": "The image contains several news headlines related to the Supreme Court. The first headline states, \"Supreme Court has voted to overturn abortion rights, draft opinion shows,\" followed by a quote from Justice Alito. The second headline reads, \"The Architect of Texas' Abortion Ban Wants to Make Gay Sex Illegal Again,\" detailing a statement about Supreme Court considerations. The third headline is, \"What Is Obergefell v. Hodges? Same-Sex Marriage Could Be Overturned Next,\" authored by Giulia Carbonaro, with a timestamp. Additionally, there is a character illustration with dark hair and an expression that suggests contemplation."
+    },
+    "4833": {
+        "img": "./data/PrideMM/Images/test/1/4833.png",
+        "gt_caption": "The image features a person with an intense expression, appearing to shout. In the background, there is a swirling cloud or dust storm. Overlaid on this background are various icons and logos, many of which display rainbow colors, associated with social media platforms and organizations, suggesting a theme related to Pride. The text at the top reads, \"June is almost here,\" and the text at the bottom states, \"Here it comes!\""
+    },
+    "5059": {
+        "img": "./data/PrideMM/Images/test/1/5059.png",
+        "gt_caption": "The image features a comic divided into four panels. In the first two panels, a character with a rounded head and striped body expresses excitement about drawing a \"lesbian couple,\" while surrounding characters respond positively, complimenting their designs. In the lower two panels, the same character indicates they also drew a \"gay couple,\" but the reactions from the surrounding characters shift to uncertainty and disapproval, with one character explicitly stating, \"EW, why.\" The artist's handle \"@Idolomantises (Twitter)\" is noted at the top."
+    },
+    "24": {
+        "img": "./data/PrideMM/Images/test/0/24.png",
+        "gt_caption": "The image shows a large crowd of people participating in a demonstration or rally, holding various signs and banners. The individuals exhibit a diverse range of appearances and expressions, with some wearing colorful clothing. Signs contain messages such as \"PROUD PARENT OF A GENDER VARIANT PERSON,\" \"TRANS SIBLINGS NEED OUR LOVE, NOT HATE,\" and \"THERE'S NO EQUALITY WITHOUT THE T,\" among others. The background features urban architecture, and some attendees appear to be wearing masks."
+    },
+    "235": {
+        "img": "./data/PrideMM/Images/test/1/235.png",
+        "gt_caption": "The image features two animated characters. One character, with blue hair, is bending over forward, appearing to expel a rainbow-colored liquid from their body. Another character stands behind them, holding onto them with an expression that suggests a mix of surprise and amusement. The background is dark, and there is text overlaid at the top that reads: \"Members of the LGBTQ+ community after they find out the G stands for gay.\""
+    },
+    "278": {
+        "img": "./data/PrideMM/Images/test/0/278.png",
+        "gt_caption": "The image features a comic strip with a cartoon bird, depicted in a series of three panels. In the first panel, the bird expresses that it is mentally ill, stating, \"Okay, so I'm mentally illthat explains a lot.\" The second panel shows a response, \"That's fine. As long as I don't have to deal with any other big revelations!\" Below these panels, there is a colorful round shape with the text \"GAY AWAKENING.\" The final section of the image features a stylized brain, with the text \"gender awakening\" overlaid. The cartoon bird is also visible again near the bottom. The comic is attributed to \"CHUCKDRAWSHTHINGS / TWITTER @CHARLUBBY.\""
+    },
+    "356": {
+        "img": "./data/PrideMM/Images/test/0/356.png",
+        "gt_caption": "The image features a central figure, a man in a dark blazer, looking intently at a piece of paper he is holding. His expression appears to convey surprise or confusion. In the background, there are several individuals seated, some partially visible. Overlaying the image is text that reads: \"Literally anyone else: Wishing you had dysphoria so you could transition is dysphoria and cis people don't think this, you're trans. Eggs:\""
+    },
+    "448": {
+        "img": "./data/PrideMM/Images/test/0/448.png",
+        "gt_caption": "The image consists of a text conversation followed by a scene from an animated series. In the conversation, one participant greets the other and asks whether they are \"mail or femail,\" to which the response is \"no I'm gmail.\" This leads to the question \"you mean gay?\" Below this conversation, an image shows two animated characters, one holding a soccer ball. The character with the ball has a speech bubble that says, \"I see. That was a higher level of conversation than I was ready for.\""
+    },
+    "619": {
+        "img": "./data/PrideMM/Images/test/0/619.png",
+        "gt_caption": "The image consists of two panels. The top panel features a character resembling a cat dressed as a swashbuckler, with a sword in hand and a background that suggests a lively setting. The overlaid text reads: \"POLITICIANS WHEN USE RELIGION TO TRY AND DENY GAY PEOPLE THEIR RIGHTS.\" The bottom panel shows a different cat character with large, expressive eyes appearing sad or pleading. The accompanying text states: \"THE SAME POLITICIANS WHEN THEY GET CAUGHT BEING THE GAY.\""
+    },
+    "1095": {
+        "img": "./data/PrideMM/Images/test/1/1095.png",
+        "gt_caption": "The image shows a scene from the London Marathon featuring a trans athlete who is being interviewed by a reporter. The athlete is flexing their muscles and wearing a colorful outfit, which includes a rainbow-themed arm accessory and a cape. The background includes other marathon participants and iconic London architecture. Overlaying the image is text that reads: \"Trans athlete running as a female in London Marathon labelled wrong and unfair'.\""
+    },
+    "1229": {
+        "img": "./data/PrideMM/Images/test/1/1229.png",
+        "gt_caption": "The image consists of two panels. The first panel shows a dialogue where a person asks, \"what are your pronouns,\" accompanied by an illustration of hands positioned in a questioning manner. The second panel features a response that states, \"I'm a guy,\" with hands illustrating a gesture. Overlaid text indicates a phrase at the top: \"Hot take: I REALLY hate being asked my pronouns,\" and there is a label that reads \"Meme Monday.\""
+    },
+    "1522": {
+        "img": "./data/PrideMM/Images/test/1/1522.png",
+        "gt_caption": "The image features a scene from a television show, depicting a man on the ground with a distressed expression. Above the image, there is overlaid text that reads: \"'Marxist' terfs when they realize the DDR had trans rights and Cuba currently does:\". The background appears to be a dry, sandy area. The man's attire is light-colored, and he is lying down with his head turned to the side."
+    },
+    "1677": {
+        "img": "./data/PrideMM/Images/test/1/1677.png",
+        "gt_caption": "The image contains a meme featuring a character who is holding a drink and has a smirk, accompanied by text that reads: 'I'M FAT, BUT I IDENTIFY AS SKINNY. I'M TRANS-SLENDER.' Below the meme, there is a text conversation between two individuals. The first message mentions, 'aha I identify as an attack helicopter' \\U0001f440 conservatives only have one joke.' This is followed by a second message stating, 'Dude - can't you admit that's funny."
+    },
+    "1782": {
+        "img": "./data/PrideMM/Images/test/0/1782.png",
+        "gt_caption": "The image features a screenshot of a social media post discussing an element from the video game \"Dark Souls 2.\" It includes a visual of a coffin set against a background resembling the transgender pride flag. The text notes the discovery of a game aspect where jumping into the coffin results in a \"sex change.\" The post expresses the poster's identity as cisgender and mentions their motivation to share this finding in a trans community, describing the experience as humorous."
+    },
+    "1784": {
+        "img": "./data/PrideMM/Images/test/0/1784.png",
+        "gt_caption": "The image shows a parrot perched on a wooden branch inside a pet store with a sign underneath it. The sign reads, \"I bite Women! Only handle me if you're a Man!\" In the foreground, a hand is visible, and the background features people browsing in the store, along with various colorful items and decorations for pets. The setting appears to be a brightly lit pet shop with a yellow floor."
+    },
+    "1787": {
+        "img": "./data/PrideMM/Images/test/0/1787.png",
+        "gt_caption": "The image shows a crowd of individuals participating in a demonstration or rally. Among them is a person holding a large sign with the text: \"IF YOU COULD HAVE TOTAL ABSOLUTE CONTROL OVER LGBT EDUCATION IN YOUR COUNTRY, WHAT WOULD THAT EDUCATION LOOK LIKE?\" The background features trees and buildings typical of an urban environment, indicating an outdoor setting. People can be seen in various clothing, suggesting a diverse group of participants."
+    },
+    "1981": {
+        "img": "./data/PrideMM/Images/test/1/1981.png",
+        "gt_caption": "The image features three distinct panels. The first panel shows a character with glasses and a beard, saying, \"The way God created us is good. You have to just accept that.\" The second panel displays another character with dark hair and a neutral expression, who states, \"This is the way God made me. Please just accept that.\" The final panel includes the first character again, appearing upset and yelling, \"Not like that!\" In the background of the second panel is a flag with horizontal stripes in pink, blue, and white."
+    },
+    "2056": {
+        "img": "./data/PrideMM/Images/test/1/2056.png",
+        "gt_caption": "The image features a man with an expressive face appearing to shout, set against a background of a dusty environment suggesting a desert. Various logos of social media platforms and other entities are displayed in a circular arrangement around him, many of which include rainbow designs. At the top of the image, the text reads, \"June is almost here,\" and at the bottom, it states, \"Here it comes!\" The overall composition suggests a sense of anticipation."
+    },
+    "2060": {
+        "img": "./data/PrideMM/Images/test/0/2060.png",
+        "gt_caption": "The image depicts a group of people participating in a protest, holding various signs. Notable signs include messages such as \"PROTECT QUEER AND TRANS YOUTH,\" \"GAY,\" and \"F*** YOUR CENSORSHIP.\" The individuals in the foreground are prominently displaying their signs, while others are visible in the background. The scene captures a diverse group, with a focus on youth, and it appears to take place outdoors during the evening. The atmosphere reflects a collective expression of advocacy or dissent."
+    },
+    "2112": {
+        "img": "./data/PrideMM/Images/test/0/2112.png",
+        "gt_caption": "The image consists of four main components arranged in a collage style. The top left shows a cartoon character with light blonde hair and glasses drinking from a carton, accompanied by the text, \"Ha, I bet if the gays start carrying weapons you'd be for gun laws real quick.\" The bottom left features a group of individuals participating in a pride parade, carrying a rainbow flag. Overlaid text states, \"We should be able to defend ourselves with firearms to stop another attack!\" The bottom right displays another cartoon character wearing tactical gear, with dialogue reading, \"What gun were you considering? I'll help you pick one out if you'd like.\" The overall layout suggests a commentary involving themes of gun rights and LGBTQ+ representation."
+    },
+    "2235": {
+        "img": "./data/PrideMM/Images/test/0/2235.png",
+        "gt_caption": "The image features a character with glasses and a serious expression, holding up a hand in a gesture that appears assertive or commanding. Surrounding the character is a dark setting, suggesting an indoor environment. Above the character, there is overlaid text that reads: \"If straight guys can act gay to be invited to girls sleepover, that means gay guys can act straight to enter boys sleepover.\""
+    },
+    "2315": {
+        "img": "./data/PrideMM/Images/test/1/2315.png",
+        "gt_caption": "The image depicts a brick building featuring a sign that reads \"THE SPLINTERED WAND,\" which appears to be the name of a bar or establishment. The sign has an intricate design, including a wand and some decorative elements. There is a doorway with the number \"5135\" displayed prominently. Surrounding the building are trees with autumn leaves. Below the image, there is a comment section with text that discusses the closure of a wizard-themed bar and provides a link to an article. The posted comment mentions \"Jay Kay Rowling\" and references reactions within a subreddit."
+    },
+    "2616": {
+        "img": "./data/PrideMM/Images/test/0/2616.png",
+        "gt_caption": "The image consists of two panels. The top panel features two Spider-Man characters facing each other, with overlaid text that reads: \"Transphobes telling me I'm just a crossdresser because I'm genderfluid\" and \"Transmeds telling me I'm just trans in denial because I'm a crossdresser.\" The bottom panel depicts a cartoon dog sitting calmly at a table with a cup while flames engulf the surrounding area. The dog has overlaid text stating, \"THIS IS FINE,\" and is labeled \"Me.\""
+    },
+    "2699": {
+        "img": "./data/PrideMM/Images/test/0/2699.png",
+        "gt_caption": "The image features a cartoon character with long hair and a playful expression, standing against a background that includes horizontal stripes in colors commonly associated with the transgender pride flag. The character is wearing a light blue shirt and a white skirt. Overlaid text reads: \"I have an AFAB friend who I think may be trans or non-binary but in denial. How would I go about figuring out if she is trans? And if she seems like she probably is, how would I go about gently cracking her egg?\""
+    },
+    "2739": {
+        "img": "./data/PrideMM/Images/test/1/2739.png",
+        "gt_caption": "The image features an illustration of a stylized cat holding a knife. The cat is decorated with blue and pink hues, accompanied by heart shapes. Overlaid text reads: \"Respect trans people or your pronouns will be WAS/WERE.\" Below the illustration, there is a comment from a user named Gjoni The Oni stating, \"You cant step outside without having a panic attack.\" Additionally, there are metrics displayed below the comment, showing engagement numbers: 6,885 retweets, 29.4K likes, and 296K views."
+    },
+    "2822": {
+        "img": "./data/PrideMM/Images/test/0/2822.png",
+        "gt_caption": "The image features a character profile that includes a digital pet device, images of various fictional creatures, and a close-up of an individual's face. The digital pet device is pink and is displayed at the top left corner. Below it, there is a green egg and two small cartoon-like creatures labeled \"Zerimon\" and \"Gummymon.\" Various stages of evolution for multiple creatures are detailed, including their classifications, natures, attributes, types, and attacks. The creatures \"ClearAgumon,\" \"Piddomon,\" \"AngeWomon,\" and \"LovelyAngemon\" are illustrated and described with their respective attributes. The individual's name, \"Bijhan,\" is also written prominently next to the face."
+    },
+    "2899": {
+        "img": "./data/PrideMM/Images/test/1/2899.png",
+        "gt_caption": "The image is divided into four sections. The top left shows an illustration of a fetus in the womb, with a rainbow flag overlay and the text \"God please, Germany.\" The top right features a medical professional in scrubs holding a newborn, with the text \"Hello sir, where am I?\" The bottom left displays a close-up of a newborn baby's face with the text \"Poland.\" The bottom right is another close-up of a baby's face with the text \"O kurwa.\""
+    },
+    "2991": {
+        "img": "./data/PrideMM/Images/test/1/2991.png",
+        "gt_caption": "The image consists of several panels from a scene featuring a character in a dark, enclosed space. The character, dressed in a dark outfit with a coat, appears to be in a conversation, with a creature or appendage visible behind them. The overlaid text states: \"When LGBT+ people are told to visit a therapist so they can 'fix' them,\" followed by dialogue where the character asks, \"Fix?\" and then, \"You mean like a dog?\" concluding with, \"I refuse.\" The panels are arranged vertically and depict a serious tone with a focus on the character's expressions and gestures."
+    },
+    "3109": {
+        "img": "./data/PrideMM/Images/test/0/3109.png",
+        "gt_caption": "The image features a black-and-white illustration of a man with a shocked or frightened expression. Surrounding him are several words presented in a bold, stylized font: \"MUSLIMS,\" \"FOREIGNERS,\" \"JEWS,\" \"GAY PEOPLE,\" \"BI PEOPLE,\" \"LESBIANS,\" and \"TRANS PEOPLE.\" The composition appears to convey a chaotic or overwhelming situation, with the man seemingly reacting strongly to the words around him."
+    },
+    "3276": {
+        "img": "./data/PrideMM/Images/test/1/3276.png",
+        "gt_caption": "The image features a cartoon scene from a popular animated series. In the foreground, a large prescription bottle is labeled with the words \"breeder kink\" prominently displayed. Next to it, there is a character with orange hair and a blue shirt, appearing to look at the viewer with a neutral expression. In the background, a family portrait can be seen on the wall. The image includes the word \"cishets\" overlaid near the character. The overall setting appears to be inside a home. The bottom corner of the image has the text \"made with mematic.\""
+    },
+    "3487": {
+        "img": "./data/PrideMM/Images/test/1/3487.png",
+        "gt_caption": "The image features a cartoon character resembling a blue anthropomorphic hedgehog, lounging casually with a relaxed expression. The character's body is positioned with hands behind its head and one leg crossed over the other. Above the character, there is text that reads, \"Upset about a pride flag?\" followed by, \"God, you're pathetic.\" The background is bright yellow, enhancing the character's playful demeanor."
+    },
+    "3497": {
+        "img": "./data/PrideMM/Images/test/1/3497.png",
+        "gt_caption": "The image contains various graphic elements, predominantly featuring stylized figures and icons. At the top, there is a title that reads \"Make Men Masculine Again,\" along with a view counter indicating \"10M views\" and the name \"PragerU.\" Below that, there are four stylized figures: one holding a bouquet of flowers beside a figure in a suit and tie, and another figure appears armed, wearing a helmet, and standing with a woman in a wedding dress. There are also two animated characters depicted, one wearing a pink hat and the other in armor. Various icon-like representations of flowers and geometric shapes are present to the left."
+    },
+    "3893": {
+        "img": "./data/PrideMM/Images/test/1/3893.png",
+        "gt_caption": "The image shows a person holding a sign in a public space, likely during a demonstration or protest. The sign displays the following text: \"AS A GIRL, I JUST HOPE THAT 1 DAY I HAVE AS MANY RIGHTS AS A GUN.\" The text is arranged in large, bold letters, with colorful symbols such as hearts and spirals integrated into the design. The background indicates a city street with tall buildings and other individuals visible in the frame."
+    },
+    "3946": {
+        "img": "./data/PrideMM/Images/test/1/3946.png",
+        "gt_caption": "The image features a tweet discussing a new law passed in Germany that prohibits attempts to change a person's sexual orientation or gender identity, specifically targeting minors. The text outlines that anyone, including parents, who tries to intervene risks facing a fine of 30,000 Euros and up to one year in prison. An embedded article headline states, \"Germany passes law banning 'gay conversion therapy' for minors,\" along with the information that violators can face legal consequences. A rainbow flag, symbolizing LGBTQ+ pride, appears prominently in the image."
+    },
+    "4120": {
+        "img": "./data/PrideMM/Images/test/0/4120.png",
+        "gt_caption": "The image contains a tweet from the user Lakota Man, with the text: \"MAGA: 'I'm switching to Coors Light.' Coors Light: 'The fuck you are.'\" On the left side, there is an image of a Bud Light can featuring a rainbow design and the text \"they celebrate everyone's identity.\" On the right, there is an image related to Coors Light with the text \"REFRESHINGLY PROUD\" and details about their commitment to the LGBT community. The tweet includes timestamps and engagement statistics, indicating the number of retweets, quotes, and likes."
+    },
+    "4127": {
+        "img": "./data/PrideMM/Images/test/0/4127.png",
+        "gt_caption": "The image features two photographs side by side. The left photograph shows a person with dark, spiky hair, wearing a black, ripped top, and smiling. The right photograph depicts a different person with long, blonde, curly hair, wearing a black outfit with cutouts, and also smiling. A text overlay on the left photo reads \"44TG sub.\" Above the images, there is a caption that says \"Sexy girl\" and includes the transgender flag emoji and heart eyes emoji."
+    },
+    "4151": {
+        "img": "./data/PrideMM/Images/test/0/4151.png",
+        "gt_caption": "The image consists of two parts. The top section features a character with light hair and a bow, holding a sign that reads: \"Feminine men don't have to be trans and it's not ok to push them to identify as such.\" This is labeled \"People with common sense.\" The bottom section depicts a character in armor, with the text: \"Wait. That's illegal.\" Below this character, there is a graphic with additional design elements. The overall layout juxtaposes a character's statement with a reaction from another character."
+    },
+    "4532": {
+        "img": "./data/PrideMM/Images/test/1/4532.png",
+        "gt_caption": "The image contains text from social media posts discussing the portrayal of a historical figure in modern media. One post mentions Rachel Weisz playing a gender-fluid Victorian doctor, followed by comments asserting that the individual was a trans man. The conversation critiques perceptions of trans identity and highlights a specific situation where the individual's wishes regarding burial were disrespected. An additional graphic features a handshake image with text stating, \"people from the 1700's\" and \"people in the year 2019\" with a caption about not showing basic respect towards trans men."
+    },
+    "4672": {
+        "img": "./data/PrideMM/Images/test/0/4672.png",
+        "gt_caption": "The image features two panels. In the top panel, two characters are shown engaging in conversation; one is labeled as \"female weebs saying they exist\" and the other as \"male weebs saying female weebs don't exist.\" The bottom panel depicts a character labeled \"me, a female weeb not wanting to exist anyways,\" with the character appearing to drink from a cup. There are also several speech bubble-like shapes surrounding the characters, but they do not contain any text."
+    },
+    "4714": {
+        "img": "./data/PrideMM/Images/test/1/4714.png",
+        "gt_caption": "The image features a scene from an animated setting, with two characters. One character with long, brown hair is outside, seen through a window, using a shovel in the dirt. The second character, who has blonde hair tied back with a ribbon, is facing away from the viewer, inside the building. The overall atmosphere shows a rural or farming context. At the top of the image, there is an overlay of text that reads: \"Rush Limbaugh warns that federally paid lesbian farmers' could invade your town\" followed by the name \"Mary Emily O'Hara\" and a publication title \"The Daily Dot.\""
+    },
+    "4851": {
+        "img": "./data/PrideMM/Images/test/0/4851.png",
+        "gt_caption": "The image shows a crowd participating in an event or demonstration. In the foreground, a person is holding a sign made of cardboard, which displays the text \"TEACH TRANS HISTORY\" with the word \"EVERYWHERE\" beneath it. The sign is decorated with blue and pink colors, resembling the transgender pride flag. Surrounding the sign holder, there are various individuals, some wearing pink clothing and accessories, with diverse expressions and hairstyles. In the background, buildings and a restaurant can be seen, adding context to the outdoor setting."
+    },
+    "5037": {
+        "img": "./data/PrideMM/Images/test/0/5037.png",
+        "gt_caption": "The image features the title \"Spiteful Gender Envy\" at the top. Below the title, there is a brief description stating that spiteful gender envy is rare but somewhat prevalent, defined as a form of jealousy similar to stereotypical envy. The text continues to explain that jealousy of someone having what one does not can lead to anger and frustration towards that person. It concludes by noting that such envy can often lead to conflict and dislike. An illustration of a character with brown hair and a discontent expression accompanies the text. The background is plain, enhancing the focus on the textual content."
+    },
+    "154": {
+        "img": "./data/PrideMM/Images/test/1/154.png",
+        "gt_caption": "The image consists of a four-panel comic strip. In the first panel, a character holding a newspaper titled \"The Daily Brioche\" reads a headline that states, \"TRANSGENDER ATHLETE WINS HIGH SCHOOL WRESTLING COMPETITION.\" The second panel shows a character expressing anger, saying, \"STOP ALLOWING MEN IN WOMEN'S SPORTS, IT'S HURTING REAL WOMEN!\" The third panel features the same character yelling, \"HEY! STOP DESTROYING WOMEN'S SPORTS TR*NNY!\" while pointing at a podium with three characters on it. In the fourth panel, another character is shown saying, \"I WANT TO COMPETE WITH MEN. I'M A TRANS-MAN.\" The bottom right corner includes the text \"@BREADPANES.\""
+    },
+    "  ": {
+        "img": "./data/PrideMM/Images/test/1/224.png",
+        "gt_caption": "The image presents a game show format with a title that reads \"NAME SOMETHING THAT SCARES CONSERVATIVES.\" Below this title, there are several responses listed, including \"THE TRUTH,\" \"UNARMED BLACK MEN,\" \"HILLARY CLINTON,\" \"LGBT,\" and others, with a total of ten items visible. The fourth item, which is indicated but not labeled, is highlighted. The overall design features a colorful background typical of a game show setting. At the top, there is additional text indicating the source as r/WhitePeopleTwitter, along with a post timestamp and view count."
+    },
+    "408": {
+        "img": "./data/PrideMM/Images/test/1/408.png",
+        "gt_caption": "The image depicts a cartoon styled scene in a sports setting. In the foreground, there are two figures: a woman on the left and a muscular man on the right. The woman is wearing a black athletic outfit, holding a shot put, and has an expression that indicates she is upset, with the words \"NOT FAIR!\" coming from her. On the right, the man is also in an athletic outfit, displaying a shot put and wearing a shirt that reads \"EQUALITY ACT YES.\" A banner in the background states \"WOMEN'S TRACK & FIELD COMPETITION.\" The man is responding to the woman by calling her a \"BIGOT!\""
+    },
+    "524": {
+        "img": "./data/PrideMM/Images/test/1/524.png",
+        "gt_caption": "The image features a sequence of four frames. The first frame shows a person applying white face paint, with the text, \"As a Christian I'm supposed to love my neighbors.\" The second frame displays the same person with partially completed clown makeup, accompanied by the text, \"The Bible says that being gay is wrong.\" In the third frame, the clown makeup is more complete, and the text reads, \"My next door neighbor's daughter is a lesbian.\" The final frame shows the individual fully made up as a clown, with the text, \"I'm going to stand on the sidewalk in front of their house and scream homophobic slurs in the name of Jesus!\""
+    },
+    "564": {
+        "img": "./data/PrideMM/Images/test/1/564.png",
+        "gt_caption": "The image features two segments of a scene with a man speaking to another person, with a dialogue exchange displayed as text. The top section shows the text 'Look at me. Look at me,' while the bottom section includes altered imagery of the same man, now with heavy makeup and a rainbow flag graphic, alongside the text 'I am gay now.' At the top of the image, there is a caption that reads \"Corporations on June 1:\"."
+    },
+    "580": {
+        "img": "./data/PrideMM/Images/test/1/580.png",
+        "gt_caption": "The image features two main characters. On the left is a cartoon train character, resembling a train from a children's series, depicted with glasses and holding a finger up as if making a point. Text overlaying this character reads, \"UMMM ACTUALLY YOU'RE NOT GAY OR TRANS U JUST WANT ATTENTION TRUST ME A STRANGER THAT HAS NEVER MET YOU.\" On the right is a stylized illustration of a person with pink hair, wearing a black hoodie and holding a heart in their hands, accompanied by the text, \"MF HOW YOU GUNNA TELL ME ABOUT MY OWN LIFE?\" The overall composition juxtaposes the two characters and their respective texts."
+    },
+    "722": {
+        "img": "./data/PrideMM/Images/test/0/722.png",
+        "gt_caption": "\"The image features a comic divided into four quadrants, each labeled with different ages: 13, 17, 21, and 24. Each section depicts interactions between two characters discussing identity and feelings. The character at age 13 expresses a desire to be born male, while the other responds humorously. At age 17, a conversation occurs about identity, with one character questioning the other's feelings about being a girl. At age 21, the characters share romantic feelings, and one expresses concern over their gender identity, prompting reassurance. By age 24, one character reflects on their transition and appearance while the other offers support and affection. The artwork uses a mix of dialogue bubbles and facial expressions to convey their evolving relationship and self-acceptance.\""
+    },
+    "730": {
+        "img": "./data/PrideMM/Images/test/1/730.png",
+        "gt_caption": "The image is a comic strip divided into four panels, with an introductory box at the top. The introductory text poses a rhetorical question regarding accidentally engaging in actions that may be perceived as \"gay\" and invites the reader to use the comic as a guide. The first panel depicts a character peacefully taking a nap, labeled \"TAKING NAPS: GAY.\" The second panel shows two hands holding each other, labeled \"HOLDING HANDS w/ YOUR BROS: NOT GAY.\" The third panel features a dessert with various toppings, labeled \"ORDERING DESSERT: GAY.\" The fourth panel presents a character expressing cuteness, labeled \"BEING CUTE: NOT GAY.\" The comic is drawn in a cartoonish style with colorful backgrounds."
+    },
+    "897": {
+        "img": "./data/PrideMM/Images/test/0/897.png",
+        "gt_caption": "The image depicts a wrestling match, featuring two individuals in a sumo wrestling context. One wrestler is significantly larger than the other, who appears to be exerting effort to lift or push against the larger wrestler. Overlaid text reads: \"IMPOSTER SYNDROME\" above the larger wrestler, and \"ME, 100% POSITIVE I'M TRANS\" above the smaller wrestler. A name, \"KAYLEE,\" is also included in a decorative format at the bottom right corner of the image."
+    },
+    "984": {
+        "img": "./data/PrideMM/Images/test/1/984.png",
+        "gt_caption": "The image features two pairs of characters depicted in a stylized manner. On the left, a figure with curly hair wearing a green hoodie states, \"I'm a Communist,\" accompanied by circular overlays of green and red. Below this, the same figure states, \"Correct, I'm a girl.\" On the right, a second figure wearing a red \"Make America Great Again\" hat responds with the text, \"Ha, what a cuck! You're not a real man!\" Below this, the same character insists, \"No you're not! You're a man!\" The overall layout presents a dialogue between the two figures with contrasting statements."
+    },
+    "1092": {
+        "img": "./data/PrideMM/Images/test/1/1092.png",
+        "gt_caption": "The image shows the interior of a vehicle's trunk, filled with bags of groceries and a box of Coors Light beer, which contains 24 cans. The bags appear to hold various items, including some colorful containers, indicating a mix of food and other goods. Overlaid text presents a tweet from Marjorie Taylor Greene, which reads: \"I would have bought the king of beers, but it changed it's gender to the queen of beers. So it's made to chill from here on out.\" The post includes engagement statistics such as views, retweets, quotes, likes, and bookmarks."
+    },
+    "1321": {
+        "img": "./data/PrideMM/Images/test/1/1321.png",
+        "gt_caption": "The image features a discussion about the subreddit r/truscum, which is labeled as a hub of negativity regarding certain transgender identities. The top part displays comments expressing disdain for the subreddit and defines \"true scum\" as a specific term related to transphobia. The lower part of the image includes a statement from an individual mentioning their struggle with dysphoria, accompanied by an image of a green swatter. Overlaid text reads, \"Don't worry everybody I found this swatter\" and \"Shoo dysphoria shoo.\""
+    },
+    "1374": {
+        "img": "./data/PrideMM/Images/test/1/1374.png",
+        "gt_caption": "The image features a character from an animated series, depicted with a bright, smiling expression and hands raised. In the background, there are colorful rainbows. Overlaid text at the top reads \"Companies changing their logos for June:\" and the word \"Gay\" is centered in large font below the character."
+    },
+    "1381": {
+        "img": "./data/PrideMM/Images/test/1/1381.png",
+        "gt_caption": "The image is divided into two parts. The left side shows the text \"May 31st, 11:59 pm\" with an illustration of a character looking apprehensive, followed by \"June 1st, 12:00 am\" featuring a different character with rainbow-colored eyes. The right side displays a bright, colorful background with the text \"Every Single Company in June\" and the phrase \"TASTE THE PANDERING\" underneath, with a rainbow graphic above. The overall layout suggests a commentary on a transition that occurs at the start of June, particularly related to Pride Month."
+    },
+    "1478": {
+        "img": "./data/PrideMM/Images/test/1/1478.png",
+        "gt_caption": "The image consists of two panels. The top panel features a cartoon character, a brown mouse with large ears, standing in a doorway with a stick in its hand. Overlaid text reads, \"Gay people rely on straight people to produce more gay people.\" The bottom panel shows a landscape with railroad tracks and a sign that says \"SOUTH.\" Below this scene, there is additional overlaid text that states, \"Jerry will be back soon with more accurate facts.\""
+    },
+    "1533": {
+        "img": "./data/PrideMM/Images/test/1/1533.png",
+        "gt_caption": "The image features two individuals engaged in a conversation. The person on the left, a woman, expresses outrage at the beliefs of the person on the right, a man, who states that he does not think women should have any rights and believes LGBT individuals should be executed. The woman responds with a strong accusation, calling him a primitive person and suggesting that he must be a conservative. The man then clarifies that he is a Muslim and that these are his religious beliefs. The woman apologizes, expressing concern that she might be perceived as Islamophobic. The image includes text bubbles representing their dialogue above their respective heads. The title at the top reads: \"The 'WOKE' SHEEP EXPLAINED:\""
+    },
+    "1576": {
+        "img": "./data/PrideMM/Images/test/1/1576.png",
+        "gt_caption": "The image features a meme divided into two sections. The left side depicts a figure resembling a historical or religious figure, labeled \"St. Anthony the Great,\" with a quote below him: \"A time is coming when men will go mad, and when they see someone who is not mad, they will attack him, saying, 'You are mad; you are not like us.'\" The right side illustrates three cartoonish characters reacting with expressions of anger, alongside the text, \"You are mad! You are not like us!\" and symbols of a rainbow flag and a raised fist. There is also a note at the top indicating that the post has been removed by moderators."
+    },
+    "1601": {
+        "img": "./data/PrideMM/Images/test/1/1601.png",
+        "gt_caption": "The image features two characters in a comic style. The first character, an older man with a mustache and glasses, is congratulating a younger female character with light hair and a blue hood. The conversation highlights themes of identity and masculinity, with the younger character expressing relief about a family decision made in her youth due to a superstition. The second part of the dialogue reflects a positive view on grooming. Text in the image includes: \"HEY, CONGRATS LASSIE!\" and \"GROOMING IS ACTUALLY PRETTY COOL!\""
+    },
+    "2048": {
+        "img": "./data/PrideMM/Images/test/1/2048.png",
+        "gt_caption": "The image consists of a series of panels featuring two character types, one calmly suggesting progressive social changes and the other reacting with exaggerated expressions of distress. The panels display statements advocating for ending slavery, allowing women to vote, ending segregation, and accepting LGBTQ+ people, each followed by a response claiming that these actions would lead to societal collapse. The characters exhibit various facial expressions, ranging from mild concern to extreme anguish in reaction to the statements."
+    },
+    "2185": {
+        "img": "./data/PrideMM/Images/test/1/2185.png",
+        "gt_caption": "The image features two cartoon characters from the show \"Regular Show.\" The first panel shows one character, a raccoon-like figure, appearing excited while holding a box labeled \"Finding an in depth and educational gun youtuber.\" The second panel shows the other character, a blue figure, looking pleased while holding the same box, with overlaid text stating, \"Half of their jokes' are making fun of LGBT people and they use woke' ironically.\" The background includes a window and a green curtain. The overall context involves a commentary about content creators."
+    },
+    "2527": {
+        "img": "./data/PrideMM/Images/test/1/2527.png",
+        "gt_caption": "The image is split into two panels. The left panel features a character with red skin, large eyes, and a wide mouth, depicted as a devil with horns, against a background that appears to show a dark, chaotic scene. The text above reads \"Average Pride month fan.\" The right panel presents a character with a light beard and blue eyes, styled more conventionally, in front of a detailed, decorative background that resembles a church interior. The accompanying text states \"Average Sacred Heart of Jesus month enjoyer.\" Both panels juxtapose these characters visually and contextually."
+    },
+    "2532": {
+        "img": "./data/PrideMM/Images/test/1/2532.png",
+        "gt_caption": "The image depicts a classroom scene where a teacher, characterized by an exaggerated smile and glasses, is standing in front of a chalkboard. The board displays the phrases \"THE RACIST HISTORY OF AMERICA\" and \"U.S. = BAD.\" The teacher is holding a stick and is speaking to a young boy, who is wearing a backpack adorned with patches. The boy looks surprised as the teacher says, \"NO FLAGS ALLOWED IN THIS SCHOOL!\" Additionally, there are various posters on the classroom walls that include references to social movements and a math equation that reads \"2 + 2 = 5.\""
+    },
+    "2777": {
+        "img": "./data/PrideMM/Images/test/1/2777.png",
+        "gt_caption": "The image consists of two parts. The upper section features a newspaper article titled \"Being bullied? Just act less gay, advise teachers,\" with Kiran Randhawa credited as the author. It discusses the bullying of schoolchildren regarding their sexuality and mentions advice supposedly given by teachers. The lower section includes a statement that reads \"SCHOOLS, WHEN THEY HANG STOP BEING GAY POSTERS\" and an image of cartoon penguins with one penguin expressing, \"Well boys, we did it. BULLYING IS NO MORE.\""
+    },
+    "2971": {
+        "img": "./data/PrideMM/Images/test/0/2971.png",
+        "gt_caption": "The image features two blocky, pixelated characters resembling those from a video game, standing side by side. The character on the left has short orange hair and a mustache, wearing a green shirt with rolled-up sleeves and brown pants. The character on the right has long brown hair and is dressed in a teal shirt and purple pants. Above them is the overlaid text: \"THE BIBLE SAYS ADAM AND EVE NOT ALEX AND STEVE.\" The background is a dark color. The image is attributed to \"LeeSpork, 2020-9-20.\""
+    },
+    "3084": {
+        "img": "./data/PrideMM/Images/test/1/3084.png",
+        "gt_caption": "The image features a cartoon depicting a woman at her front door holding a bowl of candy while several children in costumes approach her. The children are making specific requests regarding their candy preferences, including gluten-free treats, vegan chocolate, and organic candy. One child expresses allergies to nuts and caramel, while another asks for \"gender neutral candy.\" The bottom of the image includes a caption stating, \"The millenniums and Gen X'ers destroyed Halloween.\" The overall scene captures a humorous take on the various dietary restrictions and preferences of modern trick-or-treaters."
+    },
+    "3146": {
+        "img": "./data/PrideMM/Images/test/1/3146.png",
+        "gt_caption": "The image depicts a cartoon scene featuring a pink steamroller with a rainbow-colored drum. Inside the steamroller, several characters are seen, seemingly in high spirits. In the foreground, a group of characters, appearing to be animated or exaggerated in their expressions, are running and reacting to the steamroller. Overlaid text labels their actions or states of being, including \"Traditional Family,\" \"Christian values,\" and \"Sanctity of marriage,\" with \"Etc\" also noted. The overall composition suggests a contrast between the characters and the steamroller."
+    },
+    "3413": {
+        "img": "./data/PrideMM/Images/test/1/3413.png",
+        "gt_caption": "The image features a tweet from Ben Shapiro discussing Chick-fil-A and its political implications. It includes a protest scene outside a Chick-fil-A restaurant where individuals are holding signs that convey messages opposing the company's perceived stance on animal rights and LGBTQ+ issues. The signs read: \"Honk if you prefer hate-free food,\" \"Chick-Fil-A is anti-gay,\" \"Don't eat chickens or cows, go vegan!\" and \"Chick-Fil-A is anti.\" The tweet also highlights a news article from The Daily Wire regarding Chick-fil-A's decision to stop donating to certain charities, indicating a broader debate on corporate values and societal pressures."
+    },
+    "3466": {
+        "img": "./data/PrideMM/Images/test/1/3466.png",
+        "gt_caption": "The image features a dark background with a distorted, red-tinted face that appears to be grinning grotesquely. Above this, there is a text box with the following text: \"You came out as trans to your family. They blamed the devil, took your pills, and cut your hair. Later that week, they take you hunting to man you up. Their first mistake was wronging you. Their second was giving you a shotgun.\" At the top of the image, there is a header reading \"Um.... WTF\" and an additional phrase \"Where is the Joke?\" is displayed in a pink box. There are also interaction metrics shown below the image, indicating the number of upvotes and comments."
+    },
+    "3495": {
+        "img": "./data/PrideMM/Images/test/1/3495.png",
+        "gt_caption": "The image features a headline stating that Elon Musk blames \"woke colleges\" for turning his transgender daughter, Vivian, against him and accuses elite institutions in America of teaching \"full-on communism.\" Below the headline, there are two speech bubbles. The first contains the quote, \"You turned her against me!\" and the second features the reply, \"You have done that yourself!\" Alongside the second quote, there is a blue and pink flag, representing the transgender pride flag."
+    },
+    "3570": {
+        "img": "./data/PrideMM/Images/test/1/3570.png",
+        "gt_caption": "The image depicts two panels side by side. The left panel is labeled \"now\" and shows two women holding hands, smiling, while surrounded by a group of people with serious expressions. The accompanying text includes phrases: \"'we're LESBIANS, deal with it!'\" and \"'god isn't real moron.'\" The right panel is labeled \"when Jesus comes\" and features fiery destruction in the background. One character appears distressed while another is expressing regret with phrases: \"'DARN IT WAS TRUE ALL ALONG,'\" \"'NOOOO why did I sin!!!??'\" and \"'I should have never mocked God's pure arrangement for SEX and MARIAGE and now I pay the price of my iniquities!!'\""
+    },
+    "3665": {
+        "img": "./data/PrideMM/Images/test/1/3665.png",
+        "gt_caption": "The image features an animated character with a distressed expression, holding their head with both hands. There is overlaid text that reads: \"GNC PEOPLE WHEN THE TRANS SUBREDDIT REINFORCES GENDER NORMS REGULARLY.\" The background consists of a pattern of repeating characters, resembling binary code."
+    },
+    "4036": {
+        "img": "./data/PrideMM/Images/test/1/4036.png",
+        "gt_caption": "The image features a tweet from Jason Campbell, displaying his username \"JasonSCampbell\". The tweet includes a statement attributed to Matt Walsh, which reads, \"Matt Walsh says having a trans child is 'a fate worse than death'.\" Below the text, there is a video preview with a play button and a length of 1:51, along with a view count of 164.6K views. The tweet has a total of 796.1K interactions."
+    },
+    "4116": {
+        "img": "./data/PrideMM/Images/test/1/4116.png",
+        "gt_caption": "The image features two individuals side by side. On the left, a man in a black football uniform is smiling, identified with the label \"LGB.\" On the right, another person is smiling and wearing a dress, with the label \"TQIA+.\" The background on the left appears to be an outdoor sports setting, while the right side has a pink background. Above the images, there is overlaid text that reads, \"choose your fighter.\""
+    },
+    "4145": {
+        "img": "./data/PrideMM/Images/test/1/4145.png",
+        "gt_caption": "The image features a tweet from the account \"Not the Bee.\" In the tweet, it states: \"A biological male just won Miss Nevada and will now compete for Miss USA. Not a joke.\" Below the text, there is a photo of two individuals: one wearing a crown and formal attire, and the other also in formal attire, both appearing to be smiling and posing for the camera. The background includes a blue and green design."
+    },
+    "4227": {
+        "img": "./data/PrideMM/Images/test/1/4227.png",
+        "gt_caption": "The image features a text conversation at the top and a scene from a film at the bottom. The text shows a user expressing confusion about the term \"cisgender\" and stating their opinion that it is not suitable to bring a child into the world. Below the text, there is a still from a film depicting a character with a slight smile, with the word \"Ironic.\" overlaid on the image. The layout presents a juxtaposition of the text and the visual content."
+    },
+    "4235": {
+        "img": "./data/PrideMM/Images/test/0/4235.png",
+        "gt_caption": "The image depicts two arms engaged in a struggle or handshake, symbolizing a confrontation between two perspectives on parenting. The left arm, labeled \"Supportive Parents,\" is depicted as holding a hand in a neutral or positive manner, while the right arm, labeled \"Unsupportive Parents,\" is depicted more forcefully with the phrase, \"I have no son\" overlaid. The background includes the text \"When your son comes out as trans.\" The artistic style is a painted illustration that emphasizes the contrasting attitudes toward parental support in the context of a child's gender identity."
+    },
+    "4254": {
+        "img": "./data/PrideMM/Images/test/1/4254.png",
+        "gt_caption": "The image contains a series of text exchanges between a person and their mother, illustrating a dialogue about gender expectations. The text reads: 'Mom: you're a girl. You should like girly things! / Me: ok / Me: *gets girlfriend* / Mom:'. Below this text, there are two images of a bird with large googly eyes. The second image has the additional text: 'Listen here, you little shit."
+    },
+    "4269": {
+        "img": "./data/PrideMM/Images/test/1/4269.png",
+        "gt_caption": "The image features two cartoon characters in a dramatic setting. One character, depicted with purple skin and a green face, is menacingly holding a rainbow flag and appears to be in an aggressive stance. The other character, with black and white features, looks frightened and is situated on the ground. Background imagery includes flames, creating an intense atmosphere. Overlaid text reads: \"if homophobe's get scared of Gay pride.... then Get ready for.. GAY WRATH.\""
+    },
+    "224": {
+        "img": "./data/PrideMM/Images/test/1/224.png",
+        "gt_caption": "The image features a game show-style layout with a question at the top that reads, \"Who's got the answer to Number 4?\" Below this, there is a list titled \"NAME SOMETHING THAT SCARES CONSERVATIVES,\" containing various responses arranged in a grid format. The listed items include: \"THE TRUTH,\" \"GAY WEDDINGS,\" \"UNARMED BLACK MEN,\" \"HILLARY CLINTON,\" \"LGBT,\" \"LADY PARTS,\" \"MUSLIMS,\" \"MEXICANS,\" \"PROGRESS,\" \"GOVERNMENT,\" \"TAKE THEIR GUNS,\" and a placeholder for \"Number 4\" in the center. The image is hosted on r/WhitePeopleTwitter and features engagement icons indicating reactions."
+    },
+    "539": {
+        "img": "./data/PrideMM/Images/test/1/539.png",
+        "gt_caption": "The image features a character with a smiling face alongside a list titled \"Gay People I respect.\" The list includes four bullet points: \"-Acts like a normal human being,\" \"-Has a personality,\" \"-Doesn't force upon you the fact that they are gays,\" and \"-Literally is a normal person that you can be friends with.\" The background is split into two sections, with the list on the right and the character on the left."
+    },
+    "725": {
+        "img": "./data/PrideMM/Images/test/1/725.png",
+        "gt_caption": "The image features a young child with a contemplative expression, resting his head on his hand and looking slightly puzzled. Overlaid text reads, \"DO YOU EVER THINK IF YOU WERE CIS/STRAIGHT YOU WOULD PROBABLY BE AN A**HOLE BECAUSE NOTHING WOULD DRIVE YOU TO LEARN ABOUT LGBT TOPICS?\" The background appears to be a simple indoor setting."
+    },
+    "793": {
+        "img": "./data/PrideMM/Images/test/1/793.png",
+        "gt_caption": "The image consists of a tweet by a user named \"sofie halili\" with the handle \"@literallysofie,\" stating, \"please just call me a faggot.\" Below this, there is another tweet from \"Unicorn March\" with the handle \"@UnicornMarch,\" which discusses a pronouncable acronym that incorporates the letter \"L.\" The acronym presented is \"QTIPAL+,\" and it includes definitions for the terms: queer/questioning, transgender, intersex, polyamorous/bi/pan, ace/aro/agender/ally, and lesbian/gay, along with the phrase \"+ all others who need it.\" The tweet notes the pronunciation as \"cutie-pal.\" The image has a background with a rainbow and heart graphics. The timestamps at the bottom indicate \"00:45\" and \"06/08/2020.\""
+    },
+    "1067": {
+        "img": "./data/PrideMM/Images/test/1/1067.png",
+        "gt_caption": "The image is a tweet from a user named Blaire White, accompanied by two side-by-side photos of a woman standing with a firearm. The left photo features the woman in a short plaid skirt and black top, holding an assault rifle. The right photo is similar, featuring the same woman in the same outfit and pose. The text overlay on the tweet reads: \"If you see a bulge in a conservative woman's pants, it's a gun. If you see a bulge in a liberal woman's pants, it's a penis.\""
+    },
+    "1082": {
+        "img": "./data/PrideMM/Images/test/1/1082.png",
+        "gt_caption": "The image is divided into two panels. The left panel, labeled \"Old day,\" depicts a stick figure wearing a green hat pointing a weapon at another stick figure, with the word \"War\" emphasized nearby. The right panel, labeled \"Now day,\" shows a stick figure holding a rainbow flag and wearing a multicolored hat, with the words \"Gay\" and \"AMERIKA WAT HAPPEN??!!\" prominently featured."
+    },
+    "1318": {
+        "img": "./data/PrideMM/Images/test/1/1318.png",
+        "gt_caption": "The image features a close-up of a bear looking directly at the viewer. Below the bear, there is overlaid text that reads: \"I CAN'T STAND 'GAY CULTURE' OR GAY PRIDE PARADES. THEY OVERSEXUALIZE THE ISSUE AND DRIVE AWAY POTENTIAL SUPPORTERS.\" The bear appears to be resting its paws on a log."
+    },
+    "1449": {
+        "img": "./data/PrideMM/Images/test/1/1449.png",
+        "gt_caption": "The image is a four-panel collage. The top left panel shows a man in a plaid shirt wearing dark sunglasses and looking surprised or concerned. The top right panel displays a group of people in a parade holding a large banner that reads \"GIVE US YOUR MONEY, HOMOS\" alongside a Mastercard logo. The bottom left panel features the same man from the first panel, again adjusting his sunglasses with a similar expression. The bottom right panel shows another group of parade participants holding a vibrant banner that reads \"#ACCEPTANCE MATTERS\" with another Mastercard logo."
+    },
+    "1830": {
+        "img": "./data/PrideMM/Images/test/1/1830.png",
+        "gt_caption": "The image features a group of individuals posing together, with a mix of attire that includes casual to formal clothing, some individuals wearing colorful clothing, and one wearing military attire. There is a large overlaid text at the top that reads: 'These are the people' lefties worship and then call everyone else a cultist.'' The image appears to depict a diverse group of people, including men and women, with varying expressions."
+    },
+    "1974": {
+        "img": "./data/PrideMM/Images/test/0/1974.png",
+        "gt_caption": "The image features two parts. On the left, there is an illustrated character with long black hair and a neutral expression, with the text \"Thanks for being my transition support\" positioned beneath. On the right, there is a cartoon depiction of an orange cat lying down, with the caption \"Btw I just vomited on your bed\" next to it."
+    },
+    "2052": {
+        "img": "./data/PrideMM/Images/test/1/2052.png",
+        "gt_caption": "The image depicts a four-panel comic. In the first panel, a character expresses excitement about finding something after 15 years, shown near a chest in a cave. The second panel features the character joyfully referencing the teachings of Jesus about LGBT people. The third panel shows the character holding a scroll with the text \"(NOTHING)\" inside it. The final panel has the character reacting negatively with the phrase \"WOKE BS!\" while pointing toward another character wearing a red hat with the slogan \"MAKE AMERICA GREAT AGAIN.\""
+    },
+    "2076": {
+        "img": "./data/PrideMM/Images/test/1/2076.png",
+        "gt_caption": "The image features a character with a doge face, dressed in a suit and sitting on a sofa. The background includes logos of various corporations, including Papa John's and McDonald's, alongside rainbow graphics. Overlaid text reads: \"Hello fellow gays, it is me, Corporation. Here to remind you that we support your lifestyle now that it's been legalized federally and we can capitalize on it safely as a mainstream trend. Why did we have to wait until gay marriage was legalized to support you? No more questions homosexual, just buy the product.\""
+    },
+    "2092": {
+        "img": "./data/PrideMM/Images/test/1/2092.png",
+        "gt_caption": "The image features two characters, one on the left and one on the right. The left character is drawn with a distressed expression, tears streaming down their face, while the right character has a neutral expression and pink hair. The left side has text that reads, \"IDC THAT YOU'RE TRANS AND GAY BUT WHY DO YOU HAVE TO SHOVE IT DOWN OUR THROATS,\" and the right side has, \"BECAUSE SHOVING IT DOWN YOUR THROATS MAKES YOU MORE TRIGGERED.\""
+    },
+    "2140": {
+        "img": "./data/PrideMM/Images/test/0/2140.png",
+        "gt_caption": "The image features a comic-style illustration of a character dressed in a bright red costume with a lightning bolt emblem, posed in a dynamic running stance. The background depicts a cityscape with tall buildings. Overlaying the image is the text: \"Wikipedia editors changing a celebrity's pronouns after they come out as trans or non-binary.\""
+    },
+    "2298": {
+        "img": "./data/PrideMM/Images/test/1/2298.png",
+        "gt_caption": "The image displays a tweet by Charlie Kirk discussing Target's new \"Pride Collection,\" featuring shirts with various slogans. The listed slogans include: \"Queer! Queer! Queer! Queer!\", \"Homophobia. Transphobia. Can be cured with Education\", \"Ask me about my pronouns\", and \"Live, Laugh, Lesbian.\" The tweet is accompanied by images of models wearing some of the shirts from the collection."
+    },
+    "2385": {
+        "img": "./data/PrideMM/Images/test/1/2385.png",
+        "gt_caption": "The image consists of three panels. The top two panels feature cartoon birds discussing trends, with one bird stating, \"there's clearly a trend here\" next to a set of blocks labeled \"trans.\" The second bird responds, \"well now that you mention it.\" The bottom panel presents a bar graph titled \"mass shooting by gender status\" from 2018-2023. The graph shows a tall bar labeled \"cis\" with the value \"2826\" and a much shorter bar labeled \"trans\" with the value \"3.\" The text \"come find my comics here !\" is displayed at the bottom along with social media icons."
+    },
+    "2643": {
+        "img": "./data/PrideMM/Images/test/1/2643.png",
+        "gt_caption": "The image consists of two main sections. The top section displays a Wikipedia snippet describing Tu'er Shen, a Chinese deity associated with love and sex, along with a small image of a statue representing the deity. The bottom section contains a large text caption that reads, \"Tu'er Shen watching you all never go outside but still expecting the perfect someone to one day ask you out.\" Below, there is a cartoon illustration of a rabbit that appears to be using a grater, with additional text stating \"he want's to watch you have sex.\""
+    },
+    "2731": {
+        "img": "./data/PrideMM/Images/test/1/2731.png",
+        "gt_caption": "The image shows a group of people, including several young individuals, gathered outdoors in front of a statue or monument. There are multiple microphones set up for speakers, while some attendees are holding flags or wearing clothing with rainbow colors. The scene appears to be part of a demonstration or rally, with cameras facing the group, suggesting media coverage. Overlaid text from a tweet describes the event as an action by \"Trans-Activists\" presenting a \"list of demands\" related to schools, specifically mentioning a goal of \"Removing sexed bathrooms.\""
+    },
+    "4093": {
+        "img": "./data/PrideMM/Images/test/1/4093.png",
+        "gt_caption": "The image features a text overlay at the top that reads: \"Strangers on Snapchat: I don't want your gay disease! My logical side: Explain that being gay is not a disease. What I actually say:\" Below the text, there are three cartoon-like illustrations of a person with a similar appearance. The first illustration shows the character thinking with their hand on their chin, the second depicts the character with a hand covering their mouth, and the third shows the character raising a middle finger. The character is wearing a black and white shirt throughout the illustrations."
+    }
+}

@@ -38,7 +38,34 @@ Thumbs.db
 
 # MY IGNORE FILE     #
 ######################
-data/
+data/FHM/old_data
+data/FHM/ToBeAnnotated
+data/FHM/v1
+data/FHM/1.json
+data/FHM/FFC_seen.json
+data/FHM/preprocess_copy.ipynb
+data/FHM/test_prompt.ipynb
+data/GoatBench/harmfulness
+data/GoatBench/hatefulness
+data/GoatBench/offensiveness
+data/GoatBench/misogyny
+data/GoatBench/raw
+data/HarMeme_V1/Annotations
+data/HarMeme_V1/Annotations
+data/HarMeme_V1/HarMeme_Images
+data/HarMeme_V1/HarMeme_Images_768
+data/HarMeme_V1/HarMeme_Images_768_896
+data/HarMeme_V1/HarMeme_Images_768_1280
+data/HarMeme_V1/old_data
+data/MAMI/MAMI_2022_images
+data/MAMI/old_data
+data/Memotion
+data/meme-cap
+data/MultiOFF/MultiOFF_Dataset
+data/MultiOFF/old_data
+data/PrideMM/Images/
+data/PrideMM/Images_512
+data/PrideMM/Images_512_1280
 models/models
 analysis/
 cache/
@@ -50,10 +77,10 @@ gather_results.ipynb
 run copy.py
 test.py
 tmp.py
+*.png
 *.log
 *.out
 *.lock
-*.json
 *.yaml
 *.pyc
 **/__pycache__/

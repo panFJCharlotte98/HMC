@@ -1,0 +1,246 @@
+{
+    "2": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/2.png",
+        "gt_caption": "The image is a four-panel cartoon featuring a man and a woman engaged in a conversation. The woman is wearing a shirt with a logo resembling Barack Obama's campaign symbol. In the first panel, the man says, \"I don't believe that women have any rights, and I think gays should be hanged.\" In the second panel, the woman responds, \"Wow, what a complete primitive asshole you are! You must be a Republican.\" In the third panel, the man replies, \"No, actually, I'm a Muslim and those are my religious beliefs.\" In the fourth panel, the woman says, \"Oh! I'm sorry! I apologize! I hope you don't think I'm Islamophobic!\""
+    },
+    "4": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/4.png",
+        "gt_caption": "The image features a shirtless man standing outdoors in a wooded area, holding a bicycle. The man is looking slightly off to the side with a neutral expression. The background consists of trees and mountainous terrain under a clear sky. At the top of the image, there is text that reads, \"After the Bern subsides, get ready to...\". At the bottom of the image, in bold text, it says, \"FeelTheJohnson\", with the words \"The\" in red and the rest in white, against a dark blue background."
+    },
+    "9": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/9.png",
+        "gt_caption": "The image is a two-panel screenshot from the television show Legends of the Hidden Temple. In the first panel, a host stands next to a large stone head named Olmec, with overlaid text that reads: \"Only Olmec knows the Legend behind each of the treasures in his Temple. Which one are we going to hear about today?\" In the second panel, a close-up of Olmec is shown with glowing red eyes, and the overlaid text says: \"I have information that will lead to Hillary Clinton's arrest.\""
+    },
+    "10": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/10.png",
+        "gt_caption": "The image is a screenshot of a Reddit comment. The text of the comment reads: \"Lol, you Redditors will believe anything as long as it comes from some disgusting democrat like Michael Moore who scams fools out of money to watch fake shit. I remember when I watched \"Sicko\" in theater with this liberal girl I was dating, she actually believed Cuba's healthcare system is better than ours. Anyway, I've got a date tonight with a very beautiful 23-year-old woman. She's an Instagram model and has a degree in Economics. We plan to read some Milton Friedman in bed together tonight. You fools can have fun arguing while I have fun in real life.\""
+    },
+    "12": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/12.png",
+        "gt_caption": "The image features a photograph of Donald Trump giving a thumbs-up gesture while wearing a suit and red tie. Overlaid at the top of the image is the text: \"THINGS I TRUST MORE THAN DONALD TRUMP.\" Below the image of Trump, there is a numbered list with the following entries: 1. FLINT MICHIGAN TAP WATER; 2. BILL COSBY DRINKS; 3. ELEVATOR RIDES WITH RAY RICE"
+    },
+    "13": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/13.png",
+        "gt_caption": "The image features a man in a white t-shirt standing against a blue background with diagonal stripes. He is looking to the side with a neutral expression and has his hands clasped in front of him. Overlaid on the image is the following text: \"A registered Democrat, Islamic terrorist mass-murders gay people. The Left blames Christians and the NRA. You can't write this stuff. -STEVEN CROWDER 'LIKE' IF YOU AGREE\" The text is presented in bold white and red letters, with the quote attributed to Steven Crowder."
+    },
+    "14": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/14.png",
+        "gt_caption": "The image is a two-panel comic featuring the characters Batman and Robin, adapted from the well-known \"Batman slapping Robin\" meme format. In the first panel, Robin says, \"BOTH TRUMP AND HILLARY SUCK!\" Batman slaps him while saying, \"THERE ARE MORE THAN TWO CHOICES!\" In the second panel, Robin, now in Batman's position, slaps another version of Batman and says, \"THEY SUCK TOO!\" The comic is visually stylized with bright colors and action lines emphasizing the slaps."
+    },
+    "15": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/15.png",
+        "gt_caption": "The image contains a photograph of a man in a military uniform, centered in the middle of the graphic. Above the photo, there is overlaid text in black and red that reads: \"This U.S. Marine was captured during a daring day light raid. But not before he single handedly took out 13 combatants.\" Below the photo, the text continues: \"Donald Trump would\u2019ve deported him for being Muslim. Share if you\u2019re against Islamophobia.\" The phrases \"single handedly\" and \"Muslim\" are highlighted in red, while the rest of the text is in black. The text is in bold font and uses varying sizes for emphasis."
+    },
+    "16": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/16.png",
+        "gt_caption": "The image is a collage with three photos at the top: one of Donald Trump speaking into a microphone, one of Steven Mnuchin wearing glasses and a suit, and one of a promotional image for the film \"Suicide Squad\" featuring characters from the movie. Below the images is a headline that reads: \"'Suicide Squad' Executive Producer Is Trump's Chief Fundraiser.\" Underneath, a subheadline says: \"Steven Mnuchin is involved in two intense missions this summer: Raising cash for Donald Trump and 'Suicide Squad'.\" Beneath this, there are two user comments. The first, from a user named \"moleshow,\" says: \"why cant 2016 be normal.\" The second, from a user named \"landmaster,\" replies: \"normal is a setting on a dryer.\""
+    },
+    "17": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/17.png",
+        "gt_caption": "The image shows Donald Trump standing in front of a blue curtain with American flags behind him. He is wearing a dark suit, white shirt, and red tie, and is giving two thumbs up. Overlaid at the top of the image is text that reads: \"IF YOU DISLIKE TRUMP, YOU SHOULD HELP VOTE HIM IN. THIS WAY, WE CAN CHANGE HIS PARTY FROM WITHIN.\" At the bottom of the image, additional text reads: \"YES. HILLARY SUPPORTERS, THIS IS HOW RIDICULOUS YOU SOUND.\" The text is in bold, white capital letters with a black outline."
+    },
+    "20": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/20.png",
+        "gt_caption": "The image is a screenshot of a Facebook post. The post reads: \"America does not need a conservative or liberal, AMERICA does not need a republican or Democrat President or Congress, America needs our leadership to get on his or her knees and dedicate America back to God just like our forefathers did years ago! Wake up America and turn back to the roots of this ONCE great country that once sang of God as it's sovereign Lord.\""
+    },
+    "21": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/21.png",
+        "gt_caption": "The image is a three-panel collage featuring photos of Hillary Clinton, Donald Trump, and Gary Johnson, each accompanied by quotes and political party symbols. In the left panel, Hillary Clinton is shown speaking into a microphone with the text: \"IT'S TIME FOR THE US TO START THINKING OF IRAQ AS A BUSINESS OPPORTUNITY.\" Below her image is a stylized Democratic Party donkey symbol. The center panel shows Donald Trump with a serious expression. The text reads: \"IT LOOKS LIKE A TREMENDOUS SUCCESS FROM A MILITARY STANDPOINT... I THINK WALL STREET'S JUST GONNA GO UP LIKE A ROCKET, EVEN BEYOND.\" Below is a stylized Republican Party elephant symbol. The right panel shows Gary Johnson speaking at a podium, wearing a shirt with a peace symbol. The text above reads: \"GARY JOHNSON HAS CONSISTENTLY OPPOSED THE IRAQ WAR AND ALL OVERSEAS INTERVENTIONS.\" Below him is a stylized porcupine symbol with stars, and the text: \"THERE IS ONE CHOICE TO OPPOSE ENDLESS WAR.\""
+    },
+    "24": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/24.png",
+        "gt_caption": "The image is a screenshot of a Facebook post from a page titled \"Gary Johnson's Dank Meme Stash.\" The post reads: \"Wait, are you guys really libertarians? You know that capitalism killed ~500,000,000 people from hunger, disease and wars in the 20th Century alone, right? Not to mention the atrocities carried out by the US and Britain in the 19th century. How can you justify that?\" A message below reads: \"Be the first person to like this.\""
+    },
+    "28": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/28.png",
+        "gt_caption": "The image is a screenshot of a note from a mobile device. The note presents a fictional dialogue in text format. It reads: \"Guy at bus stop: Hey sexy. Girl: [ignores him] Guy: I said hey you fucking bitch. Girl: Please leave me alone. Guy: I'll kill you god dammit I'll do it. Me: leave her alone buster. Guy: What are u gonna do tough guy. Me: [takes trump hat off guy's head and puts Bernie hat on his head] That's what. Guy: Hey what the. Me: you've been bernied bub. Girl: Here's my number call me [everyone claps and cheers]\""
+    },
+    "29": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/29.png",
+        "gt_caption": "The image appears to be a cropped screenshot of a webpage or online article preview. It features a profile image of Donald Trump with exaggerated facial features. Below the image, there is a headline that reads: \"Amazing Myths Of Why Donald Tanked The Debate\" and a subheading or category label that says: \"KIND OF VIRAL.\""
+    },
+    "34": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/34.png",
+        "gt_caption": "The image shows a scene with Ernie, a character from Sesame Street, wearing yellow pajamas and sitting beside a bed. In the bed is a large piece of cardboard with a simple drawing of Bert\u2019s face, also a character from Sesame Street.Overlaid text at the bottom of the image reads: \"While some might see nothing but a piece of cardboard, Ernie wallows in the horrifying truth that years of ineffective chemotherapy has left Bert so frail and weak that he is indistinguishable from thick card stock. Knowing Bert is no longer capable of coherent communication, Bernie wonders if his brother resents him for his miserable state, trapped here, infirm and unable to interact with the world. Not for the first time Bernie, seeing Bert struggle simply to move his eyes and to breathe, doubts he made the right choice.\""
+    },
+    "35": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/35.png",
+        "gt_caption": "The image consists of two photographs taken at the same political event, showing Bernie Sanders standing at a podium with a \"Stronger Together\" sign in front of an American flag backdrop. In the top image, Hillary Clinton is standing next to Sanders, clapping and smiling. In the bottom image, Clinton has been digitally removed, leaving Sanders standing alone. The background and other elements remain the same between the two images. Below the images, there is overlaid text that reads: \"Hillary Clinton, seen here with Bernie Sanders, was purged in 2016. Following her execution, Clinton was edited out of the photo by cabinet censors. Such a retouching was common during Sanders's rule.\""
+    },
+    "36": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/36.png",
+        "gt_caption": "The image displays two political logos side by side on a neutral background. On the left is the campaign logo associated with Barack Obama, consisting of a blue \"O\" with red and white stripes. On the right is the campaign logo associated with Hillary Clinton, which features a blue \"H\" with a red arrow pointing to the right. Above the logos, the overlaid text reads: \"OBAMA PUT AMERICA IN THE TOILET.\" Below the logos, the overlaid text reads: \"HILLARY WILL FLUSH.\" In the bottom left corner, there is a circular emblem next to the text \"THE PATRIOT POST\u00ae\"."
+    },
+    "39": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/39.png",
+        "gt_caption": "The image is a two-panel screenshot from the animated television show The Simpsons, featuring the character Principal Skinner. In the top panel, Skinner is shown with a thoughtful expression, placing his hand on his chin. The overlaid text reads: \"IS BERNIE SANDERS ENDORSING THE ESTABLISHMENT HE CAMPAIGNED AGAINST OUT OF TOUCH WITH WHAT HIS VOTING BASE WANTED?\" In the bottom panel, Skinner is looking straight ahead with a neutral expression. The overlaid text reads: \"NO, IT'S THE VOTERS WHO THOUGHT THERE COULD ACTUALLY BE TRUE POLITICAL CHANGE IN AMERICA WHO ARE OUT OF TOUCH.\" The background in both panels shows buildings, clouds, and a large spider web."
+    },
+    "42": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/42.png",
+        "gt_caption": "The image appears to be a screenshot of a news headline from The Independent, dated September 13, 2016. The headline reads: \"Hillary Clinton attacks Donald Trump for posting Pepe the Frog meme.\" To the right of the text is an illustration that combines features of Donald Trump and the character Pepe the Frog, showing the character with green skin, blond hair styled like Donald Trump\u2019s, wearing a suit and tie, and standing behind a podium with a U.S. presidential seal in front of a red, white, and gray striped background."
+    },
+    "46": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/46.png",
+        "gt_caption": "The image is a two-panel scene probably taken from a film. In the top panel, two characters are standing indoors, one of whom is saying, \"I LOVE GARY JOHNSON!\" as shown in overlaid text. In the bottom panel, a third character is speaking with an inquisitive expression. The overlaid text in this panel reads: \"DO YOU REALLY LOVE GARY JOHNSON OR ARE YOU JUST LOOKING AT CANDIDATES AND SAYING YOU LOVE THEM?\""
+    },
+    "47": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/47.png",
+        "gt_caption": "The image is a still from the animated television show South Park, featuring a group of anthropomorphic purple berries known as \"Member Berries,\" which are small round characters with faces. They are shown in front of a staircase and furniture in the background. The overlaid text at the top of the image reads: \"'MEMBER WHEN\", and the text at the bottom reads: \"DONALD TRUMP WAS JUST A HARMLESS OLD REALITY TV STAR?\""
+    },
+    "48": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/48.png",
+        "gt_caption": "The image shows a scene set outdoors with two people. In the foreground, a person is holding a revolver at their side, with only the lower half of their body visible. In the background, another person is walking away, with their back turned to the camera. Overlaid text at the top reads: \"Shhhhh, it will all be over soon Bernie.\" At the bottom, the text reads: \"Just look at the pretty flowers...\"The scene takes place in a wooded area. In the bottom right corner, there is a campaign-style logo that says \"Hillary for President\" with the URL \"HillaryClinton.com\" beneath it."
+    },
+    "50": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/50.png",
+        "gt_caption": "The image is a side-by-side comparison of two individuals. On the left is a stylized photograph of Donald Trump with curled hair, dressed in a dark suit. The overlaid text at the top reads: \"SAYS HE IS A BLUE COLLAR SELF-MADE MAN\" and at the bottom reads: \"NOT A BLUE COLLAR SELF-MADE MAN.\" On the right is a photograph of Gary Johnson wearing a light blue dress shirt and a polka dot tie, smiling with arms crossed. The overlaid text at the top also reads: \"SAYS HE IS A BLUE COLLAR SELF-MADE MAN,\" and at the bottom reads: \"IS AN ACTUAL BLUE COLLAR SELF MADE MAN.\" The text \"Gary Johnson 2016\" is also overlaid near the center of the right image."
+    },
+    "53": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/53.png",
+        "gt_caption": "The image is a meme featuring a person with an expressive facial reaction, appearing to be shouting or pointing. The background consists of greenery. Overlaid at the top and bottom of the image is text in bold, all-capital letters. The top text reads: \"WHO CARES WHAT TRUMP SAID IN 2005\" and the bottom text reads: \"HE WAS DEMOCRAT BACK THEN SO IT'S NOT HIS FAULT.\""
+    },
+    "54": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/54.png",
+        "gt_caption": "The image features bold, white text on a black background. The text reads: \"TRUMP will release his Tax Returns WHEN..... THE BENGHAZI BITCH releases her emails.\" The phrase is arranged in two distinct lines, with emphasis placed on \"WHEN\" and \"THE BENGHAZI BITCH,\" which are visually larger and bolder than the surrounding text."
+    },
+    "60": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/60.png",
+        "gt_caption": "The image is a composite screenshot featuring a black-and-white portrait of Karl Marx on the left, which has been digitally altered by adding cartoon-style googly eyes. On the right side, there is a \"TRENDING\" news feed panel with three headlines. The headlines read: \"Karl Marx: Chinese State Media Promotes Rap Song Admiring 19th Century German Philosopher\", \"Cretaceous-Paleogene: Extinction Event Killed Off Marine Animals in Addition to Dinosaurs, Study Says\", \"Hillary Clinton: Presidential Candidate Remains Winner of Kentucky Primary After Recannvass of Votes\""
+    },
+    "61": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/61.png",
+        "gt_caption": "The image shows a 3D-rendered green spherical figure with facial features made from various geometric shapes. The eyes are orange hexagonal bolts with smaller green spheres in the center, the nose is an orange cone, and the mouth is a blue curved shape. A yellow ring is placed on top of the figure's head. Overlaid on the lower part of the figure is white text that reads: \"This is donald trumps brother donut trump. Every 4.20 seconds donald takes all of his brothers donuts. updough this post in 375 degrees boiling oil and comment 'dont be a grump mr trump' to help donut.\""
+    },
+    "62": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/62.png",
+        "gt_caption": "The image is a digitally edited photo that combines a real-life picture with cartoon elements. The body and face of a man, who appears to be a public figure at a rally or public event, have been altered to include features resembling the character Rick from the animated show Rick and Morty, including spiky hair, drool on his chin, and exaggerated facial features. Standing next to him is an inserted cartoon image of Morty, another character from the same show, looking concerned. The overlaid text at the top of the image reads: \"c-c-c\u2019mon Morty! we g-gotta burp we have to solve income inequality! Wubbaluba dubdub! feel the Bern!!\""
+    },
+    "64": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/64.png",
+        "gt_caption": "The image is a screenshot of a Facebook post that includes a caption and a meme. The caption at the top of the post says: \"I really dont support Hillary Bernie or Trump! I rather put Jesus back in the White House/America/world.\" Below this, there is a meme featuring a well-known image of a woman yelling and pointing while being held back by another woman. Overlaid at the top of the meme is the text: \"BERNIE IS JUST A NICE OLD MAN WHO WANTED TO HELP US BUT U VOTED FOR THE LIAR AND THE RACIST\""
+    },
+    "65": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/65.png",
+        "gt_caption": "The image shows a game in progress of \"Cards Against Humanity\" on a wooden table. One black prompt card and two white response cards are visible. The black card reads: \"In M. Night Shyamalan\u2019s new movie, Bruce Willis discovers that () had really been () all along.\" It is labeled with \u201cPICK 2,\u201d indicating that players must choose two white cards to complete the sentence. Two white cards have been selected and placed next to the black card. The first white card reads: \"Hillary Clinton.\" The second white card reads: \"Bill Clinton, naked on a bearskin rug with a saxophone.\""
+    },
+    "68": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/68.png",
+        "gt_caption": "The image is composed of two parts. The top portion shows overlaid text formatted like a social media post. The text reads: \"Me: Hillary oversaw a coup in Honduras which installed a regime that murders indigenous rights activists; Democrat: DO YOU WANT TRUMP TO WIN\" The bottom portion is a reaction image showing a man leaning back in a chair with a stunned or exasperated expression, staring upward. The two parts are presented together to suggest a visual reaction to the dialogue above."
+    },
+    "69": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/69.png",
+        "gt_caption": "The image is a close-up photograph of Donald Trump with his mouth open in a shouting or yelling expression. The overlaid text at the top reads: \"TRUMP'S FACE LOOKS LIKE A TRAGIC ACCIDENT,\" and the text at the bottom reads: \"AT THE ANUS BLEACHING SALON.\""
+    },
+    "70": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/70.png",
+        "gt_caption": "\"The image features a close-up of a man with a beard and light hair, smiling and looking directly into the camera. He is dressed in a dark jacket, and the background appears blurred with soft lighting. Overlaid on the image is the text, 'WHEN IT'S ALL OVER, TRUMP WILL NOT LOSE A DIME RUNNING FOR PRESIDENT / I GUARANTEE IT.' The text is in bold, white font, emphasizing the statement made. The phrase 'FROM: YOUTUBE.COM/USER/README' is also visible in smaller text at the bottom of the image.\""
+    },
+    "81": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/81.png",
+        "gt_caption": "The image is a digitally altered post on an online forum. It features a photoshopped depiction of a man in a suit\u2014identified in context as Ted Cruz\u2014standing in front of a dramatic background with lava, a volcano, and skeletons rising from the ground with arms raised. The accompanying text beneath the image is written in a theatrical style and reads: \"Did you think I\u2019d forgotten, Donald? For a thousand years I have waited, watched in dejection as you made your pitiful country great again. I hope you enjoyed yourself. I really do. Because in the time that you were president, I have amassed a great and terrible army of of skeleton delegates - skeleagates, if you will, Donald. Without you around to ward off the forces of Chaos, I can finally escape from my prison. You just made your first mistake, Donald. Now I can return to that fateful night in 2016 and claim what is rightfully mine! Together with my army of skeleagates, I will finally have the majority I need to become the Republican nominee, and fight a principled conservative campaign for President. Nothing will stand in our way. Goodbye, Donald. Your New York ways will taint the Party no longer. This is the priesthood rising! With my new powers, I will plunge this country into TEN THOUSAND YEARS of darkness, and the delegates...they will be at my side every step of the way. Thank you, Donald.\""
+    },
+    "83": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/83.png",
+        "gt_caption": "The image is a combination of text and a screenshot from a televised event. The top portion includes overlaid dialogue text that reads: \"Let these clowns fight it out. Meet me in the green room. What's your name? Melissa?\" \"It's Melania.\" \"Whatever. Just meet me there.\" Below the text is a photo taken from a CNN broadcast showing a stage setup for a debate. On stage, a man and a woman are seen shaking hands. The CNN banner at the bottom of the screen reads: \"BREAKING NEWS\" \"CLINTON-TRUMP DEBATE BEGINS MOMENTARILY ON CNN\""
+    },
+    "84": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/84.png",
+        "gt_caption": "The image shows Donald Trump walking past a group of people holding signs. Most of the signs are supportive of Trump, with messages such as \"TRUMP MAKE AMERICA GREAT AGAIN!\" and \"Silent majority STANDS WITH TRUMP.\" Among these, one person holds a bright yellow sign that reads \"FEMINISTS for Bernie\" with a raised fist symbol drawn in the center. The scene appears to be outdoors in a cold environment, as there is snow on the ground and people are wearing coats. A group of photographers and media personnel is present in the background capturing the moment."
+    },
+    "85": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/85.png",
+        "gt_caption": "The image is a black-and-white photograph of an older man with white hair and a mustache, dressed in judicial robes, seated in an ornate chair. Overlaid on the lower part of the image is white text that reads: \"This racist democrat was chief justice when the court decided that 'separate but equal' was something everyone would just have to accept.\""
+    },
+    "86": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/86.png",
+        "gt_caption": "The image features a tall, golden building with the word \"TRUMP\" prominently displayed at the top. Above the building, there is overlaid text that says, \"George Bush do ya thing.\" The sky in the background is light, featuring soft colors, indicating either dawn or dusk. The building's reflective surface captures some of the surrounding light, contributing to its golden appearance. The overall composition focuses on the building and the text without additional elements."
+    },
+    "90": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/90.png",
+        "gt_caption": "The image shows a storefront that has been edited to resemble a political message. The main sign above the store reads: \"GOING OUT OF BUSINESS\" with smaller text above and below it saying \"Moral Bankruptcy\" and \"Family Values Must Go.\" Below that, a banner across the entrance reads: \"Republican Party LAST DAYS.\" On the left side of the storefront, a sign says \"Hypocrisy Boutique GOP\" with a \"CLOSING STORE\" sign underneath. On the right, there is another sign that says \"STORE FOR RENT\" with a phone number and \"GOING OUT OF BUSINESS\" running vertically along the edge. The entrance displays mannequins, signs for \"HUGE SAVINGS,\" and a person wearing a yellow jacket walking out of the store."
+    },
+    "91": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/91.png",
+        "gt_caption": "The image is a modified scene from the movie The Matrix, where the character Neo is reflected in the sunglasses of another character as he is offered a choice between two pills. In this edited version, the pill in the left hand is labeled with a \"Bernie 2016\" campaign logo, and the pill in the right hand is labeled with a Hillary Clinton campaign logo. Below the image, overlaid text reads: \"You take the Hillary pill, the story ends. You wake up in your bed and believe whatever you want to believe. You take the Bernie pill, you stay in truthland, and you will uncover just how deep the corruption goes. Remember: all Bernie\u2019s offering is the truth. Nothing more.\""
+    },
+    "96": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/96.png",
+        "gt_caption": "The image is a black-and-white photograph showing a group of people in a formal setting, possibly a courtroom or government office. One woman in the group is circled in red and labeled \u201cHillary.\u201d Overlaid text at the top of the image reads: \u201cAs a 27 year old staff attorney for the House Judiciary Committee during the Watergate investigation, Hillary Rodham was fired by her supervisor, lifelong Democrat Jerry Zeifman.\u201d Below the image, the text reads: \"When asked why Hillary Rodham was fired, Zeifman said in an interview, 'Because she was a liar. She was an unethical, dishonest lawyer, she conspired to violate the Constitution, the rules of the House, the rules of the Committee, and the rules of confidentiality.'\""
+    },
+    "99": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/99.png",
+        "gt_caption": "The image is a collage consisting of five photographs of puffer fish, each digitally edited to have a human-like mouth with prominent lips. The mouths appear to be altered to resemble those of a specific individual. The puffer fish are shown in various settings, including being held by hands and in water. At the top of the image, there is overlaid text that reads: \"New hobby: Putting Donald Trump's mouth on puffer fish\"."
+    },
+    "100": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/100.png",
+        "gt_caption": "The image is a digitally created comparison chart featuring two individuals, Bernie Sanders and Hillary Clinton, with their official portrait-style photographs placed side by side. The top of the image contains the text: \"Bernie or Hillary? Be informed. Compare them on the issues that matter.\" Below that, the issue being addressed is labeled in bold text as: \"Issue: Robot Uprising\". Under Bernie Sanders\u2019 photo, there is a caption in brackets and quotation marks that reads: \"[yelling at Roomba] 'BRING IT ON ASSHOLE!!'\". Under Hillary Clinton\u2019s photo, the caption reads: \"[nervous metallic laugh] 'HA HA HA'\"."
+    },
+    "105": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/105.png",
+        "gt_caption": "The image features a man with a serious expression, sitting against a plain, grey wall. He is wearing a white tank top that appears slightly soiled. The man has short hair and is looking directly at the viewer. Overlaid text on the left side of the image reads: 'I trust Hillary Clinton about as far as I can throw her."
+    },
+    "111": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/111.png",
+        "gt_caption": "The image is a side-by-side comparison featuring close-up photographs of Hillary Clinton on the left and Donald Trump on the right. The text above Clinton's photo reads \"HILLARY SCANDALS,\" followed by a bulleted list: \"4 dead Americans in Benghazi.\"; \"Supported arming Syrian jihadists, which led to rise of ISIS.\"; \"Supported toppling Gaddafi, which led to international migrant crisis.\";\"Private e-mail server. Lied under oath about it.\"; \"Took Clinton Foundation donations from countries that oppress women.\"; \"Clinton Foundation pay for play.\"; \"Intimidated Bill Clinton's rape victims.\"; \"Laughed about defending a child rapist.\"; \"Called KKK leader Robert Byrd her 'mentor'.\"; \"Russian uranium deal.\"; \"Rigged primaries against Bernie.\"; \"Lied to media about her health.\". The text above Trump\u2019s photo reads \"TRUMP SCANDALS,\" followed by one bullet point: \"Called some women fat 20 years ago.\""
+    },
+    "113": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/113.png",
+        "gt_caption": "The image is a side-by-side comparison of Bernie Sanders and Hillary Clinton, using official portrait-style photographs. At the top, the text reads: \u201cBernie or Hillary? Be informed. Compare them on the issues that matter.\u201d Below that, the issue being addressed is labeled: \u201cIssue: Selena.\u201d Under Bernie Sanders\u2019 image, the text in a blue box states: \u201cThe loss of Selena was unsurmountable. She would've been the superstar of this lifetime as she crossed over from the Spanish-language market to mainstream English markets. Her fashion sense, stage presence, dance moves and charisma were like none I'd seen before. Fuck Yolanda Sald\u00edvar.\u201d Under Hillary Clinton\u2019s image, the text in a blue box reads: \u201cI loved J. Lo in that movie!\u201d"
+    },
+    "117": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/117.png",
+        "gt_caption": "The image features a series of text exchanges from an online discussion forum. At the top, there is a section that reads \"FALSE AND DANGEROUS\" accompanied by an example and a reference to a webpage from Snopes regarding \"bernie-sanders-glow-sticks.\" Below this, a user expresses confusion, asking, \"What the fuck is wrong with you people?\" Further down, another user comments about a toddler allegedly being adversely affected while attempting to make \"glow sticks\" under parental guidance. The dialogue continues with various references to post numbers and user IDs, indicating an ongoing conversation."
+    },
+    "118": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/118.png",
+        "gt_caption": "The image contains a block of text that presents a hypothetical scenario involving a person starting a hip hop career and describing an underground concert where they claim 10,000 attendees, despite evidence showing only eight people actually attended. It argues that, if this scenario were true, the person would be labeled a liar. The text contrasts this scenario with a reference to a claim made by Donald Trump regarding seeing thousands of Muslims in New Jersey cheering on 9/11, suggesting that some people still believe or characterize his statement as \"slightly exaggerating.\""
+    },
+    "119": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/119.png",
+        "gt_caption": "The image features a man holding an Academy Award trophy, commonly recognized as an Oscar, and appears to be expressing excitement or enthusiasm. He is dressed in a formal black suit with a black bow tie, and there is a neutral background that includes what looks like decorated walls. Overlaid on the image is the text: \"Donald Trump wins the Oscar for Lead Actor in a Comedy Film for his outstanding work in the GOP Presidential Debates!\" The overall focus is on the figure and the trophy he is holding."
+    },
+    "120": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/120.png",
+        "gt_caption": "The image is a digitally altered screenshot resembling a tweet from the Twitter account \u201cDonald J. Trump @realDonaldTrump.\u201d The tweet reads: \u201cI will post a nude of myself if anyone can pass level 4 on my new game 'Trump On The Run' \ud83d\ude31 #DownloadNow.\u201d Below the tweet, there is an edited image of a baby sitting in a sink with the face of Donald Trump superimposed onto the baby's head. The tweet includes engagement indicators showing \u201c22.5K\u201d retweets and \u201c42K\u201d likes."
+    },
+    "123": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/123.png",
+        "gt_caption": "The image is a screenshot of a Facebook post that includes a caption and a photograph. The caption reads: \u201cI sent in my absentee ballot and I'm feelin the bern in my favorite Bernie underwear. Friendly reminder to vote in the primary tomorrow! Also a friendly reminder not to sexualize the female body. \ud83d\ude42\u201d The photograph shows a person standing outdoors on rocks near a stream, facing away from the camera with both arms raised. The person is wearing a red beanie, socks, shoes, and white underwear that has an image of a face printed on the back, along with the word \"Bernie.\" The upper body is unclothed. The location appears to be a wooded area with bare trees and a flowing stream."
+    },
+    "125": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/125.png",
+        "gt_caption": "The image is a graphic layout featuring a portrait of Donald Trump at the top left and three separate sections of text and photos. The overlaid text reads: \"Many in the GOP keep calling Donald Trump a liar and manipulator. To me, liars and manipulators are 301 Republicans who were elected to the HOUSE and SENATE that PROMISED to stop Barack Obama and his godless Democrat Party's destruction of America\u2026 BUT DIDN'T STOP ANYTHING!\" The words \"HOUSE,\" \"SENATE,\" \"PROMISED,\" and \"BUT DIDN'T STOP ANYTHING!\" are highlighted in yellow. Below the text, there are two images: one of a government legislative chamber and another showing a group of suited individuals, including one with his hand on his chest, appearing to be in a formal setting."
+    },
+    "126": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/126.png",
+        "gt_caption": "The image features a well-known character from the Star Wars franchise, Yoda, positioned in the center. Overlaid text is divided into three sections and reads: \u201cFEAR LEADS TO ANGER. ANGER LEADS TO HATE. HATE LEADS TO STUPIDITY. STUPIDITY LEADS TO SUPPORTING HILLARY CLINTON FOR PRESIDENT!\u201d"
+    },
+    "128": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/128.png",
+        "gt_caption": "The image is a digitally altered illustration showing a person\u2019s face, resembling Bernie Sanders, edited onto a stylized military figure wearing a dark uniform and a hat featuring a red star with a hammer and sickle symbol above it. The background is red with radiating lines. At the bottom of the image, there is overlaid text that reads: \u201cWhat if Bernie Sanders were a Communist?\u201d"
+    },
+    "134": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/134.png",
+        "gt_caption": "The image consists of a collage featuring various items associated with wealth and success. On the left side, there are book covers for \"Flipping Houses for Dummies\" and \"Trump: The Art of the Deal,\" as well as the book \"Rich Dad Poor Dad.\" Below these, there is a stack of money. In the center, a man is dressed in a pinstriped suit, and his face is obscured by the book \"Rich Dad Poor Dad.\" To the right of him, a set of kitchen knives is shown, along with several cans of \"Verve\" energy drink. Below that is a gold bracelet, and further right, there is an image of a laptop. Lastly, there is a small image of a group of people, some women in swimsuits sitting behind a man who is sitting in the middle at the front."
+    },
+    "138": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/138.png",
+        "gt_caption": "The image is a black-and-white photograph showing a group of people in a formal setting, possibly a courtroom or government office. One woman in the group is circled in red and labeled \u201cHillary.\u201d Overlaid text at the top of the image reads: \u201cAs a 27 year old staff attorney for the House Judiciary Committee during the Watergate investigation, Hillary Rodham was fired by her supervisor, lifelong Democrat Jerry Zeifman.\u201d Below the image, the text reads: \"When asked why Hillary Rodham was fired, Zeifman said in an interview, 'Because she was a liar. She was an unethical, dishonest lawyer, she conspired to violate the Constitution, the rules of the House, the rules of the Committee, and the rules of confidentiality.'\""
+    },
+    "140": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/140.png",
+        "gt_caption": "The image is a scene from the movie Forrest Gump, featuring the characters sitting on a bench in a park. The scene shows the characters in casual clothing, with the woman looking towards the man. Overlaid text at the bottom of the image reads: \"Momma said when Mr. Trump builds that wall.. We should put Hillary on the other side of it. And if she wants back in she can just email us.\" This text is presented in a bold, white font."
+    },
+    "143": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/1/143.png",
+        "gt_caption": "The image depicts two deceased sperm whales on a sandy beach with a crowd of people around them. The whales are shown lying on their sides, and several individuals are visible in the vicinity, some appearing to observe the scene. In the overlay text, it states: \"Sperm Whales Found Dead In FL, Stomachs Full Of Uncounted Bernie Sanders Ballots.\" Additionally, there is a note that reads: \"According to a press release from Florida's marine Biologist Union, many of the whales had stomachs FULL of uncounted Bernie Sanders ballots..\" The source URL is also displayed as \"WWW.ZGARLIC.COM.\""
+    },
+    "147": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/147.png",
+        "gt_caption": "The image depicts a scene from a bar setting featuring three men engaged in conversation. One man, wearing a striped shirt, is gesturing as he speaks, while another, dressed in a brown hoodie, listens attentively. The third man, in a blue shirt, looks on with a neutral expression. The surrounding area contains various framed pictures and neon signs, contributing to the bar atmosphere. Overlaid on the image is the text: \"Who am I supposed to vote for? Am I supposed to vote for the Democrat who's going to blast me in the ass or the Republican who's blasting my ass?\""
+    },
+    "149": {
+        "img": "./data/MultiOFF/MultiOFF_Dataset/Labelled Images/test/0/149.png",
+        "gt_caption": "The image features a stand-up comedian performing on stage at a venue identified as the Laugh Factory. The comedian is wearing a black sweater and holding a microphone, addressing the audience. Overlaid text contains a comedic statement: \"Voting for Trump because Bernie's out is like blowing a dude because your girlfriend dumped you.\" Additionally, there is a separate line of text that states, \"A really racist dude.\" The background includes a brightly colored sign with the words \"Laugh Factory\" prominently displayed. An audience member is partially visible in the foreground."
+    }
+}
