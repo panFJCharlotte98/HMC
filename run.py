@@ -746,7 +746,7 @@ def run_model(args):
                     #         args.per_device_eval_batch_size = args.per_device_eval_batch_size - 2
                     if (args.run_multiturn) and (rid > 0) and ("new_conversation" not in p_meta):
                         if (args.per_device_eval_batch_size > 2):
-                            args.per_device_eval_batch_size = args.per_device_eval_batch_size - 2 * r_order
+                            args.per_device_eval_batch_size = args.set_per_device_eval_batch_size - 2 * r_order
                         if args.should_evaluate:
                             args.per_device_eval_batch_size = 16
                     else:
