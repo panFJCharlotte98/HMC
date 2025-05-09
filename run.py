@@ -708,7 +708,7 @@ def run_model(args):
                 args.per_device_eval_batch_size = MAP_BATCH_SIZE[model.model_tag]['mini']
             else:
                 args.per_device_eval_batch_size = MAP_BATCH_SIZE[model.model_tag]['small']
-            args.set_per_device_eval_batch_size = args.per_device_eval_batch_size
+            args.set_per_device_eval_batch_size = copy.deepcopy(args.per_device_eval_batch_size)
         else:
             args.set_per_device_eval_batch_size = copy.deepcopy(args.per_device_eval_batch_size)
     args.run_multiturn = args.current_prompt_schedule['multi-turn']
@@ -946,7 +946,16 @@ def set_output_randomness_params(args):
             return args
         else:
             return set_randomness(args)
-  
+
+def run_if_oom(args):
+    try:
+        this_cost = run_model(args)
+    except RuntimeError as e:
+        if "out of memory" in str(e):
+            args.per_device_eval_batch_size -= 2
+            this_cost = run_model(args)
+    return this_cost
+
 def main():
     # Get args
     parser = HfArgumentParser((WrappedTrainingArguments,))
@@ -1049,7 +1058,9 @@ def main():
                     if not args.run_gpt:
                         args = set_output_randomness_params(args)
                     
-                    this_cost = run_model(args)
+                    #this_cost = run_model(args)
+                    this_cost = run_if_oom(args)
+                    
                     if this_cost > 0:
                         run_cost += this_cost    
     if (run_cost > 0) and (args.local_rank <= 0):
