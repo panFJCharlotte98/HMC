@@ -275,7 +275,7 @@ class TokenizedDataset(Dataset):
                         info_ls.append(info_pred)
                     if args.task == 'fhm':
                         one_data["processed_dependency_prediction"] = " ".join(info_ls) if len(info_ls) > 1 else info_ls[0]
-                    elif args.task == 'pridemm':
+                    elif args.task in ['mami', 'pridemm']:
                         one_data["processed_dependency_prediction"] = " ".join([f"{iid+1}. {info}" for iid, info in enumerate(info_ls)])
                     else:
                         one_data["processed_dependency_prediction"] = " ".join([f"{iid+1}. {info}" for iid, info in enumerate(info_ls)]) if len(info_ls) > 1 else info_ls[0]

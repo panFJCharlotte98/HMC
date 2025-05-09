@@ -420,10 +420,10 @@ def format_chat(args, js):
             ins.append(item)
         if ins_output_format:
             ins.append(ins_output_format)
-        text_content = " ".join(" ".join(ins).split())
+        text_content = " ".join(ins)
     if isinstance(prompt, str):
         text_content, js = fill_placeholder(prompt, js)
-        text_content = " ".join(" ".join([text_content, ins_output_format]).split()).strip()
+        text_content = " ".join([text_content, ins_output_format]).strip()
     
     if js is not None:
         if args.current_model_type == 'llm':
