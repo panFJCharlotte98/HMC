@@ -43,7 +43,7 @@ from PIL import Image
 TASK_LIST = list(PROMPT_MAP.keys())
 MAP_BATCH_SIZE = {
     'llama3.1': {'mini':32, 'small':16}, # 32, 16
-    'qwen2.5': {'mini':32, 'small':16}, # small: 16
+    'qwen2.5': {'mini':32, 'small':32}, # small: 16
     'llama3.2': {'mini':32, 'small':8},
     'qwen2-vl': {'mini':1},
     'qwen2.5-vl': {'mini':1},
@@ -323,11 +323,14 @@ def get_fix_folder_name(args, model_type):
     if model_type == 'llm':
         args_used_in_name.append(['llm_max_new_tokens','len'])
     if model_type == 'lmm':
-        args_used_in_name.append(['lmm_max_new_tokens','len'])    
+        args_used_in_name.append(['lmm_max_new_tokens','len'])
     fix_folder_name = []
     for arg_name, rename in args_used_in_name:
         fix_folder_name.append(f"{rename}-{dict_args[arg_name]}")
     
+    if (model_type == 'llm') and args.llm.startswith("qwen2.5"):
+        fix_folder_name.append(f"BS-{args.per_device_eval_batch_size}")
+
     #if not args.scheme.startswith("GPT"):
     fix_folder_name.append(f"GPU-{args.world_size}")
     return fix_folder_name
@@ -699,14 +702,18 @@ def run_model(args):
     # Run each model's prompt schedule
     model_cost = 0.
     if not args.run_gpt:
-        model = Model(args) 
-        if model.model_size <= 8:
-            args.per_device_eval_batch_size = MAP_BATCH_SIZE[model.model_tag]['mini']
+        model = Model(args)
+        if not model.model_tag.startswith("qwen2.5"):
+            if model.model_size <= 8:
+                args.per_device_eval_batch_size = MAP_BATCH_SIZE[model.model_tag]['mini']
+            else:
+                args.per_device_eval_batch_size = MAP_BATCH_SIZE[model.model_tag]['small']
         else:
-            args.per_device_eval_batch_size = MAP_BATCH_SIZE[model.model_tag]['small']
-        args.ori_per_device_eval_batch_size = copy.deepcopy(args.per_device_eval_batch_size)
+            args.set_per_device_eval_batch_size = copy.deepcopy(args.per_device_eval_batch_size)
     args.run_multiturn = args.current_prompt_schedule['multi-turn']
-    for rid, p_meta in args.current_prompt_schedule['prompt'].items():
+    #for rid, p_meta in args.current_prompt_schedule['prompt'].items():
+    for r_order, rid in enumerate(args.current_prompt_schedule['prompt']):
+        p_meta = args.current_prompt_schedule['prompt'][rid]
         run_this_turn = True
         if (args.current_modal_id == args.multimodal_start_from) and (rid < args.multiturn_start_from):
             run_this_turn = False
@@ -734,17 +741,16 @@ def run_model(args):
                 if "batch_size" in p_meta:
                     args.per_device_eval_batch_size = p_meta['batch_size']
                 else:
-                    if (args.run_multiturn) and (rid > 0):
-                        if (args.per_device_eval_batch_size > 2):
-                            args.per_device_eval_batch_size = args.per_device_eval_batch_size - 2
-
-                    # if "new_conversation" not in p_meta:
+                    # if (args.run_multiturn) and (rid > 0):
                     #     if (args.per_device_eval_batch_size > 2):
                     #         args.per_device_eval_batch_size = args.per_device_eval_batch_size - 2
-                    #     if args.should_evaluate and (args.current_m_type.startswith('llm')):
-                    #         args.per_device_eval_batch_size = 22
-                    # else:
-                    #     args.per_device_eval_batch_size = args.ori_per_device_eval_batch_size
+                    if (args.run_multiturn) and (rid > 0) and ("new_conversation" not in p_meta):
+                        if (args.per_device_eval_batch_size > 2):
+                            args.per_device_eval_batch_size = args.per_device_eval_batch_size - 2 * r_order
+                        if args.should_evaluate:
+                            args.per_device_eval_batch_size = 16
+                    else:
+                        args.per_device_eval_batch_size = args.set_per_device_eval_batch_size
                 print(f"args.per_device_eval_batch_size = {args.per_device_eval_batch_size}; args.do_sample={args.do_sample}")
                 update_args = args
                 if ('max_new_tokens' in p_meta):

@@ -160,7 +160,7 @@ REASONING = {
 GPT_DIRECT_CLASSIFY = {
     'name': "Classify", 'should_evaluate': False, 'take_image': True, 'gen_depend_on': None,
     'versions': {
-        'v0': {'INS': f'''{Introduce} Classify this meme as either harmful or harmless.'''},
+        'v0': {'INS': f'''{Introduce} Classify the meme as either harmful or harmless based on widely accepted values, established knowledge, and social norms.'''},
     },
     'output_format': {
         'v0': {"INS": '''''', 'post_process_func': post_process_to_remove_gibberish}

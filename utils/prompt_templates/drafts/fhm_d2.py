@@ -166,8 +166,8 @@ INTEGRATE = {
             "INS" : f'''Given the following information provided about an image, and disregarding any information about overlaid text or captions, synthesize and rephrase these information into a coherent and unified description of the image's content. **Information**: "{from_dependency}"'''
         },
         'v1': {# No index id in gathering information
-            'gen_depend_on': [HUMAN['name'], RACE['name'], GENDER['name'],DISABLE['name'], APPEARANCE['name'], CELEB['name'], DESCRIBE['name']],
-            "INS" : f'''Given the following information provided about an image, and disregarding any information about overlaid text or captions, synthesize and rephrase these information into a coherent and unified description of the image's content. **Information**: {from_dependency}'''
+            'gen_depend_on': [HUMAN['name'], RACE['name'], GENDER['name'], APPEARANCE['name'], CELEB['name'], DISABLE['name'], DESCRIBE['name']],
+            "INS" : f'''Given the following information provided about an image, and disregarding any information about overlaid text or captions, synthesize and rephrase these information into a coherent and unified description of the image's content. **Information**: "{from_dependency}"'''
         },
     },
     'output_format': {
@@ -221,7 +221,6 @@ make_guidelines = "{make_guidelines}"
 make_guidelines_w_IntegrateTGContext = "{make_guidelines_w_IntegrateTGContext}"
 make_guidelines_w_GenTGContext = "{make_guidelines_w_GenTGContext}"
 CLASSIFY_INS = '''Given the following image-caption content, which may or may not be an online meme, classify the content as either hateful or non-hateful based on common values, knowledge and social norms.'''
-CLASSIFY_INS_V1 = '''Given the following image-caption content, which may or may not be an online meme, classify the content as either hateful or non-hateful based on widely accepted values, established knowledge, social norms and the provided guidelines.'''
 REASONING = {
     'name': "Reasoning", 'should_evaluate': False, 'take_image': False,
     'versions': {
@@ -242,25 +241,13 @@ REASONING = {
         'CoT+': {
             'gen_depend_on': [INTEGRATE['name'], INTEGRATE_TG_CONTEXT['name']],
             'INS': [
-                #CLASSIFY_INS,
-                CLASSIFY_INS_V1,
-                f'''**Guidelines**: {make_guidelines_w_IntegrateTGContext}''',
+                CLASSIFY_INS,
+                f'''Here are some guidelines for your reference: {make_guidelines_w_IntegrateTGContext}''',
                 f'''**Image-caption content you need to classify**: {from_Integrate}''',
                 f'''The caption overlaid on the image reads "{from_raw_data}".''',
                 '''Now, let's think step by step:'''
             ]
         },
-        # 'CoT+': {
-        #     'gen_depend_on': [INTEGRATE['name'], INTEGRATE_TG_CONTEXT['name']],
-        #     'INS': [
-        #         #CLASSIFY_INS,
-        #         CLASSIFY_INS_V1,
-        #         f'''Here are some guidelines for your reference: {make_guidelines_w_IntegrateTGContext}''',
-        #         f'''**Image-caption content you need to classify**: {from_Integrate}''',
-        #         f'''The caption overlaid on the image reads "{from_raw_data}".''',
-        #         '''Now, let's think step by step:'''
-        #     ]
-        # },
         'CoT++': {
             'gen_depend_on': [INTEGRATE['name'], GENERATE_TG_CONTEXT['name']],
             'INS': [
@@ -417,13 +404,14 @@ p1 = {
     'llm_2': {
         'multi-turn': True,
         'prompt': {
-            0: {'template': REASONING, "version": "TG", "out_format": 'v0'},
-            1: {'template': EXTRACT, "version": "TargetGroup", "out_format": 'v0'},
-            2: {'template': GENERATE_TG_CONTEXT, "version": "v0", "out_format": 'v0'},
-            3: {'template': INTEGRATE_TG_CONTEXT, "version": "v0", "out_format": 'v0', 'new_conversation': True},
-            # 3: {'template': INTEGRATE_TG_CONTEXT, "version": "v1", "out_format": 'v0', 'new_conversation': True},
-            4: {'template': REASONING, "version": "CoT+", "out_format": 'v0', 'new_conversation': True},
-            5: {'template': DECISION, "version": "v1", "out_format": 'v0'},
+            0: {'template': REASONING, "version": "TG", "out_format": 'v0', 'batch_size': 16},
+            1: {'template': EXTRACT, "version": "TargetGroup", "out_format": 'v0', 'batch_size': 14},
+            2: {'template': GENERATE_TG_CONTEXT, "version": "v0", "out_format": 'v0', 'batch_size': 12},
+            3: {'template': INTEGRATE_TG_CONTEXT, "version": "v0", "out_format": 'v0', 'new_conversation': True, 'batch_size': 16},#14
+            # 3: {'template': INTEGRATE_TG_CONTEXT, "version": "v1", "out_format": 'v0', 'new_conversation': True, 'batch_size': 14},#14
+            4: {'template': REASONING, "version": "CoT+", "out_format": 'v0', 'new_conversation': True, 'batch_size': 16},#16
+            #5: {'template': DECISION, "version": "v0", "out_format": 'v0'},
+            5: {'template': DECISION, "version": "v0", "out_format": 'v0', 'batch_size': 16},
         }
     },
 }
@@ -533,7 +521,6 @@ def assign_guidelines(js, add_tg_context=False, summarize=False):
     Rules = [R1, R2, R3, R4, R5, R6, R7, R8]
     Rules = [R_combine, R_neutral, R2, R3, R5, R6, R7, R8]#best with
     Rules = [R_neutral, R2, R3, R5, R6, R7, R8]
-    Rules = [R_neutral, R2, R3_new, R5, R6, R7, R8]
     #Rules = [R_combine, R_neutral, R2, R3]#best with
     # Rules = [R1, R2, R3, R5, R6, R7, R8]#best with
     #Rules = [R1, R2, R3_new, R4_new, R5, R6, R7, R8]
@@ -548,8 +535,8 @@ def assign_guidelines(js, add_tg_context=False, summarize=False):
                 prefix = ""
                 if dp_pred:
                     assert tg_ls
-                    prefix = "If the image-caption content conveys any of the following implications, it should be classified as hateful:"
-                    dp_pred = " ".join([prefix, dp_pred])#best without
+                    prefix = "Commonly found examples of hateful content:"
+                    #dp_pred = " ".join([prefix, dp_pred])#best without
                     dp_pred = " ".join(dp_pred.split()).strip()
                     Rules.append(R4)
                     Rules.append(dp_pred)

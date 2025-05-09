@@ -51,12 +51,12 @@ task_scheme_max_new_tokens_map = {
 }
 
 for task in ['harmp', 'harmc', 'pridemm', 'multioff', 'mami']:
-    for split in ['test']:#'dev', 'test'
-        for seed in [42]:#, 123, 2025, 27
-            for batch_size in [32]:
+    for split in ['test']:
+        for seed in [42]:
+            for batch_size in [32, 16]:
                 for llm in ['qwen2.5-14bf']:
-                    for lmm in ['llava1.6-7bf','qwen2-vl-7bf']:#'llava1.6-7bf'
-                        for scheme in ['B1', 'B2']:
+                    for lmm in ['llava1.6-7bf']:#'qwen2-vl-7bf'
+                        for scheme in ['B2']:
                             print(f"scheme={scheme}")
                             llm_max_new_tokens = task_scheme_max_new_tokens_map[task][scheme]['llm']
                             lmm_max_new_tokens = task_scheme_max_new_tokens_map[task][scheme]['lmm']
@@ -95,9 +95,9 @@ for task in ['harmp', 'harmc', 'pridemm', 'multioff', 'mami']:
 for task in ['fhm']:
     for split in ['test']:
         for seed in [42]:
-            for batch_size in [32]:
+            for batch_size in [32, 16]:
                 for llm in ['qwen2.5-14bf']:
-                    for vlm in ['llava1.6-7bf,qwen2-vl-7bf', 'llava1.6-7bf', 'qwen2-vl-7bf']:
+                    for vlm in ['llava1.6-7bf,qwen2-vl-7bf']:
                         for scheme in ['B2']:
                             print(f"scheme={scheme}")
                             llm_max_new_tokens = task_scheme_max_new_tokens_map[task][scheme]['llm']
@@ -139,7 +139,7 @@ for task in ['fhm']:
                                 continue
 
 
-with open ('./sh_cmd/run23.sh', 'w') as rsh:
-    rsh.writelines([WHICH_GPUs, "\n", occupy])
-    rsh.close()
-os.system("sh sh_cmd/run23.sh")
+# with open ('./sh_cmd/run23.sh', 'w') as rsh:
+#     rsh.writelines([WHICH_GPUs, "\n", occupy])
+#     rsh.close()
+# os.system("sh sh_cmd/run23.sh")

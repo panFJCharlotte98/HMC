@@ -4,6 +4,7 @@ import time
 gpu_ids = "2,3"
 WHICH_GPUs = f"export CUDA_VISIBLE_DEVICES={gpu_ids}"
 port = '1234' if gpu_ids == '0,1' else '1235'
+port = '1234'
 occupy = "python ./testG/train.py -p 0.9 -n 2 -t 604800"
 N_PROCESSES = 2
 #                --target_result_surfix {"_updated"} \
@@ -93,7 +94,7 @@ for task in ['fhm']:
                             except:
                                 continue
 
-#os.system("python sh_cmd/run_baselines.py")
+os.system("python sh_cmd/run_baselines.py")
 os.system("python sh_cmd/run_pp.py")
 
 with open ('./sh_cmd/run23.sh', 'w') as rsh:

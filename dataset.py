@@ -248,8 +248,8 @@ class TokenizedDataset(Dataset):
                         item.pop(attr)
                     gather = False
                   
-                    dict_condition = isinstance(this_pred, dict) and (this_pred['flag'] in [0,1]) and (this_pred['output'] != "")
-                    if args.task in ['mami', 'harmc', 'harmp', 'multioff', 'pridemm']:
+                    # dict_condition = isinstance(this_pred, dict) and (this_pred['flag'] in [0,1]) and (this_pred['output'] != "")
+                    if args.task in ['fhm', 'mami', 'harmc', 'harmp', 'multioff', 'pridemm']:
                         dict_condition = isinstance(this_pred, dict) and (this_pred['flag'] == 1) and (this_pred['output'] != "")
                     if dict_condition:
                         pred_output = this_pred['output']

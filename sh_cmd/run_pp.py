@@ -50,10 +50,10 @@ task_scheme_max_new_tokens_map = {
     },
 }
 
-for task in ['harmp']:
+for task in ['harmp', 'harmc', 'mami', '']:
     for split in ['test']:#'dev', 'test'
         for seed in [42]:#, 123, 2025, 27
-            for batch_size in [32]:
+            for batch_size in [16, 32]:
                 for llm in ['qwen2.5-14bf',]:# 'qwen2.5-7bf'
                     for lmm in ['llava1.6-7bf']:
                         for scheme in ['PP']:
