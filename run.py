@@ -708,6 +708,7 @@ def run_model(args):
                 args.per_device_eval_batch_size = MAP_BATCH_SIZE[model.model_tag]['mini']
             else:
                 args.per_device_eval_batch_size = MAP_BATCH_SIZE[model.model_tag]['small']
+            args.set_per_device_eval_batch_size = args.per_device_eval_batch_size
         else:
             args.set_per_device_eval_batch_size = copy.deepcopy(args.per_device_eval_batch_size)
     args.run_multiturn = args.current_prompt_schedule['multi-turn']

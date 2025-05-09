@@ -67,6 +67,7 @@ data/PrideMM/Images/
 data/PrideMM/Images_512
 data/PrideMM/Images_512_1280
 models/models
+sh_cmd/
 analysis/
 cache/
 old_results/
