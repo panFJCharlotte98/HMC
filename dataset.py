@@ -274,6 +274,13 @@ class TokenizedDataset(Dataset):
                     for info_name, info_pred in one_data["gathered_predictions"].items():
                         info_ls.append(info_pred)
                     if args.task == 'fhm':
+                        info_ls = []
+                        for info_name, info_pred in one_data["gathered_predictions"].items():
+                            if not info_name.startswith('Describe'):
+                                info_ls.append(info_pred)
+                            else:
+                                Dl = info_pred
+                        info_ls.append(Dl)
                         one_data["processed_dependency_prediction"] = " ".join(info_ls) if len(info_ls) > 1 else info_ls[0]
                     elif args.task in ['mami', 'pridemm']:
                         one_data["processed_dependency_prediction"] = " ".join([f"{iid+1}. {info}" for iid, info in enumerate(info_ls)])

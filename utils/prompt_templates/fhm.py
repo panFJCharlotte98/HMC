@@ -388,7 +388,8 @@ M2T = {
         'prompt': {    
             0: {'template': INTEGRATE, "version": "v1", "out_format": 'v0'}, 
         },
-        'multi-turn': False},
+        'multi-turn': False
+    },
 }
 
 # ******************************************************************************************* # 
