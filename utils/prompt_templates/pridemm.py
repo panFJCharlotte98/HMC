@@ -263,9 +263,9 @@ REASONING = {
         'CoT': {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
-                f'''Given the following description of an online meme related to LGBTQ+ pride movements, classify the content as either harmful or harmless to: (1) the LGBTQ+ community and its supporters, or (2) the specific individual(s) or organization(s) involved, based on widely accepted values, established knowledge, cultural understanding, and social norms.''',
+                f'''Given the following description of an online meme related to LGBTQ+ pride movements, classify the content as either harmful or harmless to: (1) the LGBTQ+ community and its supporters, or (2) the specific individual(s) or organization(s) involved, based on widely accepted social norms, values and cultural understanding.''',
                 f'''**Meme content you need to classify**: {from_dependency}''',
-                '''**Now, let's analyze step by step**:'''
+                '''Now, let's analyze step by step:'''
             ]
         },
         'CoT*': {
@@ -457,16 +457,18 @@ p1 = {
         'multi-turn': True,
         'prompt': {
             0: {'template': REASONING, "version": "organization", "out_format": 'v0', "load_from_prestep": True, "return_prestep_path": True},
-            5: {'template': AUX, "version": "organization", "out_format": 'YN'}
-        }
-    },
-    'llm_7': {
-        'multi-turn': True,
-        'prompt': {
+            5: {'template': AUX, "version": "organization", "out_format": 'YN'},
             6: {'template': REASONING, "version": "CoTxTarget", "out_format": 'v0', 'new_conversation': True, 'depend_on_prestep': True, 'max_new_tokens': 1536},
             7: {'template': DECISION, "version": "tg", "out_format": 'v0'}
         }
     },
+    # 'llm_7': {
+    #     'multi-turn': True,
+    #     'prompt': {
+    #         6: {'template': REASONING, "version": "CoTxTarget", "out_format": 'v0', 'new_conversation': True, 'depend_on_prestep': True, 'max_new_tokens': 1536, 'batch_size': 14},
+    #         7: {'template': DECISION, "version": "tg", "out_format": 'v0', 'batch_size': 12}
+    #     }
+    # },
 }
 
 PP = dict(**M2T, **p1)

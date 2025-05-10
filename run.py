@@ -746,22 +746,30 @@ def run_model(args):
                 print(f"output_dir_history:{tmp}")
             torch.distributed.barrier(device_ids=[args.local_rank])
             if not args.run_gpt:
-                if "batch_size" in p_meta:
-                    args.per_device_eval_batch_size = p_meta['batch_size']
-                else:
-                    # if (args.run_multiturn) and (rid > 0):
-                    #     if (args.per_device_eval_batch_size > 2):
-                    #         args.per_device_eval_batch_size = args.per_device_eval_batch_size - 2
-                    if (args.run_multiturn) and (rid > 0) and ("new_conversation" not in p_meta):
-                        reduce_by = 4 if r_order > 1 else 2
-                        reduce_num = reduce_by * r_order
-                        if (args.set_per_device_eval_batch_size > reduce_num):
-                            args.per_device_eval_batch_size = args.set_per_device_eval_batch_size - reduce_num
-                        if args.should_evaluate:
-                            args.per_device_eval_batch_size = 16
+                args.per_device_eval_batch_size = args.set_per_device_eval_batch_size
+                if args.task in ['harmc', 'harmp', 'multioff', 'mami']:
+                    if (args.run_multiturn) and (rid > 0):
+                        if (args.per_device_eval_batch_size > 2):
+                            args.per_device_eval_batch_size = args.per_device_eval_batch_size - 2
+                elif args.task in ['fhm', 'pridemm']:
+                    if "batch_size" in p_meta:
+                        args.per_device_eval_batch_size = p_meta['batch_size']
                     else:
-                        args.per_device_eval_batch_size = args.set_per_device_eval_batch_size
+                        if (args.run_multiturn) and (rid > 0):
+                            #and ("new_conversation" not in p_meta):
+                            reduce_by = 2
+                            if (args.task == 'fhm') and (args.set_per_device_eval_batch_size == 32):
+                                reduce_by = 4 if r_order > 1 else 2
+                            reduce_num = reduce_by * r_order
+                            if (args.set_per_device_eval_batch_size > reduce_num):
+                                args.per_device_eval_batch_size = args.set_per_device_eval_batch_size - reduce_num
+                            if args.should_evaluate:
+                                args.per_device_eval_batch_size = 16
+                # if (args.run_multiturn) and (rid > 0):
+                #     if (args.per_device_eval_batch_size > 2):
+                #         args.per_device_eval_batch_size = args.per_device_eval_batch_size - 2
                 print(f"args.per_device_eval_batch_size = {args.per_device_eval_batch_size}; args.do_sample={args.do_sample}")
+
                 update_args = args
                 if ('max_new_tokens' in p_meta):
                     update_args = copy.deepcopy(args)

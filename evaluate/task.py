@@ -305,7 +305,8 @@ class EvaluateTool(object):
         summary['lmm'] = self.args.lmm
         summary['scheme'] = args.scheme
         summary['llm_max_new_tokens'] = self.args.llm_max_new_tokens
-        summary['lmm_max_new_tokens'] = self.args.lmm_max_new_tokens    
+        summary['lmm_max_new_tokens'] = self.args.lmm_max_new_tokens
+        summary['per_device_eval_batch_size'] = self.args.per_device_eval_batch_size
         summary_print = pprint.pformat(summary)
         
         sep_asterisk = "*" * 10

@@ -1,10 +1,12 @@
 TG_GL = '''1. Undirected: The meme addresses abstract concepts, societal issues, or vague subjects (e.g., "you") without referencing any clearly identifiable individuals, groups, or entities.
 2. Specific Individual: The meme targets a particular person, such as a public figure, celebrity, activist, influencer, or other specific individual.
 3. LGBTQ+ Community: The meme targets the LGBTQ+ community and supporters as a whole or subgroups (e.g., trans, gay people) as a broad social, cultural, or identity-based group.
-4. Organization: The meme targets institutions or organizational entities such as corporations, companies, government bodies, political parties, countries, regions, or other similar organizations, either in general or by specific reference.'''
+4. Organization: The meme targets institutions, entities such as corporations, government bodies, political parties or similar organizations.'''
 
 # best record
 # 4. Organization: The meme targets institutions, entities such as corporations, government bodies, political parties or similar organizations.
+#
+# 4. Organization: The meme targets institutions or organizational entities such as corporations, companies, government bodies, political parties, countries, regions, or other similar organizations, either in general or by specific reference.
 
 Individual_GL = '''A specific individual refers to a particular person, such as a public figure, politician, celebrity, influencer, or activist, etc., who is explicitly referenced by name, title, or identifiable role.'''
 
@@ -14,8 +16,8 @@ Organization_GL = '''1. An organization refers to an institution or entity such 
 subgroup = '''{subgroup}'''
 subgroup_examples = '''{subgroup_examples}'''
 TYPES = {    
-    "(Semi-) Bisexual individuals": '''Perpetuating negative stereotypes about bisexual individuals to mock or delegitimize them; Promoting division, exclusion or marginalization of subgroups within the LGBTQ+ community.''',
-    # "(Semi-) Bisexual individuals": '''Promoting division within the LGBTQ+ community; Perpetuating negative stereotypes that contribute to the exclusion and marginalization of subgroups within the LGBTQ+ community.''',
+    # "(Semi-) Bisexual individuals": '''Perpetuating negative stereotypes about bisexual individuals to mock or delegitimize them; Promoting division, exclusion or marginalization of subgroups within the LGBTQ+ community.''',
+    "(Semi-) Bisexual individuals": '''Promoting division within the LGBTQ+ community; Perpetuating negative stereotypes that contribute to the exclusion and marginalization of subgroups within the LGBTQ+ community.''',
     "LGBTQ+ subgroups": '''Promoting division, exclusion and marginalization of subgroups within the LGBTQ+ community; Perpetuating negative stereotypes against LGBTQ+ subgroups, etc.''',
     
     "country": {
@@ -118,7 +120,7 @@ Mocking or stereotyping LGBTQ+ as being rejected, not supported or even persecut
 Criticizing media contents of LGBTQ+ representation as excessive, unnecessary, or inauthentic;
 Making light of anti-LGBTQ+ persecution and violence in certain countries, etc.'''
 
-# # # Original 
+# # # # Original 
 # R_harmful_organization = '''Commonly found harmful contents towards the public image of organizations in LGBTQ+ context include:
 # Mocking, satirizing, or critisizing media, corporate or political support and inclusive practices for LGBTQ+ as excessive or performative (e.g., the adoption of LGBTQ+ branding, the promotion of LGBTQ+ contents);
 # Stereotyping the negative stance or attitudes of specific political parties or ideologies toward LGBTQ+ movements, such as conservatives or Republicans, etc.;
