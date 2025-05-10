@@ -12,7 +12,7 @@ N_PROCESSES = 2
 
 #'llava1.6-7bf', 'llava1.6-8bf', 'llama3.2-11bf', 'qwen2-vl-7bf', 'llava1.6-8bf', 'llava1.6-13bf', 'llama3.1-8bf', 'qwen2.5-7bf', 'qwen2.5-14bf'
 
-for task in ['harmc']:
+for task in ['harmp']:
     for split in ['test']:#'dev', 'test'
         for seed in [42]:
             for batch_size in [1]:

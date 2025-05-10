@@ -332,7 +332,7 @@ p4 = {
     'llm_2': {
         'multi-turn': True,
         'prompt': {
-            0: {'template': REASONING, "version": "CoT+2", "out_format": 'v0', "load_from_prestep": True, "return_prestep_path": True},
+            0: {'template': REASONING, "version": "CoT+3", "out_format": 'v0', "load_from_prestep": True, "return_prestep_path": True},
             1: {'template': DECISION, "version": "v0", "out_format": 'v0'}
         }
     }
