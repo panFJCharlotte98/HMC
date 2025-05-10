@@ -163,6 +163,15 @@ REASONING = {
                 '''Now, let's think step by step:'''
             ]
         },
+        'CoT+3': {
+            'gen_depend_on': [INTEGRATE['name']],
+            'INS': [
+                f'''Given the following description of an image related to 2016 U.S. Presidential Election, classify the image content as either offensive or non-offensive based on widely accepted values, established knowledge, social norms and the provided guidelines.''',
+                f'''**Guidelines**: {assign_guidelines}''',
+                f'''**Description of the image you need to classify**: {from_dependency}''',
+                '''Now, let's analyze by applying the guidelines one by one:'''
+            ]
+        },
         'CoT': {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
@@ -319,9 +328,19 @@ p3 = {
         }
     }
 }
+p4 = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "CoT+2", "out_format": 'v0', "load_from_prestep": True, "return_prestep_path": True},
+            1: {'template': DECISION, "version": "v0", "out_format": 'v0'}
+        }
+    }
+}
 
 P2 = dict(**M2T, **p2)
 P3 = dict(**M2T, **p3)
+P4 = dict(**M2T, **p4)
 # ******************************************************************************************* # 
 
 MultiOFF_PROMPT_SCHEMES = {
@@ -332,6 +351,7 @@ MultiOFF_PROMPT_SCHEMES = {
     'PP': PP,
     'P2': P2,
     'P3': P3,
+    'P4': P4,
     'GPT_DESCRIBE': GPT_describe
 }
 

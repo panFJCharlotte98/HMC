@@ -56,7 +56,7 @@ task_scheme_max_new_tokens_map = {
 for task in ['fhm']:
     for split in ['test']:
         for seed in [42]:#0, 123, 2025, 27
-            for batch_size in [32]:
+            for batch_size in [16]:
                 for llm in ['qwen2.5-14bf']:
                     for lmm in ['llava1.6-7bf,qwen2-vl-7bf']:
                         for scheme in ['PP']:
