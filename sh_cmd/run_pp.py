@@ -3,7 +3,7 @@ import time
 
 gpu_ids = "2,3"
 WHICH_GPUs = f"export CUDA_VISIBLE_DEVICES={gpu_ids}"
-port = '1234' if gpu_ids == '0,1' else '1235'
+port = '1234' if gpu_ids == '0,1' else '1236'
 occupy = "python ./testG/train.py -p 0.9 -n 2 -t 604800"
 N_PROCESSES = 2
 #                --target_result_surfix {"_updated"} \
@@ -42,6 +42,7 @@ task_scheme_max_new_tokens_map = {
         'B1': B1,
         'B2': {'lmm': 512, 'llm': 1024},
         'PP': {'lmm': 512, 'llm': 1024},
+        'P4': {'lmm': 512, 'llm': 1024},
     },
     'pridemm' : {
         'B1': B1,
@@ -50,13 +51,14 @@ task_scheme_max_new_tokens_map = {
     },
 }
 
-for task in ['harmp', 'harmc', 'multioff', 'mami', 'pridemm']:
+# for task in ['harmp', 'harmc', 'multioff', 'mami', 'pridemm']:
+for task in ['multioff']:
     for split in ['test']:#'dev', 'test'
         for seed in [42]:#, 123, 2025, 27
-            for batch_size in [16, 32]:
+            for batch_size in [16]:
                 for llm in ['qwen2.5-14bf',]:# 'qwen2.5-7bf'
                     for lmm in ['llava1.6-7bf']:
-                        for scheme in ['PP']:
+                        for scheme in ['P4']:
                             print(f"scheme={scheme}")
                             llm_max_new_tokens = task_scheme_max_new_tokens_map[task][scheme]['llm']
                             lmm_max_new_tokens = task_scheme_max_new_tokens_map[task][scheme]['lmm']

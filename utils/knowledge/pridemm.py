@@ -110,20 +110,20 @@ Using dehumanizing/demonizing imagery, language or rhetorics that associate LGBT
 Expressing rejection or resistance toward LGBTQ+ individuals and LGBTQ+ presentation.
 '''
 
-# R_harmful_organization = '''Commonly found harmful contents towards the public image of organizations in LGBTQ+ context include:
-# Mocking, satirizing or criticizing corporate involvement for LGBTQ+ support (e.g., inclusive actions or participation) as excessive, performative, superficial or insincere;
-# Mocking or stereotyping political support for LGBTQ+ as performative or insincere;
-# Stereotyping the negative stance or attitude of specific political parties or ideologies toward LGBTQ+ issues (e.g., conservatives, the right wing, or Republicans, etc.);
-# Mocking or stereotyping LGBTQ+ as being rejected, not supported or even persecuted by some countries, regions, religions or cultural traditions;
-# Criticizing media contents of LGBTQ+ representation as excessive, unnecessary, or inauthentic;
-# Making light of anti-LGBTQ+ persecution and violence in certain countries, etc.'''
-
-# # Original 
 R_harmful_organization = '''Commonly found harmful contents towards the public image of organizations in LGBTQ+ context include:
-Mocking, satirizing, or critisizing media, corporate or political support and inclusive practices for LGBTQ+ as excessive or performative (e.g., the adoption of LGBTQ+ branding, the promotion of LGBTQ+ contents);
-Stereotyping the negative stance or attitudes of specific political parties or ideologies toward LGBTQ+ movements, such as conservatives or Republicans, etc.;
-Mocking LGBTQ+ community for being rejected, persecuted by specific countries, regions or governments, etc.
-'''
+Mocking, satirizing or criticizing corporate involvement for LGBTQ+ support (e.g., inclusive actions or participation) as excessive, performative, superficial or insincere;
+Mocking or stereotyping political support for LGBTQ+ as performative or insincere;
+Stereotyping the negative stance or attitude of specific political parties or ideologies toward LGBTQ+ issues (e.g., conservatives, the right wing, or Republicans, etc.);
+Mocking or stereotyping LGBTQ+ as being rejected, not supported or even persecuted by some countries, regions, religions or cultural traditions;
+Criticizing media contents of LGBTQ+ representation as excessive, unnecessary, or inauthentic;
+Making light of anti-LGBTQ+ persecution and violence in certain countries, etc.'''
+
+# # # Original 
+# R_harmful_organization = '''Commonly found harmful contents towards the public image of organizations in LGBTQ+ context include:
+# Mocking, satirizing, or critisizing media, corporate or political support and inclusive practices for LGBTQ+ as excessive or performative (e.g., the adoption of LGBTQ+ branding, the promotion of LGBTQ+ contents);
+# Stereotyping the negative stance or attitudes of specific political parties or ideologies toward LGBTQ+ movements, such as conservatives or Republicans, etc.;
+# Mocking LGBTQ+ community for being rejected, persecuted by specific countries, regions or governments, etc.
+# '''
 
 R_harmless_ori = '''If the meme's caption merely describes, states, or explains the facts about the image's visual content (e.g., providing context about what is going on in the image) in a neutral tone (neither satirical nor critical) from an observer's perspective without any rhetorics, sentiment inclination or personal viewpoints, avoid inferring for negative associations or implications. Such captions, if being objective or illustrative statements, should be considered as innocent.'''
 
