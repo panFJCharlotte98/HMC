@@ -293,6 +293,16 @@ GPT_DIRECT_CLASSIFY = {
     },
 }
 
+GPT_DESCRIBE = {
+    'name': "Describe", 'should_evaluate': False, 'take_image': True, 'gen_depend_on': None,
+    'versions': {
+        'v0': {'INS': f'''{Introduce} Describe the visual content of the meme without interpretation. If there is any overlaid caption, transcribe it exactly as shown without paraphrasing.'''},
+    },
+    'output_format': {
+        'v0': {"INS": '''''', 'post_process_func': post_process_to_remove_gibberish}
+    },
+}
+
 assign_decision_prompt_by_target = '''{assign_decision_prompt_by_target}'''
 DECISION = {
     'name': "Decision", 'should_evaluate': True, 'take_image': False,
@@ -363,6 +373,15 @@ GPT = {
             1: {'template': DECISION, "version": "gpt", "out_format": 'v0', 'batch_size':1},
         }
     }
+}
+
+GPT_describe = {
+    'lmm': {
+        'prompt': {
+            0: {'template': GPT_DESCRIBE, "version": "v0", "out_format": 'v0'},
+        },
+        'multi-turn': False
+    },
 }
 
 M2T = {
@@ -460,6 +479,7 @@ PrideMM_PROMPT_SCHEMES = {
     'B2': B2,
     'GPT': GPT,
     'PP': PP,
+    'GPT_DESCRIBE': GPT_describe
 }
     
 def assign_guidelines(js):

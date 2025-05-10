@@ -145,6 +145,24 @@ REASONING = {
                 '''Now, let's analyze by applying the guidelines one by one:'''
             ]
         },
+        'CoT+1': {
+            'gen_depend_on': [INTEGRATE['name']],
+            'INS': [
+                f'''Given the following description of an image related to 2016 U.S. Presidential Election, classify the image content as either offensive or non-offensive based on widely accepted values, established knowledge, social norms and the provided guidelines.''',
+                f'''**Guidelines**: {assign_guidelines}''',
+                f'''**Description of the image**: {from_dependency}''',
+                '''### Now, let's analyze step by step:'''
+            ]
+        },
+        'CoT+2': {
+            'gen_depend_on': [INTEGRATE['name']],
+            'INS': [
+                f'''Given the following description of an image related to 2016 U.S. Presidential Election, classify the image content as either offensive or non-offensive based on widely accepted values, established knowledge, social norms and the provided guidelines.''',
+                f'''**Guidelines**: {assign_guidelines}''',
+                f'''**Description of the image you need to classify**: {from_dependency}''',
+                '''Now, let's think step by step:'''
+            ]
+        },
         'CoT': {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
@@ -163,6 +181,16 @@ GPT_DIRECT_CLASSIFY = {
     'name': "Classify", 'should_evaluate': False, 'take_image': True, 'gen_depend_on': None,
     'versions': {
         'v0': {'INS': f'''{Introduce} Classify the meme as either offensive or non-offensive based on widely accepted values, established knowledge, and social norms.'''},
+    },
+    'output_format': {
+        'v0': {"INS": '''''', 'post_process_func': post_process_to_remove_gibberish}
+    },
+}
+
+GPT_DESCRIBE = {
+    'name': "Describe", 'should_evaluate': False, 'take_image': True, 'gen_depend_on': None,
+    'versions': {
+        'v0': {'INS': f'''{Introduce} Describe the visual content of the meme without interpretation. If there is any overlaid caption, transcribe it exactly as shown without paraphrasing.'''},
     },
     'output_format': {
         'v0': {"INS": '''''', 'post_process_func': post_process_to_remove_gibberish}
@@ -216,6 +244,15 @@ GPT = {
     }
 }
 
+GPT_describe = {
+    'lmm': {
+        'prompt': {
+            0: {'template': GPT_DESCRIBE, "version": "v0", "out_format": 'v0'},
+        },
+        'multi-turn': False
+    },
+}
+
 M2T = {
     'lmm': {
         'prompt': {
@@ -263,6 +300,28 @@ p1 = {
 }
 PP = dict(**M2T, **p1)
 B2 = dict(**M2T, **b2)
+
+p2 = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "CoT+1", "out_format": 'v0', "load_from_prestep": True, "return_prestep_path": True},
+            1: {'template': DECISION, "version": "v0", "out_format": 'v0'}
+        }
+    }
+}
+p3 = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "CoT+2", "out_format": 'v0', "load_from_prestep": True, "return_prestep_path": True},
+            1: {'template': DECISION, "version": "v0", "out_format": 'v0'}
+        }
+    }
+}
+
+P2 = dict(**M2T, **p2)
+P3 = dict(**M2T, **p3)
 # ******************************************************************************************* # 
 
 MultiOFF_PROMPT_SCHEMES = {
@@ -271,6 +330,9 @@ MultiOFF_PROMPT_SCHEMES = {
     'B2': B2,
     'GPT': GPT,
     'PP': PP,
+    'P2': P2,
+    'P3': P3,
+    'GPT_DESCRIBE': GPT_describe
 }
 
 def assign_guidelines_(js):

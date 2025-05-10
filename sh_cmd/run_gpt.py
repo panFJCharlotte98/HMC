@@ -3,7 +3,7 @@ import time
 
 gpu_ids = "0,1"
 WHICH_GPUs = f"export CUDA_VISIBLE_DEVICES={gpu_ids}"
-port = '1234' if gpu_ids == '0,1' else '1235'
+port = '1235' if gpu_ids == '0,1' else '1236'
 occupy = "python ./testG/train.py -p 0.9 -n 2 -t 604800"
 N_PROCESSES = 2
 #                --target_result_surfix {"_updated"} \
@@ -12,13 +12,13 @@ N_PROCESSES = 2
 
 #'llava1.6-7bf', 'llava1.6-8bf', 'llama3.2-11bf', 'qwen2-vl-7bf', 'llava1.6-8bf', 'llava1.6-13bf', 'llama3.1-8bf', 'qwen2.5-7bf', 'qwen2.5-14bf'
 
-for task in ['harmc']:
+for task in ['fhm']:
     for split in ['test']:#'dev', 'test'
         for seed in [42]:
             for batch_size in [1]:
                 for llm in ['qwen2.5-14bf']: 
                     for lmm in ['gpt4o-mini']: #
-                        for scheme in ["GPT"]:
+                        for scheme in ["GPT_DESCRIBE"]:
                             print(f"scheme={scheme}")
                             load_data_surfix = "-"
                             if (task == 'fhm') and (split == 'test'):

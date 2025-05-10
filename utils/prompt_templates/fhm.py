@@ -307,6 +307,16 @@ GPT_DIRECT_CLASSIFY = {
     },
 }
 
+GPT_DESCRIBE = {
+    'name': "Describe", 'should_evaluate': False, 'take_image': True, 'gen_depend_on': None,
+    'versions': {
+        'v0': {'INS': f'''Describe the visual content of the meme without interpretation. If there is any overlaid caption, transcribe it exactly as shown without paraphrasing.'''},
+    },
+    'output_format': {
+        'v0': {"INS": '''''', 'post_process_func': post_process_to_remove_gibberish}
+    },
+}
+
 DECISION = {
     'name': "Decision", 'should_evaluate': True, 'take_image': False,
     'versions': {
@@ -356,6 +366,15 @@ GPT = {
             1: {'template': DECISION, "version": "gpt", "out_format": 'v0'},
         }
     }
+}
+
+GPT_describe = {
+    'lmm': {
+        'prompt': {
+            0: {'template': GPT_DESCRIBE, "version": "v0", "out_format": 'v0'},
+        },
+        'multi-turn': False
+    },
 }
 
 # # What modifications I made:
@@ -454,6 +473,7 @@ FHM_PROMPT_SCHEMES = {
     'GPT': GPT,
     'PP': PP,
     'P2': P2,
+    'GPT_DESCRIBE': GPT_describe
 }
 
 def get_tg_str(tg_ls):

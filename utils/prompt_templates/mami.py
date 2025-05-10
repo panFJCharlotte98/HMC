@@ -214,6 +214,16 @@ GPT_DIRECT_CLASSIFY = {
     },
 }
 
+GPT_DESCRIBE = {
+    'name': "Describe", 'should_evaluate': False, 'take_image': True, 'gen_depend_on': None,
+    'versions': {
+        'v0': {'INS': f'''This is an online meme about women. Describe the visual content of the meme without interpretation. If there is any overlaid caption, transcribe it exactly as shown without paraphrasing.'''},
+    },
+    'output_format': {
+        'v0': {"INS": '''''', 'post_process_func': post_process_to_remove_gibberish}
+    },
+}
+
 DECISION = {
     'name': "Decision", 'should_evaluate': True, 'take_image': False,
     'versions': {
@@ -260,6 +270,15 @@ GPT = {
             1: {'template': DECISION, "version": "gpt", "out_format": 'v0', 'batch_size':1},
         }
     }
+}
+
+GPT_describe = {
+    'lmm': {
+        'prompt': {
+            0: {'template': GPT_DESCRIBE, "version": "v0", "out_format": 'v0'},
+        },
+        'multi-turn': False
+    },
 }
 
 M2T = {
@@ -334,7 +353,8 @@ MAMI_PROMPT_SCHEMES = {
     'B1': B1,
     'B2': B2,
     'GPT': GPT,
-    'PP': PP
+    'PP': PP,
+    'GPT_DESCRIBE': GPT_describe
 }
 
 def get_Integrate_dp_pred(js):

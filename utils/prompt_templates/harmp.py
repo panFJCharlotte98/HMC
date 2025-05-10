@@ -32,6 +32,16 @@ GPT_DIRECT_CLASSIFY = {
     },
 }
 
+GPT_DESCRIBE = {
+    'name': "Describe", 'should_evaluate': False, 'take_image': True, 'gen_depend_on': None,
+    'versions': {
+        'v0': {'INS': f'''This is an online meme related to U.S. politics. Describe the visual content of the meme without interpretation. If there is any overlaid caption, transcribe it exactly as shown without paraphrasing.'''},
+    },
+    'output_format': {
+        'v0': {"INS": '''''', 'post_process_func': post_process_to_remove_gibberish}
+    },
+}
+
 DESCRIBE = {
     'name': "Describe", 'should_evaluate': False,'take_image': True,'gen_depend_on': None,
     'versions': {
@@ -214,6 +224,15 @@ GPT = {
     }
 }
 
+GPT_describe = {
+    'lmm': {
+        'prompt': {
+            0: {'template': GPT_DESCRIBE, "version": "v0", "out_format": 'v0'},
+        },
+        'multi-turn': False
+    },
+}
+
 p1 = {
     'llm_2': {
         'multi-turn': True,
@@ -245,6 +264,7 @@ HARMP_PROMPT_SCHEMES = {
     'B2': B2,
     'GPT': GPT,
     'PP': PP,
+    'GPT_DESCRIBE': GPT_describe
 }
 
 def assign_guidelines_(js):
