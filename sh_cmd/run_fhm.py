@@ -94,8 +94,8 @@ for task in ['fhm']:
                             except:
                                 continue
 
-os.system("python sh_cmd/run_baselines.py")
-os.system("python sh_cmd/run_pp.py")
+# os.system("python sh_cmd/run_baselines.py")
+# os.system("python sh_cmd/run_pp.py")
 
 with open ('./sh_cmd/run23.sh', 'w') as rsh:
     rsh.writelines([WHICH_GPUs, "\n", occupy]) #, 

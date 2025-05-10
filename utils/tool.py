@@ -324,19 +324,19 @@ def fhm_extract_target_group(text):
     for abbr, card in FHM_TG_KNOWLEDGE.items():
         for kw in card['kws']:
             if len(kw.split()) > 1:
-                if kw in ltext:
+                if (kw in ltext) and (abbr not in target_groups):
                     target_groups.append(abbr)
                     break
             else:
                 if regex.match(r"\d", kw):
-                    if kw in ltext_words:
+                    if (kw in ltext_words) and (abbr not in target_groups):
                         target_groups.append(abbr)
                         break
                 else:
-                    if any([kw in lword for lword in ltext_words]):
+                    if any([kw in lword for lword in ltext_words]) and (abbr not in target_groups):
                         target_groups.append(abbr)
                         break
-    target_groups = list(set(target_groups))
+    #target_groups = list(set(target_groups))
     return target_groups
 
 #-------------------------------- PrideMM----------------------------------#

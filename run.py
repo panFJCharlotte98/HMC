@@ -329,7 +329,7 @@ def get_fix_folder_name(args, model_type):
         fix_folder_name.append(f"{rename}-{dict_args[arg_name]}")
     
     if (model_type == 'llm') and args.llm.startswith("qwen2.5"):
-        fix_folder_name.append(f"BS-{args.per_device_eval_batch_size}")
+        fix_folder_name.append(f"BS-{args.ori_per_device_eval_batch_size}")
 
     #if not args.scheme.startswith("GPT"):
     fix_folder_name.append(f"GPU-{args.world_size}")
@@ -570,7 +570,8 @@ def run(args, model=None, type=None, evaluator=None):
         callbacks=[early_stopping_callback] if early_stopping_callback is not None else None
     )
     logger.info('***** Trainer built successfully. ***** \n')
-    
+    if args.local_rank <= 0:
+        print('***** Trainer built successfully. ***** \n')
     # if args.local_rank == 0:
     #     torch.distributed.barrier()  
 
@@ -705,12 +706,11 @@ def run_model(args):
         model = Model(args)
         if not model.model_tag.startswith("qwen2.5"):
             if model.model_size <= 8:
-                args.per_device_eval_batch_size = MAP_BATCH_SIZE[model.model_tag]['mini']
+                args.set_per_device_eval_batch_size = MAP_BATCH_SIZE[model.model_tag]['mini']
             else:
-                args.per_device_eval_batch_size = MAP_BATCH_SIZE[model.model_tag]['small']
-            args.set_per_device_eval_batch_size = copy.deepcopy(args.per_device_eval_batch_size)
+                args.set_per_device_eval_batch_size = MAP_BATCH_SIZE[model.model_tag]['small']
         else:
-            args.set_per_device_eval_batch_size = copy.deepcopy(args.per_device_eval_batch_size)
+            args.set_per_device_eval_batch_size = copy.deepcopy(args.ori_per_device_eval_batch_size)
     args.run_multiturn = args.current_prompt_schedule['multi-turn']
     #for rid, p_meta in args.current_prompt_schedule['prompt'].items():
     for r_order, rid in enumerate(args.current_prompt_schedule['prompt']):
@@ -724,6 +724,7 @@ def run_model(args):
             args.current_round = rid
             args.current_prompt_meta = p_meta
             args.should_evaluate = p_meta['template']['should_evaluate'] if 'should_evaluate' in p_meta['template'] else p_meta['template']["versions"][p_meta["version"]]['should_evaluate']
+            
             if args.current_output_dir == "":
                 args.current_output_dir = gen_current_output_dir(args, rid, p_meta)
             args.output_dir = args.current_output_dir
@@ -746,8 +747,10 @@ def run_model(args):
                     #     if (args.per_device_eval_batch_size > 2):
                     #         args.per_device_eval_batch_size = args.per_device_eval_batch_size - 2
                     if (args.run_multiturn) and (rid > 0) and ("new_conversation" not in p_meta):
-                        if (args.per_device_eval_batch_size > 2):
-                            args.per_device_eval_batch_size = args.set_per_device_eval_batch_size - 2 * r_order
+                        reduce_by = 4 if r_order > 1 else 2
+                        reduce_num = reduce_by * r_order
+                        if (args.set_per_device_eval_batch_size > reduce_num):
+                            args.per_device_eval_batch_size = args.set_per_device_eval_batch_size - reduce_num
                         if args.should_evaluate:
                             args.per_device_eval_batch_size = 16
                     else:
@@ -766,7 +769,7 @@ def run_model(args):
                 model.setup_gen_kwargs(update_args)
                 print(model.model.dtype)
                 run(args, model)
-                #run(args)
+                #run_if_oom(args, model)
             else:
                 this_cost = run_gpt(args)
                 model_cost += this_cost
@@ -947,15 +950,6 @@ def set_output_randomness_params(args):
         else:
             return set_randomness(args)
 
-def run_if_oom(args):
-    try:
-        this_cost = run_model(args)
-    except RuntimeError as e:
-        if "out of memory" in str(e):
-            args.per_device_eval_batch_size -= 2
-            this_cost = run_model(args)
-    return this_cost
-
 def main():
     # Get args
     parser = HfArgumentParser((WrappedTrainingArguments,))
@@ -979,7 +973,8 @@ def main():
         print(args.active_task_list)
     args.last_output_dir = ""
     args.skip_run = False
-    
+    args.ori_per_device_eval_batch_size = args.per_device_eval_batch_size
+
     args.use_all_previous_outputs = False
     args.gather_dependencies = False
 
@@ -1057,10 +1052,8 @@ def main():
                         args.run_gpt = True
                     if not args.run_gpt:
                         args = set_output_randomness_params(args)
-                    
-                    #this_cost = run_model(args)
-                    this_cost = run_if_oom(args)
-                    
+
+                    this_cost = run_model(args)
                     if this_cost > 0:
                         run_cost += this_cost    
     if (run_cost > 0) and (args.local_rank <= 0):
