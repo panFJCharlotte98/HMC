@@ -145,6 +145,8 @@ def check_start_from(args, exist_run_dir):
             # args.step_model_map[m_type] # this_step_model
             # args.llm if model_type == 'llm' else args.lmm
         )
+        if model_type == 'llm':
+            base_dir = os.path.join(base_dir, args.lmm, f"BS-{args.ori_per_device_eval_batch_size}")
         if not this_step_model.startswith('gpt'):
             this_step_model_size = int(this_step_model.split("-")[-1].strip('bf'))
             if (this_step_model_size <= 13) and (args.use_greedy_decoding_for_mini_models):
@@ -229,6 +231,8 @@ def gen_current_output_dir(args, tid, p_meta):
         # args.step_model_map[args.current_m_type],
         # dict_args[args.current_model_type]
     )
+    if args.current_m_type.startswith('llm'):
+        base_dir = os.path.join(base_dir, args.lmm, f"BS-{args.ori_per_device_eval_batch_size}")
     if not current_step_model.startswith('gpt'):
         current_step_model_size = int(current_step_model.split("-")[-1].strip('bf'))
         if (current_step_model_size <= 13) and (args.use_greedy_decoding_for_mini_models):
@@ -403,6 +407,8 @@ def check_before_running(args):
             f"seed-{args.seed}",
             dict_args[args.decision_model_type]
         )
+        if args.decision_model_type == 'llm':
+            check_dir = os.path.join(check_dir, args.lmm, f"BS-{args.ori_per_device_eval_batch_size}")
         if not args.decision_model.startswith('gpt'):
             if (args.decision_model_size <= 13) and (args.use_greedy_decoding_for_mini_models):
                 check_dir = os.path.join(args.root_output_dir, args.task, args.dataset_split, dict_args[args.decision_model_type])

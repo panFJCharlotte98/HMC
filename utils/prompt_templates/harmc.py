@@ -11,7 +11,7 @@ VLREASONING = {
     'gen_depend_on': None,
     'versions': {
         'CoT': {
-            "INS": f'''{Introduce} Classify the meme as either harmful or harmless based on widely accepted values, established knowledge, and social norms. Now, let's analyze step by step:'''
+            "INS": f'''{Introduce} Classify the meme as either harmful or harmless based on widely accepted values, established knowledge, and social norms. Now, let's think step by step:'''
         },
     },
     'output_format': {
@@ -148,7 +148,7 @@ REASONING = {
             'INS': [
                 f'''Given the following description of an online meme related to COVID-19 pandemic, classify the meme content as either harmful or harmless based on widely accepted values, established knowledge and social norms.''',
                 f'''**Meme content you need to classify**: {from_dependency}''',
-                '''Now, let's analyze step by step:'''
+                '''Now, let's think step by step:'''
             ]
         }
     },

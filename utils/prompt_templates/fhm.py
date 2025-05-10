@@ -10,10 +10,15 @@ VLREASONING = {
     'name': "VLReasoning", 'should_evaluate': False, 'take_image': True, 'gen_depend_on': None,
     'versions': {
         'CoT': {
+            # 'INS': [
+            #     f'''This is an image with an overlaid caption that reads: "{from_raw_data}".''',
+            #     '''Classify the image as either hateful or non-hateful based on widely accepted social norms, cultural context, and established understanding of harmful stereotypes, biases, and discriminatory narratives.''',
+            #     '''**Now, let's analyze step by step**:'''
+            # ],
             'INS': [
                 f'''This is an image with an overlaid caption that reads: "{from_raw_data}".''',
-                '''Classify the image as either hateful or non-hateful based on widely accepted social norms, cultural context, and established understanding of harmful stereotypes, biases, and discriminatory narratives.''',
-                '''**Now, let's analyze step by step**:'''
+                '''Classify the image as either hateful or non-hateful based on widely accepted values, established knowledge and social norms.''',
+                '''Now, let's analyze step by step:'''
             ]
         }
     },
@@ -239,6 +244,15 @@ REASONING = {
                 '''Now, let's think step by step:'''
             ]
         },
+        'CoT': {
+            'gen_depend_on': [INTEGRATE['name']],
+            'INS': [
+                f'''Given the following image-caption content, which may or may not be an online meme, classify the content as either hateful or non-hateful based on widely accepted values, established knowledge and social norms.''',
+                f'''**Image-caption content you need to classify**: {from_dependency}''',
+                f'''The caption overlaid on the image reads "{from_raw_data}".''',
+                '''Now, let's analyze step by step:'''
+            ]
+        },
         'CoT+': {
             'gen_depend_on': [INTEGRATE['name'], INTEGRATE_TG_CONTEXT['name']],
             'INS': [
@@ -279,15 +293,6 @@ REASONING = {
                 f'''**Image-caption content you need to classify**: {from_Integrate}''',
                 f'''The caption overlaid on the image reads "{from_raw_data}".''',
                 '''Now, let's think step by step:'''
-            ]
-        },
-        'CoT': {
-            'gen_depend_on': [INTEGRATE['name']],
-            'INS': [
-                f'''Given the following image-caption content, which may or may not be an online meme, classify the content as either hateful or non-hateful based on widely accepted values, established knowledge and social norms.''',
-                f'''**Image-caption content you need to classify**: {from_dependency}''',
-                f'''The caption overlaid on the image reads "{from_raw_data}".''',
-                '''**Now, let's think step by step**:'''
             ]
         },
     },

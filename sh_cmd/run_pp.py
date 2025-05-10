@@ -43,6 +43,8 @@ task_scheme_max_new_tokens_map = {
         'B2': {'lmm': 512, 'llm': 1024},
         'PP': {'lmm': 512, 'llm': 1024},
         'P4': {'lmm': 512, 'llm': 1024},
+        'P5': {'lmm': 512, 'llm': 1024},
+        'P41': {'lmm': 512, 'llm': 1024},
     },
     'pridemm' : {
         'B1': B1,
@@ -52,13 +54,13 @@ task_scheme_max_new_tokens_map = {
 }
 
 # for task in ['harmp', 'harmc', 'multioff', 'mami', 'pridemm']:
-for task in ['multioff']:
+for task in ['pridemm']:
     for split in ['test']:#'dev', 'test'
         for seed in [42]:#, 123, 2025, 27
             for batch_size in [16]:
                 for llm in ['qwen2.5-14bf',]:# 'qwen2.5-7bf'
                     for lmm in ['llava1.6-7bf']:
-                        for scheme in ['P4']:
+                        for scheme in ['PP']:
                             print(f"scheme={scheme}")
                             llm_max_new_tokens = task_scheme_max_new_tokens_map[task][scheme]['llm']
                             lmm_max_new_tokens = task_scheme_max_new_tokens_map[task][scheme]['lmm']

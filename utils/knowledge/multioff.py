@@ -1,8 +1,9 @@
 
 TYPES = {
-    "interpret": '''Try to interpret the image content from a neutral perspective by combining both the visual content and any overlaid text as a whole without presuming the nature of tone or intent as humorous or lighthearted. DO NOT let any single aspect dominate your determination.''',
+    # "interpret": '''Try to interpret the image content from a neutral perspective by combining both the visual content and any overlaid text as a whole without presuming the nature of tone or intent as humorous or lighthearted. DO NOT let any single aspect dominate your determination.''',
+    "interpret": '''Try to interpret the image content from a neutral perspective first without presuming the nature of its tone or intent as humorous or lighthearted.''',
 
-    "general": '''Commonly found offensive contents in political memes include: Spreading or reinforcing misinformation associated with politicians, political parties, or racial groups; einforcing superficial stereotypes about political groups; Oversimplifying, trivializing or misrepresenting serious/complex/sensitive/controversial political or historical issues; Encouraging harmful, misleading, inflammatory, extremist, dangerous discourses or ideologies; Promoting toxic, overtly divisive, polarizing narratives or rhetorics; Using explicitly derogatory or dehumanizing imagery or language for personal attacks, etc..''',
+    "general": '''Commonly found offensive contents in political memes include: Spreading or reinforcing misinformation associated with politicians, political parties, or racial groups; reinforcing superficial stereotypes about political groups; Oversimplifying, trivializing or misrepresenting serious/complex/sensitive/controversial political or historical issues; Encouraging harmful, misleading, inflammatory, extremist, dangerous discourses or ideologies; Promoting toxic, overtly divisive, polarizing narratives or rhetorics; Using explicitly derogatory or dehumanizing imagery or language for personal attacks, etc..''',
 
     "politicians": '''Commonly found offensive contents against politicians include: Using dismissive, aggressive or vulgar language or humors that are disrespectful and crude; Leveraging sarcastic/satirical personal attacks intended to insult, humiliate, discredit, embarrass, or ridicule public figures; Using distorted/digitally altered photoes that emphasize or exaggerate the appearance features of public figures to mock or ridicule; Using sensitive topics such as sexual scandals as punchlines for mockery, etc..''',
 
@@ -14,7 +15,7 @@ TYPES = {
     "lgbt": '''Offensive contents against LGBTQ community include: Stereotyping LGBTQ individuals as with certain appearance traits (such as dyed hair); Promoting homophobia, transphobia speech, etc..''',
     # Alienating LGBTQ individuals by labeling them as abnormal; Mocking or satirizing LGBTQ movements or activities; Stereotypes that emphasize or attack the appearance of LGBTQ individuals; Misgendering; Stigmatization; Suggesting violence against LGBTQ individuals, etc.
 
-    "racial": '''Other offensive contents include: Perpetuating harmful racist speech or stereotypes; Using explicitly derogatory racially charged language, etc..''',
+    "racial": '''Other offensive contents include: Perpetuating harmful racist speech or stereotypes about protected groups or minorities; Using explicitly derogatory racially charged language, etc..''',
 
     # "Donald Trump": '''Mocking his public statements and tweets, making fun of Trump, mocking real or perceived gaffes, attacking his character like intelligence, competence, and leadership abilities, stereotyping him as dishonest, corrupt, or incompetent, giving him derogatory nicknames, attacking his physical appearance like his hair skin color, and mannerisms, etc.''',
     # # "Biden x Obama/Trump Memes": "Made-up dialogs between Biden and Obama or Trump that usually make fun of Biden by pairing him with childish or absurd speech to mock his incompetence and age and to harm his public image, portraying Biden and Obama in a very close relationship, etc.",
