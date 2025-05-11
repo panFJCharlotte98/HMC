@@ -470,10 +470,6 @@ FHM_PROMPT_SCHEMES = {
 def get_tg_str(tg_ls):
     tg_label_ls = [FHM_TG_KNOWLEDGE[tg]["label"] for tg in tg_ls]
     if (len(tg_ls) == 1):
-        # if (tg_ls[0] == "others"):
-        #     tg_str = "various vulnerable protected groups"
-        # else:
-        #     tg_str = tg_label_ls[0]
         tg_str = tg_label_ls[0]
     elif len(tg_ls) > 1:
         tg_label_ls = [FHM_TG_KNOWLEDGE[tg]["label"] for tg in tg_ls if tg != "others"]

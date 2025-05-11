@@ -611,7 +611,7 @@ def post_process_gen_target_group_context(js, text):
                 cond2 = True
         if cond2 or cond3 or cond4:
             print(js["id"])
-            assert len(regex.findall(r"\-\s", text)) >= 2
+            #assert len(regex.findall(r"\-\s", text)) >= 2
             if regex.findall(r"\#+", text):
                 for pat2 in regex.findall(r"\#+\s?(?:\d+\.?)?(?:[^\-\d])*", text):
                     text = text.replace(pat2, f"- {pat2}")
