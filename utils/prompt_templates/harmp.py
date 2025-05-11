@@ -123,35 +123,42 @@ assign_guidelines = "{assign_guidelines}"
 REASONING = {
     'name': "Reasoning", 'should_evaluate': False, 'take_image': False,
     'versions': {
+        # 'CoT': {
+        #     'gen_depend_on': [INTEGRATE['name']],
+        #     'INS': [
+        #         f'''Given the following description of an online meme related to U.S. politics, classify the meme content as either harmful or harmless based on widely accepted values, established knowledge and social norms.''',
+        #         f'''**Description of the meme you need to classify**: {from_dependency}''',
+        #         '''Now, let's analyze step by step:'''
+        #     ]
+        # },
         'CoT': {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
-                f'''Given the following description of an online meme related to U.S. politics, classify the meme content as either harmful or harmless based on widely accepted values, established knowledge and social norms.''',
-                f'''**Description of the meme you need to classify**: {from_dependency}''',
+                f'''Given the following description of an image related to U.S. politics, classify the image content as either harmful or harmless based on common values, knowledge and social norms.''',
+                f'''**Description of the image**: {from_dependency}''',
                 '''Now, let's analyze step by step:'''
+            ]
+        },
+        'CoT+': {
+            'gen_depend_on': [INTEGRATE['name']],
+            'INS': [
+                f'''Given the following description of an image related to U.S. politics, classify the image content as either harmful or harmless based on common values, knowledge, social norms and the provided guidelines.''',
+                f'''**Guidelines**: {assign_guidelines}''',
+                f'''**Description of the image**: {from_dependency}''',
+                '''Now, let's analyze by applying the guidelines one by one:'''
             ]
         },
         # 'CoT+': {
         #     'gen_depend_on': [INTEGRATE['name']],
         #     'INS': [
-        #         f'''Given the following description of an image related to U.S. politics,''',
-        #         '''classify the image content as either harmful or harmless based on common values, knowledge, social norms and the provided guidelines.''',
+        #         f'''Given the following description of an online meme related to U.S. politics,''',
+        #         '''classify the meme content as either harmful or harmless based on widely accepted values, established knowledge, social norms and the provided guidelines.''',
         #         f'''**Guidelines**: {assign_guidelines}''',
-        #         f'''**Description of the image**: {from_dependency}''',
-        #         '''Now, let's analyze by applying the guidelines one by one:'''
+        #         f'''**Description of the meme you need to classify**: {from_dependency}''',
+        #         '''Now, let's analyze step by step:'''
+        #         # '''Now, let's analyze by applying the guidelines one by one:'''
         #     ]
         # },
-        'CoT+': {
-            'gen_depend_on': [INTEGRATE['name']],
-            'INS': [
-                f'''Given the following description of an online meme related to U.S. politics,''',
-                '''classify the meme content as either harmful or harmless based on widely accepted values, established knowledge, social norms and the provided guidelines.''',
-                f'''**Guidelines**: {assign_guidelines}''',
-                f'''**Description of the meme you need to classify**: {from_dependency}''',
-                '''Now, let's analyze step by step:'''
-                # '''Now, let's analyze by applying the guidelines one by one:'''
-            ]
-        },
     },
     'output_format': {
         'v0': {"INS": '''''', 'post_process_func': post_process_to_remove_gibberish},
@@ -249,7 +256,7 @@ p1 = {
         'multi-turn': True,
         'prompt': {
             0: {'template': REASONING, "version": "CoT+", "out_format": 'v0', 'max_new_tokens': 1536},
-            1: {'template': DECISION, "version": "v1", "out_format": 'v0'},
+            1: {'template': DECISION, "version": "v0", "out_format": 'v0'},
         }
     }
 }
@@ -260,7 +267,7 @@ b2 = {
         'multi-turn': True,
         'prompt': {
             0: {'template': REASONING, "version": "CoT", "out_format": 'v0', 'max_new_tokens': 1536},
-            1: {'template': DECISION, "version": "v1", "out_format": 'v0'},
+            1: {'template': DECISION, "version": "v0", "out_format": 'v0'},
         }
     }
 }

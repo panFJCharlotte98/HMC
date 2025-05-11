@@ -236,14 +236,6 @@ REASONING = {
                 '''**Now, let's analyze step by step**:'''
             ]
         },
-        'hateTarget': {
-            'gen_depend_on': [INTEGRATE['name']],
-            "INS": [
-                f'''Given the following description of an online meme related to LGBTQ+ movements, analyze: What is the meme's target subject? Select the most appropriate category from these options: 1. Undirected; 2. Specific Individual; 3. LGBTQ+ Community; 4. Organization. **Target Classification Guidelines**: {TG_GL}''',
-                f'''**Description of the meme content**: {from_dependency}''',
-                '''**Now, let's analyze step by step**:'''
-            ]
-        },
         'individual': {
             'gen_depend_on': [INTEGRATE['name']],
             "INS": [
@@ -260,6 +252,14 @@ REASONING = {
                 '''**Now, let's analyze step by step**:'''
             ]
         },
+        'hateTarget': {
+            'gen_depend_on': [INTEGRATE['name']],
+            "INS": [
+                f'''Given the following description of an online meme related to LGBTQ+ movements, analyze: What is the meme's target subject? Select the most appropriate category from these options: 1. Undirected; 2. Specific Individual; 3. LGBTQ+ Community; 4. Organization. **Target Classification Guidelines**: {TG_GL}''',
+                f'''**Description of the meme content**: {from_dependency}''',
+                '''**Now, let's analyze step by step**:'''
+            ]
+        },
         'CoT': {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
@@ -271,8 +271,8 @@ REASONING = {
         'CoT*': {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
-                f'''Given the following description of an online meme related to LGBTQ+ pride movements, classify the content as either harmful or harmless to LGBTQ+ community and supporters, based on widely accepted social norms, cultural understanding, established knowledge and the provided guidelines.''',
-                f'''Guidelines: {make_guidelines}''',
+                f'''Given the following description of an online meme related to LGBTQ+ pride movements, classify the content as either harmful or harmless to: (1) the LGBTQ+ community and its supporters, or (2) the specific individual(s) or organization(s) involved, based on widely accepted social norms, values, cultural understanding and the provided guidelines.''',
+                f'''**Guidelines**: {make_guidelines}''',
                 f'''**Meme content you need to classify**: {from_dependency}''',
                 CoT_INS
             ]
@@ -441,23 +441,23 @@ p1 = {
     'llm_4': {
         'multi-turn': True,
         'prompt': {
-            0: {'template': REASONING, "version": "hateTarget", "out_format": 'v0', "load_from_prestep": True, "return_prestep_path": True},
-            2: {'template': AUX, "version": "hateTarget", "out_format": 'hateTarget'}
+            0: {'template': REASONING, "version": "individual", "out_format": 'v0', "load_from_prestep": True, "return_prestep_path": True},
+            2: {'template': AUX, "version": "individual", "out_format": 'YN'},
+            3: {'template': AUX, "version": "LGBTQindividual", "out_format": 'YN'},
         }
     },
     'llm_5': {
         'multi-turn': True,
         'prompt': {
-            0: {'template': REASONING, "version": "individual", "out_format": 'v0', "load_from_prestep": True, "return_prestep_path": True},
-            3: {'template': AUX, "version": "individual", "out_format": 'YN'},
-            4: {'template': AUX, "version": "LGBTQindividual", "out_format": 'YN'},
+            0: {'template': REASONING, "version": "organization", "out_format": 'v0', "load_from_prestep": True, "return_prestep_path": True},
+            4: {'template': AUX, "version": "organization", "out_format": 'YN'},
         }
     },
     'llm_6': {
         'multi-turn': True,
         'prompt': {
-            0: {'template': REASONING, "version": "organization", "out_format": 'v0', "load_from_prestep": True, "return_prestep_path": True},
-            5: {'template': AUX, "version": "organization", "out_format": 'YN'},
+            0: {'template': REASONING, "version": "hateTarget", "out_format": 'v0', "load_from_prestep": True, "return_prestep_path": True},
+            5: {'template': AUX, "version": "hateTarget", "out_format": 'hateTarget'},
             6: {'template': REASONING, "version": "CoTxTarget", "out_format": 'v0', 'new_conversation': True, 'depend_on_prestep': True, 'max_new_tokens': 1536},
             7: {'template': DECISION, "version": "tg", "out_format": 'v0'}
         }
@@ -483,7 +483,16 @@ PrideMM_PROMPT_SCHEMES = {
     'PP': PP,
     'GPT_DESCRIBE': GPT_describe
 }
-    
+
+def assign_unified_guidelines(js):
+    assert "aux_info" in js
+    aux_info = js["aux_info"]
+    Rules = GL_INONE
+    if aux_info["self"]["flag"]:
+        Rules.append(TYPES["self"])
+    GL = f"\n".join([f"{rid+1}. {rule}" for rid, rule in enumerate(Rules)])
+    return GL
+
 def assign_guidelines(js):
     assert "aux_info" in js
     aux_info = js["aux_info"]
@@ -531,7 +540,6 @@ def assign_guidelines(js):
 
     GL = f"\n".join([f"{rid+1}. {rule}" for rid, rule in enumerate(Rules)])
     return GL
-
 
 def assign_prompt_INS_by_target(js):
     assert "aux_info" in js
@@ -595,7 +603,7 @@ def fill_placeholder(tmp, js):
         return tmp.format(from_data_text = prompt), js
 
     if make_guidelines in tmp:
-        return tmp.format(make_guidelines = assign_guidelines(js)), js
+        return tmp.format(make_guidelines = assign_unified_guidelines(js)), js
     if assign_prompt_by_target in tmp:
         return assign_prompt_INS_by_target(js), js
     if assign_decision_prompt_by_target in tmp:

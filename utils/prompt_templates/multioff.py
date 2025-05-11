@@ -10,7 +10,7 @@ VLREASONING = {
     'gen_depend_on': None,
     'versions': {
         'CoT': {
-            "INS": f'''{Introduce} Classify the meme as either offensive or non-offensive based on widely accepted values, established knowledge, and social norms. Now, let's analyze step by step:'''
+            "INS": f'''This is an image related to 2016 U.S. Presidential Election. Classify the image as either offensive or non-offensive based on widely accepted values, established knowledge, and social norms. Now, let's analyze step by step:'''
         },
     },
     'output_format': {
@@ -138,17 +138,18 @@ REASONING = {
         'CoT+': {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
-                f'''Given the following description of an online meme related to 2016 U.S. Presidential Election, classify the meme content as either offensive or non-offensive based on widely accepted values, established knowledge, social norms and the provided guidelines.''',
+                f'''Given the following description of an image related to 2016 U.S. Presidential Election,''',
+                '''classify the image content as either offensive or non-offensive based on common values, knowledge, social norms and the provided guidelines.''',
                 f'''**Guidelines**: {assign_guidelines}''',
-                f'''**Description of the meme you need to classify**: {from_dependency}''',
-                '''Now, let's analyze step by step:''',
+                f'''**Description of the image**: {from_dependency}''',
+                '''Now, let's analyze by applying the guidelines one by one:'''
             ]
         },
         'CoT': {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
-                f'''Given the following description of an online meme related to 2016 U.S. Presidential Election, classify the meme content as either offensive or non-offensive based on widely accepted values, established knowledge and social norms.''',
-                f'''**Description of the meme you need to classify**: {from_dependency}''',
+                f'''Given the following description of an image related to 2016 U.S. Presidential Election, classify the image content as either offensive or non-offensive based on widely accepted values, established knowledge and social norms.''',
+                f'''**Description of the image**: {from_dependency}''',
                 '''Now, let's analyze step by step:'''
             ]
         },
@@ -269,7 +270,7 @@ b2 = {
         'multi-turn': True,
         'prompt': {
             0: {'template': REASONING, "version": "CoT", "out_format": 'v0', "load_from_prestep": True, "return_prestep_path": True},
-            1: {'template': DECISION, "version": "v1", "out_format": 'v0'}
+            1: {'template': DECISION, "version": "v0", "out_format": 'v0'}
         }
     }
 }
@@ -279,7 +280,7 @@ p1 = {
         'multi-turn': True,
         'prompt': {
             0: {'template': REASONING, "version": "CoT+", "out_format": 'v0', "load_from_prestep": True, "return_prestep_path": True},
-            1: {'template': DECISION, "version": "v1", "out_format": 'v0'}
+            1: {'template': DECISION, "version": "v0", "out_format": 'v0'}
         }
     }
 }

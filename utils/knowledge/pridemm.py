@@ -1,11 +1,7 @@
 TG_GL = '''1. Undirected: The meme addresses abstract concepts, societal issues, or vague subjects (e.g., "you") without referencing any clearly identifiable individuals, groups, or entities.
 2. Specific Individual: The meme targets a particular person, such as a public figure, celebrity, activist, influencer, or other specific individual.
-3. LGBTQ+ Community: The meme targets the LGBTQ+ community and supporters as a whole or subgroups (e.g., trans, gay people) as a broad social, cultural, or identity-based group.
+3. LGBTQ+ Community: The meme targets the LGBTQ+ community and supporters as a whole or subgroups (e.g., trans, gay people) as a broad social, cultural, or identity-based group;
 4. Organization: The meme targets institutions, entities such as corporations, government bodies, political parties or similar organizations.'''
-
-# best record
-# 4. Organization: The meme targets institutions, entities such as corporations, government bodies, political parties or similar organizations.
-#
 # 4. Organization: The meme targets institutions or organizational entities such as corporations, companies, government bodies, political parties, countries, regions, or other similar organizations, either in general or by specific reference.
 
 Individual_GL = '''A specific individual refers to a particular person, such as a public figure, politician, celebrity, influencer, or activist, etc., who is explicitly referenced by name, title, or identifiable role.'''
@@ -18,6 +14,7 @@ subgroup_examples = '''{subgroup_examples}'''
 TYPES = {    
     # "(Semi-) Bisexual individuals": '''Perpetuating negative stereotypes about bisexual individuals to mock or delegitimize them; Promoting division, exclusion or marginalization of subgroups within the LGBTQ+ community.''',
     "(Semi-) Bisexual individuals": '''Promoting division within the LGBTQ+ community; Perpetuating negative stereotypes that contribute to the exclusion and marginalization of subgroups within the LGBTQ+ community.''',
+
     "LGBTQ+ subgroups": '''Promoting division, exclusion and marginalization of subgroups within the LGBTQ+ community; Perpetuating negative stereotypes against LGBTQ+ subgroups, etc.''',
     
     "country": {
@@ -129,4 +126,5 @@ Making light of anti-LGBTQ+ persecution and violence in certain countries, etc.'
 
 R_harmless_ori = '''If the meme's caption merely describes, states, or explains the facts about the image's visual content (e.g., providing context about what is going on in the image) in a neutral tone (neither satirical nor critical) from an observer's perspective without any rhetorics, sentiment inclination or personal viewpoints, avoid inferring for negative associations or implications. Such captions, if being objective or illustrative statements, should be considered as innocent.'''
 
-
+R_stance_in_one = '''Try to analyze the meme's accurate stance toward: (1) LGBTQ+ community, supporters and movements, or (2) The specific individual involved, or (3) organizations involved. Is the meme's stance "neutral", "support" or "oppose"?'''
+GL_INONE = [R_interpret, R_stance, R_explicit, R_implicit_new, R_harmful_new, R_harmful_lgbt_individual, R_harmful_organization, R_harmless_ori]
