@@ -10,14 +10,9 @@ VLREASONING = {
     'name': "VLReasoning", 'should_evaluate': False, 'take_image': True, 'gen_depend_on': None,
     'versions': {
         'CoT': {
-            # 'INS': [
-            #     f'''This is an image with an overlaid caption that reads: "{from_raw_data}".''',
-            #     '''Classify the image as either hateful or non-hateful based on widely accepted social norms, cultural context, and established understanding of harmful stereotypes, biases, and discriminatory narratives.''',
-            #     '''**Now, let's analyze step by step**:'''
-            # ],
             'INS': [
                 f'''This is an image with an overlaid caption that reads: "{from_raw_data}".''',
-                '''Classify the image as either hateful or non-hateful based on widely accepted values, established knowledge and social norms.''',
+                '''Classify the content as either hateful or non-hateful based on common values, knowledge and social norms.''',
                 '''Now, let's analyze step by step:'''
             ]
         }
@@ -247,34 +242,22 @@ REASONING = {
         'CoT': {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
-                f'''Given the following image-caption content, which may or may not be an online meme, classify the content as either hateful or non-hateful based on widely accepted values, established knowledge and social norms.''',
+                f'''Given the following image-caption content, which may or may not be an online meme, classify the content as either hateful or non-hateful based on common values, knowledge and social norms.''',
                 f'''**Image-caption content you need to classify**: {from_dependency}''',
                 f'''The caption overlaid on the image reads "{from_raw_data}".''',
-                '''Now, let's analyze step by step:'''
+                '''Now, let's think step by step:'''
             ]
         },
         'CoT+': {
             'gen_depend_on': [INTEGRATE['name'], INTEGRATE_TG_CONTEXT['name']],
             'INS': [
-                #CLASSIFY_INS,
-                CLASSIFY_INS_V1,
-                f'''**Guidelines**: {make_guidelines_w_IntegrateTGContext}''',
+                CLASSIFY_INS,
+                f'''Here are some guidelines for your reference: {make_guidelines_w_IntegrateTGContext}''',
                 f'''**Image-caption content you need to classify**: {from_Integrate}''',
                 f'''The caption overlaid on the image reads "{from_raw_data}".''',
                 '''Now, let's think step by step:'''
             ]
         },
-        # 'CoT+': {
-        #     'gen_depend_on': [INTEGRATE['name'], INTEGRATE_TG_CONTEXT['name']],
-        #     'INS': [
-        #         #CLASSIFY_INS,
-        #         CLASSIFY_INS_V1,
-        #         f'''Here are some guidelines for your reference: {make_guidelines_w_IntegrateTGContext}''',
-        #         f'''**Image-caption content you need to classify**: {from_Integrate}''',
-        #         f'''The caption overlaid on the image reads "{from_raw_data}".''',
-        #         '''Now, let's think step by step:'''
-        #     ]
-        # },
         'CoT++': {
             'gen_depend_on': [INTEGRATE['name'], GENERATE_TG_CONTEXT['name']],
             'INS': [
@@ -282,15 +265,15 @@ REASONING = {
                 f'''Here are some guidelines for your reference: {make_guidelines_w_GenTGContext}''',
                 f'''**Image-caption content you need to classify**: {from_dependency}''',
                 f'''The caption overlaid on the image reads "{from_raw_data}".''',
-                '''Now, let's analyze step by step:'''
+                '''Now, let's think step by step:'''
             ]
         },
         'CoT*': {
-            'gen_depend_on': [INTEGRATE['name'], INTEGRATE_TG_CONTEXT['name']],
+            'gen_depend_on': [INTEGRATE['name']],
             'INS': [
                 CLASSIFY_INS,
-                f'''Here are some **guidelines** for your reference: {make_guidelines}''',
-                f'''**Image-caption content you need to classify**: {from_Integrate}''',
+                f'''Here are some guidelines for your reference: {GUIDELINES}''',
+                f'''**Image-caption content you need to classify**: {from_dependency}''',
                 f'''The caption overlaid on the image reads "{from_raw_data}".''',
                 '''Now, let's think step by step:'''
             ]
@@ -423,20 +406,11 @@ b2 = {
         'multi-turn': True,
         'prompt': {
             0: {'template': REASONING, "version": "CoT", "out_format": 'v0'},
-            1: {'template': DECISION, "version": "v0", "out_format": 'v0'}
+            1: {'template': DECISION, "version": "v1", "out_format": 'v0'}
         }
     }
 }
 
-p2 = {
-    'llm_2': {
-        'multi-turn': True,
-        'prompt': {
-            0: {'template': REASONING, "version": "CoT*", "out_format": 'v0'},
-            1: {'template': DECISION, "version": "v0", "out_format": 'v0'}
-        }
-    }
-}
 
 p1 = {
     'llm_2': {
@@ -453,21 +427,32 @@ p1 = {
     },
 }
 
-# p1 = {
-#     'llm_2': {
-#         'multi-turn': True,
-#         'prompt': {
-#             0: {'template': REASONING, "version": "TG", "out_format": 'v0'},
-#             1: {'template': EXTRACT, "version": "TargetGroup", "out_format": 'v0'},
-#             2: {'template': GENERATE_TG_CONTEXT, "version": "v0", "out_format": 'v0'},
-#             3: {'template': REASONING, "version": "CoT++", "out_format": 'v0', 'new_conversation': True, 'batch_size': 14},
-#             4: {'template': DECISION, "version": "v1", "out_format": 'v0'},
-#         }
-#     },
-# }
+p2 = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "CoT*", "out_format": 'v0'},
+            1: {'template': DECISION, "version": "v1", "out_format": 'v0'}
+        }
+    }
+}
+
+p3 = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "TG", "out_format": 'v0'},
+            1: {'template': EXTRACT, "version": "TargetGroup", "out_format": 'v0'},
+            2: {'template': GENERATE_TG_CONTEXT, "version": "v0", "out_format": 'v0'},
+            3: {'template': REASONING, "version": "CoT++", "out_format": 'v0', 'new_conversation': True},
+            4: {'template': DECISION, "version": "v1", "out_format": 'v0'},
+        }
+    },
+}
 
 PP = dict(**M2T, **p1)
 P2 = dict(**M2T, **p2)
+P3 = dict(**M2T, **p3)
 B2 = dict(**M2T, **b2)
 # ******************************************************************************************* # 
 
@@ -478,6 +463,7 @@ FHM_PROMPT_SCHEMES = {
     'GPT': GPT,
     'PP': PP,
     'P2': P2,
+    'P3': P3,
     'GPT_DESCRIBE': GPT_describe
 }
 
@@ -500,41 +486,12 @@ def get_tg_str(tg_ls):
 def incorporate_gen_context(tg_ls, dp_pred, include_gen_context=True, include_tg_label=False):
     if len(dp_pred) == 1:
         examples = []
-        # for tg_id, tg in enumerate(tg_ls):
-        #     if tg != "others":
-        #         examples.append(FHM_TG_KNOWLEDGE[tg]["examples"])
-        # if examples:
-        #     if include_gen_context:
-        #         examples = examples + dp_pred
-        # else:
-        #     examples = dp_pred
-        
         if include_gen_context:
             examples = dp_pred
         for tg_id, tg in enumerate(tg_ls):
             if tg != "others":
                 examples.append(FHM_TG_KNOWLEDGE[tg]["examples"])
     else:
-        # examples = []
-        # assert len(tg_ls) > 1
-        # if "others" in tg_ls:
-        #     tg_ls.remove("others")
-        # for tg_id, tg in enumerate(tg_ls):
-        #     if tg != "others":
-        #         combine = [FHM_TG_KNOWLEDGE[tg]["examples"]]
-        #         if include_gen_context:
-        #             try:
-        #                 combine = combine + [dp_pred[tg_id]]
-        #             except:
-        #                 combine = combine
-        #         if include_tg_label:
-        #             tg_label = FHM_TG_KNOWLEDGE[tg]["label"]
-        #             combine = [f"Against {tg_label}:"] + combine
-        #         examples.extend(combine)        
-        # if include_gen_context:
-        #     for p in dp_pred:
-        #         if p not in examples:
-        #             examples.append(p)
         examples = []
         assert len(tg_ls) > 1
         if "others" in tg_ls:
@@ -560,17 +517,12 @@ def assign_guidelines(js, add_tg_context=False, summarize=False):
     Rules = [R_combine, R_neutral, R2, R3, R5, R6, R7, R8]#best with
     Rules = [R_neutral, R2, R3, R5, R6, R7, R8]
     Rules = [R_neutral, R2, R3_new, R5, R6, R7, R8]
-    #Rules = [R_combine, R_neutral, R2, R3]#best with
-    # Rules = [R1, R2, R3, R5, R6, R7, R8]#best with
-    #Rules = [R1, R2, R3_new, R4_new, R5, R6, R7, R8]
-    #Rules = [R_combine, R_neutral, R2, R3, R_explicit, R5, R6, R7, R8]
     if add_tg_context:
         tg_ls = js["TargetGroup"]
         if tg_ls:
             tg_str = get_tg_str(tg_ls)
             if summarize:
                 dp_pred = js.pop(INTEGRATE_TG_CONTEXT['name'])
-                #dp_pred = extract_target_group_context(dp_pred)#best with
                 prefix = ""
                 if dp_pred:
                     assert tg_ls
@@ -583,18 +535,14 @@ def assign_guidelines(js, add_tg_context=False, summarize=False):
                 dp_pred = js.pop("gen_tg_context") # is a list
                 if dp_pred:
                     assert tg_ls
-                    # examples = incorporate_gen_context(tg_ls, dp_pred, include_tg_label=False)##best with
-                    #examples = incorporate_gen_context(tg_ls, dp_pred, include_tg_label=True)
                     examples = incorporate_gen_context(tg_ls, dp_pred, include_tg_label=True)
                     Rule_forms = " ".join(" ".join(examples).split())
                     prefix = "Commonly found hateful content:"
-                    #prefix = "Commonly found harmful stereotypes and forms of offensive or hateful content:"
                     Rule_forms = " ".join([prefix, Rule_forms])#best without
                     Rules.append(R4)
                     Rules.append(Rule_forms)
         # else:
-        #     Rules = [R_combine, R_neutral, R2, R_explicit, R3_new, R4_new, R5, R6, R7, R8]
-    
+        #     Rules = [R_combine, R_neutral, R2, R_explicit, R3_new, R4_new, R5, R6, R7, R8] 
     GL = f" ".join([f"{rid+1}. {rule}" for rid, rule in enumerate(Rules)])
     return GL
 
@@ -660,56 +608,27 @@ def fill_placeholder(tmp, js):
         tg_ls = js["TargetGroup"]
         assert tg_ls
         if integrate_tg_context in tmp:
-            # tg_label_ls = [FHM_TG_KNOWLEDGE[tg]['label'] for tg in tg_ls]
-            # if len(tg_ls) > 1:
-            #     tg_str = ", ".join(tg_label_ls[:-1]) + f" and {tg_label_ls[-1]}"
-            # else:
-            #     tg_str = tg_label_ls[0]
-            # tg_str = " ".join(tg_str.strip().split())
             tg_str = get_tg_str(tg_ls)
             dp_pred = js.pop("processed_prediction")
-            #dp_pred = post_process_gen_target_group_context(dp_pred)
             exist_examples = []
             for tg in tg_ls:
                 if tg != "others":
                     card = FHM_TG_KNOWLEDGE[tg]
                     this_label = card["label"]
                     this_example = card["examples"]
-                    exist_examples.append(f"### Commonly found hateful content targeting {this_label}: {this_example}")### best with  
-            #dp_pred = "### " + dp_pred
+                    exist_examples.append(f"### Commonly found hateful content targeting {this_label}: {this_example}")### best with
             tg_examples = f" ".join(exist_examples + [dp_pred])
-            # tmp = f'''Given the following examples of commonly found hateful contents in online memes against {tg_str}, integrate the information into one comprehensive and coherent list. Examples: {tg_examples}'''
-            tmp = f'''Summarize the following examples of commonly found hateful contents in online memes against {tg_str}. **Examples to summarize**: {tg_examples} **Summarization**:'''
-            tmp = f'''Summarize the following examples of commonly found harmful stereotypes and hateful content in online memes targeting {tg_str}. **Examples to summarize**: {tg_examples} **Summarization**:'''
         elif integrate_tg_context_v1 in tmp:
             tg_str = get_tg_str(tg_ls)
             dp_pred = js.pop("processed_prediction") # a list
             examples = incorporate_gen_context(tg_ls, dp_pred, include_tg_label=True)
             tg_examples = " ".join(" ".join(examples).split())
-            # tmp = f'''Summarize the following examples of commonly found hateful contents in online memes against {tg_str}. **Examples to summarize**: {tg_examples} **Summarization**:'''
-            tmp = f'''Summarize the following examples of commonly found harmful stereotypes and offensive or hateful content in online memes targeting {tg_str}. **Examples to summarize**: {tg_examples} **Summarization**:'''
-            # tmp = f'''Summarize the following examples of commonly found harmful stereotypes, disrespectul, offensive or hateful contents against {tg_str}. **Examples to summarize**: {tg_examples} **Summarization**:'''
+        tmp = f'''Summarize the following examples of commonly found hateful content in online memes against {tg_str}. **Examples to summarize**: {tg_examples} **Summarization**:'''
         return tmp, js
     
     if from_Integrate in tmp:
         dp_pred = js.pop(INTEGRATE['name'])
         return tmp.format(from_Integrate = dp_pred), js
-    # if from_IntegrateTGContext in tmp:
-    #     dp_pred = js.pop(INTEGRATE_TG_CONTEXT['name'])
-    #     dp_pred = extract_target_group_context(dp_pred)
-    #     tg_ls = js["TargetGroup"]
-    #     tg_label_ls = [FHM_TG_KNOWLEDGE[tg]["label"] for tg in tg_ls]
-    #     prefix = ""
-    #     if (len(tg_ls) == 1) and (tg_ls[0] == "others"):
-    #         prefix = "9. Commonly found hateful contents targeting various vulnerable protected groups include:"
-    #     elif len(tg_ls) > 1:
-    #         tg_str = ", ".join(tg_label_ls[:-1]) + f" and {tg_label_ls[-1]}"
-    #         tg_str = " ".join(tg_str.strip().split())
-    #         prefix = f"9. Commonly found hateful contents targeting protected groups e.g., {tg_str} include:"
-    #     if dp_pred:
-    #         dp_pred = " ".join([prefix, dp_pred])
-    #     dp_pred = " ".join(dp_pred.split())
-    #     return tmp.format(from_IntegrateTGContext = dp_pred), js
     if from_data_text in tmp:
         if js['text']:
             prompt = f'''The overlaid caption on the image reads: "{js['text']}"'''

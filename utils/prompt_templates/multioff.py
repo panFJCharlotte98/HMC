@@ -148,7 +148,7 @@ REASONING = {
         'CoT': {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
-                f'''Given the following description of an image related to 2016 U.S. Presidential Election, classify the image content as either offensive or non-offensive based on widely accepted values, established knowledge and social norms.''',
+                f'''Given the following description of an image related to 2016 U.S. Presidential Election, classify the image content as either offensive or non-offensive based on based on common values, knowledge and social norms.''',
                 f'''**Description of the image**: {from_dependency}''',
                 '''Now, let's analyze step by step:'''
             ]

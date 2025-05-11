@@ -9,7 +9,7 @@ VLREASONING = {
     'gen_depend_on': None,
     'versions': {
         'CoT': {
-            "INS": f'''This is an online meme related to U.S. politics. Classify the meme as either harmful or harmless based on widely accepted values, established knowledge, and social norms. Now, let's analyze step by step:'''
+            "INS": f'''This is an online meme related to U.S. politics. Classify the meme as either harmful or harmless based on common values, knowledge and social norms. Now, let's analyze step by step:'''
         },
     },
     'output_format': {
@@ -123,14 +123,6 @@ assign_guidelines = "{assign_guidelines}"
 REASONING = {
     'name': "Reasoning", 'should_evaluate': False, 'take_image': False,
     'versions': {
-        # 'CoT': {
-        #     'gen_depend_on': [INTEGRATE['name']],
-        #     'INS': [
-        #         f'''Given the following description of an online meme related to U.S. politics, classify the meme content as either harmful or harmless based on widely accepted values, established knowledge and social norms.''',
-        #         f'''**Description of the meme you need to classify**: {from_dependency}''',
-        #         '''Now, let's analyze step by step:'''
-        #     ]
-        # },
         'CoT': {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
@@ -148,17 +140,6 @@ REASONING = {
                 '''Now, let's analyze by applying the guidelines one by one:'''
             ]
         },
-        # 'CoT+': {
-        #     'gen_depend_on': [INTEGRATE['name']],
-        #     'INS': [
-        #         f'''Given the following description of an online meme related to U.S. politics,''',
-        #         '''classify the meme content as either harmful or harmless based on widely accepted values, established knowledge, social norms and the provided guidelines.''',
-        #         f'''**Guidelines**: {assign_guidelines}''',
-        #         f'''**Description of the meme you need to classify**: {from_dependency}''',
-        #         '''Now, let's analyze step by step:'''
-        #         # '''Now, let's analyze by applying the guidelines one by one:'''
-        #     ]
-        # },
     },
     'output_format': {
         'v0': {"INS": '''''', 'post_process_func': post_process_to_remove_gibberish},
