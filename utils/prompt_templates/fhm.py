@@ -511,7 +511,8 @@ def assign_guidelines(js, add_tg_context=False, summarize=False):
     assert "TargetGroup" in js
     Rules = [R1, R2, R3, R4, R5, R6, R7, R8]
     Rules = [R_combine, R_neutral, R2, R3, R5, R6, R7, R8]#best with
-    Rules = [R_combine, R_neutral, R2, R3, R5, R6, R7, R8]
+    Rules = [R_neutral, R2, R3, R5, R6, R7, R8]
+    Rules = [R_neutral, R2, R4_new, R5, R6, R7, R8]
     if add_tg_context:
         tg_ls = js["TargetGroup"]
         if tg_ls:
@@ -524,7 +525,7 @@ def assign_guidelines(js, add_tg_context=False, summarize=False):
                     prefix = "If the image-caption content conveys any of the following implications, it should be classified as hateful:"
                     #dp_pred = " ".join([prefix, dp_pred])#best without
                     dp_pred = " ".join(dp_pred.split()).strip()
-                    Rules.append(R4)
+                    #Rules.append(R4)
                     Rules.append(dp_pred)
             else:
                 dp_pred = js.pop("gen_tg_context") # is a list
@@ -534,7 +535,7 @@ def assign_guidelines(js, add_tg_context=False, summarize=False):
                     Rule_forms = " ".join(" ".join(examples).split())
                     prefix = "Commonly found hateful content:"
                     #Rule_forms = " ".join([prefix, Rule_forms])#best without
-                    Rules.append(R4)
+                    #Rules.append(R4)
                     Rules.append(Rule_forms)
         # else:
         #     Rules = [R_combine, R_neutral, R2, R_explicit, R3_new, R4_new, R5, R6, R7, R8] 

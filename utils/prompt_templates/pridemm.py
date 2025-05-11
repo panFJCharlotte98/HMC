@@ -257,7 +257,7 @@ REASONING = {
             "INS": [
                 f'''Given the following description of an online meme related to LGBTQ+ movements, analyze: What is the meme's target subject? Select the most appropriate category from these options: 1. Undirected; 2. Specific Individual; 3. LGBTQ+ Community; 4. Organization. **Target Classification Guidelines**: {TG_GL}''',
                 f'''**Description of the meme content**: {from_dependency}''',
-                '''**Now, let's analyze step by step**:'''
+                '''Now, let's analyze step by step:'''
             ]
         },
         'CoT': {
