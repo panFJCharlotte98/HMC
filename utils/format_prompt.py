@@ -57,6 +57,22 @@ def qwen2_format_prompt(dialog, tokenizer):
     
     return (dialog_tokens, attention_mask)
 
+def qwen3_format_prompt(dialog, tokenizer):
+    assert dialog[0]['role'] == 'system'
+    formatted_dialog = tokenizer.apply_chat_template(
+        dialog,
+        tokenize=False,
+        add_generation_prompt=True,
+        enable_thinking=True
+    )
+    model_inputs = tokenizer([formatted_dialog], return_tensors="np")
+    
+    dialog_tokens = model_inputs.input_ids.tolist()[0]
+    
+    attention_mask = model_inputs.attention_mask.tolist()[0]
+    
+    return (dialog_tokens, attention_mask)
+
 def llama2_format_prompt(dialog, tokenizer):
     if dialog[0]["role"] == "system":
         dialog = [
@@ -147,7 +163,9 @@ def LLM_format_prompt(model_tag, dialog, tokenizer):
     if model_tag.startswith('mistral'): 
         return mistral_format_prompt(dialog, tokenizer)
     
-    if model_tag.startswith('qwen'): 
+    if model_tag.startswith('qwen'):
+        if model_tag.startswith('qwen3'):
+            return qwen3_format_prompt(dialog, tokenizer)
         return qwen2_format_prompt(dialog, tokenizer)
 
 def LMM_format_prompt(processor, dialog, image_paths=None):

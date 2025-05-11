@@ -18,13 +18,14 @@ from transformers import (
 from utils.configure import Configure
 
 DEFAULT_MODEL_CACHE = "/data/fengjun/hf_downloaded_models"
-LLMs = ['llama3.1', 'qwen2.5']
+LLMs = ['llama3.1', 'qwen2.5', 'qwen3']
 LMMs = ['llama3.2', 'qwen2-vl', 'qwen2.5-vl', 'llava1.6', 'llava1.5']
 
 MODEL_CLASSES = {
     # LLM
     'llama3.1': (AutoConfig, AutoModelForCausalLM, AutoTokenizer),
     'qwen2.5': (AutoConfig, AutoModelForCausalLM, AutoTokenizer),
+    'qwen3': (AutoConfig, AutoModelForCausalLM, AutoTokenizer),
     'mistral': (AutoConfig, AutoModelForCausalLM, AutoTokenizer),
     'llama2': (LlamaConfig, LlamaForCausalLM, LlamaTokenizer),
     # LMM

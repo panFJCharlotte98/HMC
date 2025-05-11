@@ -218,6 +218,7 @@ class EvaluateFriendlyTrainer(Trainer):
         if self.model.type == 'llm':
             #predictions = self.tokenizer.batch_decode(predictions, skip_special_tokens=True)
             predictions = self.processing_class.batch_decode(predictions, skip_special_tokens=True)
+        
         if self.model.type == 'lmm':
             clean_up_tokenization_spaces = True if self.model.model_tag.startswith('qwen2-vl') else False
             predictions = self.processing_class.batch_decode(predictions, skip_special_tokens=True, clean_up_tokenization_spaces=clean_up_tokenization_spaces)
