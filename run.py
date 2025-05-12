@@ -747,7 +747,7 @@ def run_model(args):
             torch.distributed.barrier(device_ids=[args.local_rank])
             if not args.run_gpt:
                 args.per_device_eval_batch_size = args.set_per_device_eval_batch_size
-                if args.task in ['harmc', 'harmp', 'multioff', 'mami']:
+                if args.task in ['harmc', 'harmp', 'multioff']:#, 'mami'
                     if (args.run_multiturn) and (rid > 0):
                         if (args.per_device_eval_batch_size > 2):
                             args.per_device_eval_batch_size = args.per_device_eval_batch_size - 2
@@ -755,7 +755,7 @@ def run_model(args):
                     if "batch_size" in p_meta:
                         args.per_device_eval_batch_size = p_meta['batch_size']
                     else:
-                        if args.task == 'fhm':
+                        if args.task in ['fhm', 'mami', 'pridemm']:
                             if (args.run_multiturn) and (rid > 0) and ("new_conversation" not in p_meta):
                                 reduce_by = 2
                                 if (args.task == 'fhm') and (args.set_per_device_eval_batch_size == 32):

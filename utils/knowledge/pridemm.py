@@ -1,6 +1,6 @@
 TG_GL = '''1. Undirected: The meme addresses abstract concepts, societal issues, or vague subjects (e.g., "you") without referencing any clearly identifiable individuals, groups, or entities.
 2. Specific Individual: The meme targets a particular person, such as a public figure, celebrity, activist, influencer, or other specific individual.
-3. LGBTQ+ Community: The meme targets the LGBTQ+ community and supporters as a whole or subgroups (e.g., trans, gay people) as a broad social, cultural, or identity-based group;
+3. LGBTQ+ Community: The meme targets the LGBTQ+ community and supporters as a whole or subgroups (e.g., trans, gay people) as a broad social, cultural, or identity-based group.
 4. Organization: The meme targets institutions, entities such as corporations, government bodies, political parties or similar organizations.'''
 # 4. Organization: The meme targets institutions or organizational entities such as corporations, companies, government bodies, political parties, countries, regions, or other similar organizations, either in general or by specific reference.
 
