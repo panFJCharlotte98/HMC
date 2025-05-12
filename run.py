@@ -138,11 +138,14 @@ def check_start_from(args, exist_run_dir):
         model_type = m_type.split("_")[0]
         run_multiturn = schedule['multi-turn']
         this_step_model = args.step_model_map[m_type]
+        this_step_model_folder = this_step_model
+        if this_step_model_folder.startswith("qwen3") and args.enable_thinking:
+            this_step_model_folder += "_thinking"
         base_dir = os.path.join(
             args.root_output_dir, args.task, 
             args.dataset_split,
             f"seed-{args.seed}",
-            this_step_model,
+            this_step_model_folder,
             # args.step_model_map[m_type] # this_step_model
             # args.llm if model_type == 'llm' else args.lmm
         )
@@ -151,9 +154,9 @@ def check_start_from(args, exist_run_dir):
         if not this_step_model.startswith('gpt'):
             this_step_model_size = int(this_step_model.split("-")[-1].strip('bf'))
             if (this_step_model_size <= 13) and (args.use_greedy_decoding_for_mini_models):
-                base_dir = os.path.join(args.root_output_dir, args.task, args.dataset_split, this_step_model)
+                base_dir = os.path.join(args.root_output_dir, args.task, args.dataset_split, this_step_model_folder)
         if this_step_model.startswith('gpt'):
-            base_dir = os.path.join(args.root_output_dir, args.task, args.dataset_split, this_step_model)
+            base_dir = os.path.join(args.root_output_dir, args.task, args.dataset_split, this_step_model_folder)
         if not os.path.exists(base_dir):
             os.makedirs(base_dir, exist_ok=True)
         check_dir, last_output_dir = "", ""
@@ -224,11 +227,15 @@ def gen_current_output_dir(args, tid, p_meta):
     #is_eval_turn = p_meta['template']['should_evaluate']
     is_eval_turn = p_meta['template']['should_evaluate'] if 'should_evaluate' in p_meta['template'] else p_meta['template']["versions"][p_meta["version"]]['should_evaluate']
     current_step_model = args.step_model_map[args.current_m_type]
+    current_step_model_folder = current_step_model
+    if current_step_model_folder.startswith("qwen3") and args.enable_thinking:
+        current_step_model_folder += "_thinking"
+
     base_dir = os.path.join(
         args.root_output_dir, args.task,
         args.dataset_split,
         f"seed-{args.seed}",
-        current_step_model,
+        current_step_model_folder,
         # args.step_model_map[args.current_m_type],
         # dict_args[args.current_model_type]
     )
@@ -237,9 +244,9 @@ def gen_current_output_dir(args, tid, p_meta):
     if not current_step_model.startswith('gpt'):
         current_step_model_size = int(current_step_model.split("-")[-1].strip('bf'))
         if (current_step_model_size <= 13) and (args.use_greedy_decoding_for_mini_models):
-            base_dir = os.path.join(args.root_output_dir, args.task, args.dataset_split, current_step_model)
+            base_dir = os.path.join(args.root_output_dir, args.task, args.dataset_split, current_step_model_folder)
     if current_step_model.startswith('gpt'):
-        base_dir = os.path.join(args.root_output_dir, args.task, args.dataset_split, current_step_model)
+        base_dir = os.path.join(args.root_output_dir, args.task, args.dataset_split, current_step_model_folder)
     fix_folder_name = get_fix_folder_name(args, args.current_model_type)
     # pre_turn_name = ""
     # if p_meta['template']['take_last_output']:
@@ -405,17 +412,20 @@ def check_before_running(args):
                 run_mutltit, dependencies, final_rid, final_p_meta, fix_folder_name)
             
         # check_dir is where the results stored, it's under the decision model folder
+        decision_model_folder = dict_args[args.decision_model_type]
+        if dict_args[args.decision_model_type].startswith("qwen3") and args.enable_thinking:
+            decision_model_folder += "_thinking"
         check_dir = os.path.join(
             args.root_output_dir, args.task, 
             args.dataset_split,
             f"seed-{args.seed}",
-            dict_args[args.decision_model_type]
+            decision_model_folder
         )
         if args.decision_model_type == 'llm':
             check_dir = os.path.join(check_dir, args.lmm, f"BS-{args.ori_per_device_eval_batch_size}")
         if not args.decision_model.startswith('gpt'):
             if (args.decision_model_size <= 13) and (args.use_greedy_decoding_for_mini_models):
-                check_dir = os.path.join(args.root_output_dir, args.task, args.dataset_split, dict_args[args.decision_model_type])
+                check_dir = os.path.join(args.root_output_dir, args.task, args.dataset_split, decision_model_folder)
         if not os.path.exists(check_dir):
             os.makedirs(check_dir, exist_ok=True)
         args = _check_before(args, check_dir)
