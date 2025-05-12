@@ -343,7 +343,7 @@ def get_fix_folder_name(args, model_type):
     for arg_name, rename in args_used_in_name:
         fix_folder_name.append(f"{rename}-{dict_args[arg_name]}")
     
-    if (model_type == 'llm') and args.llm.startswith("qwen2.5"):
+    if (model_type == 'llm') and args.llm.startswith("qwen"):
         fix_folder_name.append(f"BS-{args.ori_per_device_eval_batch_size}")
 
     #if not args.scheme.startswith("GPT"):

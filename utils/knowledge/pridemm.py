@@ -11,12 +11,12 @@ TG_GL = '''1. Undirected: The meme addresses abstract concepts, societal issues,
 # 4. LGBTQ+ Community: The meme focuses on LGBTQ+ community, LGBTQ+ subgroups, or LGBTQ+ supporters (e.g., trans, gay people) as a broad social, cultural, or identity-based group.'''
 TG = {
     "Undirected": '''The meme addresses abstract concepts, societal issues, or vague subjects (e.g., "you") without referencing any clearly identifiable individuals, groups, or entities.''',
-    "LGBTQ+ Community": '''The meme targets LGBTQ+ community or subgroups (e.g., trans, gay people) as a broad social, cultural, or identity-based group.''',
-    "Specific Individual": "The meme targets a particular person, such as a public figure, celebrity, activist, influencer, or other specific individual.",
+    "LGBTQ+ Community": '''The meme targets LGBTQ+ community, supporters or subgroups (e.g., trans, gay people) as a broad social, cultural, or identity-based group.''',
+    "Specific Individual": "The meme targets a particular person, such as a public figure, celebrity, activist, influencer, or other specific individual. But note: The Twitter user who posted the tweet, as indicated by the username shown in the meme, does not fall into this category.",
     "Organization": '''The meme discusses about organizational entities, such as corporations, government bodies, political parties, institutions, countries/regions or other similar organizations.''',
 }
 TG_LABEL = []
-TG_LS = ['''Note: If the meme includes a tweet, treat the tweet's content as the primary content of the meme and pay attention to the tweet's subject matter.''']
+TG_LS = ['''Note: If the meme includes a tweet, treat the tweet's content as the primary content of the meme and analyze the tweet's target subject. If the meme focuses on any statement of any specific individual, analyze the target subject of the statement. Targets:''']
 for kid, k in enumerate(TG):
     kdef = TG[k]
     TG_LS.append(f"{kid+1}. {k}: {kdef}")

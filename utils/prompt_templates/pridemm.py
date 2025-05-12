@@ -344,15 +344,17 @@ def assign_decision_extract_by_target(js):
     if aux_info["individual"]["flag"] == 1:
         #assert aux_info["individual"]["flag"] == 1
         if aux_info["hateTarget"] == "individual":
-            if aux_info["LGBTQindividual"] is None:
+            if aux_info["LGBTQindividual"]['flag'] == 0:
                 # Non-LGBTQ+ individual
                 plh = "individual"
+                return f'''If you just classified the meme content as harmful (either explicitly or implicitly) to the public image of the specific {plh}, output "Conclusion: Harmful." Otherwise, output "Conclusion: Harmless."'''
             else:
                 plh = "LGBTQ+ individual"
-            return f'''If you just classified the meme content as hurtful (either explicitly or implicitly) to the {plh}, output "Conclusion: Hurtful." Otherwise, output "Conclusion: Non-hurtful."'''
+                return f'''If you just classified the meme content as hurtful (either explicitly or implicitly) to the {plh}, output "Conclusion: Hurtful." Otherwise, output "Conclusion: Non-hurtful."'''
+            # return f'''If you just classified the meme content as hurtful (either explicitly or implicitly) to the {plh}, output "Conclusion: Hurtful." Otherwise, output "Conclusion: Non-hurtful."'''
     else:
         #if aux_info["organization"] is not None:
-        if (aux_info["hateTarget"] == "organization") and (aux_info["organization"]["flag"] == 1):
+        if (aux_info["hateTarget"] in ["organization"]) and (aux_info["organization"]["flag"] == 1):
             return f'''If you just classified the meme content as harmful (either explicitly or implicitly) to the public image of the organization, output "Conclusion: Harmful." Otherwise, output "Conclusion: Harmless."'''
     return f'''If you just classified the meme content as harmful (either explicitly or implicitly), output "Conclusion: Harmful." Otherwise, output "Conclusion: Harmless."'''
 
@@ -570,7 +572,7 @@ def assign_prompt_INS_by_target(js):
         else:
             use_default = True
     else:
-        if (aux_info["hateTarget"] in ["organization", "organization"]) and (aux_info["organization"]["flag"] == 1):
+        if (aux_info["hateTarget"] in ["organization"]) and (aux_info["organization"]["flag"] == 1):
             Rules = [R_organization, R_interpret, R_explicit_organization, R_implicit_organization, R_harmful_organization, R_harmless_ori]
             classify_ins = f'''classify the content as either harmful or harmless to the public image of the organization(s) involved, according to widely accepted social norms, values, cultural understanding, and the provided guidelines.'''
         else:
@@ -580,7 +582,7 @@ def assign_prompt_INS_by_target(js):
         classify_ins = '''classify the content as either harmful or harmless to LGBTQ+ community and supporters, based on widely accepted social norms, values, cultural understanding, and the provided guidelines.'''
     
     if isinstance(Rules, list):
-        GL = f"\n".join([f"{rid+1}. {rule}" for rid, rule in enumerate(Rules)])
+        GL = f" ".join([f"{rid+1}. {rule}" for rid, rule in enumerate(Rules)])
     else:
         GL = Rules
     prompt = " ".join([classify_ins, f"Guidelines: {GL}"])
