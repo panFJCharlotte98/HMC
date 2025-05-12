@@ -112,8 +112,7 @@ AUX = {
         },
         'hateTarget': {
             'gen_depend_on': None,
-            # "INS": '''Output "Conclusion: your_choice_from_the_option_list". **Option list**: 1. Undirected; 2. Specific Individual; 3. LGBTQ+ Community; 4. Organization.''',
-            "INS": '''Output "Conclusion: your_choice_from_the_option_list". **Option list**: 1. Undirected; 2. LGBTQ+ Community; 3. Specific Individual; 4. Organization.''',
+            "INS": f'''Output "Conclusion: your_choice_from_the_option_list". **Option list**: {TG_LABEL}''',
         },
         'individual': {
             'gen_depend_on': None,
@@ -264,7 +263,7 @@ REASONING = {
         'hateTarget*': {
             'gen_depend_on': [INTEGRATE['name']],
             "INS": [
-                f'''Given the following description of an online meme related to LGBTQ+ movements, analyze: What does the meme mainly focus on? Select the most appropriate category from these options: 1. Undirected; 2. LGBTQ+ Community; 3. Specific Individual; 4. Organization; **Classification Guidelines**: {TG_GL}''',
+                f'''Given the following description of an online meme related to LGBTQ+ movements, analyze: What does the meme mainly focus on? Select the most appropriate category from these options: {TG_LABEL} **Classification Guidelines**: {TG_GL}''',
                 f'''**Description of the meme content**: {from_dependency}''',
                 '''Now, let's analyze step by step:'''
             ]

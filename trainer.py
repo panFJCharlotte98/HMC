@@ -237,7 +237,9 @@ class EvaluateFriendlyTrainer(Trainer):
                 raw_output = " ".join(predictions[idx].split())
                 thinking_content = ""
                 if self.model.model_tag.startswith("qwen3") and isinstance(raw_output, str) and self.args.enable_thinking:
-                    thinking_content = regex.findall(r"<think>.*<\/think>", raw_output)[0]
+                    thinking = regex.findall(r"<think>.*<\/think>", raw_output)
+                    if thinking:
+                        thinking_content = thinking[0]
                     raw_output = regex.sub(r"<think>.*<\/think>", "", raw_output).strip()
                 out_format_version = self.args.current_prompt_meta['out_format']
                 need_extract = self.args.current_prompt_meta['template']['output_format'][out_format_version]['post_process_func']
