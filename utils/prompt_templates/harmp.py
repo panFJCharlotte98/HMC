@@ -140,6 +140,21 @@ REASONING = {
                 '''Now, let's analyze by applying the guidelines one by one:'''
             ]
         },
+        'CoTqw3': {
+            'gen_depend_on': [INTEGRATE['name']],
+            'INS': [
+                f'''Given the following description of an image related to U.S. politics, classify the image content as either harmful or harmless based on common values, knowledge and social norms.''',
+                f'''**Description of the image**: {from_dependency}''',
+            ]
+        },
+        'CoT+qw3': {
+            'gen_depend_on': [INTEGRATE['name']],
+            'INS': [
+                f'''Given the following description of an image related to U.S. politics, classify the image content as either harmful or harmless based on common values, knowledge, social norms and the provided guidelines.''',
+                f'''**Guidelines**: {assign_guidelines}''',
+                f'''**Description of the image**: {from_dependency}''',
+            ]
+        },
     },
     'output_format': {
         'v0': {"INS": '''''', 'post_process_func': post_process_to_remove_gibberish},
@@ -253,8 +268,31 @@ b2 = {
     }
 }
 
+p1_qw3 = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "CoT+qw3", "out_format": 'v0'},
+            1: {'template': DECISION, "version": "v0", "out_format": 'v0'},
+        }
+    }
+}
+
+# Unimodal baseline: Inference with LLM
+b2_qw3 = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "CoTqw3", "out_format": 'v0'},
+            1: {'template': DECISION, "version": "v0", "out_format": 'v0'},
+        }
+    }
+}
+
 B2 = dict(**M2T, **b2)
 PP = dict(**M2T, **p1)
+PPqw3 = dict(**M2T, **p1_qw3)
+B2qw3 = dict(**M2T, **b2_qw3)
 # ******************************************************************************************* # 
 
 HARMP_PROMPT_SCHEMES = {
@@ -263,6 +301,8 @@ HARMP_PROMPT_SCHEMES = {
     'B2': B2,
     'GPT': GPT,
     'PP': PP,
+    'B2qw3': B2qw3,
+    'PPqw3': PPqw3,
     'GPT_DESCRIBE': GPT_describe
 }
 

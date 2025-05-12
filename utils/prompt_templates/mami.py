@@ -160,6 +160,14 @@ REASONING_BASELINE = {
             '''Now, let's analyze step by step:'''
         ]
     },
+    'CoTqw3': {
+        'gen_depend_on': [INTEGRATE['name']],
+        'INS': [
+            f'''Given the following image-caption content, which may or may not be an online meme, classify the content as either misogynistic or non-misogynistic based on common values, knowledge and social norms.''',
+            f'''**Image-caption content you need to classify**: {from_Integrate}''',
+            f'''The caption overlaid on the image reads "{from_raw_data}".''',
+        ]
+    },
 }
 
 REASONING_VERS = dict(**REASONING_BASELINE, **REASONING_STAGE1, **REASONING_STAGE2)
@@ -314,6 +322,17 @@ b2 = {
 }
 B2 = dict(**M2T, **b2)
 
+b2_qw3 = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "CoTqw3", "out_format": 'v0'},
+            1: {'template': DECISION, "version": "v0", "out_format": 'v0'}
+        }
+    }
+}
+B2qw3 = dict(**M2T, **b2_qw3)
+
 # # Proposed Step-by-step pipeline
 p1 = {}
 llm_id = 2
@@ -353,6 +372,7 @@ MAMI_PROMPT_SCHEMES = {
     'B2': B2,
     'GPT': GPT,
     'PP': PP,
+    'B2qw3': B2qw3,
     'GPT_DESCRIBE': GPT_describe
 }
 

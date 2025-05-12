@@ -153,6 +153,22 @@ REASONING = {
                 '''Now, let's analyze step by step:'''
             ]
         },
+        'CoT+qw3': {
+            'gen_depend_on': [INTEGRATE['name']],
+            'INS': [
+                f'''Given the following description of an image related to 2016 U.S. Presidential Election,''',
+                '''classify the image content as either offensive or non-offensive based on common values, knowledge, social norms and the provided guidelines.''',
+                f'''**Guidelines**: {assign_guidelines}''',
+                f'''**Description of the image**: {from_dependency}''',
+            ]
+        },
+        'CoTqw3': {
+            'gen_depend_on': [INTEGRATE['name']],
+            'INS': [
+                f'''Given the following description of an image related to 2016 U.S. Presidential Election, classify the image content as either offensive or non-offensive based on based on common values, knowledge and social norms.''',
+                f'''**Description of the image**: {from_dependency}''',
+            ]
+        },
     },
     'output_format': {
         'v0': {"INS": '''''', 'post_process_func': post_process_to_remove_gibberish},
@@ -287,6 +303,27 @@ p1 = {
 PP = dict(**M2T, **p1)
 B2 = dict(**M2T, **b2)
 
+b2_qw3 = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "CoTqw3", "out_format": 'v0', "load_from_prestep": True, "return_prestep_path": True},
+            1: {'template': DECISION, "version": "v0", "out_format": 'v0'}
+        }
+    }
+}
+
+p1_qw3 = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "CoT+qw3", "out_format": 'v0', "load_from_prestep": True, "return_prestep_path": True},
+            1: {'template': DECISION, "version": "v0", "out_format": 'v0'}
+        }
+    }
+}
+PPqw3 = dict(**M2T, **p1_qw3)
+B2qw3 = dict(**M2T, **b2_qw3)
 # ******************************************************************************************* # 
 
 MultiOFF_PROMPT_SCHEMES = {
@@ -295,6 +332,8 @@ MultiOFF_PROMPT_SCHEMES = {
     'B2': B2,
     'GPT': GPT,
     'PP': PP,
+    'B2qw3': B2qw3,
+    'PPqw3': PPqw3,
     'GPT_DESCRIBE': GPT_describe
 }
 

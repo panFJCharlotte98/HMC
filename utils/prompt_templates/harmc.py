@@ -127,6 +127,7 @@ INTEGRATE = {
     }
 }
 
+CLASSIFY_INS = '''Given the following description of an online meme related to COVID-19 pandemic, classify the meme content as either harmful or harmless based on widely accepted values, established knowledge and social norms.'''
 assign_guidelines = "{assign_guidelines}"
 REASONING = {
     'name': "Reasoning", 'should_evaluate': False, 'take_image': False,
@@ -149,6 +150,21 @@ REASONING = {
                 f'''Given the following description of an online meme related to COVID-19 pandemic, classify the meme content as either harmful or harmless based on widely accepted values, established knowledge and social norms.''',
                 f'''**Meme content you need to classify**: {from_dependency}''',
                 '''Now, let's think step by step:'''
+            ]
+        },
+        'CoT+qw3': {
+            'gen_depend_on': [INTEGRATE['name']],
+            'INS': [
+                CLASSIFY_INS,
+                f'''**Here are some guidelines for your reference**: {assign_guidelines}''',
+                f'''**Meme content you need to classify**: {from_dependency}''',
+            ]
+        },
+        'CoTqw3': {
+            'gen_depend_on': [INTEGRATE['name']],
+            'INS': [
+                CLASSIFY_INS,
+                f'''**Meme content you need to classify**: {from_dependency}''',
             ]
         }
     },
@@ -295,6 +311,25 @@ b2 = {
         }
     }
 }
+b2_qw3 = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "CoTqw3", "out_format": 'v0'},
+            1: {'template': DECISION, "version": "v1", "out_format": 'v0'},
+        }
+    }
+}
+
+p1_qw3 = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "CoT+qw3", "out_format": 'v0'},
+            1: {'template': DECISION, "version": "v1", "out_format": 'v0'},
+        }
+    }
+}
 # ******************************************************************************************* # 
 # Proposed Pipeline
 p1 = {
@@ -308,6 +343,9 @@ p1 = {
 }
 PP = dict(**M2T, **p1)
 B2 = dict(**M2T, **b2)
+PPqw3 = dict(**M2T, **p1_qw3)
+B2qw3 = dict(**M2T, **b2_qw3)
+
 # ******************************************************************************************* # 
 
 HARMC_PROMPT_SCHEMES = {
@@ -316,6 +354,8 @@ HARMC_PROMPT_SCHEMES = {
     "GPT": GPT,
     'M2T': M2T,
     'PP': PP,
+    'B2qw3': B2qw3,
+    'PPqw3': PPqw3,
     'GPT_DESCRIBE': GPT_describe
 }
 

@@ -285,6 +285,13 @@ REASONING = {
                 CoT_INS
             ]
         },
+        'CoTqw3': {
+            'gen_depend_on': [INTEGRATE['name']],
+            'INS': [
+                f'''Given the following description of an online meme related to LGBTQ+ pride movements, classify the content as either harmful or harmless to: (1) LGBTQ+ community and its supporters, or (2) the specific individual(s) involved or (3) organization(s) involved, based on widely accepted social norms, values and cultural understanding.''',
+                f'''**Meme content you need to classify**: {from_dependency}'''
+            ]
+        },
     },
     'output_format': {
         'v0': {"INS": '''''', 'post_process_func': post_process_to_remove_gibberish},
@@ -426,6 +433,16 @@ b2 = {
     }
 }
 
+b2_qw3 = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "CoTqw3", "out_format": 'v0'},
+            1: {'template': DECISION, "version": "v0", "out_format": 'v0'},
+        }
+    }
+}
+
 p1 = {
     'llm_2': {
         'multi-turn': False,
@@ -483,6 +500,7 @@ p1 = {
 
 PP = dict(**M2T, **p1)
 B2 = dict(**M2T, **b2)
+B2qw3 = dict(**M2T, **b2_qw3)
 # ******************************************************************************************* # 
 
 PrideMM_PROMPT_SCHEMES = {
@@ -491,6 +509,7 @@ PrideMM_PROMPT_SCHEMES = {
     'B2': B2,
     'GPT': GPT,
     'PP': PP,
+    'B2qw3': B2qw3,
     'GPT_DESCRIBE': GPT_describe
 }
 
