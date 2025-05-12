@@ -572,7 +572,7 @@ def assign_prompt_INS_by_target(js):
         else:
             use_default = True
     else:
-        if (aux_info["hateTarget"] in ["organization"]) and (aux_info["organization"]["flag"] == 1):
+        if (aux_info["hateTarget"] in ["organization"]):# and (aux_info["organization"]["flag"] == 1)
             Rules = [R_organization, R_interpret, R_explicit_organization, R_implicit_organization, R_harmful_organization, R_harmless_ori]
             classify_ins = f'''classify the content as either harmful or harmless to the public image of the organization(s) involved, according to widely accepted social norms, values, cultural understanding, and the provided guidelines.'''
         else:

@@ -669,6 +669,8 @@ def run(args, model=None, type=None, evaluator=None):
     #del model
     del evaluator
     del trainer
+    torch.cuda.empty_cache()
+    torch.distributed.barrier(device_ids=[args.local_rank])
     return
 
 def run_gpt(args):
