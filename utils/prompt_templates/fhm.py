@@ -278,6 +278,23 @@ REASONING = {
                 '''Now, let's think step by step:'''
             ]
         },
+        'CoT*qw3': {
+            'gen_depend_on': [INTEGRATE['name']],
+            'INS': [
+                CLASSIFY_INS,
+                f'''Here are some guidelines for your reference: {GUIDELINES}''',
+                f'''**Image-caption content you need to classify**: {from_dependency}''',
+                f'''The caption overlaid on the image reads "{from_raw_data}".''',
+            ]
+        },
+        'CoTqw3': {
+            'gen_depend_on': [INTEGRATE['name']],
+            'INS': [
+                f'''Given the following image-caption content, which may or may not be an online meme, classify the content as either hateful or non-hateful based on common values, knowledge and social norms.''',
+                f'''**Image-caption content you need to classify**: {from_dependency}''',
+                f'''The caption overlaid on the image reads "{from_raw_data}".''',
+            ]
+        },
     },
     'output_format': {
         'v0': {"INS": '''''', 'post_process_func': post_process_to_remove_gibberish},
@@ -411,6 +428,15 @@ b2 = {
     }
 }
 
+b2_qw3 = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "CoTqw3", "out_format": 'v0'},
+            1: {'template': DECISION, "version": "v1", "out_format": 'v0'}
+        }
+    }
+}
 
 p1 = {
     'llm_2': {
@@ -437,6 +463,16 @@ p2 = {
     }
 }
 
+p2_qw3 = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "CoT*qw3", "out_format": 'v0'},
+            1: {'template': DECISION, "version": "v1", "out_format": 'v0'}
+        }
+    }
+}
+
 p3 = {
     'llm_2': {
         'multi-turn': True,
@@ -454,6 +490,8 @@ PP = dict(**M2T, **p1)
 P2 = dict(**M2T, **p2)
 P3 = dict(**M2T, **p3)
 B2 = dict(**M2T, **b2)
+B2qw3 = dict(**M2T, **b2_qw3)
+P2qw3 = dict(**M2T, **p2_qw3)
 # ******************************************************************************************* # 
 
 FHM_PROMPT_SCHEMES = {
@@ -464,6 +502,8 @@ FHM_PROMPT_SCHEMES = {
     'PP': PP,
     'P2': P2,
     'P3': P3,
+    'B2qw3': B2qw3,
+    'P2qw3': P2qw3,
     'GPT_DESCRIBE': GPT_describe
 }
 
