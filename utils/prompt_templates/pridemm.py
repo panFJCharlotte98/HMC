@@ -548,10 +548,11 @@ def assign_prompt_INS_by_target(js):
     assert "individual" in aux_info
     if aux_info["individual"]["flag"] == 1:
         if aux_info["hateTarget"] == "individual":
-            if aux_info["LGBTQindividual"] is None:
+            if aux_info["LGBTQindividual"]['flag'] == 0:
                 # Non-LGBTQ+ individual
                 plh = "individual"
                 Rules = [Individual_GL, R_interpret, R_stance_individual, R_explicit_individual, R_implicit_individual, R_harmless_ori]
+                # classify_ins = f'''classify the content as either harmful or harmless to the public image of the specific {plh} involved, according to widely accepted social norms, values, cultural understanding, and the provided guidelines.'''
             else:
                 plh = "LGBTQ+ individual"
                 Rules = [R_interpret, R_stance_lgbt_individual, R_explicit_individual, R_implicit_lgbt_individual, R_harmful_lgbt_individual, R_harmless_ori]
@@ -559,7 +560,7 @@ def assign_prompt_INS_by_target(js):
         else:
             use_default = True
     else:
-        if (aux_info["hateTarget"] == "organization") and (aux_info["organization"]["flag"] == 1):
+        if (aux_info["hateTarget"] in ["organization", "lgbtq"]) and (aux_info["organization"]["flag"] == 1):
             Rules = [R_organization, R_interpret, R_explicit_organization, R_implicit_organization, R_harmful_organization, R_harmless_ori]
             classify_ins = f'''classify the content as either harmful or harmless to the public image of the organization(s) involved, according to widely accepted social norms, values, cultural understanding, and the provided guidelines.'''
         else:

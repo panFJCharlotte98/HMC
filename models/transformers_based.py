@@ -18,7 +18,7 @@ from transformers import (
 from utils.configure import Configure
 
 DEFAULT_MODEL_CACHE = "/data/fengjun/hf_downloaded_models"
-LLMs = ['llama3.1', 'qwen2.5', 'qwen3']
+LLMs = ['llama3.1', 'qwen2.5', 'qwen3', 'mistral']
 LMMs = ['llama3.2', 'qwen2-vl', 'qwen2.5-vl', 'llava1.6', 'llava1.5']
 
 MODEL_CLASSES = {
@@ -141,7 +141,7 @@ class Model(nn.Module):
     def setup_gen_kwargs(self, args):
         self.args = args
         if self.type == 'llm':
-            if self.model_tag.startswith("qwen2.5"):
+            if self.model_tag.startswith("qwen") or self.model_tag.startswith("mistral"):
                 print(f"max_new_tokens for {self.model_tag}: {args.llm_max_new_tokens}")
                 if args.do_sample:
                     self.gen_kwargs = {
@@ -165,11 +165,6 @@ class Model(nn.Module):
                     "do_sample" : args.do_sample,
                     "top_p": args.top_p,
                     "temperature": args.temperature,
-                }
-            if self.model_tag.startswith("mistral"):
-                self.gen_kwargs = {
-                    "max_new_tokens": args.llm_max_new_tokens,
-                    "do_sample" : args.do_sample,
                 }
             if self.model_tag.startswith("llama2"):
                 self.gen_kwargs = {

@@ -22,17 +22,19 @@ def mistral_format_prompt(dialog, tokenizer):
     # split the system prompt as one round of user-assitant conversation
     assert dialog[0]['role'] == 'system'
     chat_history = dialog[1:]
-    sys_instructions = dialog[0]['content'].split('\n')
-    new_sys_inst = '\n'.join([sys_instructions[0].replace("You are", "I will be"),
-               sys_instructions[1].replace("Please ensure that your responses are", "I will give responses that are"),
-               sys_instructions[2].replace("Your response should", "My response will"),
-               "I will always " + sys_instructions[3].replace("Answer", "answer"),
-               ])
-    pseudo_system = [
-        {"role": "user", "content": "Hi, I'm User. In the following conversations, you should take the role as a fallacy detection expert."},
-        {"role": "assistant", "content": "Hi, User! Sure, in the following conversations, " + new_sys_inst}
-    ]
-    dialog = pseudo_system + chat_history
+    # sys_instructions = dialog[0]['content'].split('\n')
+    # new_sys_inst = '\n'.join([sys_instructions[0].replace("You are", "I will be"),
+    #            sys_instructions[1].replace("Please ensure that your responses are", "I will give responses that are"),
+    #            sys_instructions[2].replace("Your response should", "My response will"),
+    #            "I will always " + sys_instructions[3].replace("Answer", "answer"),
+    #            ])
+    # pseudo_system = [
+    #     {"role": "user", "content": "Hi, I'm User. In the following conversations, you should take the role as a fallacy detection expert."},
+    #     {"role": "assistant", "content": "Hi, User! Sure, in the following conversations, " + new_sys_inst}
+    # ]
+    # dialog = pseudo_system + chat_history
+
+    dialog = chat_history
     
     dialog_tokens = tokenizer.apply_chat_template(
         dialog,
@@ -57,13 +59,13 @@ def qwen2_format_prompt(dialog, tokenizer):
     
     return (dialog_tokens, attention_mask)
 
-def qwen3_format_prompt(dialog, tokenizer):
+def qwen3_format_prompt(args, dialog, tokenizer):
     assert dialog[0]['role'] == 'system'
     formatted_dialog = tokenizer.apply_chat_template(
         dialog,
         tokenize=False,
         add_generation_prompt=True,
-        enable_thinking=True
+        enable_thinking=args.enable_thinking
     )
     model_inputs = tokenizer([formatted_dialog], return_tensors="np")
     
@@ -149,7 +151,7 @@ def llama3_format_prompt(dialog, tokenizer):
     )[0].tolist()
     return dialog_tokens
 
-def LLM_format_prompt(model_tag, dialog, tokenizer):
+def LLM_format_prompt(args, model_tag, dialog, tokenizer):
     """
     1. Format input prompts by adding special tokens;
     2. Encode tokens to vocab ids.
@@ -165,7 +167,7 @@ def LLM_format_prompt(model_tag, dialog, tokenizer):
     
     if model_tag.startswith('qwen'):
         if model_tag.startswith('qwen3'):
-            return qwen3_format_prompt(dialog, tokenizer)
+            return qwen3_format_prompt(args, dialog, tokenizer)
         return qwen2_format_prompt(dialog, tokenizer)
 
 def LMM_format_prompt(processor, dialog, image_paths=None):

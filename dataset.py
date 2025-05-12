@@ -656,7 +656,7 @@ class TokenizedDataset(Dataset):
             label = js['label']
             dialog = js['chat_history'] # list of messages
             if self.model_type == 'llm':
-                inputs = LLM_format_prompt(self.model_tag, dialog, self.tokenizer)
+                inputs = LLM_format_prompt(self.args, self.model_tag, dialog, self.tokenizer)
                 return DataItem(idx, inputs, label, js)
             if self.model_type == 'lmm':
                 return DataItem(idx, LMM_format_prompt(self.processor, dialog, js['img_history']), label, js)

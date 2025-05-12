@@ -44,6 +44,10 @@ class WrappedTrainingArguments(TrainingArguments):
         default=False, 
         metadata={"help": ""}
     )
+    enable_thinking : Optional[bool] = field(
+        default=False, 
+        metadata={"help": ""}
+    )
     run_fewshot : Optional[bool] = field(
         default=False, 
         metadata={"help": "whether to run few-shot experiments."}
