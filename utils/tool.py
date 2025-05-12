@@ -361,8 +361,10 @@ def pridemm_extract_target(text):
     lwords = [w.strip(".*,#") for w in ltext.split()]
     keyword_map = {
         "undirected": ['1'],
-        "individual": ['2'],
-        "lgbtq": ['3', 'community'],
+        "individual": ['3'],
+        # "lgbtq": ['3', 'community'],
+        # "organization" : ['4'],
+        "lgbtq": ['2', 'community'],
         "organization" : ['4'],
     }
     for kw, kw_ls in keyword_map.items():

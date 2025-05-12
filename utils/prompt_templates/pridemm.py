@@ -255,7 +255,15 @@ REASONING = {
         'hateTarget': {
             'gen_depend_on': [INTEGRATE['name']],
             "INS": [
-                f'''Given the following description of an online meme related to LGBTQ+ movements, analyze: What is the meme's target subject? Select the most appropriate category from these options: 1. Undirected; 2. Specific Individual; 3. LGBTQ+ Community; 4. Organization. **Target Classification Guidelines**: {TG_GL}''',
+                f'''Given the following description of an online meme related to LGBTQ+ movements, analyze: What is the meme's target subject? Select the most appropriate category from these options: 1. Undirected; 2. LGBTQ+ Community; 3. Specific Individual; 4. Organization. **Target Classification Guidelines**: {TG_GL}''',
+                f'''**Description of the meme content**: {from_dependency}''',
+                '''Now, let's analyze step by step:'''
+            ]
+        },
+        'hateTarget*': {
+            'gen_depend_on': [INTEGRATE['name']],
+            "INS": [
+                f'''Given the following description of an online meme related to LGBTQ+ movements, analyze: What does the meme mainly discuss about? Select the most appropriate category from these options: 1. Undirected; 2. LGBTQ+ Community; 3. Specific Individual; 4. Organization; **Classification Guidelines**: {TG_GL}''',
                 f'''**Description of the meme content**: {from_dependency}''',
                 '''Now, let's analyze step by step:'''
             ]
@@ -456,7 +464,7 @@ p1 = {
     'llm_6': {
         'multi-turn': True,
         'prompt': {
-            0: {'template': REASONING, "version": "hateTarget", "out_format": 'v0', "load_from_prestep": True, "return_prestep_path": True},
+            0: {'template': REASONING, "version": "hateTarget*", "out_format": 'v0', "load_from_prestep": True, "return_prestep_path": True},
             5: {'template': AUX, "version": "hateTarget", "out_format": 'hateTarget'},
             6: {'template': REASONING, "version": "CoTxTarget", "out_format": 'v0', 'new_conversation': True, 'depend_on_prestep': True, 'max_new_tokens': 1536},
             7: {'template': DECISION, "version": "tg", "out_format": 'v0'}
@@ -552,15 +560,17 @@ def assign_prompt_INS_by_target(js):
                 # Non-LGBTQ+ individual
                 plh = "individual"
                 Rules = [Individual_GL, R_interpret, R_stance_individual, R_explicit_individual, R_implicit_individual, R_harmless_ori]
-                # classify_ins = f'''classify the content as either harmful or harmless to the public image of the specific {plh} involved, according to widely accepted social norms, values, cultural understanding, and the provided guidelines.'''
+                Rules = [Individual_GL, R_interpret, R_stance_individual, R_explicit_individual, R_implicit_individual_harmful, R_harmless_ori]
+                classify_ins = f'''classify the content as either harmful or harmless to the public image of the specific {plh} involved, according to widely accepted social norms, values, cultural understanding, and the provided guidelines.'''
             else:
                 plh = "LGBTQ+ individual"
                 Rules = [R_interpret, R_stance_lgbt_individual, R_explicit_individual, R_implicit_lgbt_individual, R_harmful_lgbt_individual, R_harmless_ori]
-            classify_ins = f'''classify the content as either hurtful or non-hurtful to the specific {plh} involved, according to widely accepted social norms, values, cultural understanding, and the provided guidelines.'''
+                classify_ins = f'''classify the content as either hurtful or non-hurtful to the specific {plh} involved, according to widely accepted social norms, values, cultural understanding, and the provided guidelines.'''
+            # classify_ins = f'''classify the content as either hurtful or non-hurtful to the specific {plh} involved, according to widely accepted social norms, values, cultural understanding, and the provided guidelines.'''
         else:
             use_default = True
     else:
-        if (aux_info["hateTarget"] in ["organization", "lgbtq"]) and (aux_info["organization"]["flag"] == 1):
+        if (aux_info["hateTarget"] in ["organization", "organization"]) and (aux_info["organization"]["flag"] == 1):
             Rules = [R_organization, R_interpret, R_explicit_organization, R_implicit_organization, R_harmful_organization, R_harmless_ori]
             classify_ins = f'''classify the content as either harmful or harmless to the public image of the organization(s) involved, according to widely accepted social norms, values, cultural understanding, and the provided guidelines.'''
         else:
