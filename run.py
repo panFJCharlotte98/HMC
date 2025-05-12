@@ -668,6 +668,7 @@ def run(args, model=None, type=None, evaluator=None):
                 trainer.save_metrics("predict", metrics)
     #del model
     del evaluator
+    del trainer
     return
 
 def run_gpt(args):
