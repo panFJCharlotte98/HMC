@@ -235,6 +235,10 @@ class EvaluateFriendlyTrainer(Trainer):
             post_processed_predictions = []
             for idx in range(len(predictions)):
                 raw_output = " ".join(predictions[idx].split())
+                thinking_content = ""
+                if self.model.model_tag.startswith("qwen3") and isinstance(raw_output, str) and self.args.enable_thinking:
+                    thinking_content = regex.findall(r"<think>.*<\/think>", raw_output)[0]
+                    raw_output = regex.sub(r"<think>.*<\/think>", "", raw_output).strip()
                 out_format_version = self.args.current_prompt_meta['out_format']
                 need_extract = self.args.current_prompt_meta['template']['output_format'][out_format_version]['post_process_func']
                 if need_extract is True:
@@ -244,15 +248,13 @@ class EvaluateFriendlyTrainer(Trainer):
                 else:
                     processed_prediction = raw_output
                 #post_processed_predictions.append(processed_prediction)
-                if self.model.model_tag.startswith("qwen3") and isinstance(processed_prediction, str) and self.args.enable_thinking:
-                    processed_prediction = regex.sub(r"<think>.*<\/think>", "", processed_prediction).strip()
                 meta_js = dataset.examples[idx].attrs
                 failed_record = []
                 # if 'prediction' in meta_js:
                 #     meta_js.pop('prediction')
                 if 'failed_record' in meta_js:
                     failed_record = meta_js.pop('failed_record')
-                
+            
                 keys_to_remove = ['prediction', "processed_prediction", "processed_dependency_prediction", "gathered_predictions"]
                 if (self.args.task == 'mami') and (self.args.current_prompt_meta['template']['name'] == "Integrate"):
                     keys_to_remove.remove("gathered_predictions")
@@ -292,8 +294,8 @@ class EvaluateFriendlyTrainer(Trainer):
                     else:
                         meta_js["step_decision"][self.args.current_prompt_meta['version']] = processed_prediction
                     dataset.examples[idx].attrs = meta_js
-                
-                
+                if thinking_content:
+                    new_kv["thinking"] = thinking_content
 
                 all_data.append(dict(**new_kv, **meta_js))
             
