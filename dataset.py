@@ -356,7 +356,8 @@ class TokenizedDataset(Dataset):
                 if item['id'] in v:
                     dp_pred = v[item['id']]
                     if k == "IntegrateTGContext":
-                        dp_pred = extract_target_group_context(item, v[item['id']], use_ori=False)
+                        if args.current_model.startswith('qwen2.5'):
+                            dp_pred = extract_target_group_context(item, v[item['id']], use_ori=False)
                     item[k] = dp_pred
                 else:
                     item[k] = ""

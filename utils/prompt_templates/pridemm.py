@@ -263,7 +263,7 @@ REASONING = {
         'hateTarget*': {
             'gen_depend_on': [INTEGRATE['name']],
             "INS": [
-                f'''Given the following description of an online meme related to LGBTQ+ movements, analyze: What does the meme mainly focus on? Select the most appropriate category from these options: {TG_LABEL} **Classification Guidelines**: {TG_GL}''',
+                f'''Given the following description of an online meme related to LGBTQ+ movements, analyze: What is the meme's target subject? Select the most appropriate category from these options: {TG_LABEL} **Guidelines**: {TG_GL}''',
                 f'''**Description of the meme content**: {from_dependency}''',
                 '''Now, let's analyze step by step:'''
             ]
