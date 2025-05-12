@@ -72,7 +72,6 @@ analysis/
 cache/
 old_results/
 results/
-testG/
 view_img/
 gather_results.ipynb
 run copy.py
