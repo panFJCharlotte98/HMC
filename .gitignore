@@ -66,6 +66,7 @@ data/MultiOFF/old_data
 data/PrideMM/Images/
 data/PrideMM/Images_512
 data/PrideMM/Images_512_1280
+data/download.py
 models/models
 sh_cmd/
 testG/
