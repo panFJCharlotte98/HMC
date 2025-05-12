@@ -15,6 +15,7 @@ from transformers.trainer_callback import TrainerState
 import time
 from utils.tool import extract_json_output
 import math
+import regex
 
 skip_first_batches = None
 # Name of the files used for checkpointing
@@ -243,6 +244,8 @@ class EvaluateFriendlyTrainer(Trainer):
                 else:
                     processed_prediction = raw_output
                 #post_processed_predictions.append(processed_prediction)
+                if self.model.model_tag.startswith("qwen3") and isinstance(processed_prediction, str) and self.args.enable_thinking:
+                    processed_prediction = regex.sub(r"<think>.*<\/think>", "", processed_prediction).strip()
                 meta_js = dataset.examples[idx].attrs
                 failed_record = []
                 # if 'prediction' in meta_js:
@@ -289,6 +292,8 @@ class EvaluateFriendlyTrainer(Trainer):
                     else:
                         meta_js["step_decision"][self.args.current_prompt_meta['version']] = processed_prediction
                     dataset.examples[idx].attrs = meta_js
+                
+                
 
                 all_data.append(dict(**new_kv, **meta_js))
             
