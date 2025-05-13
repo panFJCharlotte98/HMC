@@ -32,7 +32,7 @@ MODEL_CLASSES = {
     'llava1.5': (LlavaConfig, LlavaForConditionalGeneration, AutoProcessor),
     'llava1.6': (LlavaNextConfig, AutoModelForImageTextToText, AutoProcessor),
     'qwen2-vl': (Qwen2VLConfig, Qwen2VLForConditionalGeneration, AutoProcessor),
-    # 'qwen2.5-vl': (Qwen2_5_VLConfig, Qwen2_5_VLForConditionalGeneration, AutoProcessor),
+    'qwen2.5-vl': (Qwen2VLConfig, Qwen2VLForConditionalGeneration, AutoProcessor),
     'llama3.2': (MllamaConfig, MllamaForConditionalGeneration, AutoProcessor),
     # PLM
     't5': (T5Config, T5ForConditionalGeneration, T5Tokenizer)
