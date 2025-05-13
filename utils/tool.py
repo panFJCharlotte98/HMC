@@ -200,9 +200,9 @@ def mami_extract_stage_decision_label(text):
             return {'pred_label': pred_label, 'ori_pred_text': res_ls[0]}
     # No expected classification label found, check "I cannot" pattern
     if text.startswith("I cannot") or text.startswith("I can't"):
-        return {'pred_label': 1}
+        return {'pred_label': 1, 'ori_pred_text': text}
     # No expected classification label found
-    return 404
+    return {'pred_label': 1, 'ori_pred_text': text}
 
 class MAMI_Extractor(object):
     def __init__(self, miso_type):

@@ -128,7 +128,7 @@ Making light of anti-LGBTQ+ persecution and violence in certain countries, etc.'
 
 R_harmless_ori = '''If the meme's caption merely describes, states, or explains the facts about the image's visual content (e.g., providing context about what is going on in the image) in a neutral tone (neither satirical nor critical) from an observer's perspective without any rhetorics, sentiment inclination or personal viewpoints, avoid inferring for negative associations or implications. Such captions, if being objective or illustrative statements, should be considered as innocent.'''
 
-R_news = '''However, If the meme is a screenshot of a news report that highlights a negative portrayal of the LGBTQ+ community or individuals, or depicts backlash against LGBTQ+ pride movements, it should be considered harmful to the public image of the LGBTQ+ community.'''
+# R_news = '''However, If the meme is a screenshot of a news report that highlights a negative portrayal of the LGBTQ+ community or individuals, or depicts backlash against LGBTQ+ pride movements, it should be considered harmful to the public image of the LGBTQ+ community.'''
 
 R_stance_in_one = '''Try to analyze the meme's accurate stance toward: (1) LGBTQ+ community, supporters and movements, or (2) The specific individual involved, or (3) Organizations involved. Is the meme's stance "neutral", "support", "oppose" or "satirical"?'''
 GL_INONE = [R_interpret, R_stance, R_explicit, R_implicit_new, R_harmful_new, R_harmful_lgbt_individual, R_harmful_organization, R_harmless_ori]
