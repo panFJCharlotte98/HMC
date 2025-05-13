@@ -453,6 +453,8 @@ class TokenizedDataset(Dataset):
                         for k, v in dp_item["gathered_predictions"].items():
                             g_pred[k] = v if v is not None else ""
                         item["gathered_predictions"] = g_pred
+                        print(item["gathered_predictions"])
+                        exit()
                         #################################################
                         #item["gathered_predictions"] = dp_item["gathered_predictions"]
                     new_data.append(item)
