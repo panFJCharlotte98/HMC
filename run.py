@@ -44,6 +44,7 @@ TASK_LIST = list(PROMPT_MAP.keys())
 MAP_BATCH_SIZE = {
     'llama3.1': {'mini':32, 'small':16}, # 32, 16
     'qwen2.5': {'mini':32, 'small':32}, # small: 16
+    'mistral': {'mini':32, 'small':16}, # small: 16
     'llama3.2': {'mini':32, 'small':8},
     'qwen2-vl': {'mini':1},
     'qwen2.5-vl': {'mini':1},
