@@ -207,10 +207,12 @@ AUX = {
     }
 }
 
-
-CoT_INS = '''Now, let's analyze by applying the guidelines one by one:'''
 assign_prompt_by_target = '''{assign_prompt_by_target}'''
 make_guidelines = '''{make_guidelines}'''
+PP_CoT_INS = '''Now, let's analyze by applying the guidelines one by one:'''
+cot_ins = '''Now, let's analyze step by step:'''
+meme2text = f'''**Meme content you need to classify**: {from_dependency}'''
+BASELINE_CLASSIFY_INS = f'''Given the following description of an online meme related to LGBTQ+ pride movements, classify the content as either harmful or harmless to: (1) the LGBTQ+ community and its supporters, or (2) the specific individual(s) or organization(s) involved, based on widely accepted social norms, values and cultural understanding.'''
 REASONING = {
     'name': "Reasoning", 'should_evaluate': False, 'take_image': False,
     'versions': {
@@ -219,8 +221,8 @@ REASONING = {
             'INS': [
                 f'''Given the following description of an online meme related to LGBTQ+ pride movements,''',
                 f'''{assign_prompt_by_target}''',
-                f'''**Meme content you need to classify**: {from_dependency}''',
-                CoT_INS
+                meme2text,
+                PP_CoT_INS
             ]
         },
         'subgroup':{
@@ -257,7 +259,7 @@ REASONING = {
             "INS": [
                 f'''Given the following description of an online meme related to LGBTQ+ movements, analyze: What is the meme's target subject? Select the most appropriate category from these options: 1. Undirected; 2. LGBTQ+ Community; 3. Specific Individual; 4. Organization. **Target Classification Guidelines**: {TG_GL}''',
                 f'''**Description of the meme content**: {from_dependency}''',
-                '''Now, let's analyze step by step:'''
+                cot_ins
             ]
         },
         'hateTarget*': {
@@ -265,15 +267,15 @@ REASONING = {
             "INS": [
                 f'''Given the following description of an online meme related to LGBTQ+ movements, analyze: What is the meme's target subject? Select the most appropriate category from these options: {TG_LABEL} **Guidelines**: {TG_GL}''',
                 f'''**Description of the meme content**: {from_dependency}''',
-                '''Now, let's analyze step by step:'''
+                cot_ins
             ]
         },
         'CoT': {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
-                f'''Given the following description of an online meme related to LGBTQ+ pride movements, classify the content as either harmful or harmless to: (1) the LGBTQ+ community and its supporters, or (2) the specific individual(s) or organization(s) involved, based on widely accepted social norms, values and cultural understanding.''',
-                f'''**Meme content you need to classify**: {from_dependency}''',
-                '''Now, let's analyze step by step:'''
+                BASELINE_CLASSIFY_INS,
+                meme2text,
+                cot_ins
             ]
         },
         'CoT*': {
@@ -281,15 +283,15 @@ REASONING = {
             'INS': [
                 f'''Given the following description of an online meme related to LGBTQ+ pride movements, classify the content as either harmful or harmless to: (1) the LGBTQ+ community and its supporters, or (2) the specific individual(s) or organization(s) involved, based on widely accepted social norms, values, cultural understanding and the provided guidelines.''',
                 f'''**Guidelines**: {make_guidelines}''',
-                f'''**Meme content you need to classify**: {from_dependency}''',
-                CoT_INS
+                meme2text,
+                PP_CoT_INS
             ]
         },
         'CoTqw3': {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
-                f'''Given the following description of an online meme related to LGBTQ+ pride movements, classify the content as either harmful or harmless to: (1) LGBTQ+ community and its supporters, or (2) the specific individual(s) involved or (3) organization(s) involved, based on widely accepted social norms, values and cultural understanding.''',
-                f'''**Meme content you need to classify**: {from_dependency}'''
+                BASELINE_CLASSIFY_INS,
+                meme2text
             ]
         },
     },
@@ -361,7 +363,7 @@ def assign_decision_extract_by_target(js):
             # return f'''If you just classified the meme content as hurtful (either explicitly or implicitly) to the {plh}, output "Conclusion: Hurtful." Otherwise, output "Conclusion: Non-hurtful."'''
     else:
         #if aux_info["organization"] is not None:
-        if (aux_info["hateTarget"] in ["organization"]) and (aux_info["organization"]["flag"] == 1):
+        if (aux_info["hateTarget"] in ["organization"]):# and (aux_info["organization"]["flag"] == 1)
             return f'''If you just classified the meme content as harmful (either explicitly or implicitly) to the public image of the organization, output "Conclusion: Harmful." Otherwise, output "Conclusion: Harmless."'''
     return f'''If you just classified the meme content as harmful (either explicitly or implicitly), output "Conclusion: Harmful." Otherwise, output "Conclusion: Harmless."'''
 
@@ -570,6 +572,7 @@ def assign_guidelines(js):
     GL = f"\n".join([f"{rid+1}. {rule}" for rid, rule in enumerate(Rules)])
     return GL
 
+surfix = '''according to widely accepted social norms, values, cultural understanding, and the provided guidelines.'''
 def assign_prompt_INS_by_target(js):
     assert "aux_info" in js
     aux_info = js["aux_info"]
@@ -582,18 +585,18 @@ def assign_prompt_INS_by_target(js):
                 plh = "individual"
                 Rules = [Individual_GL, R_interpret, R_stance_individual, R_explicit_individual, R_implicit_individual, R_harmless_ori]
                 Rules = [Individual_GL, R_interpret, R_stance_individual, R_explicit_individual, R_implicit_individual_harmful, R_harmless_ori]
-                classify_ins = f'''classify the content as either harmful or harmless to the public image of the specific {plh} involved, according to widely accepted social norms, values, cultural understanding, and the provided guidelines.'''
+                classify_ins = f'''classify the content as either harmful or harmless to the public image of the specific {plh} involved, {surfix}'''
             else:
                 plh = "LGBTQ+ individual"
                 Rules = [R_interpret, R_stance_lgbt_individual, R_explicit_individual, R_implicit_lgbt_individual, R_harmful_lgbt_individual, R_harmless_ori]
-                classify_ins = f'''classify the content as either hurtful or non-hurtful to the specific {plh} involved, according to widely accepted social norms, values, cultural understanding, and the provided guidelines.'''
-            # classify_ins = f'''classify the content as either hurtful or non-hurtful to the specific {plh} involved, according to widely accepted social norms, values, cultural understanding, and the provided guidelines.'''
+                classify_ins = f'''classify the content as either hurtful or non-hurtful to the specific {plh} involved, {surfix}'''
+            # classify_ins = f'''classify the content as either hurtful or non-hurtful to the specific {plh} involved, {surfix}'''
         else:
             use_default = True
     else:
         if (aux_info["hateTarget"] in ["organization"]):# and (aux_info["organization"]["flag"] == 1)
             Rules = [R_organization, R_interpret, R_explicit_organization, R_implicit_organization, R_harmful_organization, R_harmless_ori]
-            classify_ins = f'''classify the content as either harmful or harmless to the public image of the organization(s) involved, according to widely accepted social norms, values, cultural understanding, and the provided guidelines.'''
+            classify_ins = f'''classify the content as either harmful or harmless to the public image of the organization(s) involved, {surfix}'''
         else:
             use_default = True
     if use_default:

@@ -127,44 +127,44 @@ INTEGRATE = {
     }
 }
 
-CLASSIFY_INS = '''Given the following description of an online meme related to COVID-19 pandemic, classify the meme content as either harmful or harmless based on widely accepted values, established knowledge and social norms.'''
 assign_guidelines = "{assign_guidelines}"
+CLASSIFY_INS = '''Given the following description of an online meme related to COVID-19 pandemic, classify the meme content as either harmful or harmless based on widely accepted values, established knowledge and social norms.'''
+meme2text = f'''**Meme content you need to classify**: {from_dependency}'''
+guideline = f'''**Here are some guidelines for your reference**: {assign_guidelines}'''
+cot_ins = '''Now, let's think step by step:'''
 REASONING = {
     'name': "Reasoning", 'should_evaluate': False, 'take_image': False,
     'versions': {
         'CoT+': {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
-                f'''Given the following description of an online meme related to COVID-19 pandemic,''',
-                '''classify the meme content as either harmful or harmless based on widely accepted values, established knowledge and social norms.''', #and the provided guidelines
-                f'''**Here are some guidelines for your reference**: {assign_guidelines}''',
-                #Description of the meme
-                f'''**Meme content you need to classify**: {from_dependency}''',
-                #'''Now, let's analyze by applying the guidelines one by one:''',
-                '''Now, let's think step by step:'''
+                CLASSIFY_INS,
+                guideline,
+                meme2text,
+                cot_ins
             ]
         },
         'CoT': {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
-                f'''Given the following description of an online meme related to COVID-19 pandemic, classify the meme content as either harmful or harmless based on widely accepted values, established knowledge and social norms.''',
-                f'''**Meme content you need to classify**: {from_dependency}''',
-                '''Now, let's think step by step:'''
+                CLASSIFY_INS,
+                meme2text,
+                cot_ins
             ]
         },
         'CoT+qw3': {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
                 CLASSIFY_INS,
-                f'''**Here are some guidelines for your reference**: {assign_guidelines}''',
-                f'''**Meme content you need to classify**: {from_dependency}''',
+                guideline,
+                meme2text,
             ]
         },
         'CoTqw3': {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
                 CLASSIFY_INS,
-                f'''**Meme content you need to classify**: {from_dependency}''',
+                meme2text,
             ]
         }
     },

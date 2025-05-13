@@ -155,7 +155,10 @@ def check_start_from(args, exist_run_dir):
         if not this_step_model.startswith('gpt'):
             this_step_model_size = int(this_step_model.split("-")[-1].strip('bf'))
             if (this_step_model_size <= 13) and (args.use_greedy_decoding_for_mini_models):
-                base_dir = os.path.join(args.root_output_dir, args.task, args.dataset_split, this_step_model_folder)
+                if model_type == 'llm':
+                    base_dir = os.path.join(args.root_output_dir, args.task, args.dataset_split, this_step_model_folder, args.lmm, f"BS-{args.ori_per_device_eval_batch_size}")
+                else:
+                    base_dir = os.path.join(args.root_output_dir, args.task, args.dataset_split, this_step_model_folder)
         if this_step_model.startswith('gpt'):
             base_dir = os.path.join(args.root_output_dir, args.task, args.dataset_split, this_step_model_folder)
         if not os.path.exists(base_dir):
@@ -245,7 +248,10 @@ def gen_current_output_dir(args, tid, p_meta):
     if not current_step_model.startswith('gpt'):
         current_step_model_size = int(current_step_model.split("-")[-1].strip('bf'))
         if (current_step_model_size <= 13) and (args.use_greedy_decoding_for_mini_models):
-            base_dir = os.path.join(args.root_output_dir, args.task, args.dataset_split, current_step_model_folder)
+            if args.current_m_type.startswith('llm'):
+                base_dir = os.path.join(args.root_output_dir, args.task, args.dataset_split, current_step_model_folder, args.lmm, f"BS-{args.ori_per_device_eval_batch_size}")
+            else:
+                base_dir = os.path.join(args.root_output_dir, args.task, args.dataset_split, current_step_model_folder)
     if current_step_model.startswith('gpt'):
         base_dir = os.path.join(args.root_output_dir, args.task, args.dataset_split, current_step_model_folder)
     fix_folder_name = get_fix_folder_name(args, args.current_model_type)
@@ -426,7 +432,10 @@ def check_before_running(args):
             check_dir = os.path.join(check_dir, args.lmm, f"BS-{args.ori_per_device_eval_batch_size}")
         if not args.decision_model.startswith('gpt'):
             if (args.decision_model_size <= 13) and (args.use_greedy_decoding_for_mini_models):
-                check_dir = os.path.join(args.root_output_dir, args.task, args.dataset_split, decision_model_folder)
+                if args.decision_model_type == 'llm':
+                    check_dir = os.path.join(args.root_output_dir, args.task, args.dataset_split, decision_model_folder, args.lmm, f"BS-{args.ori_per_device_eval_batch_size}")
+                else:
+                    check_dir = os.path.join(args.root_output_dir, args.task, args.dataset_split, decision_model_folder)
         if not os.path.exists(check_dir):
             os.makedirs(check_dir, exist_ok=True)
         args = _check_before(args, check_dir)

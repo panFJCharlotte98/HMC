@@ -222,6 +222,9 @@ make_guidelines_w_IntegrateTGContext = "{make_guidelines_w_IntegrateTGContext}"
 make_guidelines_w_GenTGContext = "{make_guidelines_w_GenTGContext}"
 CLASSIFY_INS = '''Given the following image-caption content, which may or may not be an online meme, classify the content as either hateful or non-hateful based on common values, knowledge and social norms.'''
 CLASSIFY_INS_V1 = '''Given the following image-caption content, which may or may not be an online meme, classify the content as either hateful or non-hateful based on widely accepted values, established knowledge, social norms and the provided guidelines.'''
+meme2text = f'''**Image-caption content you need to classify**: {from_dependency}'''
+caption = f'''The caption overlaid on the image reads "{from_raw_data}".'''
+cot_ins = '''Now, let's think step by step:'''
 REASONING = {
     'name': "Reasoning", 'should_evaluate': False, 'take_image': False,
     'versions': {
@@ -235,17 +238,17 @@ REASONING = {
                 '''B. If the image content does involve specific protected group(s), choose your answer(s) from the specified list (you may choose multiple options if there are more than one protected groups involved):''',
                 f'''{TG_LIST}''',
                 f'''Here is the image-caption content you need to analyze: {from_dependency}''',
-                f'''The caption overlaid on the image reads "{from_raw_data}".''',
-                '''Now, let's think step by step:'''
+                caption,
+                cot_ins
             ]
         },
         'CoT': {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
-                f'''Given the following image-caption content, which may or may not be an online meme, classify the content as either hateful or non-hateful based on common values, knowledge and social norms.''',
-                f'''**Image-caption content you need to classify**: {from_dependency}''',
-                f'''The caption overlaid on the image reads "{from_raw_data}".''',
-                '''Now, let's think step by step:'''
+                CLASSIFY_INS,
+                meme2text,
+                caption,
+                cot_ins
             ]
         },
         'CoT+': {
@@ -254,8 +257,8 @@ REASONING = {
                 CLASSIFY_INS,
                 f'''Here are some guidelines for your reference: {make_guidelines_w_IntegrateTGContext}''',
                 f'''**Image-caption content you need to classify**: {from_Integrate}''',
-                f'''The caption overlaid on the image reads "{from_raw_data}".''',
-                '''Now, let's think step by step:'''
+                caption,
+                cot_ins
             ]
         },
         'CoT++': {
@@ -263,9 +266,9 @@ REASONING = {
             'INS': [
                 CLASSIFY_INS,
                 f'''Here are some guidelines for your reference: {make_guidelines_w_GenTGContext}''',
-                f'''**Image-caption content you need to classify**: {from_dependency}''',
-                f'''The caption overlaid on the image reads "{from_raw_data}".''',
-                '''Now, let's think step by step:'''
+                meme2text,
+                caption,
+                cot_ins
             ]
         },
         'CoT*': {
@@ -273,9 +276,9 @@ REASONING = {
             'INS': [
                 CLASSIFY_INS,
                 f'''Here are some guidelines for your reference: {GUIDELINES}''',
-                f'''**Image-caption content you need to classify**: {from_dependency}''',
-                f'''The caption overlaid on the image reads "{from_raw_data}".''',
-                '''Now, let's think step by step:'''
+                meme2text,
+                caption,
+                cot_ins
             ]
         },
         'CoT*qw3': {
@@ -283,16 +286,16 @@ REASONING = {
             'INS': [
                 CLASSIFY_INS,
                 f'''Here are some guidelines for your reference: {GUIDELINES}''',
-                f'''**Image-caption content you need to classify**: {from_dependency}''',
-                f'''The caption overlaid on the image reads "{from_raw_data}".''',
+                meme2text,
+                caption,
             ]
         },
         'CoTqw3': {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
-                f'''Given the following image-caption content, which may or may not be an online meme, classify the content as either hateful or non-hateful based on common values, knowledge and social norms.''',
-                f'''**Image-caption content you need to classify**: {from_dependency}''',
-                f'''The caption overlaid on the image reads "{from_raw_data}".''',
+                CLASSIFY_INS,
+                meme2text,
+                caption,
             ]
         },
     },

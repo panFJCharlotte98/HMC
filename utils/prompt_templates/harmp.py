@@ -120,39 +120,45 @@ INTEGRATE = {
 }
 
 assign_guidelines = "{assign_guidelines}"
+BASELINE_CLASSIFY_INS = '''Given the following description of an image related to U.S. politics, classify the image content as either harmful or harmless based on common values, knowledge and social norms.'''
+PP_CLASSIFY_INS = f'''Given the following description of an image related to U.S. politics, classify the image content as either harmful or harmless based on common values, knowledge, social norms and the provided guidelines.'''
+meme2text = f'''**Description of the image**: {from_dependency}'''
+guidelines = f'''**Guidelines**: {assign_guidelines}'''
+cot_ins = '''Now, let's analyze step by step:'''
+pp_cot_ins = '''Now, let's analyze by applying the guidelines one by one:'''
 REASONING = {
     'name': "Reasoning", 'should_evaluate': False, 'take_image': False,
     'versions': {
         'CoT': {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
-                f'''Given the following description of an image related to U.S. politics, classify the image content as either harmful or harmless based on common values, knowledge and social norms.''',
-                f'''**Description of the image**: {from_dependency}''',
-                '''Now, let's analyze step by step:'''
+                BASELINE_CLASSIFY_INS,
+                meme2text,
+                cot_ins
             ]
         },
         'CoT+': {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
-                f'''Given the following description of an image related to U.S. politics, classify the image content as either harmful or harmless based on common values, knowledge, social norms and the provided guidelines.''',
-                f'''**Guidelines**: {assign_guidelines}''',
-                f'''**Description of the image**: {from_dependency}''',
-                '''Now, let's analyze by applying the guidelines one by one:'''
+                PP_CLASSIFY_INS,
+                guidelines,
+                meme2text,
+                pp_cot_ins
             ]
         },
         'CoTqw3': {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
-                f'''Given the following description of an image related to U.S. politics, classify the image content as either harmful or harmless based on common values, knowledge and social norms.''',
-                f'''**Description of the image**: {from_dependency}''',
+                BASELINE_CLASSIFY_INS,
+                meme2text,
             ]
         },
         'CoT+qw3': {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
-                f'''Given the following description of an image related to U.S. politics, classify the image content as either harmful or harmless based on common values, knowledge, social norms and the provided guidelines.''',
-                f'''**Guidelines**: {assign_guidelines}''',
-                f'''**Description of the image**: {from_dependency}''',
+                PP_CLASSIFY_INS,
+                guidelines,
+                meme2text,
             ]
         },
     },

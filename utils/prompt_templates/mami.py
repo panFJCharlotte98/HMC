@@ -10,7 +10,7 @@ VLREASONING = {
     'gen_depend_on': None,
     'versions': {
         'CoT': {
-            "INS": f'''Classify this meme as either misogynistic or non-misogynistic based on widely accepted values, social norms, and the established understanding of harmful stereotypes, biases, and discriminatory narratives. Now, let's analyze step by step:'''
+            "INS": f'''Classify this meme as either misogynistic or non-misogynistic based on common values, knowledge and social norms. Now, let's analyze step by step:'''
         },
     },
     'output_format': {
@@ -124,18 +124,23 @@ INTEGRATE = {
 
 # # Reasoning
 from_Integrate = "{from_Integrate}"
+BASELINE_CLASSIFY_INS = '''Given the following image-caption content, which may or may not be an online meme, classify the content as either misogynistic or non-misogynistic based on common values, knowledge and social norms.'''
+PP_CLASSIFY_INS = '''Given the following image-caption content, which may or may not be an online meme, classify the content as either misogynistic or non-misogynistic based on common values, knowledge, social norms and the provided guidelines.'''
+meme2text = f'''**Image-caption content you need to classify**: {from_Integrate}'''
+caption = f'''The caption overlaid on the image reads "{from_raw_data}".'''
+pp_cot_ins = '''Now, let's analyze by applying all the guidelines one by one:'''
+cot_ins = '''Now, let's analyze step by step:'''
 REASONING_STAGE1 = {}
 for t_abbr, t_dict in STAGE1_GL.items():
     type_name, type_gl = t_dict['type'].lower(), t_dict['guideline']
     REASONING_STAGE1[t_abbr] = {
         'gen_depend_on': [INTEGRATE['name']],
         'INS': [
-            f'''Given the following image-caption content, which may or may not be an online meme,''',
-            '''classify the content as either misogynistic or non-misogynistic based on common values, knowledge, social norms and the provided guidelines.''',
+            PP_CLASSIFY_INS,
             f'''Guidelines: {type_gl}''',
-            f'''**Image-caption content you need to classify**: {from_Integrate}''',
-            f'''The caption overlaid on the image reads "{from_raw_data}".''',
-            '''Now, let's analyze by applying all the guidelines one by one:'''
+            meme2text,
+            caption,
+            pp_cot_ins
         ],
 }
 
@@ -147,25 +152,25 @@ for t_abbr, t_dict in STAGE2_GL.items():
     type_gl = t_dict['guideline']
     REASONING_STAGE2[t_abbr+"*"] = {
         'gen_depend_on': [INTEGRATE['name']],
-        'INS': f'''{check_stage1_pred_cls}Given the following image-caption content, which may or may not be an online meme, classify the content as either misogynistic or non-misogynistic based on common values, knowledge, social norms and the provided guidelines. Guidelines: {type_gl}\n**Image-caption content you need to classify**: {from_Integrate_after_check} The caption overlaid on the image reads "{from_raw_data_after_check}". Now, let's analyze by applying all the guidelines one by one:''',
+        'INS': f'''{check_stage1_pred_cls}{PP_CLASSIFY_INS} Guidelines: {type_gl}\n**Image-caption content you need to classify**: {from_Integrate_after_check} The caption overlaid on the image reads "{from_raw_data_after_check}". {pp_cot_ins}''',
     }
 
 REASONING_BASELINE = {
     'CoT': {
         'gen_depend_on': [INTEGRATE['name']],
         'INS': [
-            f'''Given the following image-caption content, which may or may not be an online meme, classify the content as either misogynistic or non-misogynistic based on common values, knowledge and social norms.''',
-            f'''**Image-caption content you need to classify**: {from_Integrate}''',
-            f'''The caption overlaid on the image reads "{from_raw_data}".''',
-            '''Now, let's analyze step by step:'''
+            BASELINE_CLASSIFY_INS,
+            meme2text,
+            caption,
+            cot_ins
         ]
     },
     'CoTqw3': {
         'gen_depend_on': [INTEGRATE['name']],
         'INS': [
-            f'''Given the following image-caption content, which may or may not be an online meme, classify the content as either misogynistic or non-misogynistic based on common values, knowledge and social norms.''',
-            f'''**Image-caption content you need to classify**: {from_Integrate}''',
-            f'''The caption overlaid on the image reads "{from_raw_data}".''',
+            BASELINE_CLASSIFY_INS,
+            meme2text,
+            caption,
         ]
     },
 }
@@ -460,9 +465,11 @@ def format_chat(args, js):
         if ins_output_format:
             ins.append(ins_output_format)
         text_content = " ".join(ins)
+        text_content = " ".join(text_content.split())
     if isinstance(prompt, str):
         text_content, js = fill_placeholder(prompt, js)
         text_content = " ".join([text_content, ins_output_format]).strip()
+        text_content = " ".join(text_content.split())
     
     if js is not None:
         if args.current_model_type == 'llm':
