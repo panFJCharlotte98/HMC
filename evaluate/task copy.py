@@ -44,6 +44,18 @@ class EvaluateTool(object):
                 return 1
             if isinstance(res, dict):
                 return res['pred_label']
+        # miso_commits = []
+        # for type, step_res in step_decisions.items():
+        #     if 'final' in step_res:
+        #         if get_label(step_res['final']):
+        #             miso_commits.append(type)
+        #     else:
+        #         assert 'init' in step_res
+        #         if get_label(step_res['init']):
+        #             miso_commits.append(type)
+        # final_pred_label = 0
+        # if len(miso_commits) > 0:
+        #     final_pred_label = 1
         miso_type_res = {}
         for type, step_res in step_decisions.items():
             if 'final' in step_res:

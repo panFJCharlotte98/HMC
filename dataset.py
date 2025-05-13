@@ -404,6 +404,20 @@ class TokenizedDataset(Dataset):
                 new_data.append(one_data)
             with open(target_file_path, "w") as f:
                 json.dump(new_data, f, indent=4,)
+        
+        # ##########################################################
+        # new_data = []
+        # for item in json.load(open(target_file_path)):
+        #     for step, step_dict in item["prestep_decisions"]:
+        #         if not step_dict['final']:
+        #             item["prestep_decisions"][step]['final'] = {
+        #                 "pred_label": "",
+        #                 "ori_pred_text": ""
+        #             }
+        #     new_data.append(item)
+        # with open(target_file_path, "w") as f:
+        #     json.dump(new_data, f, indent=4,)
+        # ##########################################################
         return target_file_path
     
     def get_pre_step_output(self, args, dp_data_path, load_from={}, return_prestep_path=True):
@@ -432,7 +446,13 @@ class TokenizedDataset(Dataset):
                         dp_pred_key = dp_key
                     item[dp_key] = dp_item[dp_pred_key]
                     if "gathered_predictions" in dp_item:
-                        item["gathered_predictions"] = dp_item["gathered_predictions"]
+                        #################################################
+                        g_pred = {}
+                        for k, v in dp_item["gathered_predictions"].items():
+                            g_pred[k] = v if v else ""
+                        item["gathered_predictions"] = g_pred
+                        #################################################
+                        #item["gathered_predictions"] = dp_item["gathered_predictions"]
                     new_data.append(item)
                 with open(pre_step_outputs_path, "w") as f:
                     json.dump(new_data, f, indent=4,)

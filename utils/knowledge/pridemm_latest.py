@@ -4,6 +4,11 @@ TG_GL = '''1. Undirected: The meme addresses abstract concepts, societal issues,
 4. Organization: The meme targets institutions, entities such as corporations, government bodies, political parties or similar organizations.'''
 # 4. Organization: The meme targets institutions or organizational entities such as corporations, companies, government bodies, political parties, countries, regions, or other similar organizations, either in general or by specific reference.
 
+# TG_GL = '''Note: If the meme includes a tweet, treat the tweet's content as the primary content of the meme and pay attention to the tweet's subject matter.
+# 1. Undirected: The meme addresses abstract concepts, societal issues, or vague subjects (e.g., "you") without referencing any clearly identifiable individuals, groups, or entities.
+# 2. Specific Individual: The meme targets at a particular person, such as a public figure, celebrity, activist, influencer, or other specific individual.
+# 3. Organization: The meme focuses on organizational entities, such as corporations, government bodies, political parties, institutions, countries, regions or other similar organizations.
+# 4. LGBTQ+ Community: The meme focuses on LGBTQ+ community, LGBTQ+ subgroups, or LGBTQ+ supporters (e.g., trans, gay people) as a broad social, cultural, or identity-based group.'''
 TG = {
     "Undirected": '''The meme addresses abstract concepts, societal issues, or vague subjects (e.g., "you") without referencing any clearly identifiable individuals, groups, or entities.''',
     "LGBTQ+ Community": '''The meme targets LGBTQ+ community, supporters or subgroups (e.g., trans, gay people) as a broad social, cultural, or identity-based group.''',
@@ -13,7 +18,6 @@ TG = {
 }
 TG_LABEL = []
 # TG_LS = ['''Note: If the meme includes a tweet, treat the tweet's content as the primary content of the meme and analyze the tweet's target subject. If the meme focuses on any statement of any specific individual, analyze the target subject of the statement. Targets:''']
-TG_LS = []
 TG_LS = ['''Note: If the meme includes a tweet, you should treat the tweet's content as the meme's content and analyze the tweet's target subject. If the meme focuses on any statement of any specific individual, you should analyze the target subject of the statement. Target Subject Categories:''']#?
 for kid, k in enumerate(TG):
     kdef = TG[k]
@@ -31,9 +35,9 @@ subgroup = '''{subgroup}'''
 subgroup_examples = '''{subgroup_examples}'''
 TYPES = {    
     # "(Semi-) Bisexual individuals": '''Perpetuating negative stereotypes about bisexual individuals to mock or delegitimize them; Promoting division, exclusion or marginalization of subgroups within the LGBTQ+ community.''',
-    "(Semi-) Bisexual individuals": '''Perpetuating negative stereotypes about (semi-) bisexual individuals to mock or delegitimize them; Promoting division, exclusion or marginalization of certain subgroups within the LGBTQ+ community.''',
+    "(Semi-) Bisexual individuals": '''Promoting division within the LGBTQ+ community; Perpetuating negative stereotypes that contribute to the exclusion and marginalization of subgroups within the LGBTQ+ community.''',
 
-    "LGBTQ+ subgroups": '''Promoting division, exclusion and marginalization within the LGBTQ+ community; Perpetuating negative stereotypes against some LGBTQ+ subgroups, etc.''',
+    "LGBTQ+ subgroups": '''Promoting division, exclusion and marginalization of subgroups within the LGBTQ+ community; Perpetuating negative stereotypes against LGBTQ+ subgroups, etc.''',
     
     "country": {
         'topic': "Country and region",
@@ -49,6 +53,27 @@ TYPES = {
     },
     
     "self": '''If the content is neither mocking, dismissive nor containing extremist or violence, but instead empathetic and relatable, speaking from the perspective of LGBTQ+ individuals-aimed at fostering understanding and acceptance by validating and affirming common queer experiences such as self-doubt, introspective struggles, internal conflicts, gender identity exploration, self-awareness or self-discovery, etc., it should be classified as harmless.''',
+
+    # "Gay": '''Mocking gay people's lifestyles, behaviors, manners, fashion choices, or physical appearances.''',
+    
+    # "Non-binary individuals": '''Stereotyping non-binary individuals with feminine presentation alongside traditionally masculine features (such as facial hair, beard, muscular builds, or exaggerated makeup) in a manner intended to mock, ridicule, or devalue individuals who do not conform to traditional gender norms.''',
+
+    # "Trans": '''Presenting trans athletes as inherently unfair; Promoting public fear, hostility, and exclusion of trans individuals from sports and other areas of life.''',
+
+    # "Trans women": '''Portraying trans women with feminine presentation alongside traditionally masculine features (such as facial hair, beard, muscular builds, or exaggerated makeup) in a manner intended to mock, ridicule, or devalue transgender individuals; Stigmatizing drag performance/performers and gender expression of trans women, etc.''',
+
+    # "children": {
+    #     'topic': "Children, youth and education",
+    #     'examples': '''Portraying LGBTQ+ activists as hypocritical, deceptive or toxic, aiming to "corrupt" or "brainwash" children and youth; Framing LGBTQ+ visibility representation in education as problematic, absurd or toxic.''',
+    # },
+    # "media": {
+    #     'topic': "Media",
+    #     'examples': '''Mocking, undermining, trivializing the importance of LGBTQ+ representation in media; Promoting the idea that LGBTQ+ presentation is excessive, unnecessary, or inauthentic; Satirizing social media such as streaming platforms for showing excessive favor toward LGBTQ+ contents, etc.''',
+    # },
+    # "religion": {
+    #     'topic': "Religion",
+    #     'examples': '''Mocking LGBTQ+ as being opposed by traditional religious beliefs; Using dehumanizing/demonizing imagery, language or rhetorics that associate LGBTQ+ supporters with evil, chaos, immorality, extremism, or ideological corruption.'''
+    # },
 }
 
 R_organization = '''An organization refers to an institution or entity such as a corporation, company, political party, government body, country, or region, etc. Organizations can be referenced either generally or by a specific, identifiable name.'''
@@ -81,14 +106,12 @@ R_implicit_organization = '''Some meme contents perceived as harmful may be impl
 
 ### Harmful examples
 R_harmful_new = '''Commonly found harmful contents towards LGBTQ+ community and supporters include: 
-Speech reinforcing homophobia, transphobia e.g., criticizing LGBTQ+ as violation of religious beliefs;
-Mocking, satirizing, criticizing or questioning the legitimacy of LGBTQ+ movements;
+Speech reinforcing homophobia, transphobia e.g., criticizing LGBTQ+ as violation of religious beliefs; 
+Mocking, satirizing, criticizing or questioning LGBTQ+ movements;
 Stereotyping LGBTQ+ as opposed or rejected by specific political parties or ideologies, such as conservatives or Republicans, etc.;
 Portraying LGBTQ+ community and supporters negatively e.g., aggressive, toxic, absurd, irrational, overreacting, overly sensitive, emotionally unstable, extreme, intolerant, threatening, or violent;
-Mocking, satirizing or questioning LGBTQ+ relationships by framing them as abnormal or unhealthy;
-Portraying LGBTQ+ as extremism, ideological corruption or a threat to society;
-Using dehumanizing/demonizing imagery, language or rhetorics that associate LGBTQ+ supporters with evil, chaos, immorality;
-Satirizing LGBTQ+ advocacy or pride movements as intrusive, overreaching, oppressive, forcibly imposed on the society, exploiting political correctness or being politicized;
+Using dehumanizing/demonizing imagery, language or rhetorics that associate LGBTQ+ supporters with evil, chaos, immorality, extremism, or ideological corruption;
+Satirizing LGBTQ+ advocacy or pride movements as intrusive, overexposure, forcibly imposed on the society, exploiting political correctness or being politicized;
 Portraying the LGBTQ+ community as contradicting biology and science; 
 Denying the legitimacy or misrepresenting the goal of LGBTQ+ movements;  
 Mocking LGBTQ+ movements as merely a political agenda;
@@ -98,9 +121,6 @@ Spreading misleading, inflammatory, or divisive misinformation against the LGBTQ
 Mocking, stigmatizing LGBTQ+ individuals' gender expression;
 Provoking or reinforcing anti-LGBTQ remarks, etc.
 '''
-# Framing LGBTQ+ progress as ;
-# Portraying LGBTQ+ as extremism, ideological corruption or a threat to society;
-# Portraying LGBTQ+ education in schools as harmful or toxic to children;
 
 R_harmful_lgbt_individual = '''Commonly found hurtful or harmful contents towards LGBTQ+ individuals include: 
 Speech reinforcing homophobia, transphobia e.g., criticizing LGBTQ+ individuals as violation of religious beliefs;
@@ -113,7 +133,7 @@ Expressing rejection or resistance toward LGBTQ+ individuals and LGBTQ+ presenta
 '''
 
 R_harmful_organization = '''Commonly found harmful contents towards the public image of organizations in LGBTQ+ context include:
-Mocking, satirizing or criticizing corporate support for LGBTQ+ (e.g., inclusive actions or participation in Pride Month) as excessive, performative, superficial or insincere;
+Mocking, satirizing or criticizing corporate involvement for LGBTQ+ support (e.g., inclusive actions or participation) as excessive, performative, superficial or insincere;
 Mocking or stereotyping political support for LGBTQ+ as performative or insincere;
 Stereotyping the negative stance or attitude of specific political parties or ideologies toward LGBTQ+ issues (e.g., conservatives, the right wing, or Republicans, etc.);
 Mocking or stereotyping LGBTQ+ as being rejected, not supported or even persecuted by some countries, regions, religions or cultural traditions;
@@ -128,8 +148,6 @@ Making light of anti-LGBTQ+ persecution and violence in certain countries, etc.'
 # '''
 
 R_harmless_ori = '''If the meme's caption merely describes, states, or explains the facts about the image's visual content (e.g., providing context about what is going on in the image) in a neutral tone (neither satirical nor critical) from an observer's perspective without any rhetorics, sentiment inclination or personal viewpoints, avoid inferring for negative associations or implications. Such captions, if being objective or illustrative statements, should be considered as innocent.'''
-
-R_news = '''If the meme is a screenshot of a news report that highlights a negative portrayal of the LGBTQ+ community or individuals, or depicts backlash against LGBTQ+ pride movements, it should be considered harmful to the public image of the LGBTQ+ community.'''
 
 R_stance_in_one = '''Try to analyze the meme's accurate stance toward: (1) LGBTQ+ community, supporters and movements, or (2) The specific individual involved, or (3) Organizations involved. Is the meme's stance "neutral", "support" or "oppose"?'''
 GL_INONE = [R_interpret, R_stance, R_explicit, R_implicit_new, R_harmful_new, R_harmful_lgbt_individual, R_harmful_organization, R_harmless_ori]
