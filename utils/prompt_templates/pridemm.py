@@ -281,7 +281,7 @@ REASONING = {
         'CoT*': {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
-                f'''Given the following description of an online meme related to LGBTQ+ pride movements, classify the content as either harmful or harmless to: (1) the LGBTQ+ community and its supporters, or (2) the specific individual(s) or organization(s) involved, based on widely accepted social norms, values, cultural understanding and the provided guidelines.''',
+                f'''Given the following description of an online meme related to LGBTQ+ pride movements, classify the content as either harmful or harmless to: (1) LGBTQ+ community and its supporters, or (2) the specific individual(s) involved or (3) organization(s) involved, based on widely accepted social norms, values, cultural understanding and the provided guidelines.''',
                 f'''**Guidelines**: {make_guidelines}''',
                 meme2text,
                 PP_CoT_INS

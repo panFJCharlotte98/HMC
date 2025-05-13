@@ -370,6 +370,7 @@ p1[f"llm_{fid}"]['prompt'][1]['template']['versions'][final_step_version]['gen_d
 p1[f"llm_{fid}"]['prompt'][1]['template']['versions'][final_step_version]['should_evaluate'] = True
 PP = dict(**M2T, **p1)
 
+print(p1[f"llm_{fid}"])
 # ******************************************************************************************* # 
 MAMI_PROMPT_SCHEMES = {
     'M2T': M2T,
