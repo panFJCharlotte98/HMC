@@ -110,7 +110,10 @@ def is_turn_res_found(fd_name_no_date, check_dir):
     final_check_dir = ""
     for dir in os.listdir(check_dir):
         #if dir.startswith(fd_name_no_date):
-        if dir.startswith("_".join(fd_name_no_date.split("_")[:-1])):
+        cond = dir.startswith(fd_name_no_date)
+        if fd_name_no_date.split("_")[-1].startswith("GPU"):
+            cond = dir.startswith("_".join(fd_name_no_date.split("_")[:-1]))
+        if cond:
         #if "_".join(dir.split("_")[:-1]) == fd_name_no_date:
             final_check_dir = os.path.join(check_dir, dir)
             # if os.path.exists(os.path.join(final_check_dir, 'predictions.json')):
@@ -283,7 +286,10 @@ def _check_before(args, check_dir):
         for fd in os.listdir(check_dir):
             # results/fhm/seed-42/llama3.1-8bf/
             #if fd.startswith(args.eval_folder_name):
-            if fd.startswith("_".join(args.eval_folder_name.split("_")[:-1])):
+            cond = fd.startswith(args.eval_folder_name)
+            if args.eval_folder_name.split('_')[-1].startswith("GPU"):
+                cond = fd.startswith("_".join(args.eval_folder_name.split("_")[:-1]))
+            if cond:
                 assert args.has_eval_turn is False
                 res_save_path = os.path.join(check_dir, fd)
                 if 'predictions.json' in os.listdir(res_save_path):
@@ -293,16 +299,17 @@ def _check_before(args, check_dir):
                     print("Unfinished run detected, checking where to restart from ......")
                     os.system(f"rm -r {res_save_path}")
                     continue
-
-            cond = "_".join(fd.split("_")[:-1]) == args.results_dir_name_no_date
-            if 'BS-' in args.results_dir_name_no_date:
-                cond = "_".join(fd.split("_")[:-2]) == "_".join(args.results_dir_name_no_date.split("_")[:-1])
+            
+            cond = "_".join(fd.split("_")[:-2]) == "_".join(args.results_dir_name_no_date.split("_")[:-1]) # ignoring GPU diff
             if cond:
                 next_check_dir = os.path.join(check_dir, fd) # S1_len-256_GPU-2_2024xxxxx
                 contents = os.listdir(next_check_dir)
                 for step in contents:
                     #if step.startswith(args.eval_folder_name):
-                    if step.startswith("_".join(args.eval_folder_name.split("_")[:-1])):
+                    cond = step.startswith(args.eval_folder_name)
+                    if args.eval_folder_name.split("_")[-1].startswith('GPU'):
+                        cond = step.startswith("_".join(args.eval_folder_name.split("_")[:-1]))
+                    if cond:
                         res_save_path = os.path.join(next_check_dir, step)
                         #if any([res_file in contents for res_file in ['result.json']]):
                         if f"result{args.target_result_surfix}.json" in os.listdir(res_save_path):
