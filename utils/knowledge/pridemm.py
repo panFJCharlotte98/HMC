@@ -82,21 +82,19 @@ R_implicit_organization = '''Some meme contents perceived as harmful may be impl
 ### Harmful examples
 R_harmful_new = '''Commonly found harmful contents towards LGBTQ+ community and supporters include: 
 Speech reinforcing homophobia, transphobia e.g., criticizing LGBTQ+ as violation of religious beliefs;
-Mocking, satirizing, criticizing or questioning the legitimacy of LGBTQ+ movements;
-Stereotyping LGBTQ+ as opposed or rejected by specific political parties or ideologies, such as conservatives or Republicans, etc.;
+Mocking, satirizing, criticizing or questioning LGBTQ+ movements;
 Portraying LGBTQ+ community and supporters negatively e.g., aggressive, toxic, absurd, irrational, overreacting, overly sensitive, emotionally unstable, extreme, intolerant, threatening, or violent;
 Mocking, satirizing or questioning LGBTQ+ relationships by framing them as abnormal or unhealthy;
 Portraying LGBTQ+ as extremism, ideological corruption or a threat to society;
+Stereotyping LGBTQ+ as opposed, rejected or hated by specific political parties or ideologies, such as conservatives or Republicans, etc.;
 Using dehumanizing/demonizing imagery, language or rhetorics that associate LGBTQ+ supporters with evil, chaos, immorality;
-Satirizing LGBTQ+ advocacy or pride movements as intrusive, overreaching, oppressive, forcibly imposed on the society, exploiting political correctness or being politicized;
-Portraying the LGBTQ+ community as contradicting biology and science; 
-Denying the legitimacy or misrepresenting the goal of LGBTQ+ movements;  
-Mocking LGBTQ+ movements as merely a political agenda;
+Satirizing LGBTQ+ advocacy or pride movements as intrusive, overreaching, oppressive, forcibly imposed on the society, exploiting political correctness, being politicized or merely a political agenda;
+Denying the legitimacy or misrepresenting the goal of LGBTQ+ movements;
 Expressing rejection or resistance toward inclusive practices (such as use of pronoun, etc.) and LGBTQ+ representation;
 Stigmatizing LGBTQ+ labels such as "gay";
-Spreading misleading, inflammatory, or divisive misinformation against the LGBTQ+ community and its supporters in order to delegitimize them;
-Mocking, stigmatizing LGBTQ+ individuals' gender expression;
-Provoking or reinforcing anti-LGBTQ remarks, etc.
+Spreading misleading, inflammatory, or divisive misinformation in order to delegitimize LGBTQ+ community and its supporters;
+Mocking, stigmatizing gender expression;
+Provoking or reinforcing anti-LGBTQ speech e.g., criticizing LGBTQ+ for contradicting biology and science, etc.
 '''
 # Framing LGBTQ+ progress as ;
 # Portraying LGBTQ+ as extremism, ideological corruption or a threat to society;
@@ -113,7 +111,7 @@ Expressing rejection or resistance toward LGBTQ+ individuals and LGBTQ+ presenta
 '''
 
 R_harmful_organization = '''Commonly found harmful contents towards the public image of organizations in LGBTQ+ context include:
-Mocking, satirizing or criticizing corporate support for LGBTQ+ (e.g., inclusive actions or participation in Pride Month) as excessive, performative, superficial or insincere;
+Mocking, satirizing or criticizing corporate support for LGBTQ+ (e.g., inclusive actions, practices or participation e.g., in Pride Month) as excessive, performative, superficial or insincere;
 Mocking or stereotyping political support for LGBTQ+ as performative or insincere;
 Stereotyping the negative stance or attitude of specific political parties or ideologies toward LGBTQ+ issues (e.g., conservatives, the right wing, or Republicans, etc.);
 Mocking or stereotyping LGBTQ+ as being rejected, not supported or even persecuted by some countries, regions, religions or cultural traditions;
@@ -129,7 +127,7 @@ Making light of anti-LGBTQ+ persecution and violence in certain countries, etc.'
 
 R_harmless_ori = '''If the meme's caption merely describes, states, or explains the facts about the image's visual content (e.g., providing context about what is going on in the image) in a neutral tone (neither satirical nor critical) from an observer's perspective without any rhetorics, sentiment inclination or personal viewpoints, avoid inferring for negative associations or implications. Such captions, if being objective or illustrative statements, should be considered as innocent.'''
 
-R_news = '''If the meme is a screenshot of a news report that highlights a negative portrayal of the LGBTQ+ community or individuals, or depicts backlash against LGBTQ+ pride movements, it should be considered harmful to the public image of the LGBTQ+ community.'''
+R_news = '''However, If the meme is a screenshot of a news report that highlights a negative portrayal of the LGBTQ+ community or individuals, or depicts backlash against LGBTQ+ pride movements, it should be considered harmful to the public image of the LGBTQ+ community.'''
 
 R_stance_in_one = '''Try to analyze the meme's accurate stance toward: (1) LGBTQ+ community, supporters and movements, or (2) The specific individual involved, or (3) Organizations involved. Is the meme's stance "neutral", "support" or "oppose"?'''
 GL_INONE = [R_interpret, R_stance, R_explicit, R_implicit_new, R_harmful_new, R_harmful_lgbt_individual, R_harmful_organization, R_harmless_ori]

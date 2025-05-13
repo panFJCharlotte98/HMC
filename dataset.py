@@ -447,16 +447,16 @@ class TokenizedDataset(Dataset):
                     item[dp_key] = dp_item[dp_pred_key]
                     if "gathered_predictions" in dp_item:
                         #################################################
-                        # print(dp_item["gathered_predictions"])
-                        # exit()
-                        g_pred = {}
-                        for k, v in dp_item["gathered_predictions"].items():
-                            g_pred[k] = v if v is not None else ""
-                        item["gathered_predictions"] = g_pred
-                        # print(item["gathered_predictions"])
-                        # exit()
+                        # # print(dp_item["gathered_predictions"])
+                        # # exit()
+                        # g_pred = {}
+                        # for k, v in dp_item["gathered_predictions"].items():
+                        #     g_pred[k] = v if v is not None else ""
+                        # item["gathered_predictions"] = g_pred
+                        # # print(item["gathered_predictions"])
+                        # # exit()
                         #################################################
-                        #item["gathered_predictions"] = dp_item["gathered_predictions"]
+                        item["gathered_predictions"] = dp_item["gathered_predictions"]
                     new_data.append(item)
                 with open(pre_step_outputs_path, "w") as f:
                     json.dump(new_data, f, indent=4,)

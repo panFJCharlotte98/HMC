@@ -229,9 +229,10 @@ class MAMI_Extractor(object):
                 return {'pred_label': pred_label, 'ori_pred_text': res_ls[0]}
         # No expected classification label found, check "I cannot" pattern
         if text.startswith("I cannot") or text.startswith("I can't"):
-            return {'pred_label': 2}
+            return {'pred_label': 1, 'ori_pred_text': text}
         # No expected classification label found
-        return 404
+        return {'pred_label': 1, 'ori_pred_text': text}
+        # return 404
     
 def mami_extract_step_reasons(text):
     '''
