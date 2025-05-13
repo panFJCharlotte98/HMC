@@ -447,6 +447,8 @@ class TokenizedDataset(Dataset):
                     item[dp_key] = dp_item[dp_pred_key]
                     if "gathered_predictions" in dp_item:
                         #################################################
+                        print(dp_item["gathered_predictions"])
+                        exit()
                         g_pred = {}
                         for k, v in dp_item["gathered_predictions"].items():
                             g_pred[k] = v if v else ""
