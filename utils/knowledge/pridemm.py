@@ -18,8 +18,7 @@ TG = {
 }
 TG_LABEL = []
 # TG_LS = ['''Note: If the meme includes a tweet, treat the tweet's content as the primary content of the meme and analyze the tweet's target subject. If the meme focuses on any statement of any specific individual, analyze the target subject of the statement. Targets:''']
-TG_LS = ['''Note: If the meme includes a tweet, you should treat the tweet's content as the meme's content and analyze the tweet's target subject. If the meme focuses on any statement of any specific individual, you should analyze the target subject of the statement. Target Subject Categories:''']
-TG_LS = []
+TG_LS = ['''Note: If the meme includes a tweet, you should treat the tweet's content as the meme's content and analyze the tweet's target subject. If the meme focuses on any statement of any specific individual, you should analyze the target subject of the statement. Target Subject Categories:''']#?
 for kid, k in enumerate(TG):
     kdef = TG[k]
     TG_LS.append(f"{kid+1}. {k}: {kdef}")

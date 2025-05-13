@@ -727,7 +727,7 @@ def run_model(args):
     model_cost = 0.
     if not args.run_gpt:
         model = Model(args)
-        if not model.model_tag.startswith("qwen"):
+        if not (model.model_tag in ["qwen2.5-7bf", "qwen2.5-14bf", "qwen3-14bf"]):
             if model.model_size <= 8:
                 args.set_per_device_eval_batch_size = MAP_BATCH_SIZE[model.model_tag]['mini']
             else:
