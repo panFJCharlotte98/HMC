@@ -281,7 +281,7 @@ REASONING = {
         'CoT*': {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
-                f'''Given the following description of an online meme related to LGBTQ+ pride movements, classify the content as either harmful or harmless to: (1) LGBTQ+ community and its supporters, or (2) the specific individual(s) involved or (3) organization(s) involved, based on widely accepted social norms, values, cultural understanding and the provided guidelines.''',
+                f'''Given the following description of an online meme related to LGBTQ+ pride movements, classify the content as either harmful or harmless to: (1) the LGBTQ+ community and its supporters, or (2) the specific individual(s) or organization(s) involved, based on widely accepted social norms, values, cultural understanding and the provided guidelines.''',
                 f'''**Guidelines**: {make_guidelines}''',
                 meme2text,
                 PP_CoT_INS
@@ -563,14 +563,15 @@ def assign_guidelines(js):
     
     Rules.append(R_harmful_new_)
 
+    # ######################2025-05-13######################
+    # Rules.append(R_news)
+    # ######################2025-05-13######################
+
     # # Harmless
     if aux_info["self"]["flag"]:
         Rules.append(TYPES["self"])
     
     Rules.append(R_harmless_ori)
-    ######################2025-05-13######################
-    # Rules.append(R_news)
-    ######################2025-05-13######################
 
     GL = f"\n".join([f"{rid+1}. {rule}" for rid, rule in enumerate(Rules)])
     return GL
@@ -593,7 +594,7 @@ def assign_prompt_INS_by_target(js):
                 plh = "LGBTQ+ individual"
                 Rules = [R_interpret, R_stance_lgbt_individual, R_explicit_individual, R_implicit_lgbt_individual, R_harmful_lgbt_individual, R_harmless_ori]
 
-                # Rules = [R_interpret, R_stance_lgbt_individual, R_explicit_individual, R_implicit_lgbt_individual, R_harmful_lgbt_individual, R_harmless_ori, R_news]
+                # Rules = [R_interpret, R_stance_lgbt_individual, R_explicit_individual, R_implicit_lgbt_individual, R_news, R_harmful_lgbt_individual, R_harmless_ori]
                 classify_ins = f'''classify the content as either hurtful or non-hurtful to the specific {plh} involved, {surfix}'''
             # classify_ins = f'''classify the content as either hurtful or non-hurtful to the specific {plh} involved, {surfix}'''
         else:
