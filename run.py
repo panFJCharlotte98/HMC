@@ -294,8 +294,10 @@ def _check_before(args, check_dir):
                     os.system(f"rm -r {res_save_path}")
                     continue
 
-            # if "_".join(fd.split("_")[:-1]) == args.results_dir_name_no_date:
-            if "_".join(fd.split("_")[:-2]) == "_".join(args.results_dir_name_no_date.split("_")[:-1]):
+            cond = "_".join(fd.split("_")[:-1]) == args.results_dir_name_no_date
+            if 'BS-' in args.result_dir_name_no_date:
+                cond = "_".join(fd.split("_")[:-2]) == "_".join(args.results_dir_name_no_date.split("_")[:-1])
+            if cond:
                 next_check_dir = os.path.join(check_dir, fd) # S1_len-256_GPU-2_2024xxxxx
                 contents = os.listdir(next_check_dir)
                 for step in contents:
