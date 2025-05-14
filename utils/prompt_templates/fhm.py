@@ -15,6 +15,13 @@ VLREASONING = {
                 '''Classify the content as either hateful or non-hateful based on common values, knowledge and social norms.''',
                 '''Now, let's analyze step by step:'''
             ]
+        },
+        'CoTup': {
+            'INS': [
+                f'''This is an image with an overlaid caption that reads: "{from_raw_data}".''',
+                '''Classify the image as either hateful or non-hateful based on widely accepted social norms, cultural context, and established understanding of harmful stereotypes, biases, and discriminatory narratives.''',
+                '''Now, let's analyze step by step:'''
+            ]
         }
     },
     'output_format': {

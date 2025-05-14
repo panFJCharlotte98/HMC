@@ -808,7 +808,7 @@ def run_model(args):
                                 reduce_num = reduce_by * r_order
                                 if (args.set_per_device_eval_batch_size > reduce_num):
                                     args.per_device_eval_batch_size = args.set_per_device_eval_batch_size - reduce_num
-                        if args.should_evaluate:
+                        if (args.current_model_type == 'llm') and (args.should_evaluate):
                             args.per_device_eval_batch_size = 16
                 # if (args.run_multiturn) and (rid > 0):
                 #     if (args.per_device_eval_batch_size > 2):
