@@ -790,7 +790,7 @@ def run_model(args):
                     if (args.run_multiturn) and (rid > 0):
                         if (args.per_device_eval_batch_size > 2):
                             args.per_device_eval_batch_size = args.per_device_eval_batch_size - 2
-                elif args.task in ['fhm', 'pridemm']:
+                elif args.task in ['fhm', 'pridemm', 'mami']:
                     if "batch_size" in p_meta:
                         args.per_device_eval_batch_size = p_meta['batch_size']
                     else:
