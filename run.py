@@ -746,13 +746,15 @@ def run_model(args):
     model_cost = 0.
     if not args.run_gpt:
         model = Model(args)
-        if not (model.model_tag in ["qwen2.5-7bf", "qwen2.5-14bf", "qwen3-14bf"]):
+        if model.model_tag in ["qwen2.5", "qwen3"]:
+            args.set_per_device_eval_batch_size = copy.deepcopy(args.ori_per_device_eval_batch_size)
+        else:
             if model.model_size <= 8:
                 args.set_per_device_eval_batch_size = MAP_BATCH_SIZE[model.model_tag]['mini']
             else:
                 args.set_per_device_eval_batch_size = MAP_BATCH_SIZE[model.model_tag]['small']
-        else:
-            args.set_per_device_eval_batch_size = copy.deepcopy(args.ori_per_device_eval_batch_size)
+        # else:
+        #     args.set_per_device_eval_batch_size = copy.deepcopy(args.ori_per_device_eval_batch_size)
     args.run_multiturn = args.current_prompt_schedule['multi-turn']
     #for rid, p_meta in args.current_prompt_schedule['prompt'].items():
     for r_order, rid in enumerate(args.current_prompt_schedule['prompt']):
