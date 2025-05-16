@@ -161,3 +161,4 @@ LOREHM_INSIGHTS = '''1. Recognize and account for humor or satire, ensuring they
 8. Evaluate if the humor or satire presents a conflicting message that diminishes the original intent of empowering or positive content.
 9. Distinguish between explicit content meant to entertain a mature audience and content genuinely intended to harm or offend, ensuring cultural and contextual humor is appropriately considered.
 10. Consider whether the combination of humor and serious messages dilutes the impact of the positive message or reinforces harmful attitudes.'''
+LOREHM_INSIGHTS = " ".join(LOREHM_INSIGHTS.split())
