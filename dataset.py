@@ -283,7 +283,7 @@ class TokenizedDataset(Dataset):
                                 Dl = info_pred
                         info_ls.append(Dl)
                         one_data["processed_dependency_prediction"] = " ".join(info_ls) if len(info_ls) > 1 else info_ls[0]
-                    elif args.task in ['mami', 'harmp', 'harmc', 'pridemm']:
+                    elif args.task in ['mami', 'gb_misogynistic', 'gb_harmful', 'harmp', 'harmc', 'pridemm']:
                         one_data["processed_dependency_prediction"] = " ".join([f"{iid+1}. {info}" for iid, info in enumerate(info_ls)])
                     else:
                         one_data["processed_dependency_prediction"] = " ".join([f"{iid+1}. {info}" for iid, info in enumerate(info_ls)]) if len(info_ls) > 1 else info_ls[0]
@@ -441,7 +441,7 @@ class TokenizedDataset(Dataset):
                     dp_pred_key = dp_key
                     if dp_pred_key not in dp_item:
                         dp_pred_key = "processed_prediction"
-                    if (args.task == 'mami') and ('gather_step_decisions' in args.current_prompt_meta):
+                    if (args.task in ['mami', 'gb_misogynistic']) and ('gather_step_decisions' in args.current_prompt_meta):
                         dp_key = "prestep_decisions"
                         dp_pred_key = dp_key
                     item[dp_key] = dp_item[dp_pred_key]

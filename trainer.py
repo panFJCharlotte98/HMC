@@ -258,7 +258,7 @@ class EvaluateFriendlyTrainer(Trainer):
                     failed_record = meta_js.pop('failed_record')
             
                 keys_to_remove = ['prediction', "processed_prediction", "thinking", "processed_dependency_prediction", "gathered_predictions"]
-                if (self.args.task == 'mami') and (self.args.current_prompt_meta['template']['name'] == "Integrate"):
+                if (self.args.task in ['mami', 'gb_misogynistic']) and (self.args.current_prompt_meta['template']['name'] == "Integrate"):
                     keys_to_remove.remove("gathered_predictions")
                 for c_key in keys_to_remove:
                     if c_key in meta_js:
