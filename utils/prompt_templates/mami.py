@@ -173,6 +173,16 @@ REASONING_BASELINE = {
             caption,
         ]
     },
+    'CoT+LoReHM': {
+        'gen_depend_on': [INTEGRATE['name']],
+        'INS': [
+            PP_CLASSIFY_INS,
+            f'''Guidelines: {LOREHM_INSIGHTS}''',
+            meme2text,
+            caption,
+            pp_cot_ins
+        ]
+    },
 }
 
 REASONING_VERS = dict(**REASONING_BASELINE, **REASONING_STAGE1, **REASONING_STAGE2)
@@ -372,6 +382,18 @@ PP = dict(**M2T, **p1)
 
 # print(p1[f"llm_{fid}"]['prompt'][1]['template']['name'])
 # print(p1[f"llm_{fid}"]['prompt'][1]['version'])
+
+# Ablation: replace our guidelines to GPT-generated insights (LoReHM)
+p_lorehm = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "CoT+LoReHM", "out_format": 'v0'},
+            1: {'template': DECISION, "version": "v0", "out_format": 'v0'}
+        }
+    }
+}
+PL = dict(**M2T, **p_lorehm)
 # ******************************************************************************************* # 
 MAMI_PROMPT_SCHEMES = {
     'M2T': M2T,
@@ -380,7 +402,8 @@ MAMI_PROMPT_SCHEMES = {
     'GPT': GPT,
     'PP': PP,
     'B2qw3': B2qw3,
-    'GPT_DESCRIBE': GPT_describe
+    'GPT_DESCRIBE': GPT_describe,
+    'PL': PL
 }
 
 def get_Integrate_dp_pred(js):
@@ -467,11 +490,11 @@ def format_chat(args, js):
         if ins_output_format:
             ins.append(ins_output_format)
         text_content = " ".join(ins)
-        text_content = " ".join(text_content.split())
+        #text_content = " ".join(text_content.split())
     if isinstance(prompt, str):
         text_content, js = fill_placeholder(prompt, js)
         text_content = " ".join([text_content, ins_output_format]).strip()
-        text_content = " ".join(text_content.split())
+        #text_content = " ".join(text_content.split())
     
     if js is not None:
         if args.current_model_type == 'llm':

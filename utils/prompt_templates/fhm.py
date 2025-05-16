@@ -305,6 +305,16 @@ REASONING = {
                 caption,
             ]
         },
+        'CoT+LoReHM': {
+            'gen_depend_on': [INTEGRATE['name']],
+            'INS': [
+                CLASSIFY_INS,
+                f'''Here are some guidelines for your reference: {LOREHM_INSIGHTS}''',
+               meme2text,
+               caption,
+                cot_ins
+            ]
+        },
     },
     'output_format': {
         'v0': {"INS": '''''', 'post_process_func': post_process_to_remove_gibberish},
@@ -496,12 +506,24 @@ p3 = {
     },
 }
 
+# Ablation: replace our guidelines to GPT-generated insights (LoReHM)
+p_lorehm = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "CoT+LoReHM", "out_format": 'v0'},
+            1: {'template': DECISION, "version": "v1", "out_format": 'v0'},
+        }
+    }
+}
+
 PP = dict(**M2T, **p1)
 P2 = dict(**M2T, **p2)
 P3 = dict(**M2T, **p3)
 B2 = dict(**M2T, **b2)
 B2qw3 = dict(**M2T, **b2_qw3)
 P2qw3 = dict(**M2T, **p2_qw3)
+PL = dict(**M2T, **p_lorehm)
 # ******************************************************************************************* # 
 
 FHM_PROMPT_SCHEMES = {
@@ -514,7 +536,8 @@ FHM_PROMPT_SCHEMES = {
     'P3': P3,
     'B2qw3': B2qw3,
     'P2qw3': P2qw3,
-    'GPT_DESCRIBE': GPT_describe
+    'GPT_DESCRIBE': GPT_describe,
+    'PL': PL
 }
 
 def get_tg_str(tg_ls):

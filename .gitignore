@@ -75,7 +75,6 @@ cache/
 old_results/
 results/
 view_img/
-gather_results.ipynb
 run copy.py
 test.py
 tmp.py

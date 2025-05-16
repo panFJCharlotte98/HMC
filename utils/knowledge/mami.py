@@ -148,3 +148,16 @@ GuideLines = '''1. Try to interpret the content by combining both the image and 
 '''
 Misogynistic_Examples = " ".join(['''11. Commonly found misogynistic contents include:\n'''] + [f"**{tg}**: {content}" for tg, content in TYPES.items()])
 KNOWLEDGE = f'''{GuideLines}{Misogynistic_Examples}'''
+
+
+
+LOREHM_INSIGHTS = '''1. Recognize and account for humor or satire, ensuring they are not mistaken for serious harmful content. Consider the context, intent, and whether the humor directly trivializes serious subjects such as violence, sexual behavior, or perpetuates harmful stereotypes.
+2. When evaluating humor, assess whether it perpetuates or trivializes harmful stereotypes, biases, serious life-threatening situations, or explicit content inappropriately. Consider the overall impact on the targeted group, while balancing this with the intent and context of the humor.
+3. When identifying harmful content, evaluate the context, intent behind the language used, and the cultural nuances of humor, especially when dealing with sensitive topics.
+4. Consider the potential for reinforcing harmful stereotypes, real-world harm, or incitement that the content may cause, but also recognize the difference between satire and genuinely harmful content.
+5. Avoid overgeneralizing potentially divisive content as inherently harmful without further examination.
+6. Consider if the meme’s humor is based on sensitive or protected characteristics, and the potential negative impact it could have on those groups, especially if it reinforces harmful stereotypes or biases.
+7. Evaluate whether the meme contains humor that could desensitize viewers to serious issues or dangerous situations, and consider the context and intent to determine if it amplifies potential harm.
+8. Evaluate if the humor or satire presents a conflicting message that diminishes the original intent of empowering or positive content.
+9. Distinguish between explicit content meant to entertain a mature audience and content genuinely intended to harm or offend, ensuring cultural and contextual humor is appropriately considered.
+10. Consider whether the combination of humor and serious messages dilutes the impact of the positive message or reinforces harmful attitudes.'''

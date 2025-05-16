@@ -548,7 +548,28 @@ class TokenizedDataset(Dataset):
         with open(save_to, "w") as f:
             json.dump(new_data, f, indent=4,)
         return save_to
+    
+    def read_in_gpt_description(self, data_path, raw_data_path):
+        gpt_descriptions = {}
+        for item in json.load(open(raw_data_path)):
+            gpt_descriptions[item['id']] = item["gpt_description"]
+        new_data = []
+        for item in json.load(open(data_path)):
+            if "gpt_description" not in item:
+                item["gpt_description"] = gpt_descriptions[item['id']]
+            new_data.append(item)
+        with open(data_path, "w") as f:
+            json.dump(new_data, f, indent=4,)
+        return data_path
+    
     def generate_llm_seq2seq_datasets(self, cache_folder, cache_path):
+        def get_raw_data_path(args):
+            # No dependency on previous steps, directly load data from local dir
+            surfix = ""
+            if args.load_data_surfix != "-":
+                surfix = f"_{args.load_data_surfix}"
+            data_path = args.load_dataset_from + f"{args.split}{surfix}.json"
+            return data_path
         args = self.args
         seq2seq_cache_path = os.path.join(cache_folder,  "seq2seq_" + cache_path.split("/")[-1])
         if args.use_dataset_cache and os.path.exists(seq2seq_cache_path):
@@ -606,6 +627,11 @@ class TokenizedDataset(Dataset):
                 if ("load_from" in args.current_prompt_meta):
                     assert "return_load_from_path" in args.current_prompt_meta
                     data_path = self.get_pre_step_output(args, data_path, load_from=args.current_prompt_meta["load_from"], return_prestep_path=args.current_prompt_meta["return_load_from_path"])
+            
+            if args.current_prompt_meta["version"] == 'CoT+GD':
+                raw_data_path = get_raw_data_path(args)
+                data_path = self.read_in_gpt_description(data_path, raw_data_path)
+
             seq2seq_test_dataset = None
             if os.path.exists(data_path):
                 data_files = {args.split: data_path}

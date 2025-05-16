@@ -127,6 +127,7 @@ INTEGRATE = {
     }
 }
 
+from_gpt_description = '''{from_gpt_description}'''
 assign_guidelines = "{assign_guidelines}"
 CLASSIFY_INS = '''Given the following description of an online meme related to COVID-19 pandemic, classify the meme content as either harmful or harmless based on widely accepted values, established knowledge and social norms.'''
 meme2text = f'''**Meme content you need to classify**: {from_dependency}'''
@@ -141,6 +142,24 @@ REASONING = {
                 CLASSIFY_INS,
                 guideline,
                 meme2text,
+                cot_ins
+            ]
+        },
+        'CoT+GD': {
+            'gen_depend_on': None,
+            'INS': [
+                CLASSIFY_INS,
+                guideline,
+                f'''**Meme content you need to classify**: {from_gpt_description}''',
+                cot_ins
+            ]
+        },
+        'CoT+LoReHM': {
+            'gen_depend_on': [INTEGRATE['name']],
+            'INS': [
+                CLASSIFY_INS,
+                f'''**Here are some guidelines for your reference**: {LOREHM_INSIGHTS}''',
+               meme2text,
                 cot_ins
             ]
         },
@@ -341,11 +360,35 @@ p1 = {
         }
     }
 }
+
+# Ablation: replace high-fidelity meme2text to GPT-generated description
+pd = {
+    'llm': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "CoT+GD", "out_format": 'v0'},
+            1: {'template': DECISION, "version": "v1", "out_format": 'v0'},
+        }
+    }
+}
+
+# Ablation: replace our guidelines to GPT-generated insights (LoReHM)
+p_lorehm = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "CoT+LoReHM", "out_format": 'v0'},
+            1: {'template': DECISION, "version": "v1", "out_format": 'v0'},
+        }
+    }
+}
+
 PP = dict(**M2T, **p1)
 B2 = dict(**M2T, **b2)
 PPqw3 = dict(**M2T, **p1_qw3)
 B2qw3 = dict(**M2T, **b2_qw3)
-
+PD = pd
+PL = dict(**M2T, **p_lorehm)
 # ******************************************************************************************* # 
 
 HARMC_PROMPT_SCHEMES = {
@@ -356,7 +399,9 @@ HARMC_PROMPT_SCHEMES = {
     'PP': PP,
     'B2qw3': B2qw3,
     'PPqw3': PPqw3,
-    'GPT_DESCRIBE': GPT_describe
+    'GPT_DESCRIBE': GPT_describe,
+    'PD': pd,
+    'PL': PL
 }
 
 def assign_guidelines_(js):
@@ -413,6 +458,8 @@ def fill_placeholder(tmp, js):
         return tmp.format(from_data_text = prompt), js
     if assign_guidelines in tmp:
         return tmp.format(assign_guidelines = assign_guidelines_(js)), js
+    if from_gpt_description in tmp:
+        return tmp.format(from_gpt_description = js["gpt_description"]), js
     return tmp, js
 
 def format_chat(args, js):

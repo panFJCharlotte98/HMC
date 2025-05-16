@@ -119,6 +119,7 @@ INTEGRATE = {
     }
 }
 
+from_gpt_description = '''{from_gpt_description}'''
 assign_guidelines = "{assign_guidelines}"
 BASELINE_CLASSIFY_INS = '''Given the following description of an image related to U.S. politics, classify the image content as either harmful or harmless based on common values, knowledge and social norms.'''
 PP_CLASSIFY_INS = f'''Given the following description of an image related to U.S. politics, classify the image content as either harmful or harmless based on common values, knowledge, social norms and the provided guidelines.'''
@@ -143,6 +144,15 @@ REASONING = {
                 PP_CLASSIFY_INS,
                 guidelines,
                 meme2text,
+                pp_cot_ins
+            ]
+        },
+        'CoT+GD': {
+            'gen_depend_on': [INTEGRATE['name']],
+            'INS': [
+                PP_CLASSIFY_INS,
+                guidelines,
+                f'''**Description of the image**: {from_gpt_description}''',
                 pp_cot_ins
             ]
         },
@@ -289,7 +299,18 @@ b2_qw3 = {
     'llm_2': {
         'multi-turn': True,
         'prompt': {
-            0: {'template': REASONING, "version": "CoTqw3", "out_format": 'v0'},
+            0: {'template': REASONING, "version": "CoTqw3", "out_format": 'v0', 'max_new_tokens': 1536},
+            1: {'template': DECISION, "version": "v0", "out_format": 'v0'},
+        }
+    }
+}
+
+# Ablation: replace high-fidelity meme2text to GPT-generated description
+pd = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "CoT+GD", "out_format": 'v0', 'max_new_tokens': 1536},
             1: {'template': DECISION, "version": "v0", "out_format": 'v0'},
         }
     }
@@ -299,6 +320,7 @@ B2 = dict(**M2T, **b2)
 PP = dict(**M2T, **p1)
 PPqw3 = dict(**M2T, **p1_qw3)
 B2qw3 = dict(**M2T, **b2_qw3)
+PD = dict(**M2T, **pd)
 # ******************************************************************************************* # 
 
 HARMP_PROMPT_SCHEMES = {
@@ -309,7 +331,8 @@ HARMP_PROMPT_SCHEMES = {
     'PP': PP,
     'B2qw3': B2qw3,
     'PPqw3': PPqw3,
-    'GPT_DESCRIBE': GPT_describe
+    'GPT_DESCRIBE': GPT_describe,
+    'PD': PD
 }
 
 def assign_guidelines_(js):
@@ -370,7 +393,9 @@ def fill_placeholder(tmp, js):
     if assign_guidelines in tmp:
         assert "aux_info" in js
         return tmp.format(assign_guidelines = assign_guidelines_(js)), js
-
+    
+    if from_gpt_description in tmp:
+        return tmp.format(from_gpt_description = js["gpt_description"]), js
     return tmp, js
 
 def format_chat(args, js):

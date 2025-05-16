@@ -794,7 +794,7 @@ def run_model(args):
                     if "batch_size" in p_meta:
                         args.per_device_eval_batch_size = p_meta['batch_size']
                     else:
-                        if args.task in ['fhm', 'mami', 'pridemm']:
+                        if args.task in ['fhm', 'pridemm', 'mami']:
                             if (args.run_multiturn) and (rid > 0) and ("new_conversation" not in p_meta):
                                 reduce_by = 2
                                 if (args.task == 'fhm') and (args.set_per_device_eval_batch_size == 32):
@@ -802,7 +802,7 @@ def run_model(args):
                                 reduce_num = reduce_by * r_order
                                 if (args.set_per_device_eval_batch_size > reduce_num):
                                     args.per_device_eval_batch_size = args.set_per_device_eval_batch_size - reduce_num
-                        else:
+                        else:#mami
                             if (args.run_multiturn) and (rid > 0):
                                 reduce_by = 2
                                 reduce_num = reduce_by * r_order

@@ -87,3 +87,14 @@ Perpetuating racist contents, offensive stereotypes or conspiracy theories again
 #     #     "examples": '''Attributing fabricated statements to Kim Jong-un; Making fun of his interactions with U.S. politicians.''',
 #     # },
 # }
+
+LOREHM_INSIGHTS = '''1. Evaluate if the humor in the meme is appropriate and does not trivialize serious issues, create unnecessary panic, target individuals or groups in a derogatory manner, or undermine critical health measures and policies, especially during ongoing crises like pandemics.
+2. Consider the broader context and potential negative impact of the meme, especially in sensitive situations such as health crises or political discourse, to determine if it could cause fear, anxiety, spread misinformation, trivialize serious issues, or undermine important public health measures.
+3. Identify if the meme mocks, trivializes, or undermines public health measures and policies, as this can contribute to harmful behaviors, spread misinformation, and undermine public trust in health directives and governance.
+4. Ensure the meme does not encourage or normalize behavior that could be harmful in real life, particularly in the context of public health and safety, such as trivializing quarantine, policy effectiveness, or other critical health measures.
+5. Assess if the meme perpetuates misinformation or undermines public health measures, which can contribute to harmful outcomes.
+6. Ensure the meme does not inadvertently normalize, trivialize, or encourage harmful behaviors by presenting them humorously, especially in the context of ongoing public health issues and governance policies.
+7. Recognize that memes leveraging fear-based tactics, even for promoting good behavior, can be harmful and should be scrutinized closely.
+8. Assess the potential for the meme to incite derogatory or harmful sentiments towards individuals or groups, which can contribute to a negative, hostile, or unproductive environment.
+9. Assess if the meme trivializes or mocks behaviors that were critical during crises (e.g., panic buying, hoarding) in a way that could diminish the perceived seriousness of the situation or encourage similar behavior in the future.
+10. Determine if the meme’s absurdity or exaggeration clearly indicates humor, reducing the likelihood of it being taken seriously and causing harm.'''

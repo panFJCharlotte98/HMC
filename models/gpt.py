@@ -39,7 +39,10 @@ def postprocess_output_text(text):
     for re, sub_str in sub_map.items():
         text = regex.sub(re, sub_str, text)
     text = text.strip("' ")
-    text = " ".join([w for w in text.split() if w != "\\n"])
+    #text = " ".join([w for w in text.split() if w != "\\n"])
+    for pat in ["\\n", "\\"]:
+        text = text.replace(pat, " ")
+    text = " ".join(text.split())
     return text
 
 def compute_cost(model, usage):
