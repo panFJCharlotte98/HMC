@@ -274,7 +274,7 @@ class TokenizedDataset(Dataset):
                     info_ls = []
                     for info_name, info_pred in one_data["gathered_predictions"].items():
                         info_ls.append(info_pred)
-                    if args.task == 'fhm':
+                    if args.task in ["fhm", "gb_hateful"]:
                         info_ls = []
                         for info_name, info_pred in one_data["gathered_predictions"].items():
                             if not info_name.startswith('Describe'):
@@ -596,16 +596,16 @@ class TokenizedDataset(Dataset):
                 if len(tmp) == 1:
                     data_path = os.path.join(args.output_dir_history[tmp[0]['m_type']][tmp[0]['rid']], "predictions.json")
                     # FHM-specific
-                    if (args.task == "fhm") and (args.current_prompt_meta['template']['name'] == "IntegrateTGContext") and (args.current_prompt_meta['version'] == "v1"):
+                    if (args.task in ["fhm", "gb_hateful"]) and (args.current_prompt_meta['template']['name'] == "IntegrateTGContext") and (args.current_prompt_meta['version'] == "v1"):
                         data_path = self.fhm_post_process_gen_context(args, tmp)
                 else:
                     if args.current_prompt_meta['template']['name'] == "Integrate":
                         # gather outputs from direct dependencies
                         data_path = self.gather_dependency_outputs(args, tmp)
                     # FHM-specific
-                    if (args.task == "fhm") and (args.current_prompt_meta['template']['name'] == "Reasoning") and (args.current_prompt_meta['version'] == "CoT+"):
+                    if (args.task in ["fhm", "gb_hateful"]) and (args.current_prompt_meta['template']['name'] == "Reasoning") and (args.current_prompt_meta['version'] == "CoT+"):
                         data_path = self.fhm_combine_dependency_outputs(args, tmp)
-                    if (args.task == "fhm") and (args.current_prompt_meta['template']['name'] == "Reasoning") and (args.current_prompt_meta['version'] == "CoT++"):
+                    if (args.task == ["fhm", "gb_hateful"]) and (args.current_prompt_meta['template']['name'] == "Reasoning") and (args.current_prompt_meta['version'] == "CoT++"):
                         data_path = self.fhm_post_process_gen_context(args, tmp)
                     # MAMI-specific
                     if ('gather_step_decisions' in args.current_prompt_meta):
