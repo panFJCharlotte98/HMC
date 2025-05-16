@@ -241,16 +241,16 @@ class TokenizedDataset(Dataset):
                 for item in json.load(open(pred_save_path)):
                     # if args.task == 'fhm':
                     #     this_info = pred_save_path.split("/")[-2].split("_")[0].split("-")[0]
-                    if args.task in ['fhm', 'harmc', 'harmp', 'mami', 'multioff', 'pridemm']:
-                        this_info = "-".join(pred_save_path.split("/")[-2].split("_")[0].split("-")[0:2])
+                    #if args.task in ['fhm', 'harmc', 'harmp', 'mami', 'multioff', 'pridemm']:
+                    this_info = "-".join(pred_save_path.split("/")[-2].split("_")[0].split("-")[0:2])
                     this_pred = item.pop("processed_prediction")
                     for attr in ["prediction", "chat_history"]:
                         item.pop(attr)
                     gather = False
                   
                     # dict_condition = isinstance(this_pred, dict) and (this_pred['flag'] in [0,1]) and (this_pred['output'] != "")
-                    if args.task in ['fhm', 'mami', 'harmc', 'harmp', 'multioff', 'pridemm']:
-                        dict_condition = isinstance(this_pred, dict) and (this_pred['flag'] == 1) and (this_pred['output'] != "")
+                    #if args.task in ['fhm', 'mami', 'harmc', 'harmp', 'multioff', 'pridemm']:
+                    dict_condition = isinstance(this_pred, dict) and (this_pred['flag'] == 1) and (this_pred['output'] != "")
                     if dict_condition:
                         pred_output = this_pred['output']
                         gather = True
