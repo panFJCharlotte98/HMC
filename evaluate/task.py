@@ -46,7 +46,8 @@ class EvaluateTool(object):
                 return res['pred_label']
         miso_type_res = {}
         for type, step_res in step_decisions.items():
-            if 'final' in step_res:
+            #if 'final' in step_res:
+            if ('final' in step_res) and (step_res['final'] is not None):
                 s_label = get_label(step_res['final'])
             else:
                 assert 'init' in step_res
@@ -97,7 +98,7 @@ class EvaluateTool(object):
                 output = self.post_process_func(pred)
             
             #20240222
-            if (self.task == 'mami') and ("StepDecision" in args.eval_folder_name):
+            if (self.task in ['mami', 'gb_misogynistic']) and ("StepDecision" in args.eval_folder_name):
                 #and (args.current_prompt_meta['template']['name'] == "StepDecision"):
                 # output is the processed prediction of final step "violence"
                 # output = {'pred_label': 0/1/2, 'ori_pred_text': "conclusion: ..."}
@@ -124,7 +125,7 @@ class EvaluateTool(object):
                 tmp = {'prediction': pred_label, 'ori_output': pred}
                 if 'ori_pred_label' in output: 
                     tmp.update({'ori_pred_label': output['ori_pred_label']})
-                if (self.task == 'mami') and ('miso_commits' in output):
+                if (self.task in ['mami', 'gb_misogynistic']) and ('miso_commits' in output):
                     tmp.update({'pred_sub_label': output['miso_commits']})
                 one_success = dict(**tmp, **gold)
                 if pred_label != gold['label']:
