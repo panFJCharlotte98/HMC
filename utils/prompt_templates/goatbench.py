@@ -149,6 +149,22 @@ REASONING = {
                 '''Now, let's think step by step:'''
             ]
         },
+        'pCoT': {
+            'gen_depend_on': [INTEGRATE_P['name']],
+            'INS': [
+                '''Given the following description of an image related to U.S. politics, classify the image content as either harmful or harmless based on common values, knowledge and social norms.''',
+                f'''**Description of the image**: {from_dependency}''',
+                '''Now, let's analyze step by step:'''
+            ]
+        },
+        'cCoT': {
+            'gen_depend_on': [INTEGRATE_C['name']],
+            'INS': [
+                '''Given the following description of an online meme related to COVID-19 pandemic, classify the meme content as either harmful or harmless based on widely accepted values, established knowledge and social norms.''',
+                f'''**Meme content you need to classify**: {from_dependency}''',
+                '''Now, let's think step by step:'''
+            ]
+        },
     },
     'output_format': {
         'v0': {"INS": '''''', 'post_process_func': post_process_to_remove_gibberish},
@@ -209,10 +225,25 @@ p1 = {
         }
     }
 }
+
+b2 = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            1: {'template': REASONING, "version": "pCoT", "out_format": 'v0', 'max_new_tokens': 1536, 'new_conversation': True},
+            2: {'template': REASONING, "version": "cCoT", "out_format": 'v0', 'new_conversation': True},
+            3: {'template': DECISION, "version": "v0", "out_format": 'v0'},
+        }
+    }
+}
+
 PP = dict(**M2T, **p1)
+B2 = dict(**M2T, **b2)
+
 GBHARMFUL_PROMPT_SCHEMES = {
     'M2T': M2T,
     'PP': PP,
+    'B2': B2,
 }
 
 def fill_placeholder(tmp, js):
