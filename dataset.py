@@ -468,7 +468,7 @@ class TokenizedDataset(Dataset):
                     prestep_data[item['id']] = {k: v for k, v in item.items() if k not in verbose_keys}
                 new_data = []
                 for item in json.load(open(dp_data_path)):
-                    if (args.task == "gb_harmful") and (args.current_prompt_meta['template']['name'] == "Integrate"):
+                    if (args.task == "gb_harmful") and (args.current_prompt_meta['template']['name'].startswith("Integrate")):
                         if item['id'] in prestep_data:
                             item.update(prestep_data[item['id']])
                             new_data.append(item)
