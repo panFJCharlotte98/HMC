@@ -74,6 +74,7 @@ analysis/
 cache/
 old_results/
 results/
+res_tables/
 view_img/
 run copy.py
 test.py
