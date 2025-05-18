@@ -96,7 +96,7 @@ AUX = {
 UNIFY_SYS = '''You are a helpful assistant.'''
 from_data_text = "{from_data_text}"
 INTEGRATE_P = {
-    'name': "Integrate", 'should_evaluate': False, 'take_image': False, 'gen_depend_on': [AUX['name'], CELEB_P['name'], DESCRIBE_P['name']], 
+    'name': "IntegrateP", 'should_evaluate': False, 'take_image': False, 'gen_depend_on': [AUX['name'], CELEB_P['name'], DESCRIBE_P['name']], 
     'versions': {
         'v0': {
             "INS": [
@@ -110,7 +110,7 @@ INTEGRATE_P = {
     }
 }
 INTEGRATE_C = {
-    'name': "Integrate", 'should_evaluate': False, 'take_image': False, 'gen_depend_on': [CELEB_C['name'], DESCRIBE_C['name']],
+    'name': "IntegrateC", 'should_evaluate': False, 'take_image': False, 'gen_depend_on': [CELEB_C['name'], DESCRIBE_C['name']],
     'versions': {
         'v0': {
             "INS": [
