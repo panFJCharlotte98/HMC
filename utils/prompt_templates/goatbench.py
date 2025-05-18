@@ -171,9 +171,9 @@ M2T = {
     'lmm_1': {
         'prompt': {
             # Harm-P
-            0: {'template': CELEB_P, "version": "celeb", "out_format": 'v0'},
-            1: {'template': CELEB_P, "version": "pleaders", "out_format": 'v0'},
-            2: {'template': DESCRIBE_P, "version": "vp", "out_format": 'vp'},
+            0: {'template': CELEB_P, "version": "celeb", "out_format": 'v0', 'max_new_tokens': 356},
+            1: {'template': CELEB_P, "version": "pleaders", "out_format": 'v0', 'max_new_tokens': 356},
+            2: {'template': DESCRIBE_P, "version": "vp", "out_format": 'vp', 'max_new_tokens': 356},
             # Harm-C
             3: {'template': CELEB_C, "version": "politician", "out_format": 'v0'},
             4: {'template': CELEB_C, "version": "cleaders", "out_format": 'v0'},
@@ -183,12 +183,12 @@ M2T = {
         'multi-turn': False},
     'lmm_2': {
         'prompt': {
-            0: {'template': AUX, "version": "trump", "out_format": 'v0'},
-            1: {'template': AUX, "version": "biden", "out_format": 'v0', "load_from_prestep": True},
-            2: {'template': AUX, "version": "obama", "out_format": 'v0', "load_from_prestep": True},
-            3: {'template': AUX, "version": "b&o", "out_format": 'v0', "load_from_prestep": True},
-            4: {'template': AUX, "version": "hillary", "out_format": 'v0', "load_from_prestep": True},
-            5: {'template': AUX, "version": "party", "out_format": 'v0', "load_from_prestep": True},
+            0: {'template': AUX, "version": "trump", "out_format": 'v0', 'max_new_tokens': 356},
+            1: {'template': AUX, "version": "biden", "out_format": 'v0', "load_from_prestep": True, 'max_new_tokens': 356},
+            2: {'template': AUX, "version": "obama", "out_format": 'v0', "load_from_prestep": True, 'max_new_tokens': 356},
+            3: {'template': AUX, "version": "b&o", "out_format": 'v0', "load_from_prestep": True, 'max_new_tokens': 356},
+            4: {'template': AUX, "version": "hillary", "out_format": 'v0', "load_from_prestep": True, 'max_new_tokens': 356},
+            5: {'template': AUX, "version": "party", "out_format": 'v0', "load_from_prestep": True, 'max_new_tokens': 356},
         },
         'multi-turn': False},
     'llm_1': {
