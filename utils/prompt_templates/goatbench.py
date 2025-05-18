@@ -32,12 +32,11 @@ celeb_kw = {
     #'bern': ['bernie', 'bern'],
     #'gary': ['gary', 'johnson'],
 }
-CELEB = {
-    'name': "Celeb", 'should_evaluate': False, 'take_image': True, 'gen_depend_on': None,
+
+# # Harm-P
+CELEB_P = {
+    'name': "CelebP", 'should_evaluate': False, 'take_image': True, 'gen_depend_on': None,
     'versions': {
-        'trump': {"INS" : f'''{check_harmc}Is {cname_map['trump']} in the image?'''},
-        'politician': {"INS": f'''{check_harmc}Does this image feature any politican of the United States? If yes, who are they?'''},
-        'cleaders': {"INS": f'''{check_harmc}Does this image feature any head of state? If yes, who are they?'''},
         'celeb': {"INS": f'''{check_harmp}Is any politician or celebrity portrayed in the image? If yes, who?'''},
         'pleaders': {"INS": f'''{check_harmp}Is any head of state portrayed in the image?'''},
     },
@@ -45,17 +44,39 @@ CELEB = {
         'v0': {"INS": '''Start your response with "Yes," or "No," before giving further explanation.''', 'post_process_func': extract_yes_or_no},
     }
 }
-DESCRIBE = {
-    'name': "Describe", 'should_evaluate': False,'take_image': True,'gen_depend_on': None,
+DESCRIBE_P = {
+    'name': "DescribeP", 'should_evaluate': False,'take_image': True,'gen_depend_on': None,
     'versions': {
         'vp': {"INS" : f'''{check_harmp}What is shown in this meme?'''},
-        'vc': {"INS" : f'''{check_harmc}What is shown in this meme?'''},
     },
     'output_format': {
         'vp': {"INS": "", 'post_process_func': post_process_description},
+    }
+}
+
+# # Harm-C
+CELEB_C = {
+    'name': "CelebC", 'should_evaluate': False, 'take_image': True, 'gen_depend_on': None,
+    'versions': {
+        'trump': {"INS" : f'''{check_harmc}Is {cname_map['trump']} in the image?'''},
+        'politician': {"INS": f'''{check_harmc}Does this image feature any politican of the United States? If yes, who are they?'''},
+        'cleaders': {"INS": f'''{check_harmc}Does this image feature any head of state? If yes, who are they?'''},
+    },
+    'output_format': {
+        'v0': {"INS": '''Start your response with "Yes," or "No," before giving further explanation.''', 'post_process_func': extract_yes_or_no},
+    }
+}
+DESCRIBE_C = {
+    'name': "DescribeC", 'should_evaluate': False,'take_image': True,'gen_depend_on': None,
+    'versions': {
+        'vc': {"INS" : f'''{check_harmc}What is shown in this meme?'''},
+    },
+    'output_format': {
         'vc': {"INS": "", 'post_process_func': post_process_to_remove_gibberish},
     }
 }
+
+
 assign_trump_prompt_by_task = '''{assign_trump_prompt_by_task}'''
 AUX = {
     'name': "Aux", 'should_evaluate': False, 'take_image': True, 'gen_depend_on': None,
@@ -71,10 +92,11 @@ AUX = {
         'v0': {"INS": '''Start your response with "Yes," or "No," before giving the explanation.''', 'post_process_func': extract_yes_or_no},
     }
 }
+
 UNIFY_SYS = '''You are a helpful assistant.'''
 from_data_text = "{from_data_text}"
 INTEGRATE_P = {
-    'name': "Integrate", 'should_evaluate': False, 'take_image': False, 'gen_depend_on': [AUX['name'], CELEB['name'], DESCRIBE['name']], 
+    'name': "Integrate", 'should_evaluate': False, 'take_image': False, 'gen_depend_on': [AUX['name'], CELEB_P['name'], DESCRIBE_P['name']], 
     'versions': {
         'v0': {
             "INS": [
@@ -88,7 +110,7 @@ INTEGRATE_P = {
     }
 }
 INTEGRATE_C = {
-    'name': "Integrate", 'should_evaluate': False, 'take_image': False, 'gen_depend_on': [CELEB['name'], DESCRIBE['name']],
+    'name': "Integrate", 'should_evaluate': False, 'take_image': False, 'gen_depend_on': [CELEB_C['name'], DESCRIBE_C['name']],
     'versions': {
         'v0': {
             "INS": [
@@ -149,14 +171,14 @@ M2T = {
     'lmm_1': {
         'prompt': {
             # Harm-P
-            0: {'template': CELEB, "version": "celeb", "out_format": 'v0'},
-            1: {'template': CELEB, "version": "pleaders", "out_format": 'v0'},
-            2: {'template': DESCRIBE, "version": "vp", "out_format": 'vp'},
+            0: {'template': CELEB_P, "version": "celeb", "out_format": 'v0'},
+            1: {'template': CELEB_P, "version": "pleaders", "out_format": 'v0'},
+            2: {'template': DESCRIBE_P, "version": "vp", "out_format": 'vp'},
             # Harm-C
-            3: {'template': CELEB, "version": "politician", "out_format": 'v0'},
-            4: {'template': CELEB, "version": "cleaders", "out_format": 'v0'},
-            5: {'template': CELEB, "version": "trump", "out_format": 'v0'},
-            6: {'template': DESCRIBE, "version": "vc", "out_format": 'vc'},
+            3: {'template': CELEB_C, "version": "politician", "out_format": 'v0'},
+            4: {'template': CELEB_C, "version": "cleaders", "out_format": 'v0'},
+            5: {'template': CELEB_C, "version": "trump", "out_format": 'v0'},
+            6: {'template': DESCRIBE_C, "version": "vc", "out_format": 'vc'},
         },
         'multi-turn': False},
     'lmm_2': {
@@ -205,19 +227,19 @@ def fill_placeholder(tmp, js):
             assert isinstance(dp_pred, str)
             return tmp.format(from_dependency = dp_pred), js
     if check_harmc in tmp:
-        if js['task'] == "harmc":
+        if js['subtask'] == "harmc":
             return tmp.replace(check_harmc, ""), js
         else:
             return "", None
     if check_harmp in tmp:
-        if js['task'] == "harmp":
+        if js['subtask'] == "harmp":
             return tmp.replace(check_harmp, ""), js
         else:
             return "", None
     if assign_trump_prompt_by_task in tmp:
-        if js['task'] == "harmp":
+        if js['subtask'] == "harmp":
             trump_ins = f'''Is {cname_map['trump']} depicted in the image?'''
-        if js['task'] == "harmc":
+        if js['subtask'] == "harmc":
             trump_ins = f'''Is {cname_map['trump']} in the image?'''
         return tmp.format(assign_trump_prompt_by_task = trump_ins), js
     if assign_guidelines_harmc in tmp:
@@ -227,9 +249,9 @@ def fill_placeholder(tmp, js):
         assert "aux_info" in js
         return tmp.format(assign_guidelines_harmp = harmp_assign_guidelines(js)), js
     if assign_decision_prompt in tmp:
-        if js['task'] == 'harmp':
+        if js['subtask'] == 'harmp':
             decision_ins = '''If you just classified the image content as harmful, output "Conclusion: Harmful." Otherwise, output "Conclusion: Harmless."'''
-        if js['task'] == 'harmc':
+        if js['subtask'] == 'harmc':
             decision_ins = '''If you just classified the meme content as harmful, output "Conclusion: Harmful." Otherwise, output "Conclusion: Harmless."'''
         return tmp.format(assign_decision_prompt = decision_ins), js
     if from_data_text in tmp:

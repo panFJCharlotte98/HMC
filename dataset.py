@@ -490,14 +490,14 @@ class TokenizedDataset(Dataset):
         dp_outputs = {} # item id as key
         for item in json.load(open(target_file_path)):
             iid = item["id"]
-            itask = item["task"]
+            itask = item["subtask"]
             dp_outputs[f"{itask}_{iid}"] = item
         for dp in dp_list[:-1]:
             pred_save_path = os.path.join(args.output_dir_history[dp['m_type']][dp['rid']], 'predictions.json')
             print(pred_save_path)
             for item in json.load(open(pred_save_path)):
                 iid = item["id"]
-                itask = item["task"]
+                itask = item["subtask"]
                 assert f"{itask}_{iid}" not in dp_outputs
                 dp_outputs[f"{itask}_{iid}"] = item
         new_data = []
