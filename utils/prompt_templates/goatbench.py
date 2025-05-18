@@ -203,9 +203,9 @@ p1 = {
     'llm_2': {
         'multi-turn': True,
         'prompt': {
-            0: {'template': REASONING, "version": "pCoT+", "out_format": 'v0', 'max_new_tokens': 1536},
-            1: {'template': REASONING, "version": "cCoT+", "out_format": 'v0', 'new_conversation': True},
-            2: {'template': DECISION, "version": "v0", "out_format": 'v0'},
+            1: {'template': REASONING, "version": "pCoT+", "out_format": 'v0', 'max_new_tokens': 1536, 'new_conversation': True},
+            2: {'template': REASONING, "version": "cCoT+", "out_format": 'v0', 'new_conversation': True},
+            3: {'template': DECISION, "version": "v0", "out_format": 'v0'},
         }
     }
 }
