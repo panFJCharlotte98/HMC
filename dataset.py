@@ -599,7 +599,7 @@ class TokenizedDataset(Dataset):
                     if (args.task in ["fhm", "gb_hateful"]) and (args.current_prompt_meta['template']['name'] == "IntegrateTGContext") and (args.current_prompt_meta['version'] == "v1"):
                         data_path = self.fhm_post_process_gen_context(args, tmp)
                 else:
-                    if args.current_prompt_meta['template']['name'] == "Integrate":
+                    if args.current_prompt_meta['template']['name'] in ["Integrate", "IntegrateC", "IntegrateP"]:
                         # gather outputs from direct dependencies
                         data_path = self.gather_dependency_outputs(args, tmp)
                     # FHM-specific
