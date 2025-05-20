@@ -70,6 +70,7 @@ data/download.py
 models/models
 sh_cmd/
 testG/
+error_analysis/
 analysis/
 cache/
 old_results/

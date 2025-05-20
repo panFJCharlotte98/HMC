@@ -147,6 +147,15 @@ REASONING = {
                 pp_cot_ins
             ]
         },
+        'CoT+UD': {
+            'gen_depend_on': [INTEGRATE['name']],
+            'INS': [
+                PP_CLASSIFY_INS,
+                guidelines,
+                meme2text,
+                pp_cot_ins
+            ]
+        },
         'CoT+GD': {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
@@ -273,6 +282,16 @@ p1 = {
     }
 }
 
+p2 = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "CoT+UD", "out_format": 'v0', 'max_new_tokens': 1536},
+            1: {'template': DECISION, "version": "v0", "out_format": 'v0'},
+        }
+    }
+}
+
 # Unimodal baseline: Inference with LLM
 b2 = {
     'llm_2': {
@@ -318,6 +337,7 @@ pd = {
 
 B2 = dict(**M2T, **b2)
 PP = dict(**M2T, **p1)
+P2 = dict(**M2T, **p2)
 PPqw3 = dict(**M2T, **p1_qw3)
 B2qw3 = dict(**M2T, **b2_qw3)
 PD = dict(**M2T, **pd)
@@ -332,7 +352,8 @@ HARMP_PROMPT_SCHEMES = {
     'B2qw3': B2qw3,
     'PPqw3': PPqw3,
     'GPT_DESCRIBE': GPT_describe,
-    'PD': PD
+    'PD': PD,
+    'P2': P2
 }
 
 def assign_guidelines_(js):
