@@ -42,7 +42,7 @@ from PIL import Image
 
 TASK_LIST = list(PROMPT_MAP.keys())
 MAP_BATCH_SIZE = {
-    'llama3.1': {'mini':32, 'small':16}, # 32, 16
+    'llama3.1': {'mini':16, 'small':16}, # 32, 16
     'qwen2.5': {'mini':32, 'small':16}, # small: 16
     'qwen3': {'mini':32, 'small':16}, # small: 16
     'mistral': {'mini':32, 'small':16}, # small: 16
