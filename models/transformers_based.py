@@ -18,6 +18,7 @@ from transformers import (
 from utils.configure import Configure
 
 DEFAULT_MODEL_CACHE = "/data/fengjun/hf_downloaded_models"
+# DEFAULT_MODEL_CACHE = "./models/models_hf/"
 LLMs = ['llama3.1', 'qwen2.5', 'qwen3', 'mistral']
 LMMs = ['llama3.2', 'qwen2-vl', 'qwen2.5-vl', 'llava1.6', 'llava1.5']
 

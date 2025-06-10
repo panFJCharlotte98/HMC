@@ -68,6 +68,8 @@ data/PrideMM/Images_512
 data/PrideMM/Images_512_1280
 data/download.py
 models/models
+utils/knowledge/drafts
+utils/prompt_templates/drafts
 sh_cmd/
 testG/
 error_analysis/
@@ -78,6 +80,7 @@ results/
 res_tables/
 view_img/
 run copy.py
+gather_results.ipynb
 test.py
 tmp.py
 *.png

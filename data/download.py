@@ -6,14 +6,9 @@ import os
 # path = kagglehub.dataset_download("williamberrios/hateful-memes")
 # print("Path to dataset files:", path)
 
-
-
 # # Download latest version
 # path = kagglehub.dataset_download("deeptanshu111/hateful-memes")
 # print("Path to dataset files:", path)
-
-
-
 
 # # Download latest version
 # path = kagglehub.dataset_download("goldenlock/hateful-memes")
@@ -23,7 +18,6 @@ import os
 # # Download latest version
 # path = kagglehub.dataset_download("chauri/facebook-hateful-memes")
 # print("Path to dataset files:", path)
-
 
 
 # # Download latest version
