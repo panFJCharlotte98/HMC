@@ -4,7 +4,7 @@
 <!-- [EMNLP 2024](https://aclanthology.org/2024.emnlp-main.794.pdf) -->
 
 <div align="center">
-<img src="./img/main_fig_new.pdf" width="100%" align="center">
+<img src="./img/github_main.jpg" width="100%" align="center">
 </div>
 
 ## Usage
