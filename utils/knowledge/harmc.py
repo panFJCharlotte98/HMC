@@ -8,22 +8,26 @@ R_interpret_ori = '''Try to analyze the intent and implication of the meme from 
 # R_interpret = '''Try to analyze the intent and implication of the meme from a neutral perspective first without presuming the nature of its tone.'''
 
 R_interpret = '''Try to analyze the intent and implication of the meme from a neutral perspective first without presuming the nature of its tone as humorous.'''
+R_interpret_gpt_rephrased = '''Start by objectively examining the meme’s intent and implications from a neutral perspective, without assuming it is meant to be light-hearted.'''
 
 # R_implicit = '''Meme contents perceived as harmful can be implicit. While they may not contain explicit derogatory language, slurs, offensive speech, or direct expressions of hate toward specific individuals or organizations in the image or caption, they can still provoke negative contextual interpretations or associations that may intentionally contribute to a negative portrayal of the targets, maliciously harm their reputation and public image, or reinforce distrust, harmful stereotypes, unfair biases, or even hatred against them, thus being harmful to the involved individuals or entities e.g., politicians or governements.'''
 
 # best
 # R_implicit = '''Meme contents perceived as harmful can be implicit. While they may not contain explicit derogatory language, slurs, offensive speech, or direct expressions of hate toward specific politicians in the image or caption, they can still intentionally provoke negative contextual interpretations or associations that contribute to a negative portrayal of the target politicians, maliciously harm their reputation and public image through critical satires and mockeries against their statements, actions or policies, reinforce distrust, harmful stereotypes, unfair biases, or even hatred against them, thus being harmful to the politicians involved.'''
 R_implicit = '''Meme contents perceived as harmful can be implicit. While they may not contain explicit derogatory language, slurs, offensive speech, or direct expressions of hate toward specific politicians in the image or caption, they can still intentionally provoke negative contextual interpretations or associations that contribute to a negative portrayal of the target politicians, maliciously harm their reputation and public image through critical satires, mockeries or exaggerated caricature against their statements, behaviors, actions or policies, reinforce distrust, harmful stereotypes, unfair biases, or even hatred against them, thus being harmful to the politicians involved.'''
-
+R_implicit_gpt_rephrased = '''Harmful meme content can be implicit. Even without using explicit slurs, derogatory language, or direct expressions of hate toward specific politicians shown in the image or mentioned in the caption, such content may still be intentionally designed to provoke negative contextual interpretations. Through satire, mockery, or exaggerated caricatures targeting a politician's statements, actions, or policies, the meme can portray them in a negative light and maliciously damage their reputation and public image. It may also reinforce distrust, harmful stereotypes, or unfair biases—potentially fostering hatred—thus making it harmful to the individuals involved.'''
 
 R_harmless = '''Meme contents that make fun of coronavirus and the pandemic but do not involve any politician or celebrity might be considered harmless.'''
+R_harmless_rephrased = '''Memes that joke about the coronavirus or the pandemic are generally considered harmless, as long as they do not cause harm to specific politicians, celebrities, or vulnerable groups, and do not promote misinformation.'''
+
 
 # R_harmless = '''Meme contents that make fun of the coronavirus or the pandemic, without involving any specific politician, may be considered harmless.'''
 
 TYPES = {
     "Donald Trump": {
         "intro": '''Commonly found harmful content in online memes targeting Donald Trump during the COVID-19 pandemic include:''',
-        "examples": '''Taking Trump's controversial public statements or tweets out of context to mock, embarrass or make fun of him; Portraying him as absurd, ignorant, irresponsible, incompetent, trivializing or dismissive of the severity and danger of coronavirus; Mocking his perceived failures in managing the pandemic; Sarcastically mocking or critisizing his actions, statements, policies and perceived attitudes toward the pandemic; Blaming him for the spread of covid, or the loss or mortality caused by the pandemic; Mocking him for getting the covid; Mocking his gaffes of "covfefe"; Attributing broader complex systemic failures solely to him; Accusing him of exploiting the crisis for personal or political gain, etc.'''
+        "examples": '''Taking Trump's controversial public statements or tweets out of context to mock, embarrass or make fun of him; Portraying him as absurd, ignorant, irresponsible, incompetent, trivializing or dismissive of the severity and danger of coronavirus; Mocking his perceived failures in managing the pandemic; Sarcastically mocking or critisizing his actions, statements, policies and perceived attitudes toward the pandemic; Blaming him for the spread of covid, or the loss or mortality caused by the pandemic; Mocking him for getting the covid; Mocking his gaffes of "covfefe"; Attributing broader complex systemic failures solely to him; Accusing him of exploiting the crisis for personal or political gain, etc.''',
+        "examples_rephrased": '''Taking Trump's controversial statements or tweets out of context to ridicule or mock him; Depicting him as absurd, ignorant, irresponsible, or incompetent; Portraying him as downplaying or dismissing the seriousness of the coronavirus; Satirizing his perceived failures in handling the pandemic; Using sarcasm to criticize his actions, remarks, policies, or attitudes related to COVID-19; Blaming him for the virus's spread or the resulting deaths; Mocking him for contracting COVID-19; Making fun of his "covfefe" gaffe; Unfairly attributing complex systemic failures solely to him; Accusing him of using the crisis for personal or political advantage, etc.''',
         
         # #Attributing broader complex systemic failures solely to him;  #Mocking him for eventually testing positive for the virus; #Attributing fabricated statements to him or using exaggerated, digitally altered imagery to mock him
         # best
@@ -33,6 +37,7 @@ TYPES = {
         "intro": '''Commonly found harmful offensive contents targeting Joe Biden include:''',
         "examples": '''Parodies that portray Joe Biden as childlike, juvenile, forgetful or disconnected; Implicitly mocking his perceived ineptitude, odd behaviors, mental or physical decline; Perpetuating ageist and cognitive stereotypes about him.''',
         #Parodies that portray Joe Biden as childlike, juvenile, forgetful or disconnected; Implicitly mocking Biden's perceived ood behaviors, ineptitude, mental or physical decline; Reinforcing ageist and cognitive stereotypes about Joe Biden
+        "examples_rephrased": '''Parodies that depict Joe Biden as childish, forgetful, or mentally disengaged; that subtly mock his perceived incompetence, unusual behavior, or signs of cognitive or physical decline; or that reinforce age-related and cognitive stereotypes about him.''',
     },
     # "North Korean leader Kim Jong-un": {
     #     "intro": '''Commonly found harmful offensive contents targeting Kim Jong-un:''',
@@ -44,11 +49,16 @@ TYPES = {
     # },
 }
 
-exp_ls = ['''Commonly found harmful contents in online memes targeting different politicians during Covid-19 pandemic include:''']
+exp_prefix = '''Commonly found harmful contents in online memes targeting different politicians during Covid-19 pandemic include: '''
+exp_ls, rephrased_exp_ls = [], []
 for tg, content in TYPES.items():
     examples = content["examples"]
+    rephrased_examples = content["examples_rephrased"]
     exp_ls.append(f"**{tg}**: {examples}")
-hateful_examples = " ".join(exp_ls)
+    rephrased_exp_ls.append(f"**{tg}**: {rephrased_examples}")
+
+hateful_examples = exp_prefix + " ".join(exp_ls)
+hateful_examples_rephrased = exp_prefix + " ".join(rephrased_exp_ls)
 
 # KNOWLEDGE = f'''{GuideLines}{hateful_examples}'''
 # GL = " ".join([f"{id+1}. {rule}" for id, rule in enumerate([R_implicit_ori, hateful_examples])])
@@ -58,14 +68,13 @@ KNOWLEDGE = f'''{GL}'''
 
 
 R_general = '''Commonly found harmful contents in COVID-19-related online memes include:
-Spreading or reinforcing harmful misinformation about countries, politicians, governement bodies or organizations;
-Encouraging misleading, inflammatory, extremist or harmful viewpoints;
-Using provocative, polarizing labels or terms;
-Trivializing or oversimplifying complicated issues to exacerbate fear, distrust, hostility or even hate in public;
-Using offensive dehumanizing imagery, language or rhetorics to critisize, mock, satirize or insult the target under the disguise of humor;
-Promoting toxic, aggressive, overtly divisive humors or narratives that deepen political polarization and even incite hatred or violence;
-Offensive mockery that crosses into identity attack;
-Perpetuating racist contents, offensive stereotypes or conspiracy theories against specific countries or governements, etc.'''
+Spreading misinformation about COVID-19 vaccines with harmful intent, including exaggerating adverse effects, discouraging public vaccination, or mocking vaccination policies;
+Encouraging misleading, inflammatory, extremist, or harmful viewpoints related to vaccine dosing, protective measures, or COVID-19-related policies;
+Promoting a dismissive attitude toward the virus, neglect of public health measures, minimization of its severity, or trivialization of the pandemic as entertainment;
+Perpetuating negative stereotypes about China, including stigmatizing or inciting hate toward China for the spread of the virus, or portraying Chinese dietary habits or cultural practices as its origin;
+Promoting violence or conspiracy theories;
+Disseminating or reinforcing harmful misinformation about countries, political figures, government bodies, or organizations, etc.
+'''
 #Mocking or minimizing the significance of critical COVID-19 safety precautions or public health policies;
 
 

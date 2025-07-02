@@ -1,16 +1,24 @@
-TYPE_KWS = {
-    "Parties": [],
-
-}
 
 TYPES = {
     "general": '''Commonly found harmful contents in political memes include: Spreading or reinforcing harmful misinformation associated with politicians, political parties or groups; Encouraging misleading, inflammatory, extremist or harmful viewpoints or ideologies; Using inflammatory, polarizing labels or terms; Trivializing or misrepresenting serious/complex/sensitive/controversial political or historical issues to exacerbate division and hostility in political environments; Promoting toxic, aggressive, overtly divisive humors or narratives that deepen political polarization and even incite hatred or violence; Using offensive dehumanizing imagery, language or rhetorics to critisize, mock, satirize or insult people under the disguise of humor; Offensive mockery that crosses into identity attack; Perpetuating racist contents, religious prejudices, offensive stereotypes or conspiracy theories against protected groups (e.g., Muslims, colored people, immigrants, LGBTQ community, etc.), etc..''',
     
+    "general_gpt_rephrased": '''Commonly found harmful contents in political memes include: Spreading or reinforcing misinformation related to politicians, political parties, or affiliated groups; Promoting misleading, inflammatory, extremist, or harmful ideologies; Using divisive or provocative labels and terminology; Oversimplifying, misrepresenting or trivializing complex, or sensitive political and historical issues in ways that fuel division and hostility; Advancing toxic or aggressive narratives that intensify political polarization or incite hatred and violence; Employing offensive or dehumanizing language, imagery, or rhetoric to criticize, mock, or insult individuals under the guise of humor; Engaging in mockery that crosses into identity-based attacks; Perpetuating racism, religious bias, offensive stereotypes, or conspiracy theories targeting protected groups such as Muslims, people of color, immigrants, and the LGBTQ+ community, etc.''',
+    
+    "general_shuffled": '''Commonly found harmful contents in political memes include: Promoting toxic, aggressive, overtly divisive humors or narratives that deepen political polarization and even incite hatred or violence; Encouraging misleading, inflammatory, extremist or harmful viewpoints or ideologies; Spreading or reinforcing harmful misinformation associated with politicians, political parties or groups; Using inflammatory, polarizing labels or terms; Using offensive dehumanizing imagery, language or rhetorics to critisize, mock, satirize or insult people under the disguise of humor; Misrepresenting serious/complex/sensitive/controversial political or historical issues to exacerbate division and hostility in political environments; Perpetuating racist contents, religious prejudices, offensive stereotypes or conspiracy theories against protected groups (e.g., Muslims, colored people, immigrants, LGBTQ community, etc.); Offensive mockery that crosses into identity attack, etc.''',
+    
     "politicians": '''Commonly found harmful contents against politicians include: Leveraging sarcastic/satirical personal attacks intended to insult, humiliate, discredit, or ridicule public figures; Taking political statements out of context and attributing them to politicians to mislead or provoke; Using sensitive topics such as sexual scandals as punchlines for mockery.''',
+    
+    "politicians_gpt_rephrased": '''Commonly found harmful contents against politicians include: Using sarcasm or satire to launch personal attacks aimed at insulting, discrediting, humiliating, or ridiculing public figures; Misrepresenting political statements by taking them out of context to mislead or provoke audiences; Exploiting sensitive issues—such as sexual scandals—as punchlines for mockery, etc.''',
+    
+    "politicians_shuffled": '''Commonly found harmful contents against politicians include: Leveraging sarcastic/satirical personal attacks intended to insult, humiliate, discredit, or ridicule public figures; Using sensitive topics such as sexual scandals as punchlines for mockery; Taking political statements out of context and attributing them to politicians to mislead or provoke, etc.''',
 
     "party": '''Commonly found harmful contents targeting political parties include: Perpetuating offensive, exaggerated, oversimplified, or misleading stereotypes about political parties or groups; Provoking partisan distrust or hostility through manipulative framing, taking out of context, oversimplification, etc..''',
+    "party_gpt_rephrased": '''Commonly found harmful contents targeting political parties include: Promoting offensive, exaggerated, oversimplified, or misleading stereotypes about specific parties or groups; Inciting partisan distrust or hostility through manipulative framing, misrepresentation, or taking statements out of context, etc.''',
+    "party_shuffled": '''Commonly found harmful contents targeting political parties include: Provoking partisan distrust or hostility through manipulative framing, taking out of context, oversimplification; Perpetuating offensive, exaggerated, oversimplified, or misleading stereotypes about political parties or groups, etc.''',
     
     "Joe Biden": '''Commonly found offensive contents targeting Joe Biden include: Parodies that portray this elder as childlike, juvenile, forgetful or disconnected in fictional scenarioes; Implicitly mocking his perceived ineptitude, mental or physical decline.''',
+    "Joe Biden_gpt_rephrased": '''Commonly found offensive contents targeting Joe Biden include: parodies that depict him—often in fictional scenarios—as childlike, juvenile, forgetful, or mentally disengaged; and subtle mockery of his perceived incompetence or signs of cognitive or physical decline, etc.''',
+    "Joe Biden_shuffled": '''Commonly found offensive contents targeting Joe Biden include: Implicitly mocking his perceived ineptitude, mental or physical decline; Parodies that portray this elder as childlike, juvenile, forgetful or disconnected in fictional scenarioes, etc.''',
     
     #### Unused
     # "interpret": '''Maintain a neutral perspective.''',
@@ -18,8 +26,13 @@ TYPES = {
     # "Donald Trump": '''Mocking his public statements and tweets, making fun of Trump, mocking real or perceived gaffes, attacking his character like intelligence, competence, and leadership abilities, stereotyping him as dishonest, corrupt, or incompetent, giving him derogatory nicknames, attacking his physical appearance like his hair skin color, and mannerisms, etc.''',
     # "Biden x Obama/Trump Memes": "Made-up dialogs between Biden and Obama or Trump that usually make fun of Biden by pairing him with childish or absurd speech to mock his incompetence and age and to harm his public image, portraying Biden and Obama in a very close relationship, etc.",
     # "Barack Obama": '''Stereotypes related to Obama's race, ethnicity and identity, questioning his birthplace, heritage or religion, misrepresenting his policies by exaggerating the negative consequences, portraying him as an unofficial advisor to Biden, mocking his intellect and leadership, personal attacks against him and his family, particularly Michelle Obama, etc.''',
+    "Barack Obama": '''Harmful content targeting Barack Obama often includes: Racial and ethnic stereotypes, questioning his birthplace, heritage, or religion; Misrepresenting his policies by exaggerating their negative impact; Depicting him as an unofficial advisor or behind-the-scenes influence on Biden; Mocking his intelligence or leadership abilities; Launching personal attacks against him or members of his family, especially Michelle Obama, etc.''',
     # "Hilary Clintion": '''Portraying Hilary as deceitful or corrupt, questioning her integrity and honesty, mocking her gender, health and age, calling her a criminal, etc.''',
 }
+
+R1 = '''Content that deliberately exaggerates negative portrayals of a political entity—such as a politician, party, organization, or community—with the intent to harm its public image is considered harmful to that entity.'''
+
+R2 = '''Content that spreads misinformation, incites violence, promotes extremist ideologies, or amplifies inflammatory rhetoric is considered harmful to the society.'''
 
 hateful_examples = " ".join(['''6. Commonly found harmful contents targeting various US politicians or politic groups include:\n'''] + [f"**{tg}**: {content}" for tg, content in TYPES.items()])
 

@@ -82,6 +82,8 @@ class FolderName(object):
     ):
         multiturn_flag = run_multiturn and (rid > 0)
         base_name = f"{p_meta['template']['name']}-{p_meta['version']}-{p_meta['out_format']}"
+        if self.args.run_fewshot and p_meta['template']['name'].startswith("Reasoning"):
+            base_name = f"{p_meta['template']['name']}-{self.args.n_shots}{p_meta['version']}-{p_meta['out_format']}"
         should_evaluate = p_meta['template']['should_evaluate'] if 'should_evaluate' in p_meta['template'] else p_meta['template']["versions"][p_meta["version"]]['should_evaluate']
         if should_evaluate:
             f_name = [base_name]
@@ -399,6 +401,8 @@ def check_before_running(args):
             if (mt != args.decision_model_type) and (args.step_model_map[m_type] not in tmp):
                 tmp.append(args.step_model_map[m_type])
         folder_name = [args.scheme] + tmp
+        if args.run_fewshot:
+            folder_name = [f"{args.n_shots}{args.scheme}"] + tmp
         #if 
         # args_used_in_name = []
         # if args.llm_max_new_tokens == args.lmm_max_new_tokens:
@@ -786,30 +790,31 @@ def run_model(args):
             torch.distributed.barrier(device_ids=[args.local_rank])
             if not args.run_gpt:
                 args.per_device_eval_batch_size = args.set_per_device_eval_batch_size
-                if args.task in ['harmc', 'harmp', 'multioff', 'gb_offensive']:#, 'mami'
-                    if (args.run_multiturn) and (rid > 0):
-                        if (args.per_device_eval_batch_size > 2):
-                            args.per_device_eval_batch_size = args.per_device_eval_batch_size - 2
-                elif args.task in ['fhm', 'gb_hateful', 'pridemm', 'mami', 'gb_misogynistic', 'gb_harmful']:
-                    if "batch_size" in p_meta:
-                        args.per_device_eval_batch_size = p_meta['batch_size']
-                    else:
-                        if args.task in ['fhm', 'gb_hateful', 'pridemm', 'mami', 'gb_misogynistic', 'gb_harmful']:
-                            if (args.run_multiturn) and (rid > 0) and ("new_conversation" not in p_meta):
-                                reduce_by = 2
-                                if (args.task in ['fhm', 'gb_hateful']) and (args.set_per_device_eval_batch_size == 32):
-                                    reduce_by = 4 if r_order > 1 else 2
-                                reduce_num = reduce_by * r_order
-                                if (args.set_per_device_eval_batch_size > reduce_num):
-                                    args.per_device_eval_batch_size = args.set_per_device_eval_batch_size - reduce_num
-                        else:#mami
-                            if (args.run_multiturn) and (rid > 0):
-                                reduce_by = 2
-                                reduce_num = reduce_by * r_order
-                                if (args.set_per_device_eval_batch_size > reduce_num):
-                                    args.per_device_eval_batch_size = args.set_per_device_eval_batch_size - reduce_num
-                        if (args.current_model_type == 'llm') and (args.should_evaluate):
-                            args.per_device_eval_batch_size = 16
+                if not args.run_perturb:
+                    if args.task in ['harmc', 'harmp', 'multioff', 'gb_offensive']:#, 'mami'
+                        if (args.run_multiturn) and (rid > 0):
+                            if (args.per_device_eval_batch_size > 2):
+                                args.per_device_eval_batch_size = args.per_device_eval_batch_size - 2
+                    elif args.task in ['fhm', 'gb_hateful', 'pridemm', 'mami', 'gb_misogynistic', 'gb_harmful']:
+                        if "batch_size" in p_meta:
+                            args.per_device_eval_batch_size = p_meta['batch_size']
+                        else:
+                            if args.task in ['fhm', 'gb_hateful', 'pridemm', 'mami', 'gb_misogynistic', 'gb_harmful']:
+                                if (args.run_multiturn) and (rid > 0) and ("new_conversation" not in p_meta):
+                                    reduce_by = 2
+                                    if (args.task in ['fhm', 'gb_hateful']) and (args.set_per_device_eval_batch_size == 32):
+                                        reduce_by = 4 if r_order > 1 else 2
+                                    reduce_num = reduce_by * r_order
+                                    if (args.set_per_device_eval_batch_size > reduce_num):
+                                        args.per_device_eval_batch_size = args.set_per_device_eval_batch_size - reduce_num
+                            else:#mami
+                                if (args.run_multiturn) and (rid > 0):
+                                    reduce_by = 2
+                                    reduce_num = reduce_by * r_order
+                                    if (args.set_per_device_eval_batch_size > reduce_num):
+                                        args.per_device_eval_batch_size = args.set_per_device_eval_batch_size - reduce_num
+                            if (args.current_model_type == 'llm') and (args.should_evaluate):
+                                args.per_device_eval_batch_size = 16
                 # if (args.run_multiturn) and (rid > 0):
                 #     if (args.per_device_eval_batch_size > 2):
                 #         args.per_device_eval_batch_size = args.per_device_eval_batch_size - 2
@@ -957,12 +962,16 @@ def get_generation_dependency(args):
                         tmp = f"({smodel}:{tmp})"
                     dp_postfix.append(tmp)
                 dependency_chain_postfix_map[m_type][rid] = "_".join(dp_postfix).strip("_")
+            
+            postfix = f"{p_meta['template']['name']}-{p_meta['version']}-{p_meta['out_format']}"
+            if args.run_fewshot and p_meta['template']['name'].startswith("Reasoning"):
+                postfix = f"{p_meta['template']['name']}-{args.n_shots}{p_meta['version']}-{p_meta['out_format']}"
             step_chain[step_idx] = {
                 'm_type': m_type, 
                 'rid': rid, 
                 'prompt_name':p_meta['template']['name'], 
                 'dp_name': dp_name,#p_meta['template']['gen_depend_on']
-                'postfix': f"{p_meta['template']['name']}-{p_meta['version']}-{p_meta['out_format']}"
+                'postfix': postfix
             }
             
     return dependency_chain_postfix_map, dataload_dependency_map

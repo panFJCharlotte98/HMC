@@ -48,6 +48,10 @@ class WrappedTrainingArguments(TrainingArguments):
         default=False, 
         metadata={"help": ""}
     )
+    run_perturb : Optional[bool] = field(
+        default=False, 
+        metadata={"help": "whether to run perturbation experiments."}
+    )
     run_fewshot : Optional[bool] = field(
         default=False, 
         metadata={"help": "whether to run few-shot experiments."}
@@ -67,6 +71,10 @@ class WrappedTrainingArguments(TrainingArguments):
     use_dataset_cache: bool = field(
         default=False, 
         metadata={"help":"use cached dataset."}
+    )
+    n_shots: int = field(
+        default=2, 
+        metadata={"help":"N-way K-shot examples to prompt LLMs for few-shot experiments. K examples for each of the N classes."}
     )
     n_fewshots: int = field(
         default=1, 

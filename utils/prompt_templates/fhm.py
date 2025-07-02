@@ -1,5 +1,8 @@
 from utils.knowledge.fhm import *
 from utils.tool import *
+from utils.fewshot.fhm import *
+import random
+
 from_raw_data = '{from_raw_data}'
 from_dependency = '{from_dependency}'
 from_previous_turn = '{from_previous_turn}'
@@ -232,6 +235,8 @@ CLASSIFY_INS_V1 = '''Given the following image-caption content, which may or may
 meme2text = f'''**Image-caption content you need to classify**: {from_dependency}'''
 caption = f'''The caption overlaid on the image reads "{from_raw_data}".'''
 cot_ins = '''Now, let's think step by step:'''
+fewshots = '''{fewshots}'''
+from_gpt_description = '''{from_gpt_description}'''
 REASONING = {
     'name': "Reasoning", 'should_evaluate': False, 'take_image': False,
     'versions': {
@@ -283,7 +288,6 @@ REASONING = {
             'INS': [
                 CLASSIFY_INS,
                 f'''Here are some guidelines for your reference: {GUIDELINES}''',
-                meme2text,
                 caption,
                 cot_ins
             ]
@@ -315,6 +319,26 @@ REASONING = {
                 cot_ins
             ]
         },
+        'fsCoT': {
+            'gen_depend_on': [INTEGRATE['name']],
+            'INS': [
+                CLASSIFY_INS,
+                fewshots,
+                meme2text,
+                f'''The caption overlaid on the image reads "{from_raw_data}".''',
+                f'''**Classification**: {cot_ins}'''
+            ]
+        },
+        'CoT+GD': {
+            'gen_depend_on': [INTEGRATE['name'], INTEGRATE_TG_CONTEXT['name']],
+            'INS': [
+                CLASSIFY_INS,
+                f'''Here are some guidelines for your reference: {make_guidelines_w_IntegrateTGContext}''',
+                f'''**Image-caption content you need to classify**: {from_gpt_description}''',
+                caption,
+                cot_ins
+            ]
+        },
     },
     'output_format': {
         'v0': {"INS": '''''', 'post_process_func': post_process_to_remove_gibberish},
@@ -332,10 +356,14 @@ GPT_DIRECT_CLASSIFY = {
     },
 }
 
+main_ins = "What is going on in this image? Describe the content of the image without interpreting any underlying implications."
+transcribe = "If there is any overlaid text, transcribe the text without paraphrasing."
+tone = "Do not assume the image's tone or intent to be humorous or lighthearted. Maintain a neutral and descriptive tone."
 GPT_DESCRIBE = {
     'name': "Describe", 'should_evaluate': False, 'take_image': True, 'gen_depend_on': None,
     'versions': {
-        'v0': {'INS': f'''Describe the visual content of the meme without interpretation. If there is any overlaid caption, transcribe it exactly as shown without paraphrasing.'''},
+        'v0': {'INS': f'''{main_ins} {transcribe} If there are any human subjects, identify their perceived genders and races. If any human subject appears to be a celebrity or historical figure, identify them by name. If any human subject appears to have a disability, identify the visual cues that suggest it. {tone} Output your description in one short paragraph.'''},
+        'v1': {'INS': f'''Describe the visual content of the meme without interpretation. If there is any overlaid caption, transcribe it exactly as shown without paraphrasing.'''},
     },
     'output_format': {
         'v0': {"INS": '''''', 'post_process_func': post_process_to_remove_gibberish}
@@ -471,6 +499,18 @@ p1 = {
             5: {'template': DECISION, "version": "v1", "out_format": 'v0'},
         }
     },
+    # Robustness test against Guideline Perturbations
+    'llm_3': {
+        'multi-turn': True,
+        'prompt': {
+            41: {'template': REASONING, "version": "CoT+", "out_format": 'v0', 'new_conversation': True, "perturbation": "rephrased"},
+            51: {'template': DECISION, "version": "v1", "out_format": 'v0'},
+            42: {'template': REASONING, "version": "CoT+", "out_format": 'v0', 'new_conversation': True, "perturbation": "shuffled"},
+            52: {'template': DECISION, "version": "v1", "out_format": 'v0'},
+            43: {'template': REASONING, "version": "CoT++", "out_format": 'v0', 'new_conversation': True},
+            53: {'template': DECISION, "version": "v1", "out_format": 'v0'},
+        }
+    },
 }
 
 p2 = {
@@ -517,6 +557,27 @@ p_lorehm = {
     }
 }
 
+p_fewshot = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "fsCoT", "out_format": 'v0'},
+            1: {'template': DECISION, "version": "v1", "out_format": 'v0'}
+        }
+    }
+}
+
+# Ablation: replace high-fidelity meme2text to GPT-generated description
+pd = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "CoT+GD", "out_format": 'v0'},
+            1: {'template': DECISION, "version": "v1", "out_format": 'v0'}
+        }
+    }
+}
+
 PP = dict(**M2T, **p1)
 P2 = dict(**M2T, **p2)
 P3 = dict(**M2T, **p3)
@@ -524,6 +585,8 @@ B2 = dict(**M2T, **b2)
 B2qw3 = dict(**M2T, **b2_qw3)
 P2qw3 = dict(**M2T, **p2_qw3)
 PL = dict(**M2T, **p_lorehm)
+FS = dict(**M2T, **p_fewshot)
+PD = dict(**M2T, **pd)
 # ******************************************************************************************* # 
 
 FHM_PROMPT_SCHEMES = {
@@ -537,7 +600,8 @@ FHM_PROMPT_SCHEMES = {
     'B2qw3': B2qw3,
     'P2qw3': P2qw3,
     'GPT_DESCRIBE': GPT_describe,
-    'PL': PL
+    'PL': PL,
+    'FS': FS
 }
 
 def get_tg_str(tg_ls):
@@ -580,15 +644,24 @@ def incorporate_gen_context(tg_ls, dp_pred, include_gen_context=True, include_tg
                     examples.append(p)
     return examples
 
-def assign_guidelines(js, add_tg_context=False, summarize=False):
+def assign_guidelines(js, args, add_tg_context=False, summarize=False):
     assert "TargetGroup" in js
+    
     Rules = [R1, R2, R3, R4, R5, R6, R7, R8]
     Rules = [R_combine, R_neutral, R2, R3, R5, R6, R7, R8]#best with
-    Rules = [R2_new, R3, R5, R6, R7, R8]#R_combine, R_neutral, 
+    Rules = [R2_new, R3, R5, R6, R7, R8]
+    if "perturbation" in args.current_prompt_meta:
+        if args.current_prompt_meta["perturbation"] == "rephrased":
+            Rules = [R2_new_gpt_rephrased, R3_gpt_rephrased, R5_gpt_rephrased,
+                     R6_gpt_rephrased, R7_gpt_rephrased, R8_gpt_rephrased]
+        if args.current_prompt_meta["perturbation"] == "shuffled":
+            Rules = [R2_new, R3, R4, R6, R5, R8, R7]
+        
     if add_tg_context:
         tg_ls = js["TargetGroup"]
         if tg_ls:
             tg_str = get_tg_str(tg_ls)
+            examples_added = False
             if summarize:
                 dp_pred = js.pop(INTEGRATE_TG_CONTEXT['name'])
                 prefix = ""
@@ -597,7 +670,11 @@ def assign_guidelines(js, add_tg_context=False, summarize=False):
                     prefix = "If the image-caption content conveys any of the following implications, it should be classified as hateful:"
                     #dp_pred = " ".join([prefix, dp_pred])#best without
                     dp_pred = " ".join(dp_pred.split()).strip()
-                    Rules.append(R4)
+                    if "perturbation" in args.current_prompt_meta:
+                        if args.current_prompt_meta["perturbation"] == "rephrased":
+                            Rules.append(R4_gpt_rephrased)
+                    else:
+                        Rules.append(R4)
                     Rules.append(dp_pred)
             else:
                 dp_pred = js.pop("gen_tg_context") # is a list
@@ -607,14 +684,18 @@ def assign_guidelines(js, add_tg_context=False, summarize=False):
                     Rule_forms = " ".join(" ".join(examples).split())
                     prefix = "Commonly found hateful content:"
                     #Rule_forms = " ".join([prefix, Rule_forms])#best without
-                    Rules.append(R4)
+                    if "perturbation" in args.current_prompt_meta:
+                        if args.current_prompt_meta["perturbation"] == "rephrased":
+                            Rules.append(R4_gpt_rephrased)
+                    else:
+                        Rules.append(R4)
                     Rules.append(Rule_forms)
         # else:
         #     Rules = [R_combine, R_neutral, R2, R_explicit, R3_new, R4_new, R5, R6, R7, R8] 
     GL = f" ".join([f"{rid+1}. {rule}" for rid, rule in enumerate(Rules)])
     return GL
 
-def fill_placeholder(tmp, js):
+def fill_placeholder(tmp, js, args):
     if from_raw_data in tmp:
         return tmp.format(from_raw_data = js['text'].strip('" ')), js
     if "_dependency}" in tmp:
@@ -645,13 +726,13 @@ def fill_placeholder(tmp, js):
             else:
                 return visual_p['s'], js
     if make_guidelines in tmp:
-        return tmp.format(make_guidelines = assign_guidelines(js)), js
+        return tmp.format(make_guidelines = assign_guidelines(js, args)), js
     
     if make_guidelines_w_IntegrateTGContext in tmp:
-        return tmp.format(make_guidelines_w_IntegrateTGContext = assign_guidelines(js, add_tg_context=True, summarize=True)), js
+        return tmp.format(make_guidelines_w_IntegrateTGContext = assign_guidelines(js, args, add_tg_context=True, summarize=True)), js
     
     if make_guidelines_w_GenTGContext in tmp:
-        return tmp.format(make_guidelines_w_GenTGContext = assign_guidelines(js, add_tg_context=True, summarize=False)), js
+        return tmp.format(make_guidelines_w_GenTGContext = assign_guidelines(js, args, add_tg_context=True, summarize=False)), js
     
     if check_tg in tmp:
         # Generate Target Context
@@ -703,6 +784,19 @@ def fill_placeholder(tmp, js):
         else:
             prompt = ""
         return tmp.format(from_data_text = prompt), js
+    
+    if from_gpt_description in tmp:
+        return tmp.format(from_gpt_description = js["gpt_description"]), js
+    
+    if fewshots in tmp:
+        N_ = int(args.n_shots / 2)
+        fs_examples = []
+        # harmful_samples = random.sample(HARMFUL, N_)
+        # harmless_samples = random.sample(HARMLESS, N_)
+        for label, pool in zip(["Hateful", "Non-hateful"], [HARMFUL, HARMLESS]):
+            for one_sample in random.sample(pool, N_):
+                fs_examples.append(f"**Image-caption content**: {one_sample} **Classification**: {label}. |")
+        return tmp.format(fewshots = "Examples for your reference: " + " ".join(fs_examples)), js
     return tmp, js
 
 def format_chat(args, js):
@@ -724,13 +818,13 @@ def format_chat(args, js):
     if isinstance(prompt, list):
         ins = []
         for item in prompt:
-            item, js = fill_placeholder(item, js)
+            item, js = fill_placeholder(item, js, args)
             ins.append(item)
         if ins_output_format:
             ins.append(ins_output_format)
         text_content = " ".join(" ".join(ins).split())
     if isinstance(prompt, str):
-        text_content, js = fill_placeholder(prompt, js)
+        text_content, js = fill_placeholder(prompt, js, args)
         text_content = " ".join([text_content, ins_output_format]).strip()
     
     if js is not None:

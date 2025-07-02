@@ -1,5 +1,8 @@
 from utils.knowledge.pridemm import *
 from utils.tool import *
+from utils.fewshot.pridemm import *
+import random
+
 from_raw_data = '{from_raw_data}'
 from_dependency = '{from_dependency}'
 from_previous_turn = '{from_previous_turn}'
@@ -213,6 +216,8 @@ PP_CoT_INS = '''Now, let's analyze by applying the guidelines one by one:'''
 cot_ins = '''Now, let's analyze step by step:'''
 meme2text = f'''**Meme content you need to classify**: {from_dependency}'''
 BASELINE_CLASSIFY_INS = f'''Given the following description of an online meme related to LGBTQ+ pride movements, classify the content as either harmful or harmless to: (1) the LGBTQ+ community and its supporters, or (2) the specific individual(s) or organization(s) involved, based on widely accepted social norms, values and cultural understanding.'''
+fewshots = '''{fewshots}'''
+fewshots0 = '''{fewshots0}'''
 REASONING = {
     'name': "Reasoning", 'should_evaluate': False, 'take_image': False,
     'versions': {
@@ -291,7 +296,26 @@ REASONING = {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
                 BASELINE_CLASSIFY_INS,
-                meme2text
+                meme2text,
+                cot_ins
+            ]
+        },
+        'fsCoT0': {
+            'gen_depend_on': [INTEGRATE['name']],
+            'INS': [
+                BASELINE_CLASSIFY_INS,
+                fewshots0,
+                f'''**Meme content**: {from_dependency}''',
+                f'''**Classification**: {cot_ins}'''
+            ]
+        },
+        'fsCoT': {
+            'gen_depend_on': [INTEGRATE['name']],
+            'INS': [
+                BASELINE_CLASSIFY_INS,
+                fewshots,
+                meme2text,
+                f'''**Classification**: {cot_ins}'''
             ]
         },
     },
@@ -498,11 +522,44 @@ p1 = {
     #         7: {'template': DECISION, "version": "tg", "out_format": 'v0', 'batch_size': 12}
     #     }
     # },
+    'llm_7': {
+        'multi-turn': True,
+        'prompt': {
+            21: {'template': REASONING, "version": "CoTxTarget", "out_format": 'v0', 'new_conversation': True, 'max_new_tokens': 1536, "load_from": {'m_type': 'llm_6', 'rid': 5}, "return_load_from_path": True, "perturbation": "rephrased"},
+            31: {'template': DECISION, "version": "tg", "out_format": 'v0'},
+            22: {'template': REASONING, "version": "CoTxTarget", "out_format": 'v0', 'new_conversation': True, 'max_new_tokens': 1536, "load_from": {'m_type': 'llm_6', 'rid': 5}, "return_load_from_path": True, "perturbation": "shuffled"},
+            32: {'template': DECISION, "version": "tg", "out_format": 'v0'},
+            23: {'template': REASONING, "version": "CoTxTarget", "out_format": 'v0', 'new_conversation': True, 'max_new_tokens': 1536, "load_from": {'m_type': 'llm_6', 'rid': 5}, "return_load_from_path": True, "perturbation": "add_remove"},
+            33: {'template': DECISION, "version": "tg", "out_format": 'v0'},
+        }
+    },
+}
+
+p_fewshot = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "fsCoT", "out_format": 'v0'},
+            1: {'template': DECISION, "version": "v0", "out_format": 'v0'},
+        }
+    }
+}
+
+p_fewshot0 = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "fsCoT0", "out_format": 'v0'},
+            1: {'template': DECISION, "version": "v0", "out_format": 'v0'},
+        }
+    }
 }
 
 PP = dict(**M2T, **p1)
 B2 = dict(**M2T, **b2)
 B2qw3 = dict(**M2T, **b2_qw3)
+FS = dict(**M2T, **p_fewshot)
+FS0 = dict(**M2T, **p_fewshot0)
 # ******************************************************************************************* # 
 
 PrideMM_PROMPT_SCHEMES = {
@@ -512,7 +569,9 @@ PrideMM_PROMPT_SCHEMES = {
     'GPT': GPT,
     'PP': PP,
     'B2qw3': B2qw3,
-    'GPT_DESCRIBE': GPT_describe
+    'GPT_DESCRIBE': GPT_describe,
+    'FS': FS,
+    'FS0': FS0
 }
 
 def assign_unified_guidelines(js):
@@ -524,11 +583,35 @@ def assign_unified_guidelines(js):
     GL = f"\n".join([f"{rid+1}. {rule}" for rid, rule in enumerate(Rules)])
     return GL
 
-def assign_guidelines(js):
+def assign_guidelines(js, args):
     assert "aux_info" in js
     aux_info = js["aux_info"]
     Rules = [R_interpret, R_stance, R_explicit, R_implicit_new]
     R_harmful_new_ = R_harmful_new
+    
+    if "perturbation" in args.current_prompt_meta:
+        if args.current_prompt_meta["perturbation"] == "rephrased":
+            Rules = [
+                R_interpret_gpt_rephrased,
+                R_stance_gpt_rephrased,
+                R_explicit_gpt_rephrased,
+                R_implicit_new_rephrased
+            ]
+            R_harmful_new_ = R_harmful_new_gpt_rephrased
+        if args.current_prompt_meta["perturbation"] == "shuffled":
+            Rules = [
+                R_interpret,
+                R_stance,
+                R_implicit_new,
+                R_explicit
+            ]
+            R_harmful_new_ = R_harmful_new_shuffled
+        if args.current_prompt_meta["perturbation"] == "add_remove":
+            Rules = [
+                R_neutral,
+                R_stance,
+                R_implicit_new,
+            ]
     
     # # Subgroup
     aux_subg = aux_info["subgroup"]
@@ -561,23 +644,38 @@ def assign_guidelines(js):
     if issues:
         R_harmful_new_ = " ".join([R_harmful_new_, f" ".join(issues)])
     
+    neg_rule_add = False
+    if "perturbation" in args.current_prompt_meta:
+        if args.current_prompt_meta["perturbation"] == "shuffled":
+            # # Harmless
+            if aux_info["self"]["flag"]:
+                Rules.append(TYPES["self"])
+            Rules.append(R_harmless_ori)
+            neg_rule_add = True
+
     Rules.append(R_harmful_new_)
 
     # ######################2025-05-13######################
     # Rules.append(R_news)
     # ######################2025-05-13######################
-
-    # # Harmless
-    if aux_info["self"]["flag"]:
-        Rules.append(TYPES["self"])
     
-    Rules.append(R_harmless_ori)
+    if ("perturbation" in args.current_prompt_meta) and (args.current_prompt_meta["perturbation"] == "rephrased") and (not neg_rule_add):
+        if aux_info["self"]["flag"]:
+            Rules.append(TYPES["self_gpt_rephrased"])
+        Rules.append(R_harmless_ori_gpt_rephrased)
+    else:
+        if not neg_rule_add:
+            # # Harmless
+            if aux_info["self"]["flag"]:
+                Rules.append(TYPES["self"])
+
+            Rules.append(R_harmless_ori)
 
     GL = f"\n".join([f"{rid+1}. {rule}" for rid, rule in enumerate(Rules)])
     return GL
 
 surfix = '''according to widely accepted social norms, values, cultural understanding, and the provided guidelines.'''
-def assign_prompt_INS_by_target(js):
+def assign_prompt_INS_by_target_ori(js):
     assert "aux_info" in js
     aux_info = js["aux_info"]
     use_default = False
@@ -616,9 +714,125 @@ def assign_prompt_INS_by_target(js):
     prompt = " ".join([classify_ins, f"Guidelines: {GL}"])
     return prompt
 
+prompt_hatetarget = '''or to the LGBTQ+ community and supporters,'''
+def assign_prompt_INS_by_target(js, args):
+    assert "aux_info" in js
+    aux_info = js["aux_info"]
+    use_default = False
+    assert "individual" in aux_info
+    if aux_info["individual"]["flag"] == 1:
+        if aux_info["hateTarget"] == "individual":
+            if aux_info["LGBTQindividual"]['flag'] == 0:
+                # Non-LGBTQ+ individual
+                plh = "individual"
+                # Rules = [Individual_GL, R_interpret, R_stance_individual, R_explicit_individual, R_implicit_individual, R_harmless_ori]
+                Rules = [Individual_GL, R_interpret, R_stance_individual, R_explicit_individual, R_implicit_individual_harmful, R_harmless_ori]
+                if "perturbation" in args.current_prompt_meta:
+                    if args.current_prompt_meta["perturbation"] == "rephrased":
+                        Rules = [Individual_GL_gpt_rephrased, R_interpret_gpt_rephrased, R_stance_individual_rephrased,
+                        R_explicit_gpt_rephrased,
+                        R_implicit_individual_harmful_gpt_rephrased,
+                        R_harmless_ori_gpt_rephrased
+                        ]
+                    if args.current_prompt_meta["perturbation"] == "shuffled":
+                        Rules = [
+                            R_interpret,
+                            Individual_GL,
+                            R_stance_individual,
+                            R_implicit_individual_harmful,
+                            R_harmless_ori,
+                            R_explicit,
+                        ]
+                    if args.current_prompt_meta["perturbation"] == "add_remove":
+                        Rules = [
+                            Individual_GL,
+                            R_neutral,
+                            R_stance_individual, R_implicit_individual_harmful, 
+                            R_harmless_ori
+                        ]
+                # classify_ins = f'''classify the content as either harmful or harmless to the public image of the specific {plh} involved, {prompt_hatetarget} {surfix}'''
+                classify_ins = f'''classify the content as either harmful or harmless to the public image of the specific {plh} involved, {surfix}'''
+            else:
+                plh = "LGBTQ+ individual"
+                Rules = [R_interpret, R_stance_lgbt_individual, R_explicit_individual, R_implicit_lgbt_individual, R_harmful_lgbt_individual, R_harmless_ori]
+                # Rules = [R_interpret, R_stance_lgbt_individual, R_explicit_individual, R_implicit_lgbt_individual, R_news, R_harmful_lgbt_individual, R_harmless_ori]
+                if "perturbation" in args.current_prompt_meta:
+                    if args.current_prompt_meta["perturbation"] == "rephrased":
+                        Rules = [
+                            R_interpret_gpt_rephrased,
+                            R_stance_lgbt_individual_rephrased,
+                            R_explicit_gpt_rephrased,
+                            R_implicit_lgbt_individual_gpt_rephrased,
+                            R_harmful_lgbt_individual_gpt_rephrased,
+                            R_harmless_ori_gpt_rephrased
+                        ]
+                    if args.current_prompt_meta["perturbation"] == "shuffled":
+                        Rules = [
+                            R_interpret,
+                            R_stance_lgbt_individual, R_implicit_lgbt_individual, R_harmful_lgbt_individual_shuffled, R_harmless_ori, 
+                            R_explicit
+                        ]
+                    if args.current_prompt_meta["perturbation"] == "add_remove":
+                        Rules = [
+                            R_neutral,
+                            R_stance_lgbt_individual,
+                            R_implicit_lgbt_individual,
+                            R_harmful_lgbt_individual,
+                            R_harmless_ori
+                        ]
+                # classify_ins = f'''classify the content as either hurtful or non-hurtful to the specific {plh} involved, {prompt_hatetarget} {surfix}'''
+                classify_ins = f'''classify the content as either hurtful or non-hurtful to the specific {plh} involved, {surfix}'''
+            # classify_ins = f'''classify the content as either hurtful or non-hurtful to the specific {plh} involved, {surfix}'''
+        else:
+            use_default = True
+    else:
+        if (aux_info["hateTarget"] in ["organization"]):# and (aux_info["organization"]["flag"] == 1)
+            Rules = [R_organization, R_interpret, R_explicit_organization, R_implicit_organization, R_harmful_organization, R_harmless_ori]
+            if "perturbation" in args.current_prompt_meta:
+                if args.current_prompt_meta["perturbation"] == "rephrased":
+                    Rules = [
+                        R_organization_gpt_rephrased,
+                        R_interpret_gpt_rephrased,
+                        R_explicit_gpt_rephrased,
+                        R_implicit_organization_gpt_rephrased,
+                        R_harmful_organization_gpt_rephrased,
+                        R_harmless_ori_gpt_rephrased
+                    ]
+                if args.current_prompt_meta["perturbation"] == "shuffled":
+                    Rules = [
+                        R_interpret,
+                        R_organization,
+                        R_implicit_organization, 
+                        R_harmful_organization_shuffled, 
+                        R_harmless_ori,
+                        R_explicit_organization,
+                    ]
+                if args.current_prompt_meta["perturbation"] == "add_remove":
+                    Rules = [
+                        R_neutral,
+                        R_organization,
+                        R_stance_organization,
+                        R_implicit_organization,
+                        R_harmful_organization,
+                        R_harmless_ori
+                    ]
+            # classify_ins = f'''classify the content as either harmful or harmless to the public image of the organization(s) involved, {prompt_hatetarget} {surfix}'''
+            classify_ins = f'''classify the content as either harmful or harmless to the public image of the organization(s) involved, {surfix}'''
+        else:
+            use_default = True
+    if use_default:
+        Rules = assign_guidelines(js, args)
+        classify_ins = '''classify the content as either harmful or harmless to LGBTQ+ community and supporters, based on widely accepted social norms, values, cultural understanding, and the provided guidelines.'''
+    
+    if isinstance(Rules, list):
+        GL = f" ".join([f"{rid+1}. {rule}" for rid, rule in enumerate(Rules)])
+    else:
+        GL = Rules
+    prompt = " ".join([classify_ins, f"Guidelines: {GL}"])
+    return prompt
 
 plh = "{plh}"
-def fill_placeholder(tmp, js):
+def fill_placeholder(tmp, js, args):
     if from_raw_data in tmp:
         return tmp.format(from_raw_data = js['text'].strip('" ')), js
     if "_dependency}" in tmp:
@@ -646,7 +860,7 @@ def fill_placeholder(tmp, js):
     if make_guidelines in tmp:
         return tmp.format(make_guidelines = assign_unified_guidelines(js)), js
     if assign_prompt_by_target in tmp:
-        return assign_prompt_INS_by_target(js), js
+        return assign_prompt_INS_by_target(js, args), js
     if assign_decision_prompt_by_target in tmp:
         return assign_decision_extract_by_target(js), js
      
@@ -662,6 +876,21 @@ def fill_placeholder(tmp, js):
         #         assert aux_info["individual"]["flag"] == 1
         #         a = f'''Is this specific individual an LGBTQ+ individual? Start your response with "Yes," or "No," before giving any further explanation.'''           
         return a, js
+    
+    if (fewshots in tmp) or (fewshots0 in tmp):
+        N_ = int(args.n_shots / 2)
+        fs_examples = []
+        # harmful_samples = random.sample(HARMFUL, N_)
+        # harmless_samples = random.sample(HARMLESS, N_)
+        for label, pool in zip(["Harmful", "Harmless"], [HARMFUL, HARMLESS]):
+            for one_sample in random.sample(pool, N_):
+                fs_examples.append(f"**Meme content**: {one_sample} **Classification**: {label}. |")
+
+        if fewshots in tmp:
+            fs_text = tmp.format(fewshots = "Examples for your reference: " + " ".join(fs_examples))   
+        elif fewshots0 in tmp:
+            fs_text = tmp.format(fewshots0 = "Examples: " + " ".join(fs_examples))
+        return fs_text, js
     return tmp, js
 
 def format_chat(args, js):
@@ -683,13 +912,13 @@ def format_chat(args, js):
     if isinstance(prompt, list):
         ins = []
         for item in prompt:
-            item, js = fill_placeholder(item, js)
+            item, js = fill_placeholder(item, js, args)
             ins.append(item)
         if ins_output_format:
             ins.append(ins_output_format)
         text_content = " ".join(ins)
     if isinstance(prompt, str):
-        text_content, js = fill_placeholder(prompt, js)
+        text_content, js = fill_placeholder(prompt, js, args)
         text_content = " ".join([text_content, ins_output_format]).strip()
     text_content = " ".join(text_content.split())
 

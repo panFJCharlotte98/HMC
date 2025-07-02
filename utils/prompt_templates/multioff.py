@@ -1,5 +1,8 @@
 from utils.knowledge.multioff import *
 from utils.tool import *
+from utils.fewshot.multioff import *
+import random
+
 from_raw_data = '{from_raw_data}'
 from_dependency = '{from_dependency}'
 from_previous_turn = '{from_previous_turn}'
@@ -137,6 +140,9 @@ BASELINE_CLASSIFY_INS = '''classify the image content as either offensive or non
 PP_CLASSIFY_INS = '''classify the image content as either offensive or non-offensive based on common values, knowledge, social norms and the provided guidelines.'''
 meme2text = f'''**Description of the image**: {from_dependency}'''
 guidelines = f'''**Guidelines**: {assign_guidelines}'''
+pp_cot_ins = '''Now, let's analyze by applying the guidelines one by one:'''
+cot_ins = '''Now, let's analyze step by step:'''
+fewshots = '''{fewshots}'''
 REASONING = {
     'name': "Reasoning", 'should_evaluate': False, 'take_image': False,
     'versions': {
@@ -147,7 +153,7 @@ REASONING = {
                 f'''{PP_CLASSIFY_INS}''',
                 guidelines,
                 meme2text,
-                '''Now, let's analyze by applying the guidelines one by one:'''
+                pp_cot_ins
             ]
         },
         'CoT': {
@@ -155,7 +161,7 @@ REASONING = {
             'INS': [
                 f'''{INTRO} {BASELINE_CLASSIFY_INS}''',
                 meme2text,
-                '''Now, let's analyze step by step:'''
+                cot_ins
             ]
         },
         'CoT+qw3': {
@@ -165,6 +171,7 @@ REASONING = {
                 f'''{PP_CLASSIFY_INS}''',
                 guidelines,
                 meme2text,
+                pp_cot_ins
             ]
         },
         'CoTqw3': {
@@ -172,6 +179,16 @@ REASONING = {
             'INS': [
                 f'''{INTRO} {BASELINE_CLASSIFY_INS}''',
                 meme2text,
+                cot_ins
+            ]
+        },
+        'fsCoT': {
+            'gen_depend_on': [INTEGRATE['name']],
+            'INS': [
+                f'''{INTRO} {BASELINE_CLASSIFY_INS}''',
+                fewshots,
+                f'''**Description of the image you need to classify**: {from_dependency}''',
+                f'''**Classification**: {cot_ins}'''
             ]
         },
     },
@@ -282,7 +299,7 @@ M2T = {
             2: {'template': AUXT, "version": "racial_t", "out_format": 'v0', 'max_new_tokens': 256, "load_from_prestep": True, "return_prestep_path": True},
             3: {'template': AUXT, "version": "party", "out_format": 'v0', 'max_new_tokens': 256, "load_from_prestep": True, "return_prestep_path": True},   
         },
-        'multi-turn': False},  
+        'multi-turn': False},
 }
 
 # ******************************************************************************************* # 
@@ -302,6 +319,17 @@ p1 = {
         'prompt': {
             0: {'template': REASONING, "version": "CoT+", "out_format": 'v0', "load_from_prestep": True, "return_prestep_path": True},
             1: {'template': DECISION, "version": "v0", "out_format": 'v0'}
+        }
+    },
+    'llm_3': {
+        'multi-turn': True,
+        'prompt': {
+            21: {'template': REASONING, "version": "CoT+", "out_format": 'v0', "load_from": {'m_type': 'llm_1', 'rid': 3}, "return_load_from_path": True, 'new_conversation': True, "perturbation": "rephrased"},
+            31: {'template': DECISION, "version": "v0", "out_format": 'v0'},
+            22: {'template': REASONING, "version": "CoT+", "out_format": 'v0', 'new_conversation': True, "load_from": {'m_type': 'llm_1', 'rid': 3}, "return_load_from_path": True, "perturbation": "shuffled"},
+            32: {'template': DECISION, "version": "v0", "out_format": 'v0'},
+            23: {'template': REASONING, "version": "CoT+", "out_format": 'v0', 'new_conversation': True, "load_from": {'m_type': 'llm_1', 'rid': 3}, "return_load_from_path": True, "perturbation": "add_remove"},
+            33: {'template': DECISION, "version": "v0", "out_format": 'v0'}
         }
     }
 }
@@ -329,6 +357,17 @@ p1_qw3 = {
 }
 PPqw3 = dict(**M2T, **p1_qw3)
 B2qw3 = dict(**M2T, **b2_qw3)
+
+p_fewshot = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "fsCoT", "out_format": 'v0'},
+            1: {'template': DECISION, "version": "v0", "out_format": 'v0'}
+        }
+    }
+}
+FS = dict(**M2T, **p_fewshot)
 # ******************************************************************************************* # 
 
 MultiOFF_PROMPT_SCHEMES = {
@@ -339,43 +378,91 @@ MultiOFF_PROMPT_SCHEMES = {
     'PP': PP,
     'B2qw3': B2qw3,
     'PPqw3': PPqw3,
-    'GPT_DESCRIBE': GPT_describe
+    'GPT_DESCRIBE': GPT_describe,
+    'FS': FS
 }
 
-def assign_guidelines_(js):
+def assign_guidelines_(js, args):
     aux_info = js["aux_info"]
-    Rules = [TYPES["interpret"], TYPES["general"]]
-    text_lower =  js["text"].lower()
-    text_words = [w.replace("'s", "").replace("’s", "") for w in js["text"].lower().split()]
-
-    # Politicians
     politician_mentions = []
     for _, kwl in celeb_kw.items():
         politician_mentions.extend(kwl)
-    if any([w in text_words for w in politician_mentions]):
-        Rules.append(TYPES['politicians'])
+    def formulate_rules(aux_info, politician_mentions, perturb_surfix=""):
+        Rules = [TYPES[f"interpret{perturb_surfix}"], TYPES[f"general{perturb_surfix}"]]
+        text_lower =  js["text"].lower()
+        text_words = [w.replace("'s", "").replace("’s", "") for w in js["text"].lower().split()]
 
-    # Muslims
-    if "muslim" in text_lower:
-        Rules.append(TYPES['muslim'])
+        # Politicians
+        if any([w in text_words for w in politician_mentions]):
+            Rules.append(TYPES[f'politicians{perturb_surfix}'])
 
-    # political parties
-    if any([w in text_lower for w in party_kw]):
-        Rules.append(TYPES['party'])
+        # Muslims
+        if "muslim" in text_lower:
+            Rules.append(TYPES[f'muslim{perturb_surfix}'])
 
-    for k, v in aux_info.items():
-        if (k in cname_map) and (v['flag']):
-            if TYPES['politicians'] not in Rules:
-                Rules.append(TYPES['politicians'])
-        if (k in TYPES) and v['flag'] and (TYPES[k] not in Rules):
-            Rules.append(TYPES[k])
-        if (k.endswith("_t")) and v['flag']:
-            if TYPES[k.split("_")[0]] not in Rules:
-                Rules.append(TYPES[k.split("_")[0]])
+        # political parties
+        if any([w in text_lower for w in party_kw]):
+            Rules.append(TYPES[f'party{perturb_surfix}'])
+
+        for k, v in aux_info.items():
+            if (k in cname_map) and (v['flag']):
+                if TYPES[f'politicians{perturb_surfix}'] not in Rules:
+                    Rules.append(TYPES[f'politicians{perturb_surfix}'])
+            if (k in TYPES) and v['flag'] and (TYPES[k+perturb_surfix] not in Rules):
+                Rules.append(TYPES[k+perturb_surfix])
+            if (k.endswith("_t")) and v['flag']:
+                if TYPES[k.split("_")[0]+perturb_surfix] not in Rules:
+                    Rules.append(TYPES[k.split("_")[0]+perturb_surfix])
+        return Rules
+    
+    if "perturbation" in args.current_prompt_meta:
+        if args.current_prompt_meta["perturbation"] == "rephrased":
+            Rules = formulate_rules(aux_info, politician_mentions, perturb_surfix="_gpt_rephrased")
+        if args.current_prompt_meta["perturbation"] == "shuffled":
+            Rules = formulate_rules(aux_info, politician_mentions, perturb_surfix="_shuffled")
+            if len(Rules) > 3:
+                Rules_new = Rules[:2]
+                Rules_rest = Rules[2:]
+                random.shuffle(Rules_rest)
+                Rules = Rules_new + Rules_rest
+        if args.current_prompt_meta["perturbation"] == "add_remove":
+            Rules = formulate_rules(aux_info, politician_mentions, perturb_surfix="")
+            Rules = [R1] + Rules[1:]
+    else:
+        Rules = [TYPES["interpret"], TYPES["general"]]
+        text_lower =  js["text"].lower()
+        text_words = [w.replace("'s", "").replace("’s", "") for w in js["text"].lower().split()]
+
+        # Politicians
+        politician_mentions = []
+        for _, kwl in celeb_kw.items():
+            politician_mentions.extend(kwl)
+        if any([w in text_words for w in politician_mentions]):
+            Rules.append(TYPES['politicians'])
+
+        # Muslims
+        if "muslim" in text_lower:
+            Rules.append(TYPES['muslim'])
+
+        # political parties
+        if any([w in text_lower for w in party_kw]):
+            Rules.append(TYPES['party'])
+
+        for k, v in aux_info.items():
+            if (k in cname_map) and (v['flag']):
+                if TYPES['politicians'] not in Rules:
+                    Rules.append(TYPES['politicians'])
+            if (k in TYPES) and v['flag'] and (TYPES[k] not in Rules):
+                Rules.append(TYPES[k])
+            if (k.endswith("_t")) and v['flag']:
+                if TYPES[k.split("_")[0]] not in Rules:
+                    Rules.append(TYPES[k.split("_")[0]])
+    
+    
     GL = " ".join([f"{i+1}. {rule}" for i, rule in enumerate(Rules)]) if len(Rules) > 1 else Rules[0]
     return GL
 
-def fill_placeholder(tmp, js):
+def fill_placeholder(tmp, js, args):
     if from_raw_data in tmp:
         return tmp.format(from_raw_data = js['text'].strip('" ')), js
     if "_dependency}" in tmp:
@@ -402,7 +489,17 @@ def fill_placeholder(tmp, js):
     
     if assign_guidelines in tmp:
         assert "aux_info" in js
-        return tmp.format(assign_guidelines = assign_guidelines_(js)), js
+        return tmp.format(assign_guidelines = assign_guidelines_(js, args)), js
+    
+    if fewshots in tmp:
+        N_ = int(args.n_shots / 2)
+        fs_examples = []
+        # harmful_samples = random.sample(HARMFUL, N_)
+        # harmless_samples = random.sample(HARMLESS, N_)
+        for label, pool in zip(["Offensive", "Non-offensive"], [HARMFUL, HARMLESS]):
+            for one_sample in random.sample(pool, N_):
+                fs_examples.append(f"**Description of the image**: {one_sample} **Classification**: {label}. |")
+        return tmp.format(fewshots = "Examples for your reference: " + " ".join(fs_examples)), js
     return tmp, js
 
 def format_chat(args, js):
@@ -424,13 +521,13 @@ def format_chat(args, js):
     if isinstance(prompt, list):
         ins = []
         for item in prompt:
-            item, js = fill_placeholder(item, js)
+            item, js = fill_placeholder(item, js, args)
             ins.append(item)
         if ins_output_format:
             ins.append(ins_output_format)
         text_content = " ".join(" ".join(ins).split())
     if isinstance(prompt, str):
-        text_content, js = fill_placeholder(prompt, js)
+        text_content, js = fill_placeholder(prompt, js, args)
         # text_content = " ".join([text_content, ins_output_format]).strip()
         text_content = " ".join(" ".join([text_content, ins_output_format]).split()).strip()
     

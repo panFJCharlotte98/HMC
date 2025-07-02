@@ -1,5 +1,7 @@
 from utils.knowledge.mami import *
 from utils.tool import *
+from utils.fewshot.mami import *
+import random
 
 from_raw_data = '{from_raw_data}'
 from_dependency = '{from_dependency}'
@@ -130,6 +132,8 @@ meme2text = f'''**Image-caption content you need to classify**: {from_Integrate}
 caption = f'''The caption overlaid on the image reads "{from_raw_data}".'''
 pp_cot_ins = '''Now, let's analyze by applying all the guidelines one by one:'''
 cot_ins = '''Now, let's analyze step by step:'''
+fewshots = '''{fewshots}'''
+guidelines_perturb = '''{guidelines_perturb}'''
 REASONING_STAGE1 = {}
 for t_abbr, t_dict in STAGE1_GL.items():
     type_name, type_gl = t_dict['type'].lower(), t_dict['guideline']
@@ -165,6 +169,16 @@ REASONING_BASELINE = {
             cot_ins
         ]
     },
+    'CoT+perturb': {
+        'gen_depend_on': [INTEGRATE['name']],
+        'INS': [
+            PP_CLASSIFY_INS,
+            guidelines_perturb,
+            meme2text,
+            caption,
+            pp_cot_ins
+        ]
+    },
     'CoTqw3': {
         'gen_depend_on': [INTEGRATE['name']],
         'INS': [
@@ -181,6 +195,16 @@ REASONING_BASELINE = {
             meme2text,
             caption,
             pp_cot_ins
+        ]
+    },
+    'fsCoT': {
+        'gen_depend_on': [INTEGRATE['name']],
+        'INS': [
+            BASELINE_CLASSIFY_INS,
+            fewshots,
+            meme2text,
+            caption,
+            f'''**Classification**: {cot_ins}'''
         ]
     },
 }
@@ -394,6 +418,34 @@ p_lorehm = {
     }
 }
 PL = dict(**M2T, **p_lorehm)
+
+p_fewshot = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "fsCoT", "out_format": 'v0'},
+            1: {'template': DECISION, "version": "v0", "out_format": 'v0'}
+        }
+    }
+}
+FS = dict(**M2T, **p_fewshot)
+
+p_perturbations = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            21: {'template': REASONING, "version": "CoT+perturb", "out_format": 'v0', 'new_conversation': True, "perturbation": "summarized"},
+            31: {'template': DECISION, "version": "v0", "out_format": 'v0'},
+            22: {'template': REASONING, "version": "CoT+perturb", "out_format": 'v0', 'new_conversation': True, "perturbation": "rephrased"},
+            32: {'template': DECISION, "version": "v0", "out_format": 'v0'},
+            23: {'template': REASONING, "version": "CoT+perturb", "out_format": 'v0', 'new_conversation': True, "perturbation": "shuffled"},
+            33: {'template': DECISION, "version": "v0", "out_format": 'v0'},
+            # 24: {'template': REASONING, "version": "CoT+perturb", "out_format": 'v0', 'new_conversation': True, "perturbation": "concise"},
+            # 34: {'template': DECISION, "version": "v0", "out_format": 'v0'}
+        }
+    }
+}
+PP_p = dict(**M2T, **p_perturbations)
 # ******************************************************************************************* # 
 MAMI_PROMPT_SCHEMES = {
     'M2T': M2T,
@@ -401,9 +453,11 @@ MAMI_PROMPT_SCHEMES = {
     'B2': B2,
     'GPT': GPT,
     'PP': PP,
+    'PP_p': PP_p,
     'B2qw3': B2qw3,
     'GPT_DESCRIBE': GPT_describe,
-    'PL': PL
+    'PL': PL,
+    'FS': FS
 }
 
 def get_Integrate_dp_pred(js):
@@ -420,7 +474,7 @@ def get_Integrate_dp_pred(js):
             dp_pred = " ".join([dp_pred, info])
     return dp_pred, js
 
-def fill_placeholder(tmp, js):
+def fill_placeholder(tmp, js, args):
     if from_raw_data in tmp:
         return tmp.format(from_raw_data = js['text'].strip('" ')), js
     if "_dependency}" in tmp:
@@ -464,6 +518,28 @@ def fill_placeholder(tmp, js):
             return tmp, js
         else:
             return "", None
+    
+    if fewshots in tmp:
+        N_ = int(args.n_shots / 2)
+        fs_examples = []
+        # harmful_samples = random.sample(HARMFUL, N_)
+        # harmless_samples = random.sample(HARMLESS, N_)
+        for label, pool in zip(["Misogynistic", "Non-misogynistic"], [HARMFUL, HARMLESS]):
+            for one_sample in random.sample(pool, N_):
+                fs_examples.append(f"**Image-caption content**: {one_sample} **Classification**: {label}. |")
+        return tmp.format(fewshots = "Examples for your reference: " + " ".join(fs_examples)), js
+    
+    if guidelines_perturb in tmp:
+        assert "perturbation" in args.current_prompt_meta
+        if args.current_prompt_meta["perturbation"] == "rephrased":
+            GL = GL_rephrased
+        if args.current_prompt_meta["perturbation"] == "shuffled":
+            GL = GL_shuffled
+        if args.current_prompt_meta["perturbation"] == "summarized":
+            GL = GL_gpt_summarized
+        if args.current_prompt_meta["perturbation"] == "concise":
+            GL = GL_concise
+        return tmp.format(guidelines_perturb = "Guidelines for your reference: " + GL), js
     return tmp, js
 
 def format_chat(args, js):
@@ -485,14 +561,14 @@ def format_chat(args, js):
     if isinstance(prompt, list):
         ins = []
         for item in prompt:
-            item, js = fill_placeholder(item, js)
+            item, js = fill_placeholder(item, js, args)
             ins.append(item)
         if ins_output_format:
             ins.append(ins_output_format)
         text_content = " ".join(ins)
         #text_content = " ".join(text_content.split())
     if isinstance(prompt, str):
-        text_content, js = fill_placeholder(prompt, js)
+        text_content, js = fill_placeholder(prompt, js, args)
         text_content = " ".join([text_content, ins_output_format]).strip()
         #text_content = " ".join(text_content.split())
     

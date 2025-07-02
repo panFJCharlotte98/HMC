@@ -1,5 +1,7 @@
 from utils.tool import *
 from utils.knowledge.harmc import *
+from utils.fewshot.harmc import *
+import random
 
 from_raw_data = '{from_raw_data}'
 from_dependency = '{from_dependency}'
@@ -133,6 +135,7 @@ CLASSIFY_INS = '''Given the following description of an online meme related to C
 meme2text = f'''**Meme content you need to classify**: {from_dependency}'''
 guideline = f'''**Here are some guidelines for your reference**: {assign_guidelines}'''
 cot_ins = '''Now, let's think step by step:'''
+fewshots = '''{fewshots}'''
 REASONING = {
     'name': "Reasoning", 'should_evaluate': False, 'take_image': False,
     'versions': {
@@ -185,7 +188,16 @@ REASONING = {
                 CLASSIFY_INS,
                 meme2text,
             ]
-        }
+        },
+        'fsCoT': {
+            'gen_depend_on': [INTEGRATE['name']],
+            'INS': [
+                CLASSIFY_INS,
+                fewshots,
+                meme2text,
+                f'''**Classification**: {cot_ins}'''
+            ]
+        },
     },
     'output_format': {
         'v0': {"INS": '''''', 'post_process_func': post_process_to_remove_gibberish},
@@ -358,6 +370,17 @@ p1 = {
             0: {'template': REASONING, "version": "CoT+", "out_format": 'v0'},#'max_new_tokens': 1536
             1: {'template': DECISION, "version": "v1", "out_format": 'v0'},
         }
+    },
+    'llm_3': {
+        'multi-turn': True,
+        'prompt': {
+            21: {'template': REASONING, "version": "CoT+", "out_format": 'v0', 'new_conversation': True, "perturbation": "by_target"},
+            31: {'template': DECISION, "version": "v1", "out_format": 'v0'},
+            22: {'template': REASONING, "version": "CoT+", "out_format": 'v0', 'new_conversation': True, "perturbation": "rephrased"},
+            32: {'template': DECISION, "version": "v1", "out_format": 'v0'},
+            23: {'template': REASONING, "version": "CoT+", "out_format": 'v0', 'new_conversation': True, "perturbation": "shuffled"},
+            33: {'template': DECISION, "version": "v1", "out_format": 'v0'},
+        }
     }
 }
 
@@ -383,12 +406,23 @@ p_lorehm = {
     }
 }
 
+p_fewshot = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "fsCoT", "out_format": 'v0'},
+            1: {'template': DECISION, "version": "v1", "out_format": 'v0'},
+        }
+    }
+}
+
 PP = dict(**M2T, **p1)
 B2 = dict(**M2T, **b2)
 PPqw3 = dict(**M2T, **p1_qw3)
 B2qw3 = dict(**M2T, **b2_qw3)
 PD = pd
 PL = dict(**M2T, **p_lorehm)
+FS = dict(**M2T, **p_fewshot)
 # ******************************************************************************************* # 
 
 HARMC_PROMPT_SCHEMES = {
@@ -401,11 +435,43 @@ HARMC_PROMPT_SCHEMES = {
     'PPqw3': PPqw3,
     'GPT_DESCRIBE': GPT_describe,
     'PD': pd,
-    'PL': PL
+    'PL': PL,
+    'FS': FS
 }
 
-def assign_guidelines_(js):
-    # aux_info = js["aux_info"]
+def assign_guidelines_(js, args):
+    GL = KNOWLEDGE
+
+    aux_info = js["aux_info"]
+    if "perturbation" in args.current_prompt_meta:
+        if args.current_prompt_meta["perturbation"] == "by_target":
+            Rules = [R_implicit, R_interpret]
+            trump_rule = " ".join([TYPES["Donald Trump"]["intro"], TYPES["Donald Trump"]["examples"]])
+            Rules.append(trump_rule)
+            if aux_info["b&o"]['flag'] or aux_info["biden"]['flag']:
+                biden_rule = " ".join([TYPES["Joe Biden"]["intro"], TYPES["Joe Biden"]["examples"]])
+                Rules.append(biden_rule)
+            # # If no identifiable politician
+            # assert "processed_prediction" in js
+            # text_lower = js["processed_prediction"].lower()
+            # text_words = [w.replace("'s", "").replace("’s", "") for w in text_lower.split()]
+            # politician_mentions = []
+            # for name, kwl in celeb_kw.items():
+            #     politician_mentions.extend(kwl)
+            # politician_occurrances = []
+            # for k, v in aux_info.items():
+            #     if (v['flag']):
+            #         politician_occurrances.append(k)
+            # has_politician = any([w in text_words for w in politician_mentions]) or politician_occurrances  
+            # if not has_politician:
+            #     Rules.append(R_general)
+            Rules.append(R_harmless)
+        if args.current_prompt_meta["perturbation"] == "rephrased":
+            Rules = [R_implicit_gpt_rephrased, R_interpret_gpt_rephrased, hateful_examples_rephrased, R_harmless_rephrased] 
+        if args.current_prompt_meta["perturbation"] == "shuffled":
+            Rules = [R_interpret, R_implicit, R_harmless, hateful_examples]
+        GL = " ".join([f"{id+1}. {rule}" for id, rule in enumerate(Rules)])
+
     # #Rules = [R_interpret, R_implicit]
     # Rules = [R_implicit_ori, R_interpret_ori]
 
@@ -435,11 +501,9 @@ def assign_guidelines_(js):
     #         #     Rules.append(R_general)   
     # #basic.reverse()
     # GL = " ".join([f"{i+1}. {rule}" for i, rule in enumerate(Rules)]) if len(Rules) > 1 else Rules[0]
-
-    GL = KNOWLEDGE
     return GL
 
-def fill_placeholder(tmp, js):
+def fill_placeholder(tmp, js, args):
     if from_raw_data in tmp:
         return tmp.format(from_raw_data = js['text'].strip('" ')), js
     if "_dependency}" in tmp:
@@ -457,9 +521,18 @@ def fill_placeholder(tmp, js):
             prompt = ""
         return tmp.format(from_data_text = prompt), js
     if assign_guidelines in tmp:
-        return tmp.format(assign_guidelines = assign_guidelines_(js)), js
+        return tmp.format(assign_guidelines = assign_guidelines_(js, args)), js
     if from_gpt_description in tmp:
         return tmp.format(from_gpt_description = js["gpt_description"]), js
+    if fewshots in tmp:
+        N_ = int(args.n_shots / 2)
+        fs_examples = []
+        # harmful_samples = random.sample(HARMFUL, N_)
+        # harmless_samples = random.sample(HARMLESS, N_)
+        for label, pool in zip(["Harmful", "Harmless"], [HARMFUL, HARMLESS]):
+            for one_sample in random.sample(pool, N_):
+                fs_examples.append(f"**Meme content**: {one_sample} **Classification**: {label}. |")
+        return tmp.format(fewshots = "Examples for your reference: " + " ".join(fs_examples)), js
     return tmp, js
 
 def format_chat(args, js):
@@ -481,13 +554,13 @@ def format_chat(args, js):
     if isinstance(prompt, list):
         ins = []
         for item in prompt:
-            item, js = fill_placeholder(item, js)
+            item, js = fill_placeholder(item, js, args)
             ins.append(item)
         if ins_output_format:
             ins.append(ins_output_format)
         text_content = " ".join(" ".join(ins).split())
     if isinstance(prompt, str):
-        text_content, js = fill_placeholder(prompt, js)
+        text_content, js = fill_placeholder(prompt, js, args)
         text_content = " ".join(" ".join([text_content, ins_output_format]).split()).strip()
     
     if js is not None:
