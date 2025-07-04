@@ -165,7 +165,7 @@ class TokenizedDataset(Dataset):
                     else:
                         self.examples.append(self.tokenize_input(i, item))
                     i += 1
-                # self.examples = self.examples[:42]
+                # self.examples = self.examples[:16]
                 if args.use_dataset_cache:
                     cached_data = self.examples
                     torch.save(cached_data, cache_path)
@@ -603,7 +603,7 @@ class TokenizedDataset(Dataset):
                         # gather outputs from direct dependencies
                         data_path = self.gather_dependency_outputs(args, tmp)
                     # FHM-specific
-                    if (args.task in ["fhm", "gb_hateful"]) and (args.current_prompt_meta['template']['name'] == "Reasoning") and (args.current_prompt_meta['version'] == "CoT+"):
+                    if (args.task in ["fhm", "gb_hateful"]) and (args.current_prompt_meta['template']['name'] == "Reasoning") and (args.current_prompt_meta['version'] in ["CoT+", "CoT+GD"]):
                         data_path = self.fhm_combine_dependency_outputs(args, tmp)
                     if (args.task in ["fhm", "gb_hateful"]) and (args.current_prompt_meta['template']['name'] == "Reasoning") and (args.current_prompt_meta['version'] == "CoT++"):
                         data_path = self.fhm_post_process_gen_context(args, tmp)
@@ -628,7 +628,7 @@ class TokenizedDataset(Dataset):
                     assert "return_load_from_path" in args.current_prompt_meta
                     data_path = self.get_pre_step_output(args, data_path, load_from=args.current_prompt_meta["load_from"], return_prestep_path=args.current_prompt_meta["return_load_from_path"])
             
-            if args.current_prompt_meta["version"] == 'CoT+GD':
+            if args.current_prompt_meta["version"].endswith("+GD") or args.current_prompt_meta["version"].endswith("_GD"):
                 raw_data_path = get_raw_data_path(args)
                 data_path = self.read_in_gpt_description(data_path, raw_data_path)
 

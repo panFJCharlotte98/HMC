@@ -149,7 +149,7 @@ REASONING = {
             ]
         },
         'CoT+GD': {
-            'gen_depend_on': None,
+            'gen_depend_on': [INTEGRATE['name']],
             'INS': [
                 CLASSIFY_INS,
                 guideline,
@@ -214,10 +214,15 @@ GPT_DIRECT_CLASSIFY = {
     },
 }
 
+main_ins = "What is going on in this image? Describe the content of the image without interpreting any underlying implications."
+transcribe = "If there is any overlaid text, transcribe the text without paraphrasing."
+celeb_2 = "If there are any celebrities featured in the image, don't forget to mention who they are."
+tone = "Do not assume the image's tone or intent to be humorous or lighthearted. Maintain a neutral and descriptive tone."
 GPT_DESCRIBE = {
     'name': "Describe", 'should_evaluate': False, 'take_image': True, 'gen_depend_on': None,
     'versions': {
-        'v0': {'INS': f'''{Introduce} Describe the visual content of the meme without interpretation. If there is any overlaid caption, transcribe it exactly as shown without paraphrasing.'''},
+        'v0': {'INS': f'''{Introduce} {main_ins} {transcribe} {celeb_2} {tone} Output your description in one paragraph.'''},
+        'v1': {'INS': f'''{Introduce} Describe the visual content of the meme without interpretation. If there is any overlaid caption, transcribe it exactly as shown without paraphrasing.'''},
     },
     'output_format': {
         'v0': {"INS": '''''', 'post_process_func': post_process_to_remove_gibberish}
@@ -371,22 +376,22 @@ p1 = {
             1: {'template': DECISION, "version": "v1", "out_format": 'v0'},
         }
     },
-    'llm_3': {
-        'multi-turn': True,
-        'prompt': {
-            21: {'template': REASONING, "version": "CoT+", "out_format": 'v0', 'new_conversation': True, "perturbation": "by_target"},
-            31: {'template': DECISION, "version": "v1", "out_format": 'v0'},
-            22: {'template': REASONING, "version": "CoT+", "out_format": 'v0', 'new_conversation': True, "perturbation": "rephrased"},
-            32: {'template': DECISION, "version": "v1", "out_format": 'v0'},
-            23: {'template': REASONING, "version": "CoT+", "out_format": 'v0', 'new_conversation': True, "perturbation": "shuffled"},
-            33: {'template': DECISION, "version": "v1", "out_format": 'v0'},
-        }
-    }
+    # 'llm_3': {
+    #     'multi-turn': True,
+    #     'prompt': {
+    #         21: {'template': REASONING, "version": "CoT+", "out_format": 'v0', 'new_conversation': True, "perturbation": "by_target"},
+    #         31: {'template': DECISION, "version": "v1", "out_format": 'v0'},
+    #         22: {'template': REASONING, "version": "CoT+", "out_format": 'v0', 'new_conversation': True, "perturbation": "rephrased"},
+    #         32: {'template': DECISION, "version": "v1", "out_format": 'v0'},
+    #         23: {'template': REASONING, "version": "CoT+", "out_format": 'v0', 'new_conversation': True, "perturbation": "shuffled"},
+    #         33: {'template': DECISION, "version": "v1", "out_format": 'v0'},
+    #     }
+    # }
 }
 
 # Ablation: replace high-fidelity meme2text to GPT-generated description
 pd = {
-    'llm': {
+    'llm_2': {
         'multi-turn': True,
         'prompt': {
             0: {'template': REASONING, "version": "CoT+GD", "out_format": 'v0'},
@@ -420,7 +425,7 @@ PP = dict(**M2T, **p1)
 B2 = dict(**M2T, **b2)
 PPqw3 = dict(**M2T, **p1_qw3)
 B2qw3 = dict(**M2T, **b2_qw3)
-PD = pd
+PD = dict(**M2T, **pd)
 PL = dict(**M2T, **p_lorehm)
 FS = dict(**M2T, **p_fewshot)
 # ******************************************************************************************* # 
@@ -434,7 +439,7 @@ HARMC_PROMPT_SCHEMES = {
     'B2qw3': B2qw3,
     'PPqw3': PPqw3,
     'GPT_DESCRIBE': GPT_describe,
-    'PD': pd,
+    'PD': PD,
     'PL': PL,
     'FS': FS
 }
@@ -523,7 +528,14 @@ def fill_placeholder(tmp, js, args):
     if assign_guidelines in tmp:
         return tmp.format(assign_guidelines = assign_guidelines_(js, args)), js
     if from_gpt_description in tmp:
-        return tmp.format(from_gpt_description = js["gpt_description"]), js
+        dp_pred_key = 'processed_dependency_prediction'
+        if dp_pred_key not in js:
+            dp_pred_key = "processed_prediction"
+        dp_pred = js.pop(dp_pred_key)
+        gold_description = js["gpt_description"]
+        if "i'm sorry, i can't" in js["gpt_description"].lower():
+            gold_description = dp_pred
+        return tmp.format(from_gpt_description = gold_description), js
     if fewshots in tmp:
         N_ = int(args.n_shots / 2)
         fs_examples = []

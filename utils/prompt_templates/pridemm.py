@@ -100,6 +100,7 @@ INTEGRATE = {
     }
 }
 
+from_gpt_description = '''{from_gpt_description}'''
 check_if_has_individual = '''{check_if_has_individual}'''
 check_if_is_lgbt_individual = '''{check_if_is_lgbt_individual}'''
 AUX = {
@@ -137,12 +138,28 @@ AUX = {
                 f'''**Description of the meme content**: {from_dependency}''',
             ],
         },
+        'country_GD': {
+            'gen_depend_on': [INTEGRATE['name']],
+            "INS": [
+                f'''Given the following description of an online meme related to LGBTQ+ movements,''',
+                '''does the meme explicitly reference any country or region where LGBTQ+ identities or advocacy are discouraged?''',
+                f'''**Description of the meme content**: {from_gpt_description}''',
+            ],
+        },
         'politic': {
             'gen_depend_on': [INTEGRATE['name']],
             "INS": [
                 f'''Given the following description of an online meme related to LGBTQ+ movements,''',
                 '''does the meme explicitly involve or mention politicians, political figures, political parties, ideologies, or groups?''',
                 f'''**Description of the meme content**: {from_dependency}''',
+            ],
+        },
+        'politic_GD': {
+            'gen_depend_on': [INTEGRATE['name']],
+            "INS": [
+                f'''Given the following description of an online meme related to LGBTQ+ movements,''',
+                '''does the meme explicitly involve or mention politicians, political figures, political parties, ideologies, or groups?''',
+                f'''**Description of the meme content**: {from_gpt_description}''',
             ],
         },
         'company1': {
@@ -153,12 +170,28 @@ AUX = {
                 f'''**Description of the meme content**: {from_dependency}''',
             ],
         },
+        'company1_GD': {
+            'gen_depend_on': [INTEGRATE['name']],
+            "INS": [
+                f'''Given the following description of an online meme related to LGBTQ+ movements,''',
+                '''does the meme explicitly touch on topics about corporate involvement in LGBTQ+ movements?''',
+                f'''**Description of the meme content**: {from_gpt_description}''',
+            ],
+        },
         'company2': {
             'gen_depend_on': [INTEGRATE['name']],
             "INS": [
                 f'''Given the following description of an online meme related to LGBTQ+ movements,''',
                 '''does the meme make any general reference to companies, corporations, or brands?''',
                 f'''**Description of the meme content**: {from_dependency}''',
+            ],
+        },
+        'company2_GD': {
+            'gen_depend_on': [INTEGRATE['name']],
+            "INS": [
+                f'''Given the following description of an online meme related to LGBTQ+ movements,''',
+                '''does the meme make any general reference to companies, corporations, or brands?''',
+                f'''**Description of the meme content**: {from_gpt_description}''',
             ],
         },
         'company3': {
@@ -169,12 +202,28 @@ AUX = {
                 f'''**Description of the meme content**: {from_dependency}''',
             ],
         },
+        'company3_GD': {
+            'gen_depend_on': [INTEGRATE['name']],
+            "INS": [
+                f'''Given the following description of an online meme related to LGBTQ+ movements,''',
+                '''does the meme explicitly involve or mention any companies, corporations, or brands?''',
+                f'''**Description of the meme content**: {from_gpt_description}''',
+            ],
+        },
         'self': {
             'gen_depend_on': [INTEGRATE['name']],
             "INS": [
                 f'''Given the following description of an online meme related to LGBTQ+ movements,''',
                 '''is this meme a self-reflection on the introspective experiences, struggles, or identity exploration of LGBTQ+ individuals from their own perspective?''',
                 f'''**Description of the meme content**: {from_dependency}''',
+            ],
+        },
+        'self_GD': {
+            'gen_depend_on': [INTEGRATE['name']],
+            "INS": [
+                f'''Given the following description of an online meme related to LGBTQ+ movements,''',
+                '''is this meme a self-reflection on the introspective experiences, struggles, or identity exploration of LGBTQ+ individuals from their own perspective?''',
+                f'''**Description of the meme content**: {from_gpt_description}''',
             ],
         },
         'media': {
@@ -230,6 +279,15 @@ REASONING = {
                 PP_CoT_INS
             ]
         },
+        'CoTxTarget_GD': {
+            'gen_depend_on': [INTEGRATE['name']],
+            'INS': [
+                f'''Given the following description of an online meme related to LGBTQ+ pride movements,''',
+                f'''{assign_prompt_by_target}''',
+                f'''**Meme content you need to classify**: {from_gpt_description}''',
+                PP_CoT_INS
+            ]
+        },
         'subgroup':{
             'gen_depend_on': [INTEGRATE['name']],
             "INS": [
@@ -243,6 +301,19 @@ REASONING = {
                 '''**Now, let's analyze step by step**:'''
             ]
         },
+        'subgroup_GD':{
+            'gen_depend_on': [INTEGRATE['name']],
+            "INS": [
+                f'''Given the following description of an online meme related to LGBTQ+ pride movements,''',
+                '''analyze: what specific subgroup(s) within the LGBTQ+ community is/are particularly mentioned, referenced or implicitly implied in the meme content?''',
+                '''**Guidelines**:''',
+                '''A. If the content does not appear to imply, mention or reference any specific LGBTQ+ subgroups but instead refers to the LGBTQ+ community as a whole, just output "No specific subgroup referenced."''',
+                '''B. Otherwise, choose the mentioned, referenced or implied subgroup(s) from the provided list (you may choose multiple options if there are more than one subgroup being referenced):''',
+                '''1. Gay; 2. Trans women; 3. Trans men; 4. (Semi-) Bisexual individuals; 5. Non-binary individuals; 6. Other subgroup not listed.''',
+                f'''**Meme content you need to analyze**: {from_gpt_description}''',
+                '''**Now, let's analyze step by step**:'''
+            ]
+        },
         'individual': {
             'gen_depend_on': [INTEGRATE['name']],
             "INS": [
@@ -251,11 +322,27 @@ REASONING = {
                 '''**Now, let's analyze step by step**:'''
             ]
         },
+        'individual_GD': {
+            'gen_depend_on': [INTEGRATE['name']],
+            "INS": [
+                f'''Given the following description of an online meme related to LGBTQ+ movements, analyze: Does the meme content involve any specific individual? **Guidelines**: {Individual_GL}''',
+                f'''**Description of the meme content**: {from_gpt_description}''',
+                '''**Now, let's analyze step by step**:'''
+            ]
+        },
         'organization': {
             'gen_depend_on': [INTEGRATE['name']],
             "INS": [
                 f'''Given the following description of an online meme related to LGBTQ+ movements, analyze: Does the meme content address or discuss organizational involvement related to LGBTQ+ issues? **Guidelines**: {Organization_GL}''',
                 f'''**Description of the meme content**: {from_dependency}''',
+                '''**Now, let's analyze step by step**:'''
+            ]
+        },
+        'organization_GD': {
+            'gen_depend_on': [INTEGRATE['name']],
+            "INS": [
+                f'''Given the following description of an online meme related to LGBTQ+ movements, analyze: Does the meme content address or discuss organizational involvement related to LGBTQ+ issues? **Guidelines**: {Organization_GL}''',
+                f'''**Description of the meme content**: {from_gpt_description}''',
                 '''**Now, let's analyze step by step**:'''
             ]
         },
@@ -272,6 +359,14 @@ REASONING = {
             "INS": [
                 f'''Given the following description of an online meme related to LGBTQ+ movements, analyze: What is the meme's target subject? Select the most appropriate category from these options: {TG_LABEL} **Guidelines**: {TG_GL}''',
                 f'''**Description of the meme content**: {from_dependency}''',
+                cot_ins
+            ]
+        },
+        'hateTarget*_GD': {
+            'gen_depend_on': [INTEGRATE['name']],
+            "INS": [
+                f'''Given the following description of an online meme related to LGBTQ+ movements, analyze: What is the meme's target subject? Select the most appropriate category from these options: {TG_LABEL} **Guidelines**: {TG_GL}''',
+                f'''**Description of the meme content**: {from_gpt_description}''',
                 cot_ins
             ]
         },
@@ -334,10 +429,15 @@ GPT_DIRECT_CLASSIFY = {
     },
 }
 
+main_ins = "What is going on in this image? Describe the content of the image without interpreting any underlying implications."
+transcribe = "If there is any overlaid text, transcribe the text without paraphrasing."
+marginal_info = "Ignore any watermarks, post timestamps, usernames, or engagement metrics of tweets or webpage posts."
+tone = "Do not assume the image's tone or intent to be humorous or lighthearted. Maintain a neutral and descriptive tone."
 GPT_DESCRIBE = {
     'name': "Describe", 'should_evaluate': False, 'take_image': True, 'gen_depend_on': None,
     'versions': {
-        'v0': {'INS': f'''{Introduce} Describe the visual content of the meme without interpretation. If there is any overlaid caption, transcribe it exactly as shown without paraphrasing.'''},
+        'v0': {'INS': f'''{Introduce} {main_ins} {transcribe} {marginal_info} {tone} Output your description in one paragraph.'''},
+        'v1': {'INS': f'''{Introduce} Describe the visual content of the meme without interpretation. If there is any overlaid caption, transcribe it exactly as shown without paraphrasing.'''},
     },
     'output_format': {
         'v0': {"INS": '''''', 'post_process_func': post_process_to_remove_gibberish}
@@ -522,17 +622,64 @@ p1 = {
     #         7: {'template': DECISION, "version": "tg", "out_format": 'v0', 'batch_size': 12}
     #     }
     # },
-    'llm_7': {
-        'multi-turn': True,
+
+    # # Robustness study against guideline perturbations
+    # 'llm_7': {
+    #     'multi-turn': True,
+    #     'prompt': {
+    #         21: {'template': REASONING, "version": "CoTxTarget", "out_format": 'v0', 'new_conversation': True, 'max_new_tokens': 1536, "load_from": {'m_type': 'llm_6', 'rid': 5}, "return_load_from_path": True, "perturbation": "rephrased"},
+    #         31: {'template': DECISION, "version": "tg", "out_format": 'v0'},
+    #         22: {'template': REASONING, "version": "CoTxTarget", "out_format": 'v0', 'new_conversation': True, 'max_new_tokens': 1536, "load_from": {'m_type': 'llm_6', 'rid': 5}, "return_load_from_path": True, "perturbation": "shuffled"},
+    #         32: {'template': DECISION, "version": "tg", "out_format": 'v0'},
+    #         23: {'template': REASONING, "version": "CoTxTarget", "out_format": 'v0', 'new_conversation': True, 'max_new_tokens': 1536, "load_from": {'m_type': 'llm_6', 'rid': 5}, "return_load_from_path": True, "perturbation": "add_remove"},
+    #         33: {'template': DECISION, "version": "tg", "out_format": 'v0'},
+    #     }
+    # },
+}
+
+pd = {
+    'llm_2': {
+        'multi-turn': False,
         'prompt': {
-            21: {'template': REASONING, "version": "CoTxTarget", "out_format": 'v0', 'new_conversation': True, 'max_new_tokens': 1536, "load_from": {'m_type': 'llm_6', 'rid': 5}, "return_load_from_path": True, "perturbation": "rephrased"},
-            31: {'template': DECISION, "version": "tg", "out_format": 'v0'},
-            22: {'template': REASONING, "version": "CoTxTarget", "out_format": 'v0', 'new_conversation': True, 'max_new_tokens': 1536, "load_from": {'m_type': 'llm_6', 'rid': 5}, "return_load_from_path": True, "perturbation": "shuffled"},
-            32: {'template': DECISION, "version": "tg", "out_format": 'v0'},
-            23: {'template': REASONING, "version": "CoTxTarget", "out_format": 'v0', 'new_conversation': True, 'max_new_tokens': 1536, "load_from": {'m_type': 'llm_6', 'rid': 5}, "return_load_from_path": True, "perturbation": "add_remove"},
-            33: {'template': DECISION, "version": "tg", "out_format": 'v0'},
+            0: {'template': AUX, "version": "country_GD", "out_format": 'y&n'},
+            1: {'template': AUX, "version": "politic_GD", "out_format": 'y&n', "load_from_prestep": True, "return_prestep_path": True},
+            2: {'template': AUX, "version": "company1_GD", "out_format": 'y&n', "load_from_prestep": True, "return_prestep_path": True},
+            3: {'template': AUX, "version": "company2_GD", "out_format": 'y&n', "load_from_prestep": True, "return_prestep_path": True},
+            4: {'template': AUX, "version": "company3_GD", "out_format": 'y&n', "load_from_prestep": True, "return_prestep_path": True},
+            5: {'template': AUX, "version": "self_GD", "out_format": 'y&n', "load_from_prestep": True, "return_prestep_path": True},
         }
     },
+    'llm_3': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "subgroup_GD", "out_format": 'v0', "load_from_prestep": True, "return_prestep_path": True},
+            1: {'template': AUX, "version": "subgroup", "out_format": 'subgroup'},
+        }
+    },
+    'llm_4': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "individual_GD", "out_format": 'v0', "load_from_prestep": True, "return_prestep_path": True},
+            2: {'template': AUX, "version": "individual", "out_format": 'YN'},
+            3: {'template': AUX, "version": "LGBTQindividual", "out_format": 'YN'},
+        }
+    },
+    'llm_5': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "organization_GD", "out_format": 'v0', "load_from_prestep": True, "return_prestep_path": True},
+            4: {'template': AUX, "version": "organization", "out_format": 'YN'},
+        }
+    },
+    'llm_6': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "hateTarget*_GD", "out_format": 'v0', "load_from_prestep": True, "return_prestep_path": True},
+            5: {'template': AUX, "version": "hateTarget", "out_format": 'hateTarget'},
+            6: {'template': REASONING, "version": "CoTxTarget_GD", "out_format": 'v0', 'new_conversation': True, 'depend_on_prestep': True, 'max_new_tokens': 1536},
+            7: {'template': DECISION, "version": "tg", "out_format": 'v0'}
+        }
+    }
 }
 
 p_fewshot = {
@@ -555,11 +702,14 @@ p_fewshot0 = {
     }
 }
 
+
+
 PP = dict(**M2T, **p1)
 B2 = dict(**M2T, **b2)
 B2qw3 = dict(**M2T, **b2_qw3)
 FS = dict(**M2T, **p_fewshot)
 FS0 = dict(**M2T, **p_fewshot0)
+PD = dict(**M2T, **pd)
 # ******************************************************************************************* # 
 
 PrideMM_PROMPT_SCHEMES = {
@@ -571,7 +721,8 @@ PrideMM_PROMPT_SCHEMES = {
     'B2qw3': B2qw3,
     'GPT_DESCRIBE': GPT_describe,
     'FS': FS,
-    'FS0': FS0
+    'FS0': FS0,
+    'PD': PD
 }
 
 def assign_unified_guidelines(js):
@@ -632,6 +783,8 @@ def assign_guidelines(js, args):
     # Specific aspects: country, politic, company
     issues = []
     for k, item in aux_info.items():
+        if k.endswith("_GD"):
+            k = k.split("_")[0]
         if k in ['country', 'politic']:
             if isinstance(item, dict) and item["flag"]:
                 topic = TYPES[k]['topic']
@@ -644,11 +797,15 @@ def assign_guidelines(js, args):
     if issues:
         R_harmful_new_ = " ".join([R_harmful_new_, f" ".join(issues)])
     
+    try:
+        add_self = aux_info["self"]["flag"]
+    except:
+        add_self = aux_info["self_GD"]["flag"]
     neg_rule_add = False
     if "perturbation" in args.current_prompt_meta:
         if args.current_prompt_meta["perturbation"] == "shuffled":
             # # Harmless
-            if aux_info["self"]["flag"]:
+            if add_self:
                 Rules.append(TYPES["self"])
             Rules.append(R_harmless_ori)
             neg_rule_add = True
@@ -660,15 +817,14 @@ def assign_guidelines(js, args):
     # ######################2025-05-13######################
     
     if ("perturbation" in args.current_prompt_meta) and (args.current_prompt_meta["perturbation"] == "rephrased") and (not neg_rule_add):
-        if aux_info["self"]["flag"]:
+        if add_self:
             Rules.append(TYPES["self_gpt_rephrased"])
         Rules.append(R_harmless_ori_gpt_rephrased)
     else:
         if not neg_rule_add:
             # # Harmless
-            if aux_info["self"]["flag"]:
+            if add_self:
                 Rules.append(TYPES["self"])
-
             Rules.append(R_harmless_ori)
 
     GL = f"\n".join([f"{rid+1}. {rule}" for rid, rule in enumerate(Rules)])
@@ -891,6 +1047,16 @@ def fill_placeholder(tmp, js, args):
         elif fewshots0 in tmp:
             fs_text = tmp.format(fewshots0 = "Examples: " + " ".join(fs_examples))
         return fs_text, js
+
+    if from_gpt_description in tmp:
+        dp_pred_key = 'processed_dependency_prediction'
+        if dp_pred_key not in js:
+            dp_pred_key = "processed_prediction"
+        dp_pred = js.pop(dp_pred_key)    
+        gold_description = js["gpt_description"]
+        if "i'm sorry, i can't" in js["gpt_description"].lower():
+            gold_description = dp_pred
+        return tmp.format(from_gpt_description = gold_description), js
     return tmp, js
 
 def format_chat(args, js):

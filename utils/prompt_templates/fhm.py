@@ -254,6 +254,19 @@ REASONING = {
                 cot_ins
             ]
         },
+        'TG+GD': {
+            'gen_depend_on': [INTEGRATE['name']],
+            'INS': [
+                f'''Given the following image-caption content which may or may not be an online meme,''',
+                '''analyze: what vulnerable protected group(s) might be involved in the content?''',
+                '''Here are some guidelines for your reference:''',
+                '''A. If the content does not appear to involve any specific protected group, just output "No specific protected group involved."''',
+                '''B. If the image content does involve specific protected group(s), choose your answer(s) from the specified list (you may choose multiple options if there are more than one protected groups involved):''',
+                f'''{TG_LIST}''',
+                f'''Here is the image-caption content you need to analyze: {from_gpt_description}''',
+                cot_ins
+            ]
+        },
         'CoT': {
             'gen_depend_on': [INTEGRATE['name']],
             'INS': [
@@ -299,6 +312,7 @@ REASONING = {
                 f'''Here are some guidelines for your reference: {GUIDELINES}''',
                 meme2text,
                 caption,
+                cot_ins
             ]
         },
         'CoTqw3': {
@@ -307,6 +321,7 @@ REASONING = {
                 CLASSIFY_INS,
                 meme2text,
                 caption,
+                cot_ins
             ]
         },
         'CoT+LoReHM': {
@@ -314,8 +329,8 @@ REASONING = {
             'INS': [
                 CLASSIFY_INS,
                 f'''Here are some guidelines for your reference: {LOREHM_INSIGHTS}''',
-               meme2text,
-               caption,
+                meme2text,
+                caption,
                 cot_ins
             ]
         },
@@ -325,7 +340,7 @@ REASONING = {
                 CLASSIFY_INS,
                 fewshots,
                 meme2text,
-                f'''The caption overlaid on the image reads "{from_raw_data}".''',
+                caption,
                 f'''**Classification**: {cot_ins}'''
             ]
         },
@@ -335,7 +350,6 @@ REASONING = {
                 CLASSIFY_INS,
                 f'''Here are some guidelines for your reference: {make_guidelines_w_IntegrateTGContext}''',
                 f'''**Image-caption content you need to classify**: {from_gpt_description}''',
-                caption,
                 cot_ins
             ]
         },
@@ -499,18 +513,18 @@ p1 = {
             5: {'template': DECISION, "version": "v1", "out_format": 'v0'},
         }
     },
-    # Robustness test against Guideline Perturbations
-    'llm_3': {
-        'multi-turn': True,
-        'prompt': {
-            41: {'template': REASONING, "version": "CoT+", "out_format": 'v0', 'new_conversation': True, "perturbation": "rephrased"},
-            51: {'template': DECISION, "version": "v1", "out_format": 'v0'},
-            42: {'template': REASONING, "version": "CoT+", "out_format": 'v0', 'new_conversation': True, "perturbation": "shuffled"},
-            52: {'template': DECISION, "version": "v1", "out_format": 'v0'},
-            43: {'template': REASONING, "version": "CoT++", "out_format": 'v0', 'new_conversation': True},
-            53: {'template': DECISION, "version": "v1", "out_format": 'v0'},
-        }
-    },
+    # # Robustness test against Guideline Perturbations
+    # 'llm_3': {
+    #     'multi-turn': True,
+    #     'prompt': {
+    #         41: {'template': REASONING, "version": "CoT+", "out_format": 'v0', 'new_conversation': True, "perturbation": "rephrased"},
+    #         51: {'template': DECISION, "version": "v1", "out_format": 'v0'},
+    #         42: {'template': REASONING, "version": "CoT+", "out_format": 'v0', 'new_conversation': True, "perturbation": "shuffled"},
+    #         52: {'template': DECISION, "version": "v1", "out_format": 'v0'},
+    #         43: {'template': REASONING, "version": "CoT++", "out_format": 'v0', 'new_conversation': True},
+    #         53: {'template': DECISION, "version": "v1", "out_format": 'v0'},
+    #     }
+    # },
 }
 
 p2 = {
@@ -572,8 +586,12 @@ pd = {
     'llm_2': {
         'multi-turn': True,
         'prompt': {
-            0: {'template': REASONING, "version": "CoT+GD", "out_format": 'v0'},
-            1: {'template': DECISION, "version": "v1", "out_format": 'v0'}
+            0: {'template': REASONING, "version": "TG+GD", "out_format": 'v0'},
+            1: {'template': EXTRACT, "version": "TargetGroup", "out_format": 'v0'},
+            2: {'template': GENERATE_TG_CONTEXT, "version": "v0", "out_format": 'v0'},
+            3: {'template': INTEGRATE_TG_CONTEXT, "version": "v0", "out_format": 'v0', 'new_conversation': True},
+            4: {'template': REASONING, "version": "CoT+GD", "out_format": 'v0', 'new_conversation': True},
+            5: {'template': DECISION, "version": "v1", "out_format": 'v0'},
         }
     }
 }
@@ -601,7 +619,8 @@ FHM_PROMPT_SCHEMES = {
     'P2qw3': P2qw3,
     'GPT_DESCRIBE': GPT_describe,
     'PL': PL,
-    'FS': FS
+    'FS': FS,
+    'PD': PD
 }
 
 def get_tg_str(tg_ls):
@@ -786,7 +805,19 @@ def fill_placeholder(tmp, js, args):
         return tmp.format(from_data_text = prompt), js
     
     if from_gpt_description in tmp:
-        return tmp.format(from_gpt_description = js["gpt_description"]), js
+        try:
+            dp_pred = js.pop(INTEGRATE['name'])
+        except:
+            dp_pred_key = 'processed_dependency_prediction'
+            if dp_pred_key not in js:
+                dp_pred_key = "processed_prediction"
+            dp_pred = js.pop(dp_pred_key)
+        gold_description = js["gpt_description"]
+        if "i'm sorry, i can't" in js["gpt_description"].lower():
+            cap_text = js['text'].strip('" ')
+            cap = f'''The caption overlaid on the image reads "{cap_text}".'''
+            gold_description = " ".join([dp_pred, cap])
+        return tmp.format(from_gpt_description = gold_description), js
     
     if fewshots in tmp:
         N_ = int(args.n_shots / 2)

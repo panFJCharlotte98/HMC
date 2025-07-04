@@ -680,10 +680,20 @@ def run(args, model=None, type=None, evaluator=None):
         logger.info(f"eval_time = {eval_time}")
     # Predict
     if args.do_predict:
+        start_time = time.time()
         logger.info("***** Predict *****")
         test_outputs = trainer.predict(
             test_dataset=test_dataset #if test_dataset else eval_dataset
         )
+        # end_time = time.time()
+        # one_round_runtime = end_time - start_time
+        # runtime_min, runtime_remain_seconds = divmod(one_round_runtime, 60)
+        # if args.local_rank <= 0:
+        #     rid = args.current_round
+        #     p_meta = args.current_prompt_meta
+        #     logger.info(f"{args.current_m_type}||Step-{rid}: {p_meta['template']['name']}-{p_meta['version']}···{one_round_runtime} sec -->{runtime_min} min {runtime_remain_seconds} sec")
+        #     logger.info()
+        # # torch.distributed.barrier(device_ids=[args.local_rank])
         if args.should_evaluate:
             metrics = test_outputs.metrics
             metrics["predict_samples"] = len(test_dataset)
@@ -832,8 +842,15 @@ def run_model(args):
                 
                 model.setup_gen_kwargs(update_args)
                 print(model.model.dtype)
+                start_time = time.time()
                 run(args, model)
+                end_time = time.time()
+                one_round_runtime = end_time - start_time
                 #run_if_oom(args, model)
+                runtime_min, runtime_remain_seconds = divmod(one_round_runtime, 60)
+                if args.local_rank <= 0:
+                    logger.info(f"{args.current_m_type}||Step-{rid}: {p_meta['template']['name']}-{p_meta['version']}···{one_round_runtime} sec -->{runtime_min} min {runtime_remain_seconds} sec")
+                torch.distributed.barrier(device_ids=[args.local_rank])
             else:
                 this_cost = run_gpt(args)
                 model_cost += this_cost

@@ -125,6 +125,7 @@ INTEGRATE = {
 }
 
 # # Reasoning
+from_gpt_description = '''{from_gpt_description}'''
 from_Integrate = "{from_Integrate}"
 BASELINE_CLASSIFY_INS = '''Given the following image-caption content, which may or may not be an online meme, classify the content as either misogynistic or non-misogynistic based on common values, knowledge and social norms.'''
 PP_CLASSIFY_INS = '''Given the following image-caption content, which may or may not be an online meme, classify the content as either misogynistic or non-misogynistic based on common values, knowledge, social norms and the provided guidelines.'''
@@ -179,12 +180,13 @@ REASONING_BASELINE = {
             pp_cot_ins
         ]
     },
-    'CoTqw3': {
+    'CoT+GD': {
         'gen_depend_on': [INTEGRATE['name']],
         'INS': [
-            BASELINE_CLASSIFY_INS,
-            meme2text,
-            caption,
+            PP_CLASSIFY_INS,
+            f'''Guidelines: {KNOWLEDGE}''',
+            f'''**Image-caption content you need to classify**: {from_gpt_description}''',
+            pp_cot_ins
         ]
     },
     'CoT+LoReHM': {
@@ -192,6 +194,16 @@ REASONING_BASELINE = {
         'INS': [
             PP_CLASSIFY_INS,
             f'''Guidelines: {LOREHM_INSIGHTS}''',
+            meme2text,
+            caption,
+            pp_cot_ins
+        ]
+    },
+    'CoT+': {
+        'gen_depend_on': [INTEGRATE['name']],
+        'INS': [
+            PP_CLASSIFY_INS,
+            f'''Guidelines: {KNOWLEDGE}''',
             meme2text,
             caption,
             pp_cot_ins
@@ -205,6 +217,14 @@ REASONING_BASELINE = {
             meme2text,
             caption,
             f'''**Classification**: {cot_ins}'''
+        ]
+    },
+    'CoTqw3': {
+        'gen_depend_on': [INTEGRATE['name']],
+        'INS': [
+            BASELINE_CLASSIFY_INS,
+            meme2text,
+            caption,
         ]
     },
 }
@@ -260,10 +280,15 @@ GPT_DIRECT_CLASSIFY = {
     },
 }
 
+main_ins = "What is going on in this image? Describe the content of the image without interpreting any underlying implications."
+transcribe = "If there is any overlaid text, transcribe the text without paraphrasing."
+marginal_info = "Ignore any watermarks, post timestamps, usernames, or engagement metrics of tweets or webpage posts."
+tone = "Do not assume the image's tone or intent to be humorous or lighthearted. Maintain a neutral and descriptive tone."
 GPT_DESCRIBE = {
     'name': "Describe", 'should_evaluate': False, 'take_image': True, 'gen_depend_on': None,
     'versions': {
-        'v0': {'INS': f'''This is an online meme about women. Describe the visual content of the meme without interpretation. If there is any overlaid caption, transcribe it exactly as shown without paraphrasing.'''},
+        'v0': {'INS': f'''{main_ins} Requirements: 1. {transcribe} 2. Identify the genders of any human subjects. 3. If the image intentionally portrays any female subjects in a sexually provocative manner—such as overtly revealing clothing, emphasis on nudity or specific sexual body parts, describe the relevant visual cues. 4. If the image contains any sexual innuendo, point out the related visual cues. 5. If the image features any overweight female subjects, point out the related visual cues. 6. {marginal_info} 7. {tone} 8. Output your description in one paragraph.'''},
+        'v1': {'INS': f'''This is an online meme about women. Describe the visual content of the meme without interpretation. If there is any overlaid caption, transcribe it exactly as shown without paraphrasing.'''},
     },
     'output_format': {
         'v0': {"INS": '''''', 'post_process_func': post_process_to_remove_gibberish}
@@ -440,12 +465,34 @@ p_perturbations = {
             32: {'template': DECISION, "version": "v0", "out_format": 'v0'},
             23: {'template': REASONING, "version": "CoT+perturb", "out_format": 'v0', 'new_conversation': True, "perturbation": "shuffled"},
             33: {'template': DECISION, "version": "v0", "out_format": 'v0'},
-            # 24: {'template': REASONING, "version": "CoT+perturb", "out_format": 'v0', 'new_conversation': True, "perturbation": "concise"},
-            # 34: {'template': DECISION, "version": "v0", "out_format": 'v0'}
         }
     }
 }
 PP_p = dict(**M2T, **p_perturbations)
+
+# Ablation: replace high-fidelity meme2text to GPT-generated description
+pd = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "CoT+GD", "out_format": 'v0'},
+            1: {'template': DECISION, "version": "v0", "out_format": 'v0'}
+        }
+    },
+}
+PD = dict(**M2T, **pd)
+
+p2 = {
+    'llm_2': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "CoT+", "out_format": 'v0'},
+            1: {'template': DECISION, "version": "v0", "out_format": 'v0'}
+        }
+    },
+}
+PP2 = dict(**M2T, **p2)
+
 # ******************************************************************************************* # 
 MAMI_PROMPT_SCHEMES = {
     'M2T': M2T,
@@ -453,11 +500,13 @@ MAMI_PROMPT_SCHEMES = {
     'B2': B2,
     'GPT': GPT,
     'PP': PP,
+    'PP2': PP2,
     'PP_p': PP_p,
     'B2qw3': B2qw3,
     'GPT_DESCRIBE': GPT_describe,
     'PL': PL,
-    'FS': FS
+    'FS': FS,
+    'PD': PD
 }
 
 def get_Integrate_dp_pred(js):
@@ -540,6 +589,16 @@ def fill_placeholder(tmp, js, args):
         if args.current_prompt_meta["perturbation"] == "concise":
             GL = GL_concise
         return tmp.format(guidelines_perturb = "Guidelines for your reference: " + GL), js
+    
+    if from_gpt_description in tmp:
+        dp_pred, js = get_Integrate_dp_pred(js)
+        gold_description = js["gpt_description"]
+        if "i'm sorry, i can't" in js["gpt_description"].lower():
+            cap_text = js['text'].strip('" ')
+            cap = f'''The caption overlaid on the image reads "{cap_text}".'''
+            gold_description = " ".join([dp_pred, cap])
+        return tmp.format(from_gpt_description = gold_description), js
+    
     return tmp, js
 
 def format_chat(args, js):

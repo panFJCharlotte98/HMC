@@ -639,13 +639,18 @@ def post_process_gen_target_group_context(js, text):
             for tmp in examples:
                 new_examples.append("; ".join(tmp)+";")
         #print(js["id"])
+        else:
+            new_examples = [text]
     else:
-        assert regex.findall(r"\d+\.", text) or regex.findall(r"\-\s", text)
-        if regex.findall(r"\d+\.", text):
-            text = regex.sub(r"\d+\.", "- ", text)
-        if regex.findall(r"\-\s", text):
-            ptext = "; ".join([p.strip("#; ") for p in text.split("- ") if p]) + ";"
-        new_examples = [ptext]
+        try:
+            assert regex.findall(r"\d+\.", text) or regex.findall(r"\-\s", text)
+            if regex.findall(r"\d+\.", text):
+                text = regex.sub(r"\d+\.", "- ", text)
+            if regex.findall(r"\-\s", text):
+                text = "; ".join([p.strip("#; ") for p in text.split("- ") if p]) + ";"
+            new_examples = [text]
+        except:
+            new_examples = [text]
     #print(js["id"])
     return new_examples
 

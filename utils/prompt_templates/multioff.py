@@ -105,6 +105,7 @@ INTEGRATE = {
     }
 }
 
+from_gpt_description = '''{from_gpt_description}'''
 auxt_ins = f'''Given the following description of an image related to 2016 U.S. Presidential Election, answer the question:'''
 AUXT = {
     'name': "Auxt", 'should_evaluate': False, 'take_image': False, 'gen_depend_on': [INTEGRATE['name']],
@@ -115,16 +116,34 @@ AUXT = {
                 f'''Does this image content explicitly target at any political party or political supporters/opponents as a group? **Description of the image**: {from_dependency}''',
             ]
         },
+        'party_GD': {
+            "INS" : [
+                auxt_ins,
+                f'''Does this image content explicitly target at any political party or political supporters/opponents as a group? **Description of the image**: {from_gpt_description}''',
+            ]
+        },
         'lgbt_t': {
             "INS" : [
                 auxt_ins,
                 f'''Is LGBTQ+ community or LGBTQ+ issue involved in this image content? **Description of the image**: {from_dependency}''',
             ]
         },
+        'lgbt_t_GD': {
+            "INS" : [
+                auxt_ins,
+                f'''Is LGBTQ+ community or LGBTQ+ issue involved in this image content? **Description of the image**: {from_gpt_description}''',
+            ]
+        },
         'racial_t': {
             "INS" : [
                 auxt_ins,
                 f'''Is any reference to individuals of protected groups (e.g., African Americans, Muslims, immigrants, etc.) involved in this image content? **Description of the image**: {from_dependency}''',
+            ]
+        },
+        'racial_t_GD': {
+            "INS" : [
+                auxt_ins,
+                f'''Is any reference to individuals of protected groups (e.g., African Americans, Muslims, immigrants, etc.) involved in this image content? **Description of the image**: {from_gpt_description}''',
             ]
         },
     },
@@ -162,6 +181,16 @@ REASONING = {
                 f'''{INTRO} {BASELINE_CLASSIFY_INS}''',
                 meme2text,
                 cot_ins
+            ]
+        },
+        'CoT+GD': {
+            'gen_depend_on': [INTEGRATE['name']],
+            'INS': [
+                f'''{INTRO}''',
+                f'''{PP_CLASSIFY_INS}''',
+                guidelines,
+                f'''**Description of the image**: {from_gpt_description}''',
+                pp_cot_ins
             ]
         },
         'CoT+qw3': {
@@ -207,10 +236,15 @@ GPT_DIRECT_CLASSIFY = {
     },
 }
 
+main_ins = "What is going on in this image? Describe the content of the image without interpreting any underlying implications."
+transcribe = "If there is any overlaid text, transcribe the text without paraphrasing."
+marginal_info = "Ignore any watermarks, post timestamps, usernames, or engagement metrics of tweets or webpage posts."
+tone = "Do not assume the image's tone or intent to be humorous or lighthearted. Maintain a neutral and descriptive tone."
 GPT_DESCRIBE = {
     'name': "Describe", 'should_evaluate': False, 'take_image': True, 'gen_depend_on': None,
     'versions': {
-        'v0': {'INS': f'''{Introduce} Describe the visual content of the meme without interpretation. If there is any overlaid caption, transcribe it exactly as shown without paraphrasing.'''},
+        'v0': {'INS': f'''{Introduce} {main_ins} {transcribe} {marginal_info} {tone} Output your description in one paragraph.'''},
+        'v1': {'INS': f'''{Introduce} Describe the visual content of the meme without interpretation. If there is any overlaid caption, transcribe it exactly as shown without paraphrasing.'''},
     },
     'output_format': {
         'v0': {"INS": '''''', 'post_process_func': post_process_to_remove_gibberish}
@@ -302,6 +336,28 @@ M2T = {
         'multi-turn': False},
 }
 
+M2T_GD = {
+    'lmm': {
+        'prompt': {
+            0: {'template': CELEB, "version": "pc", "out_format": 'v0'},
+            1: {'template': DESCRIBE, "version": "v0", "out_format": 'v0'},
+            2: {'template': AUXIN, "version": "trump", "out_format": 'v0'},
+            3: {'template': AUXIN, "version": "hillary", "out_format": 'v0', "load_from_prestep": True},
+            4: {'template': AUXIN, "version": "obama", "out_format": 'v0', "load_from_prestep": True},
+            5: {'template': AUXIN, "version": "bern", "out_format": 'v0', "load_from_prestep": True},
+            6: {'template': AUXIN, "version": "gary", "out_format": 'v0', "load_from_prestep": True},
+            7: {'template': AUX, "version": "lgbt", "out_format": 'v0', "load_from_prestep": True},
+            8: {'template': AUX, "version": "muslim", "out_format": 'v0', "load_from_prestep": True},
+            9: {'template': AUX, "version": "racial", "out_format": 'v0', "load_from_prestep": True},
+        },
+        'multi-turn': False},    
+    'llm_1': {
+        'prompt': {
+            0: {'template': INTEGRATE, "version": "v1", "out_format": 'v0', "load_from_prestep": True, "return_prestep_path": False}  
+        },
+        'multi-turn': False},
+}
+
 # ******************************************************************************************* # 
 b2 = {
     'llm_2': {
@@ -313,6 +369,25 @@ b2 = {
     }
 }
 
+# Ablation: replace high-fidelity meme2text to GPT-generated description
+pd = {
+    'llm_2': {
+        'prompt': {
+            0: {'template': AUXT, "version": "lgbt_t_GD", "out_format": 'v0', 'max_new_tokens': 256}, 
+            1: {'template': AUXT, "version": "racial_t_GD", "out_format": 'v0', 'max_new_tokens': 256, "load_from_prestep": True, "return_prestep_path": True},
+            2: {'template': AUXT, "version": "party_GD", "out_format": 'v0', 'max_new_tokens': 256, "load_from_prestep": True, "return_prestep_path": True},   
+        },
+        'multi-turn': False},
+    'llm_3': {
+        'multi-turn': True,
+        'prompt': {
+            0: {'template': REASONING, "version": "CoT+GD", "out_format": 'v0', "load_from_prestep": True, "return_prestep_path": True},
+            1: {'template': DECISION, "version": "v0", "out_format": 'v0'}
+        }
+    }
+}
+PD = dict(**M2T_GD, **pd)
+
 p1 = {
     'llm_2': {
         'multi-turn': True,
@@ -321,17 +396,17 @@ p1 = {
             1: {'template': DECISION, "version": "v0", "out_format": 'v0'}
         }
     },
-    'llm_3': {
-        'multi-turn': True,
-        'prompt': {
-            21: {'template': REASONING, "version": "CoT+", "out_format": 'v0', "load_from": {'m_type': 'llm_1', 'rid': 3}, "return_load_from_path": True, 'new_conversation': True, "perturbation": "rephrased"},
-            31: {'template': DECISION, "version": "v0", "out_format": 'v0'},
-            22: {'template': REASONING, "version": "CoT+", "out_format": 'v0', 'new_conversation': True, "load_from": {'m_type': 'llm_1', 'rid': 3}, "return_load_from_path": True, "perturbation": "shuffled"},
-            32: {'template': DECISION, "version": "v0", "out_format": 'v0'},
-            23: {'template': REASONING, "version": "CoT+", "out_format": 'v0', 'new_conversation': True, "load_from": {'m_type': 'llm_1', 'rid': 3}, "return_load_from_path": True, "perturbation": "add_remove"},
-            33: {'template': DECISION, "version": "v0", "out_format": 'v0'}
-        }
-    }
+    # 'llm_3': {
+    #     'multi-turn': True,
+    #     'prompt': {
+    #         21: {'template': REASONING, "version": "CoT+", "out_format": 'v0', "load_from": {'m_type': 'llm_1', 'rid': 3}, "return_load_from_path": True, 'new_conversation': True, "perturbation": "rephrased"},
+    #         31: {'template': DECISION, "version": "v0", "out_format": 'v0'},
+    #         22: {'template': REASONING, "version": "CoT+", "out_format": 'v0', 'new_conversation': True, "load_from": {'m_type': 'llm_1', 'rid': 3}, "return_load_from_path": True, "perturbation": "shuffled"},
+    #         32: {'template': DECISION, "version": "v0", "out_format": 'v0'},
+    #         23: {'template': REASONING, "version": "CoT+", "out_format": 'v0', 'new_conversation': True, "load_from": {'m_type': 'llm_1', 'rid': 3}, "return_load_from_path": True, "perturbation": "add_remove"},
+    #         33: {'template': DECISION, "version": "v0", "out_format": 'v0'}
+    #     }
+    # }
 }
 PP = dict(**M2T, **p1)
 B2 = dict(**M2T, **b2)
@@ -379,7 +454,8 @@ MultiOFF_PROMPT_SCHEMES = {
     'B2qw3': B2qw3,
     'PPqw3': PPqw3,
     'GPT_DESCRIBE': GPT_describe,
-    'FS': FS
+    'FS': FS,
+    'PD': PD
 }
 
 def assign_guidelines_(js, args):
@@ -405,6 +481,8 @@ def assign_guidelines_(js, args):
             Rules.append(TYPES[f'party{perturb_surfix}'])
 
         for k, v in aux_info.items():
+            if k.endswith("_GD"):
+                k = k.replace("_GD", "")
             if (k in cname_map) and (v['flag']):
                 if TYPES[f'politicians{perturb_surfix}'] not in Rules:
                     Rules.append(TYPES[f'politicians{perturb_surfix}'])
@@ -449,6 +527,8 @@ def assign_guidelines_(js, args):
             Rules.append(TYPES['party'])
 
         for k, v in aux_info.items():
+            if k.endswith("_GD"):
+                k = k.replace("_GD", "")
             if (k in cname_map) and (v['flag']):
                 if TYPES['politicians'] not in Rules:
                     Rules.append(TYPES['politicians'])
@@ -500,6 +580,17 @@ def fill_placeholder(tmp, js, args):
             for one_sample in random.sample(pool, N_):
                 fs_examples.append(f"**Description of the image**: {one_sample} **Classification**: {label}. |")
         return tmp.format(fewshots = "Examples for your reference: " + " ".join(fs_examples)), js
+    
+    if from_gpt_description in tmp:
+        dp_pred_key = 'processed_dependency_prediction'
+        if dp_pred_key not in js:
+            dp_pred_key = "processed_prediction"
+        dp_pred = js.pop(dp_pred_key)
+        gold_description = js["gpt_description"]
+        if "i'm sorry, i can't" in js["gpt_description"].lower():
+            gold_description = dp_pred
+        return tmp.format(from_gpt_description = gold_description), js
+    
     return tmp, js
 
 def format_chat(args, js):
